@@ -1,1 +1,4997 @@
-{"ByYearBygender": [{"year": 2000, "BOYS": 25.18828907850797, "Girls": 10.623000938214286}, {"year": 2001, "BOYS": 10.584241645953616, "Girls": 20.475835622657932}, {"year": 2002, "BOYS": 17.391174123238446, "Girls": 14.929392836063311}, {"year": 2003, "BOYS": 22.059036946362223, "Girls": 19.11379685816422}, {"year": 2004, "BOYS": 14.414144252287148, "Girls": 26.776103925920125}, {"year": 2005, "BOYS": 27.53366012308806, "Girls": 15.32809408369203}, {"year": 2006, "BOYS": 15.571651758399186, "Girls": 20.882143384100594}, {"year": 2007, "BOYS": 13.358638983966216, "Girls": 17.08073917120265}, {"year": 2008, "BOYS": 25.881020813863373, "Girls": 30.21119691874833}, {"year": 2009, "BOYS": 25.907477400540593, "Girls": 23.513666782743954}, {"year": 2010, "BOYS": 17.41628074595322, "Girls": 18.645953217910858}, {"year": 2011, "BOYS": 19.784746365576762, "Girls": 25.920167578439738}, {"year": 2012, "BOYS": 30.94746687143968, "Girls": 27.611288333680534}, {"year": 2013, "BOYS": 27.061536397432548, "Girls": 32.36533316290249}, {"year": 2014, "BOYS": 37.01085730921632, "Girls": 35.18445644609455}, {"year": 2015, "BOYS": 35.37037510597977, "Girls": 35.478935978855354}, {"year": 2016, "BOYS": 31.579464274365577, "Girls": 30.257863869206236}, {"year": 2017, "BOYS": 41.467028938864146, "Girls": 30.313183037230115}, {"year": 2018, "BOYS": 39.54440894886238, "Girls": 34.56853458698603}, {"year": 2019, "BOYS": 34.906335190911506, "Girls": 37.445150438685744}, {"year": 2020, "BOYS": 29.81910121703573, "Girls": 39.50153749783103}, {"year": 2021, "BOYS": 45.443932906941704, "Girls": 34.158429496699554}, {"year": 2022, "BOYS": 35.886718835287155, "Girls": 43.406834998240825}], "ByRegionByyear": [{"year": 2000, "state": "Andhra Pradesh", "BOYS": 19.14295748943563, "Girls": 20.11423066715603}, {"year": 2000, "state": "Arunachal Pradesh", "BOYS": 24.238293231295238, "Girls": 19.697714168144582}, {"year": 2000, "state": "Assam", "BOYS": 12.492869335516472, "Girls": 10.711189927394312}, {"year": 2000, "state": "Bihar", "BOYS": 23.475865302169893, "Girls": 9.140089146094875}, {"year": 2000, "state": "Chhattisgarh", "BOYS": 25.723845686696613, "Girls": 20.118787118858172}, {"year": 2000, "state": "Goa", "BOYS": 10.752622886227767, "Girls": 15.146682189358078}, {"year": 2000, "state": "Gujarat", "BOYS": 12.827004981668953, "Girls": 30.311560531480108}, {"year": 2000, "state": "Haryana", "BOYS": 12.063151001081863, "Girls": 31.729175185200916}, {"year": 2000, "state": "Himachal Pradesh", "BOYS": 11.514932910076004, "Girls": 11.34695628500518}, {"year": 2000, "state": "Jammu and Kashmir", "BOYS": 12.796113753032804, "Girls": 16.395723039129464}, {"year": 2000, "state": "Jharkhand", "BOYS": 9.057038861075192, "Girls": 23.42757730234129}, {"year": 2000, "state": "Karnataka", "BOYS": 27.83744225499621, "Girls": 17.14161761964609}, {"year": 2000, "state": "Kerala", "BOYS": 27.80988666635997, "Girls": 23.34262052623957}, {"year": 2000, "state": "Madhya Pradesh", "BOYS": 5.851068611536181, "Girls": 33.278385738536485}, {"year": 2000, "state": "Maharashtra", "BOYS": 11.317463779802765, "Girls": 17.80070346336205}, {"year": 2000, "state": "Manipur", "BOYS": 12.717824733842875, "Girls": 30.017062098103935}, {"year": 2000, "state": "Meghalaya", "BOYS": 30.373329822238226, "Girls": 15.9005098502669}, {"year": 2000, "state": "Mizoram", "BOYS": 30.1256733290931, "Girls": 10.252470691839505}, {"year": 2000, "state": "Nagaland", "BOYS": 22.758072826357854, "Girls": 19.388527432502688}, {"year": 2000, "state": "Odisha", "BOYS": 28.116853062719375, "Girls": 27.53107035067289}, {"year": 2000, "state": "Punjab", "BOYS": 21.213582521339045, "Girls": 17.84150820184923}, {"year": 2000, "state": "Rajasthan", "BOYS": 24.161311741338693, "Girls": 32.08608299358346}, {"year": 2000, "state": "Sikkim", "BOYS": 21.791082285655545, "Girls": 21.265461632481014}, {"year": 2000, "state": "Tamil Nadu", "BOYS": 16.460625577985326, "Girls": 30.339148264813765}, {"year": 2000, "state": "Telangana", "BOYS": 16.871765773490452, "Girls": 28.410420374280076}, {"year": 2000, "state": "Tripura", "BOYS": 20.02073750689368, "Girls": 22.315968458516167}, {"year": 2000, "state": "Uttarakhand", "BOYS": 15.583112517450948, "Girls": 26.48898988076375}, {"year": 2000, "state": "Uttar Pradesh", "BOYS": 24.433151092765986, "Girls": 13.348640646941183}, {"year": 2000, "state": "West Bengal", "BOYS": 28.700255271518962, "Girls": 25.46499997214978}, {"year": 2000, "state": "Andaman and Nicobar Islands", "BOYS": 24.262532720216164, "Girls": 16.489416640508658}, {"year": 2000, "state": "Chandigarh", "BOYS": 11.194346274635265, "Girls": 16.851767602949803}, {"year": 2000, "state": "Dadra and Nagar Haveli", "BOYS": 9.801285784278104, "Girls": 26.06695470396262}, {"year": 2000, "state": "Daman and Diu", "BOYS": 26.68136503643328, "Girls": 25.410543214168513}, {"year": 2000, "state": "Delhi", "BOYS": 6.32370839305829, "Girls": 22.654277658541872}, {"year": 2000, "state": "Lakshadweep", "BOYS": 25.85868801936234, "Girls": 34.281817099378834}, {"year": 2000, "state": "Puducherry", "BOYS": 16.088048589562895, "Girls": 25.13819392462771}, {"year": 2001, "state": "Andhra Pradesh", "BOYS": 17.54974335913199, "Girls": 19.410629176359578}, {"year": 2001, "state": "Arunachal Pradesh", "BOYS": 23.9069499928334, "Girls": 15.027629613536359}, {"year": 2001, "state": "Assam", "BOYS": 16.717222178574712, "Girls": 16.70908249386475}, {"year": 2001, "state": "Bihar", "BOYS": 20.33651530128223, "Girls": 15.265076967009025}, {"year": 2001, "state": "Chhattisgarh", "BOYS": 27.143265353800935, "Girls": 16.542115457694678}, {"year": 2001, "state": "Goa", "BOYS": 14.023916412194529, "Girls": 13.69461399328828}, {"year": 2001, "state": "Gujarat", "BOYS": 14.160232513294705, "Girls": 14.127314244192165}, {"year": 2001, "state": "Haryana", "BOYS": 17.793191347058965, "Girls": 10.00001410894454}, {"year": 2001, "state": "Himachal Pradesh", "BOYS": 26.117996481818334, "Girls": 18.5529840284659}, {"year": 2001, "state": "Jammu and Kashmir", "BOYS": 7.1754227727057645, "Girls": 16.174328870631584}, {"year": 2001, "state": "Jharkhand", "BOYS": 8.951869479685053, "Girls": 18.94946135132756}, {"year": 2001, "state": "Karnataka", "BOYS": 6.019734063652333, "Girls": 12.47015256990552}, {"year": 2001, "state": "Kerala", "BOYS": 17.3818987106281, "Girls": 17.404049449234165}, {"year": 2001, "state": "Madhya Pradesh", "BOYS": 7.76693797215388, "Girls": 10.043883368394892}, {"year": 2001, "state": "Maharashtra", "BOYS": 8.779095824973746, "Girls": 14.168593938548764}, {"year": 2001, "state": "Manipur", "BOYS": 9.441232187950192, "Girls": 15.09232849183753}, {"year": 2001, "state": "Meghalaya", "BOYS": 24.563422448103367, "Girls": 23.164866280115795}, {"year": 2001, "state": "Mizoram", "BOYS": 11.936272155151746, "Girls": 14.050848034715068}, {"year": 2001, "state": "Nagaland", "BOYS": 24.47017853790884, "Girls": 26.679675815520834}, {"year": 2001, "state": "Odisha", "BOYS": 26.79409869951237, "Girls": 21.44426469808993}, {"year": 2001, "state": "Punjab", "BOYS": 18.224031765524412, "Girls": 31.642256597630855}, {"year": 2001, "state": "Rajasthan", "BOYS": 6.74864180897181, "Girls": 14.785063992833376}, {"year": 2001, "state": "Sikkim", "BOYS": 8.564602221844359, "Girls": 13.689740247382916}, {"year": 2001, "state": "Tamil Nadu", "BOYS": 12.14804194202427, "Girls": 23.469086039107445}, {"year": 2001, "state": "Telangana", "BOYS": 23.36233872634883, "Girls": 12.998012649128599}, {"year": 2001, "state": "Tripura", "BOYS": 11.744223815342334, "Girls": 21.873161717873156}, {"year": 2001, "state": "Uttarakhand", "BOYS": 22.820120964848748, "Girls": 26.624267952584557}, {"year": 2001, "state": "Uttar Pradesh", "BOYS": 6.415933545142842, "Girls": 14.19818441008272}, {"year": 2001, "state": "West Bengal", "BOYS": 14.783811004356465, "Girls": 22.16443415736063}, {"year": 2001, "state": "Andaman and Nicobar Islands", "BOYS": 12.035945554780147, "Girls": 19.753206111113474}, {"year": 2001, "state": "Chandigarh", "BOYS": 6.066001608497705, "Girls": 10.616288753504032}, {"year": 2001, "state": "Dadra and Nagar Haveli", "BOYS": 20.324260797348323, "Girls": 16.71986697276549}, {"year": 2001, "state": "Daman and Diu", "BOYS": 15.534462165968613, "Girls": 9.467643528003052}, {"year": 2001, "state": "Delhi", "BOYS": 11.32011190671791, "Girls": 15.925795196928219}, {"year": 2001, "state": "Lakshadweep", "BOYS": 23.558329914466512, "Girls": 18.602824711918338}, {"year": 2001, "state": "Puducherry", "BOYS": 16.72595456382769, "Girls": 16.611904244795337}, {"year": 2002, "state": "Andhra Pradesh", "BOYS": 18.663832817451638, "Girls": 15.886882512563083}, {"year": 2002, "state": "Arunachal Pradesh", "BOYS": 23.20818551148128, "Girls": 15.46267407149033}, {"year": 2002, "state": "Assam", "BOYS": 15.273478336525148, "Girls": 23.14918053698688}, {"year": 2002, "state": "Bihar", "BOYS": 21.79388682553942, "Girls": 14.952549415937886}, {"year": 2002, "state": "Chhattisgarh", "BOYS": 23.79957037202325, "Girls": 26.46877156304071}, {"year": 2002, "state": "Goa", "BOYS": 21.757456031468102, "Girls": 14.13224201299577}, {"year": 2002, "state": "Gujarat", "BOYS": 23.372596693400922, "Girls": 24.540607128689185}, {"year": 2002, "state": "Haryana", "BOYS": 27.219767248971632, "Girls": 20.295553987430505}, {"year": 2002, "state": "Himachal Pradesh", "BOYS": 28.582963513335205, "Girls": 9.101413482690047}, {"year": 2002, "state": "Jammu and Kashmir", "BOYS": 19.85727780363854, "Girls": 8.014878878509073}, {"year": 2002, "state": "Jharkhand", "BOYS": 29.524729573751298, "Girls": 13.259761134282993}, {"year": 2002, "state": "Karnataka", "BOYS": 13.739639550900456, "Girls": 7.8415248436609675}, {"year": 2002, "state": "Kerala", "BOYS": 13.282495519572993, "Girls": 32.12524060966566}, {"year": 2002, "state": "Madhya Pradesh", "BOYS": 17.877158944275667, "Girls": 15.516523264197506}, {"year": 2002, "state": "Maharashtra", "BOYS": 9.133966293368008, "Girls": 20.940403755117707}, {"year": 2002, "state": "Manipur", "BOYS": 11.86637526544897, "Girls": 33.79667704905687}, {"year": 2002, "state": "Meghalaya", "BOYS": 25.010429328578965, "Girls": 24.68464059310077}, {"year": 2002, "state": "Mizoram", "BOYS": 18.51740268002288, "Girls": 23.14563685250526}, {"year": 2002, "state": "Nagaland", "BOYS": 27.69329942511683, "Girls": 21.33049307725349}, {"year": 2002, "state": "Odisha", "BOYS": 13.007262429340706, "Girls": 14.261115446234292}, {"year": 2002, "state": "Punjab", "BOYS": 22.22498829541497, "Girls": 22.73332967769959}, {"year": 2002, "state": "Rajasthan", "BOYS": 5.631666276646437, "Girls": 13.180753922513771}, {"year": 2002, "state": "Sikkim", "BOYS": 19.86242193909405, "Girls": 23.505535777868303}, {"year": 2002, "state": "Tamil Nadu", "BOYS": 5.734132831521967, "Girls": 28.45382818694547}, {"year": 2002, "state": "Telangana", "BOYS": 11.28409442216639, "Girls": 32.23986438288031}, {"year": 2002, "state": "Tripura", "BOYS": 26.717536577627243, "Girls": 20.032121932271185}, {"year": 2002, "state": "Uttarakhand", "BOYS": 27.49059397065555, "Girls": 17.612013285794653}, {"year": 2002, "state": "Uttar Pradesh", "BOYS": 18.81081085769491, "Girls": 28.83600957282824}, {"year": 2002, "state": "West Bengal", "BOYS": 20.05703946273399, "Girls": 22.27421185318244}, {"year": 2002, "state": "Andaman and Nicobar Islands", "BOYS": 27.695531995928068, "Girls": 17.987925436863506}, {"year": 2002, "state": "Chandigarh", "BOYS": 23.624839297309762, "Girls": 26.87959654206323}, {"year": 2002, "state": "Dadra and Nagar Haveli", "BOYS": 13.876704114082138, "Girls": 18.071157523907818}, {"year": 2002, "state": "Daman and Diu", "BOYS": 20.558046076910333, "Girls": 29.49519092727925}, {"year": 2002, "state": "Delhi", "BOYS": 15.439335284800684, "Girls": 9.8302222147137}, {"year": 2002, "state": "Lakshadweep", "BOYS": 23.900223735318022, "Girls": 33.205546931752345}, {"year": 2002, "state": "Puducherry", "BOYS": 23.661658676909198, "Girls": 17.93540635672516}, {"year": 2003, "state": "Andhra Pradesh", "BOYS": 8.585080357652508, "Girls": 23.497382850083664}, {"year": 2003, "state": "Arunachal Pradesh", "BOYS": 28.384336269838073, "Girls": 34.0240567722475}, {"year": 2003, "state": "Assam", "BOYS": 13.312718636432086, "Girls": 25.80171359002769}, {"year": 2003, "state": "Bihar", "BOYS": 11.033505259208347, "Girls": 12.72716022384823}, {"year": 2003, "state": "Chhattisgarh", "BOYS": 4.782500525877372, "Girls": 28.775354356649636}, {"year": 2003, "state": "Goa", "BOYS": 23.571591923251066, "Girls": 25.28934266185734}, {"year": 2003, "state": "Gujarat", "BOYS": 20.537928642742546, "Girls": 19.15659325410138}, {"year": 2003, "state": "Haryana", "BOYS": 12.95682758669492, "Girls": 24.255707782138728}, {"year": 2003, "state": "Himachal Pradesh", "BOYS": 28.026194994284385, "Girls": 22.26545592145926}, {"year": 2003, "state": "Jammu and Kashmir", "BOYS": 15.394730216120632, "Girls": 8.193886721584827}, {"year": 2003, "state": "Jharkhand", "BOYS": 29.122703881395363, "Girls": 21.196155662571442}, {"year": 2003, "state": "Karnataka", "BOYS": 10.23911884489192, "Girls": 13.15016273566859}, {"year": 2003, "state": "Kerala", "BOYS": 28.593884803298668, "Girls": 29.42671067467871}, {"year": 2003, "state": "Madhya Pradesh", "BOYS": 24.690569277932138, "Girls": 33.551521079601585}, {"year": 2003, "state": "Maharashtra", "BOYS": 13.336302755170879, "Girls": 22.00795049299405}, {"year": 2003, "state": "Manipur", "BOYS": 12.855519989024327, "Girls": 14.07372660518198}, {"year": 2003, "state": "Meghalaya", "BOYS": 5.84730099674086, "Girls": 18.733587764534896}, {"year": 2003, "state": "Mizoram", "BOYS": 23.67018065932079, "Girls": 26.113313841129145}, {"year": 2003, "state": "Nagaland", "BOYS": 8.24155148047683, "Girls": 33.61546056615417}, {"year": 2003, "state": "Odisha", "BOYS": 14.563512874913886, "Girls": 15.549237703301003}, {"year": 2003, "state": "Punjab", "BOYS": 18.264496198761037, "Girls": 10.328145670146702}, {"year": 2003, "state": "Rajasthan", "BOYS": 18.96501032976963, "Girls": 30.883226949587073}, {"year": 2003, "state": "Sikkim", "BOYS": 6.840788624661486, "Girls": 32.08247342888984}, {"year": 2003, "state": "Tamil Nadu", "BOYS": 10.865095431656204, "Girls": 30.53595191667139}, {"year": 2003, "state": "Telangana", "BOYS": 22.936572416822372, "Girls": 8.420534544708907}, {"year": 2003, "state": "Tripura", "BOYS": 12.144416452461837, "Girls": 24.01052936590248}, {"year": 2003, "state": "Uttarakhand", "BOYS": 29.042274866163734, "Girls": 10.497481487113633}, {"year": 2003, "state": "Uttar Pradesh", "BOYS": 29.118334758909945, "Girls": 13.18544128865284}, {"year": 2003, "state": "West Bengal", "BOYS": 19.344309410867066, "Girls": 18.795968201017946}, {"year": 2003, "state": "Andaman and Nicobar Islands", "BOYS": 20.42903057799262, "Girls": 26.554849434803593}, {"year": 2003, "state": "Chandigarh", "BOYS": 9.98261096730792, "Girls": 13.498457975857862}, {"year": 2003, "state": "Dadra and Nagar Haveli", "BOYS": 19.90073154575795, "Girls": 16.0678850432752}, {"year": 2003, "state": "Daman and Diu", "BOYS": 16.641608297436857, "Girls": 22.019781577343146}, {"year": 2003, "state": "Delhi", "BOYS": 27.697269989866893, "Girls": 16.664358864213362}, {"year": 2003, "state": "Lakshadweep", "BOYS": 25.00855676388376, "Girls": 12.309200437134061}, {"year": 2003, "state": "Puducherry", "BOYS": 5.533460299151112, "Girls": 31.31358046198081}, {"year": 2004, "state": "Andhra Pradesh", "BOYS": 6.192866900509758, "Girls": 16.30259255978992}, {"year": 2004, "state": "Arunachal Pradesh", "BOYS": 11.570225850203586, "Girls": 13.1293631414896}, {"year": 2004, "state": "Assam", "BOYS": 13.98941810299852, "Girls": 28.119715152762872}, {"year": 2004, "state": "Bihar", "BOYS": 10.460155021085892, "Girls": 18.91374373478972}, {"year": 2004, "state": "Chhattisgarh", "BOYS": 27.629753763669168, "Girls": 28.452977143285317}, {"year": 2004, "state": "Goa", "BOYS": 8.938118015737448, "Girls": 24.556246250129572}, {"year": 2004, "state": "Gujarat", "BOYS": 5.241138934482539, "Girls": 32.44203504850453}, {"year": 2004, "state": "Haryana", "BOYS": 27.932688802670164, "Girls": 27.106170600163637}, {"year": 2004, "state": "Himachal Pradesh", "BOYS": 24.901583279842395, "Girls": 14.211709726161095}, {"year": 2004, "state": "Jammu and Kashmir", "BOYS": 10.78375602835033, "Girls": 9.124583114909218}, {"year": 2004, "state": "Jharkhand", "BOYS": 11.727102529497548, "Girls": 7.796526237468994}, {"year": 2004, "state": "Karnataka", "BOYS": 16.893395425084993, "Girls": 24.07176575051042}, {"year": 2004, "state": "Kerala", "BOYS": 8.207860082760845, "Girls": 18.729563680236712}, {"year": 2004, "state": "Madhya Pradesh", "BOYS": 17.02687293284182, "Girls": 15.093828912971121}, {"year": 2004, "state": "Maharashtra", "BOYS": 15.7194380975585, "Girls": 31.91177718430111}, {"year": 2004, "state": "Manipur", "BOYS": 24.06467200148525, "Girls": 18.740516306111246}, {"year": 2004, "state": "Meghalaya", "BOYS": 3.9146281115051935, "Girls": 31.71043868904733}, {"year": 2004, "state": "Mizoram", "BOYS": 28.59322862408562, "Girls": 33.48526793658717}, {"year": 2004, "state": "Nagaland", "BOYS": 24.22260695507472, "Girls": 14.433320358584771}, {"year": 2004, "state": "Odisha", "BOYS": 22.201634230980343, "Girls": 25.817877016065317}, {"year": 2004, "state": "Punjab", "BOYS": 18.09040273959713, "Girls": 19.033227503838237}, {"year": 2004, "state": "Rajasthan", "BOYS": 22.30340861696137, "Girls": 20.544353141482702}, {"year": 2004, "state": "Sikkim", "BOYS": 13.670496573819785, "Girls": 13.52519201423065}, {"year": 2004, "state": "Tamil Nadu", "BOYS": 9.663612445915371, "Girls": 17.156734494733165}, {"year": 2004, "state": "Telangana", "BOYS": 23.94288503366146, "Girls": 27.995530124579826}, {"year": 2004, "state": "Tripura", "BOYS": 7.010395990928336, "Girls": 25.04540820451207}, {"year": 2004, "state": "Uttarakhand", "BOYS": 18.539663145970476, "Girls": 31.099390288057435}, {"year": 2004, "state": "Uttar Pradesh", "BOYS": 9.708270442880904, "Girls": 8.168799925163018}, {"year": 2004, "state": "West Bengal", "BOYS": 24.09345209787087, "Girls": 15.752378640028093}, {"year": 2004, "state": "Andaman and Nicobar Islands", "BOYS": 8.631398611723439, "Girls": 31.972243750748305}, {"year": 2004, "state": "Chandigarh", "BOYS": 9.430725881206937, "Girls": 7.705025674064856}, {"year": 2004, "state": "Dadra and Nagar Haveli", "BOYS": 13.505279398187126, "Girls": 19.954512892149673}, {"year": 2004, "state": "Daman and Diu", "BOYS": 16.964282167321983, "Girls": 18.582946217449567}, {"year": 2004, "state": "Delhi", "BOYS": 11.552250716934497, "Girls": 16.26549981638137}, {"year": 2004, "state": "Lakshadweep", "BOYS": 23.28713775060169, "Girls": 33.30649098909101}, {"year": 2004, "state": "Puducherry", "BOYS": 16.36871673214152, "Girls": 15.107060670821093}, {"year": 2005, "state": "Andhra Pradesh", "BOYS": 20.665795878477812, "Girls": 20.630829938547688}, {"year": 2005, "state": "Arunachal Pradesh", "BOYS": 17.451911130167417, "Girls": 33.2996442701411}, {"year": 2005, "state": "Assam", "BOYS": 20.970877388317856, "Girls": 27.681835931836336}, {"year": 2005, "state": "Bihar", "BOYS": 25.792873775292396, "Girls": 13.522083261501475}, {"year": 2005, "state": "Chhattisgarh", "BOYS": 6.997419853741352, "Girls": 7.784821908182936}, {"year": 2005, "state": "Goa", "BOYS": 11.018859489086879, "Girls": 26.5326776410907}, {"year": 2005, "state": "Gujarat", "BOYS": 19.985249330211555, "Girls": 19.305465879453784}, {"year": 2005, "state": "Haryana", "BOYS": 5.365275009446563, "Girls": 15.416723748346662}, {"year": 2005, "state": "Himachal Pradesh", "BOYS": 7.700708583686902, "Girls": 10.856666234663434}, {"year": 2005, "state": "Jammu and Kashmir", "BOYS": 7.5750783803108455, "Girls": 21.949279220876384}, {"year": 2005, "state": "Jharkhand", "BOYS": 20.987320348128186, "Girls": 28.07995260088067}, {"year": 2005, "state": "Karnataka", "BOYS": 25.310691355144083, "Girls": 10.890215187258978}, {"year": 2005, "state": "Kerala", "BOYS": 6.32877101115675, "Girls": 17.68379890937099}, {"year": 2005, "state": "Madhya Pradesh", "BOYS": 6.674729054011394, "Girls": 23.70536012558633}, {"year": 2005, "state": "Maharashtra", "BOYS": 14.268746118387082, "Girls": 19.501731241654177}, {"year": 2005, "state": "Manipur", "BOYS": 18.19943882868656, "Girls": 29.793234990488383}, {"year": 2005, "state": "Meghalaya", "BOYS": 26.73706052884809, "Girls": 10.706413921087147}, {"year": 2005, "state": "Mizoram", "BOYS": 17.837282492618343, "Girls": 11.164684358878231}, {"year": 2005, "state": "Nagaland", "BOYS": 18.072894610696075, "Girls": 13.262086226210382}, {"year": 2005, "state": "Odisha", "BOYS": 24.287330425119098, "Girls": 18.639274058411132}, {"year": 2005, "state": "Punjab", "BOYS": 25.630867101830766, "Girls": 19.793358029657696}, {"year": 2005, "state": "Rajasthan", "BOYS": 22.653707349452976, "Girls": 23.844435477051057}, {"year": 2005, "state": "Sikkim", "BOYS": 24.451871183845693, "Girls": 21.499623649411227}, {"year": 2005, "state": "Tamil Nadu", "BOYS": 3.6217732353763488, "Girls": 12.243987147505635}, {"year": 2005, "state": "Telangana", "BOYS": 5.363646910665426, "Girls": 30.435909500673887}, {"year": 2005, "state": "Tripura", "BOYS": 13.648670466753176, "Girls": 23.32182202559009}, {"year": 2005, "state": "Uttarakhand", "BOYS": 8.159456884789066, "Girls": 11.196571025464857}, {"year": 2005, "state": "Uttar Pradesh", "BOYS": 17.826535926811587, "Girls": 15.010417969791831}, {"year": 2005, "state": "West Bengal", "BOYS": 19.957461523054384, "Girls": 14.987534391737341}, {"year": 2005, "state": "Andaman and Nicobar Islands", "BOYS": 5.821832472798399, "Girls": 18.865220048190473}, {"year": 2005, "state": "Chandigarh", "BOYS": 16.53022185208975, "Girls": 27.234861874387562}, {"year": 2005, "state": "Dadra and Nagar Haveli", "BOYS": 21.480645636180107, "Girls": 16.580699006443854}, {"year": 2005, "state": "Daman and Diu", "BOYS": 8.13741578747427, "Girls": 15.277704347814598}, {"year": 2005, "state": "Delhi", "BOYS": 26.919908638161125, "Girls": 6.501895724957288}, {"year": 2005, "state": "Lakshadweep", "BOYS": 26.810592372090845, "Girls": 17.145958143802794}, {"year": 2005, "state": "Puducherry", "BOYS": 6.912719355319371, "Girls": 17.428319412345008}, {"year": 2006, "state": "Andhra Pradesh", "BOYS": 12.336539557731538, "Girls": 29.845875076455037}, {"year": 2006, "state": "Arunachal Pradesh", "BOYS": 3.979099000423037, "Girls": 13.825825904629545}, {"year": 2006, "state": "Assam", "BOYS": 6.143109177448837, "Girls": 7.798759323716304}, {"year": 2006, "state": "Bihar", "BOYS": 27.779463712359792, "Girls": 22.52184008593466}, {"year": 2006, "state": "Chhattisgarh", "BOYS": 8.614946142965701, "Girls": 11.194107866487716}, {"year": 2006, "state": "Goa", "BOYS": 14.828126468820164, "Girls": 27.48627258076381}, {"year": 2006, "state": "Gujarat", "BOYS": 26.53144723760843, "Girls": 9.929185523519601}, {"year": 2006, "state": "Haryana", "BOYS": 18.682138523335638, "Girls": 17.742409846343616}, {"year": 2006, "state": "Himachal Pradesh", "BOYS": 18.60066511207323, "Girls": 6.38666816383976}, {"year": 2006, "state": "Jammu and Kashmir", "BOYS": 12.518792284527994, "Girls": 13.08354690598137}, {"year": 2006, "state": "Jharkhand", "BOYS": 27.687068095928048, "Girls": 17.95364599943678}, {"year": 2006, "state": "Karnataka", "BOYS": 14.820088480305676, "Girls": 16.070253898557148}, {"year": 2006, "state": "Kerala", "BOYS": 23.56864782504582, "Girls": 21.55852700821049}, {"year": 2006, "state": "Madhya Pradesh", "BOYS": 8.847323905809079, "Girls": 20.02372051467787}, {"year": 2006, "state": "Maharashtra", "BOYS": 6.8508307388731335, "Girls": 19.878308197193157}, {"year": 2006, "state": "Manipur", "BOYS": 15.74827420665187, "Girls": 12.1429526137914}, {"year": 2006, "state": "Meghalaya", "BOYS": 13.167254010337073, "Girls": 6.704266394005732}, {"year": 2006, "state": "Mizoram", "BOYS": 27.190421750081025, "Girls": 21.87252093194366}, {"year": 2006, "state": "Nagaland", "BOYS": 18.289488651478795, "Girls": 16.554947570419266}, {"year": 2006, "state": "Odisha", "BOYS": 6.748957420831376, "Girls": 16.743311571584393}, {"year": 2006, "state": "Punjab", "BOYS": 16.895536236540842, "Girls": 15.611015814320448}, {"year": 2006, "state": "Rajasthan", "BOYS": 15.903750121290559, "Girls": 9.627347803354944}, {"year": 2006, "state": "Sikkim", "BOYS": 22.31711499485392, "Girls": 23.329715341444512}, {"year": 2006, "state": "Tamil Nadu", "BOYS": 11.606849942051946, "Girls": 13.033679371150372}, {"year": 2006, "state": "Telangana", "BOYS": 22.25261994271362, "Girls": 31.885496669236282}, {"year": 2006, "state": "Tripura", "BOYS": 12.071271944006256, "Girls": 16.269692720187805}, {"year": 2006, "state": "Uttarakhand", "BOYS": 6.49341202995303, "Girls": 18.366785354257498}, {"year": 2006, "state": "Uttar Pradesh", "BOYS": 17.341716807029545, "Girls": 23.14657664877086}, {"year": 2006, "state": "West Bengal", "BOYS": 4.9991392981545015, "Girls": 6.734286487708022}, {"year": 2006, "state": "Andaman and Nicobar Islands", "BOYS": 22.373166682841017, "Girls": 14.797520446930529}, {"year": 2006, "state": "Chandigarh", "BOYS": 17.884662408562377, "Girls": 31.92533587902284}, {"year": 2006, "state": "Dadra and Nagar Haveli", "BOYS": 21.974319082792718, "Girls": 30.702402338851734}, {"year": 2006, "state": "Daman and Diu", "BOYS": 24.29934144396561, "Girls": 14.151291756192846}, {"year": 2006, "state": "Delhi", "BOYS": 23.949305444767717, "Girls": 26.14614130506964}, {"year": 2006, "state": "Lakshadweep", "BOYS": 8.777537356401277, "Girls": 17.669622619288674}, {"year": 2006, "state": "Puducherry", "BOYS": 20.48631287531724, "Girls": 8.409185013403825}, {"year": 2007, "state": "Andhra Pradesh", "BOYS": 19.95971852267997, "Girls": 8.283471970119457}, {"year": 2007, "state": "Arunachal Pradesh", "BOYS": 23.502621590438665, "Girls": 23.610481646607916}, {"year": 2007, "state": "Assam", "BOYS": 16.18950864119275, "Girls": 27.40775118102199}, {"year": 2007, "state": "Bihar", "BOYS": 24.863972375780744, "Girls": 16.18386302165644}, {"year": 2007, "state": "Chhattisgarh", "BOYS": 4.839847390900549, "Girls": 9.1659022453977}, {"year": 2007, "state": "Goa", "BOYS": 27.4018521999254, "Girls": 26.025359517399412}, {"year": 2007, "state": "Gujarat", "BOYS": 15.512405278224794, "Girls": 12.437984669109284}, {"year": 2007, "state": "Haryana", "BOYS": 27.638547006330406, "Girls": 29.824302950060545}, {"year": 2007, "state": "Himachal Pradesh", "BOYS": 26.21410059646598, "Girls": 26.536862661481706}, {"year": 2007, "state": "Jammu and Kashmir", "BOYS": 14.34375356520242, "Girls": 17.676443663555986}, {"year": 2007, "state": "Jharkhand", "BOYS": 17.887838563156595, "Girls": 19.249892144677634}, {"year": 2007, "state": "Karnataka", "BOYS": 23.10648282741361, "Girls": 25.58057198665489}, {"year": 2007, "state": "Kerala", "BOYS": 20.369068328669112, "Girls": 6.219394806072766}, {"year": 2007, "state": "Madhya Pradesh", "BOYS": 9.079582975339427, "Girls": 7.385821569628326}, {"year": 2007, "state": "Maharashtra", "BOYS": 21.514661485573033, "Girls": 23.527887876694773}, {"year": 2007, "state": "Manipur", "BOYS": 16.74250167595923, "Girls": 15.745093914631678}, {"year": 2007, "state": "Meghalaya", "BOYS": 3.838827653287944, "Girls": 24.972367128958354}, {"year": 2007, "state": "Mizoram", "BOYS": 14.25416322502377, "Girls": 22.39268331272613}, {"year": 2007, "state": "Nagaland", "BOYS": 27.008421001722297, "Girls": 6.165599668480451}, {"year": 2007, "state": "Odisha", "BOYS": 25.926984164041237, "Girls": 7.57927058262957}, {"year": 2007, "state": "Punjab", "BOYS": 7.351982611369142, "Girls": 7.067796052914564}, {"year": 2007, "state": "Rajasthan", "BOYS": 18.75909009868499, "Girls": 14.57398323344287}, {"year": 2007, "state": "Sikkim", "BOYS": 8.25145975822236, "Girls": 28.78331960886914}, {"year": 2007, "state": "Tamil Nadu", "BOYS": 8.619893484146907, "Girls": 18.504657508675148}, {"year": 2007, "state": "Telangana", "BOYS": 3.3683704254840547, "Girls": 7.4364322572000825}, {"year": 2007, "state": "Tripura", "BOYS": 11.828969448777265, "Girls": 20.827003795955985}, {"year": 2007, "state": "Uttarakhand", "BOYS": 13.359956328382818, "Girls": 9.471189489094563}, {"year": 2007, "state": "Uttar Pradesh", "BOYS": 24.198648052284344, "Girls": 24.904888586564425}, {"year": 2007, "state": "West Bengal", "BOYS": 3.8430397170009014, "Girls": 13.281021393388862}, {"year": 2007, "state": "Andaman and Nicobar Islands", "BOYS": 6.222341285527791, "Girls": 12.463494610528116}, {"year": 2007, "state": "Chandigarh", "BOYS": 14.734549862250471, "Girls": 12.6342187109586}, {"year": 2007, "state": "Dadra and Nagar Haveli", "BOYS": 27.26419446818718, "Girls": 18.37542079968568}, {"year": 2007, "state": "Daman and Diu", "BOYS": 8.70026246014202, "Girls": 25.330549980600097}, {"year": 2007, "state": "Delhi", "BOYS": 14.598889706593813, "Girls": 26.66737517398861}, {"year": 2007, "state": "Lakshadweep", "BOYS": 4.41077451738611, "Girls": 7.964079202807182}, {"year": 2007, "state": "Puducherry", "BOYS": 24.15970321964347, "Girls": 23.839188622246063}, {"year": 2008, "state": "Andhra Pradesh", "BOYS": 20.070821228065395, "Girls": 26.13231127359767}, {"year": 2008, "state": "Arunachal Pradesh", "BOYS": 7.520688968581102, "Girls": 13.636695591463706}, {"year": 2008, "state": "Assam", "BOYS": 4.798374457634894, "Girls": 28.359785383454835}, {"year": 2008, "state": "Bihar", "BOYS": 15.36987778153161, "Girls": 15.96543234897499}, {"year": 2008, "state": "Chhattisgarh", "BOYS": 22.210952946205122, "Girls": 19.81346303172388}, {"year": 2008, "state": "Goa", "BOYS": 4.960174736847068, "Girls": 8.428570593731433}, {"year": 2008, "state": "Gujarat", "BOYS": 22.634602916966198, "Girls": 26.703413728890357}, {"year": 2008, "state": "Haryana", "BOYS": 10.48966507107248, "Girls": 28.408882549202385}, {"year": 2008, "state": "Himachal Pradesh", "BOYS": 15.21586638272911, "Girls": 11.875546260891301}, {"year": 2008, "state": "Jammu and Kashmir", "BOYS": 20.307292271784235, "Girls": 14.579735561928036}, {"year": 2008, "state": "Jharkhand", "BOYS": 18.64032683574181, "Girls": 24.53499534392273}, {"year": 2008, "state": "Karnataka", "BOYS": 10.579559614483266, "Girls": 12.794422522837149}, {"year": 2008, "state": "Kerala", "BOYS": 12.598601314890864, "Girls": 26.762047823761836}, {"year": 2008, "state": "Madhya Pradesh", "BOYS": 22.579454550675035, "Girls": 18.56145858648421}, {"year": 2008, "state": "Maharashtra", "BOYS": 2.647085738102465, "Girls": 24.85708410267457}, {"year": 2008, "state": "Manipur", "BOYS": 4.426540545799171, "Girls": 24.754755324875873}, {"year": 2008, "state": "Meghalaya", "BOYS": 24.368634670125555, "Girls": 23.25528983228015}, {"year": 2008, "state": "Mizoram", "BOYS": 18.70690623074627, "Girls": 29.398821625964548}, {"year": 2008, "state": "Nagaland", "BOYS": 5.520366391142487, "Girls": 30.013730898807783}, {"year": 2008, "state": "Odisha", "BOYS": 13.07997518423008, "Girls": 10.887895901928164}, {"year": 2008, "state": "Punjab", "BOYS": 19.3797326324591, "Girls": 21.145144454290577}, {"year": 2008, "state": "Rajasthan", "BOYS": 7.6433334092578376, "Girls": 28.443197873282255}, {"year": 2008, "state": "Sikkim", "BOYS": 7.1386107997752335, "Girls": 18.45218705006725}, {"year": 2008, "state": "Tamil Nadu", "BOYS": 9.733227314433258, "Girls": 17.06586798905165}, {"year": 2008, "state": "Telangana", "BOYS": 19.784984661079015, "Girls": 18.495997374058643}, {"year": 2008, "state": "Tripura", "BOYS": 26.785375512427816, "Girls": 23.219663209440363}, {"year": 2008, "state": "Uttarakhand", "BOYS": 21.873906617696445, "Girls": 20.343688544637917}, {"year": 2008, "state": "Uttar Pradesh", "BOYS": 10.782416814248904, "Girls": 14.88241572851559}, {"year": 2008, "state": "West Bengal", "BOYS": 16.956969846308574, "Girls": 11.415612174003027}, {"year": 2008, "state": "Andaman and Nicobar Islands", "BOYS": 17.111641947998915, "Girls": 7.580719947666652}, {"year": 2008, "state": "Chandigarh", "BOYS": 23.24515233390217, "Girls": 23.211437833021368}, {"year": 2008, "state": "Dadra and Nagar Haveli", "BOYS": 12.7576355484705, "Girls": 21.861244538637}, {"year": 2008, "state": "Daman and Diu", "BOYS": 13.979877181481424, "Girls": 24.322773347555177}, {"year": 2008, "state": "Delhi", "BOYS": 23.88498232359671, "Girls": 24.59337994394034}, {"year": 2008, "state": "Lakshadweep", "BOYS": 22.647624194185422, "Girls": 20.53856912219999}, {"year": 2008, "state": "Puducherry", "BOYS": 23.494629621712427, "Girls": 28.810740521354372}, {"year": 2009, "state": "Andhra Pradesh", "BOYS": 20.49649915943764, "Girls": 24.460197558295622}, {"year": 2009, "state": "Arunachal Pradesh", "BOYS": 21.49588193372977, "Girls": 12.334065863005767}, {"year": 2009, "state": "Assam", "BOYS": 24.49012951751807, "Girls": 4.953085134009562}, {"year": 2009, "state": "Bihar", "BOYS": 16.427500410351275, "Girls": 11.114345753822876}, {"year": 2009, "state": "Chhattisgarh", "BOYS": 10.209252815695809, "Girls": 24.633970340961024}, {"year": 2009, "state": "Goa", "BOYS": 6.529504626363794, "Girls": 16.346783056186926}, {"year": 2009, "state": "Gujarat", "BOYS": 3.2487337404299663, "Girls": 15.64562689369845}, {"year": 2009, "state": "Haryana", "BOYS": 15.496905880359948, "Girls": 22.475122318896634}, {"year": 2009, "state": "Himachal Pradesh", "BOYS": 26.33226280765751, "Girls": 18.16389306414458}, {"year": 2009, "state": "Jammu and Kashmir", "BOYS": 18.764376265406803, "Girls": 17.063564337431746}, {"year": 2009, "state": "Jharkhand", "BOYS": 6.827497791843909, "Girls": 5.671833613309426}, {"year": 2009, "state": "Karnataka", "BOYS": 5.70400967909824, "Girls": 11.560300123944378}, {"year": 2009, "state": "Kerala", "BOYS": 20.496724133920026, "Girls": 21.659102521321653}, {"year": 2009, "state": "Madhya Pradesh", "BOYS": 25.357695523864905, "Girls": 14.14034224419394}, {"year": 2009, "state": "Maharashtra", "BOYS": 9.885091587476834, "Girls": 24.521883229709378}, {"year": 2009, "state": "Manipur", "BOYS": 22.876221560678964, "Girls": 18.303478722040275}, {"year": 2009, "state": "Meghalaya", "BOYS": 15.021303410772143, "Girls": 27.044021816403703}, {"year": 2009, "state": "Mizoram", "BOYS": 6.470735575451512, "Girls": 13.496004119983622}, {"year": 2009, "state": "Nagaland", "BOYS": 16.03007496777266, "Girls": 26.815169336699928}, {"year": 2009, "state": "Odisha", "BOYS": 5.857168753365768, "Girls": 20.39446367742514}, {"year": 2009, "state": "Punjab", "BOYS": 8.499134169067823, "Girls": 24.581840900023572}, {"year": 2009, "state": "Rajasthan", "BOYS": 8.711354476999277, "Girls": 11.31195131930748}, {"year": 2009, "state": "Sikkim", "BOYS": 13.059581652209944, "Girls": 16.838098708494606}, {"year": 2009, "state": "Tamil Nadu", "BOYS": 13.772802150759064, "Girls": 14.666220690666053}, {"year": 2009, "state": "Telangana", "BOYS": 23.499410340724634, "Girls": 22.181521663022636}, {"year": 2009, "state": "Tripura", "BOYS": 15.933477094178764, "Girls": 11.604559305056727}, {"year": 2009, "state": "Uttarakhand", "BOYS": 23.08505984645787, "Girls": 11.57515503126715}, {"year": 2009, "state": "Uttar Pradesh", "BOYS": 5.629291465542426, "Girls": 28.13025329965895}, {"year": 2009, "state": "West Bengal", "BOYS": 6.079222519248171, "Girls": 24.77238577500054}, {"year": 2009, "state": "Andaman and Nicobar Islands", "BOYS": 18.708825205178897, "Girls": 25.662634557499697}, {"year": 2009, "state": "Chandigarh", "BOYS": 24.549763174868804, "Girls": 9.55245307248835}, {"year": 2009, "state": "Dadra and Nagar Haveli", "BOYS": 20.100571495467285, "Girls": 8.287431837524856}, {"year": 2009, "state": "Daman and Diu", "BOYS": 10.885979660050586, "Girls": 30.681009102419573}, {"year": 2009, "state": "Delhi", "BOYS": 14.782612483442096, "Girls": 19.611365530197197}, {"year": 2009, "state": "Lakshadweep", "BOYS": 3.3419031937190877, "Girls": 15.565343948163184}, {"year": 2009, "state": "Puducherry", "BOYS": 22.606986897829962, "Girls": 23.8442224141052}, {"year": 2010, "state": "Andhra Pradesh", "BOYS": 15.489282962444157, "Girls": 10.810035799237642}, {"year": 2010, "state": "Arunachal Pradesh", "BOYS": 14.65554344409454, "Girls": 12.974921701118816}, {"year": 2010, "state": "Assam", "BOYS": 7.373113630425745, "Girls": 17.22158322132366}, {"year": 2010, "state": "Bihar", "BOYS": 5.465209067813182, "Girls": 8.278047990929156}, {"year": 2010, "state": "Chhattisgarh", "BOYS": 11.677286275032568, "Girls": 27.46329680875554}, {"year": 2010, "state": "Goa", "BOYS": 8.679624625894391, "Girls": 19.791505298787005}, {"year": 2010, "state": "Gujarat", "BOYS": 16.29379378868174, "Girls": 18.515678091545865}, {"year": 2010, "state": "Haryana", "BOYS": 20.356938274312846, "Girls": 22.020839208789216}, {"year": 2010, "state": "Himachal Pradesh", "BOYS": 9.727799880582284, "Girls": 10.449947729431802}, {"year": 2010, "state": "Jammu and Kashmir", "BOYS": 14.596515828891594, "Girls": 19.05688154619094}, {"year": 2010, "state": "Jharkhand", "BOYS": 2.9278435273676395, "Girls": 31.166966860835274}, {"year": 2010, "state": "Karnataka", "BOYS": 16.556234826787353, "Girls": 16.127372627138023}, {"year": 2010, "state": "Kerala", "BOYS": 8.374428235664372, "Girls": 26.288535214169542}, {"year": 2010, "state": "Madhya Pradesh", "BOYS": 6.565281896281416, "Girls": 24.94427846029068}, {"year": 2010, "state": "Maharashtra", "BOYS": 22.107647720360397, "Girls": 7.8137543572489605}, {"year": 2010, "state": "Manipur", "BOYS": 8.642001866973471, "Girls": 31.13073139989833}, {"year": 2010, "state": "Meghalaya", "BOYS": 15.657109161965828, "Girls": 17.188681229309665}, {"year": 2010, "state": "Mizoram", "BOYS": 11.975784961489918, "Girls": 24.392353129593765}, {"year": 2010, "state": "Nagaland", "BOYS": 5.214581218465511, "Girls": 13.34017185291274}, {"year": 2010, "state": "Odisha", "BOYS": 24.4692283083078, "Girls": 11.986630509005737}, {"year": 2010, "state": "Punjab", "BOYS": 24.498835466128927, "Girls": 17.391398620755503}, {"year": 2010, "state": "Rajasthan", "BOYS": 5.176528583215429, "Girls": 6.522453516549515}, {"year": 2010, "state": "Sikkim", "BOYS": 3.0445410504124233, "Girls": 17.20361513552311}, {"year": 2010, "state": "Tamil Nadu", "BOYS": 20.501140256473278, "Girls": 14.459355797188493}, {"year": 2010, "state": "Telangana", "BOYS": 19.940905643649312, "Girls": 10.246758234298934}, {"year": 2010, "state": "Tripura", "BOYS": 22.18838329738016, "Girls": 26.838731152955777}, {"year": 2010, "state": "Uttarakhand", "BOYS": 13.323544389845097, "Girls": 12.577181420013716}, {"year": 2010, "state": "Uttar Pradesh", "BOYS": 3.258520437387717, "Girls": 28.206056932994343}, {"year": 2010, "state": "West Bengal", "BOYS": 12.308913409222555, "Girls": 26.68316348319209}, {"year": 2010, "state": "Andaman and Nicobar Islands", "BOYS": 15.303556634900836, "Girls": 25.934223100354707}, {"year": 2010, "state": "Chandigarh", "BOYS": 17.550183353467403, "Girls": 30.15021581145372}, {"year": 2010, "state": "Dadra and Nagar Haveli", "BOYS": 13.934380507549921, "Girls": 14.386613173370097}, {"year": 2010, "state": "Daman and Diu", "BOYS": 12.156574321427406, "Girls": 22.838426165510384}, {"year": 2010, "state": "Delhi", "BOYS": 2.688759932000358, "Girls": 17.55695067658451}, {"year": 2010, "state": "Lakshadweep", "BOYS": 8.592567081576135, "Girls": 16.813370646318482}, {"year": 2010, "state": "Puducherry", "BOYS": 23.91472941123936, "Girls": 7.701906531298363}, {"year": 2011, "state": "Andhra Pradesh", "BOYS": 24.773006893857364, "Girls": 6.662823757739627}, {"year": 2011, "state": "Arunachal Pradesh", "BOYS": 8.719147693225027, "Girls": 19.867252072371826}, {"year": 2011, "state": "Assam", "BOYS": 7.1298576371536395, "Girls": 30.060999515065163}, {"year": 2011, "state": "Bihar", "BOYS": 7.6518241872950625, "Girls": 5.906259829999067}, {"year": 2011, "state": "Chhattisgarh", "BOYS": 25.330437557713175, "Girls": 6.903864530885773}, {"year": 2011, "state": "Goa", "BOYS": 12.19661142843948, "Girls": 16.91100915625598}, {"year": 2011, "state": "Gujarat", "BOYS": 24.55441430173847, "Girls": 28.623635742927043}, {"year": 2011, "state": "Haryana", "BOYS": 1.2252851698070844, "Girls": 12.051042489015293}, {"year": 2011, "state": "Himachal Pradesh", "BOYS": 19.084467397701303, "Girls": 10.299587765278124}, {"year": 2011, "state": "Jammu and Kashmir", "BOYS": 16.454493232630924, "Girls": 8.197822834835554}, {"year": 2011, "state": "Jharkhand", "BOYS": 7.940233671443696, "Girls": 24.46078107484899}, {"year": 2011, "state": "Karnataka", "BOYS": 24.80504567420259, "Girls": 18.374233684285265}, {"year": 2011, "state": "Kerala", "BOYS": 16.126422010120173, "Girls": 6.6803816313124464}, {"year": 2011, "state": "Madhya Pradesh", "BOYS": 11.378824039212097, "Girls": 10.696433606765344}, {"year": 2011, "state": "Maharashtra", "BOYS": 2.1329689182792446, "Girls": 16.5004389043107}, {"year": 2011, "state": "Manipur", "BOYS": 9.56842129339902, "Girls": 7.969896182600561}, {"year": 2011, "state": "Meghalaya", "BOYS": 10.79653371518656, "Girls": 15.111812219668378}, {"year": 2011, "state": "Mizoram", "BOYS": 5.90418757098136, "Girls": 19.499924320251935}, {"year": 2011, "state": "Nagaland", "BOYS": 7.058542519656305, "Girls": 12.069047904273427}, {"year": 2011, "state": "Odisha", "BOYS": 20.99091036440457, "Girls": 6.577461695765196}, {"year": 2011, "state": "Punjab", "BOYS": 18.072253437540233, "Girls": 18.52583882433995}, {"year": 2011, "state": "Rajasthan", "BOYS": 4.292119963129673, "Girls": 6.113895464791943}, {"year": 2011, "state": "Sikkim", "BOYS": 15.536268119444832, "Girls": 17.915937782395524}, {"year": 2011, "state": "Tamil Nadu", "BOYS": 21.115617341911367, "Girls": 6.60877062852221}, {"year": 2011, "state": "Telangana", "BOYS": 8.870091428740922, "Girls": 21.84038550149652}, {"year": 2011, "state": "Tripura", "BOYS": 22.83776537391911, "Girls": 5.8889608923385826}, {"year": 2011, "state": "Uttarakhand", "BOYS": 4.3892792749050855, "Girls": 20.95372882198668}, {"year": 2011, "state": "Uttar Pradesh", "BOYS": 14.900816438606379, "Girls": 27.481776971660274}, {"year": 2011, "state": "West Bengal", "BOYS": 23.661229257469472, "Girls": 7.848776282401575}, {"year": 2011, "state": "Andaman and Nicobar Islands", "BOYS": 20.985169985855244, "Girls": 29.350755464178405}, {"year": 2011, "state": "Chandigarh", "BOYS": 19.341171022426522, "Girls": 29.561387665085384}, {"year": 2011, "state": "Dadra and Nagar Haveli", "BOYS": 21.167502081215957, "Girls": 16.35068375406236}, {"year": 2011, "state": "Daman and Diu", "BOYS": 8.608396658210458, "Girls": 22.33191691449288}, {"year": 2011, "state": "Delhi", "BOYS": 4.098217897289063, "Girls": 10.633268296656844}, {"year": 2011, "state": "Lakshadweep", "BOYS": 18.73285400912394, "Girls": 13.569080190675935}, {"year": 2011, "state": "Puducherry", "BOYS": 18.002509456320674, "Girls": 7.991277594022572}, {"year": 2012, "state": "Andhra Pradesh", "BOYS": 4.908478031200965, "Girls": 20.310099546211262}, {"year": 2012, "state": "Arunachal Pradesh", "BOYS": 11.759990302573971, "Girls": 7.189229238921446}, {"year": 2012, "state": "Assam", "BOYS": 8.592136255110105, "Girls": 8.48621145706187}, {"year": 2012, "state": "Bihar", "BOYS": 16.791329568716396, "Girls": 22.826307805173563}, {"year": 2012, "state": "Chhattisgarh", "BOYS": 8.771153819071873, "Girls": 15.41243984236942}, {"year": 2012, "state": "Goa", "BOYS": 4.5716037540296925, "Girls": 22.87109388451443}, {"year": 2012, "state": "Gujarat", "BOYS": 24.503596061290015, "Girls": 4.007187811646676}, {"year": 2012, "state": "Haryana", "BOYS": 9.17860452488296, "Girls": 18.377662752736896}, {"year": 2012, "state": "Himachal Pradesh", "BOYS": 1.2048866669586538, "Girls": 5.822583160920975}, {"year": 2012, "state": "Jammu and Kashmir", "BOYS": 13.551548896612761, "Girls": 22.420034713517143}, {"year": 2012, "state": "Jharkhand", "BOYS": 6.426284180591376, "Girls": 29.92526439979333}, {"year": 2012, "state": "Karnataka", "BOYS": 21.595415412572194, "Girls": 12.747104509980606}, {"year": 2012, "state": "Kerala", "BOYS": 5.476036564297526, "Girls": 29.303001971748298}, {"year": 2012, "state": "Madhya Pradesh", "BOYS": 12.720286790483815, "Girls": 26.61215495033479}, {"year": 2012, "state": "Maharashtra", "BOYS": 20.86699091140335, "Girls": 8.108523233826261}, {"year": 2012, "state": "Manipur", "BOYS": 23.300931134905852, "Girls": 20.33067216050831}, {"year": 2012, "state": "Meghalaya", "BOYS": 22.110261046044027, "Girls": 11.64907914519003}, {"year": 2012, "state": "Mizoram", "BOYS": 25.268014104136988, "Girls": 24.869668552395215}, {"year": 2012, "state": "Nagaland", "BOYS": 9.732663575031207, "Girls": 26.21557692969978}, {"year": 2012, "state": "Odisha", "BOYS": 3.6923845030836135, "Girls": 7.1672029391452154}, {"year": 2012, "state": "Punjab", "BOYS": 9.08353412777619, "Girls": 26.409686193772327}, {"year": 2012, "state": "Rajasthan", "BOYS": 0.7162493575513178, "Girls": 15.893607519409422}, {"year": 2012, "state": "Sikkim", "BOYS": 5.400856370028724, "Girls": 24.6182840896533}, {"year": 2012, "state": "Tamil Nadu", "BOYS": 3.7198011928694674, "Girls": 27.36394711994443}, {"year": 2012, "state": "Telangana", "BOYS": 17.79107879677652, "Girls": 27.674697919786187}, {"year": 2012, "state": "Tripura", "BOYS": 24.258261361779482, "Girls": 24.534578216993665}, {"year": 2012, "state": "Uttarakhand", "BOYS": 10.248348107867177, "Girls": 10.512754661817787}, {"year": 2012, "state": "Uttar Pradesh", "BOYS": 1.8670908621454174, "Girls": 10.779244975088488}, {"year": 2012, "state": "West Bengal", "BOYS": 14.302274307328315, "Girls": 12.426450681767694}, {"year": 2012, "state": "Andaman and Nicobar Islands", "BOYS": 4.127585656826482, "Girls": 27.587629822774485}, {"year": 2012, "state": "Chandigarh", "BOYS": 5.032854722509453, "Girls": 15.171808488896406}, {"year": 2012, "state": "Dadra and Nagar Haveli", "BOYS": 10.586457899326266, "Girls": 8.371495780968576}, {"year": 2012, "state": "Daman and Diu", "BOYS": 21.459656721918282, "Girls": 7.560457191586749}, {"year": 2012, "state": "Delhi", "BOYS": 22.298204156459043, "Girls": 29.8855915491044}, {"year": 2012, "state": "Lakshadweep", "BOYS": 8.001074613934726, "Girls": 24.741862865783585}, {"year": 2012, "state": "Puducherry", "BOYS": 3.6284150639191983, "Girls": 11.29731890192075}, {"year": 2013, "state": "Andhra Pradesh", "BOYS": 21.74970160421473, "Girls": 20.228002286128596}, {"year": 2013, "state": "Arunachal Pradesh", "BOYS": 10.16023065665392, "Girls": 26.978320606459366}, {"year": 2013, "state": "Assam", "BOYS": 8.175355633937706, "Girls": 27.762028611758044}, {"year": 2013, "state": "Bihar", "BOYS": 10.596117672587415, "Girls": 12.66665233718484}, {"year": 2013, "state": "Chhattisgarh", "BOYS": 15.024155423075353, "Girls": 13.267031497764496}, {"year": 2013, "state": "Goa", "BOYS": 24.81071137907634, "Girls": 25.80154401387395}, {"year": 2013, "state": "Gujarat", "BOYS": 0.8791756561739943, "Girls": 18.96408005083928}, {"year": 2013, "state": "Haryana", "BOYS": 5.6717505976040306, "Girls": 8.302689554355517}, {"year": 2013, "state": "Himachal Pradesh", "BOYS": 16.60751821762089, "Girls": 30.023638742027973}, {"year": 2013, "state": "Jammu and Kashmir", "BOYS": 13.939026000305045, "Girls": 6.47883248991356}, {"year": 2013, "state": "Jharkhand", "BOYS": 12.765812315281618, "Girls": 11.442732780665956}, {"year": 2013, "state": "Karnataka", "BOYS": 20.013694673086995, "Girls": 7.611940638893993}, {"year": 2013, "state": "Kerala", "BOYS": 17.26192494933696, "Girls": 16.931713611669178}, {"year": 2013, "state": "Madhya Pradesh", "BOYS": 4.266838083364354, "Girls": 5.1754953146224}, {"year": 2013, "state": "Maharashtra", "BOYS": 6.771192274099167, "Girls": 15.09746751614465}, {"year": 2013, "state": "Manipur", "BOYS": 21.737835183329967, "Girls": 5.229437808040234}, {"year": 2013, "state": "Meghalaya", "BOYS": 1.9529136015574684, "Girls": 9.955611791880898}, {"year": 2013, "state": "Mizoram", "BOYS": 9.211828928135805, "Girls": 28.99352898848615}, {"year": 2013, "state": "Nagaland", "BOYS": 19.15161829416793, "Girls": 13.919369205508868}, {"year": 2013, "state": "Odisha", "BOYS": 2.7268583000513127, "Girls": 25.144889507050017}, {"year": 2013, "state": "Punjab", "BOYS": 11.195623739031436, "Girls": 25.447430391076658}, {"year": 2013, "state": "Rajasthan", "BOYS": 6.167707295910218, "Girls": 21.271510024560204}, {"year": 2013, "state": "Sikkim", "BOYS": 16.096190035853457, "Girls": 24.575421324982727}, {"year": 2013, "state": "Tamil Nadu", "BOYS": 4.242854083913943, "Girls": 24.124196005325093}, {"year": 2013, "state": "Telangana", "BOYS": 12.581024060762836, "Girls": 9.480760458223088}, {"year": 2013, "state": "Tripura", "BOYS": 13.509405837136345, "Girls": 21.622185527649076}, {"year": 2013, "state": "Uttarakhand", "BOYS": 4.827365494530908, "Girls": 17.387047526704936}, {"year": 2013, "state": "Uttar Pradesh", "BOYS": 11.385228379912636, "Girls": 22.89578548219426}, {"year": 2013, "state": "West Bengal", "BOYS": 24.011372885762796, "Girls": 8.54489822919323}, {"year": 2013, "state": "Andaman and Nicobar Islands", "BOYS": 8.937446700464783, "Girls": 22.678836463309693}, {"year": 2013, "state": "Chandigarh", "BOYS": 13.168370229484157, "Girls": 23.562939212697092}, {"year": 2013, "state": "Dadra and Nagar Haveli", "BOYS": 5.747231012149114, "Girls": 24.9509459015298}, {"year": 2013, "state": "Daman and Diu", "BOYS": 10.210820785509846, "Girls": 14.7751565406858}, {"year": 2013, "state": "Delhi", "BOYS": 9.82676674211999, "Girls": 16.15188371845674}, {"year": 2013, "state": "Lakshadweep", "BOYS": 0.4072715404511733, "Girls": 7.443049093966072}, {"year": 2013, "state": "Puducherry", "BOYS": 6.319022065098841, "Girls": 14.756636921867443}, {"year": 2014, "state": "Andhra Pradesh", "BOYS": 15.31408737682255, "Girls": 4.623437626199424}, {"year": 2014, "state": "Arunachal Pradesh", "BOYS": 3.1416894848580537, "Girls": 27.326948829165104}, {"year": 2014, "state": "Assam", "BOYS": 0.9818692744977824, "Girls": 14.61225031944968}, {"year": 2014, "state": "Bihar", "BOYS": 20.834514830521464, "Girls": 6.530953788966556}, {"year": 2014, "state": "Chhattisgarh", "BOYS": 17.578485027881356, "Girls": 23.851951794002147}, {"year": 2014, "state": "Goa", "BOYS": 12.894745914800636, "Girls": 21.521573575550683}, {"year": 2014, "state": "Gujarat", "BOYS": 20.36615811472433, "Girls": 11.345477638317698}, {"year": 2014, "state": "Haryana", "BOYS": 6.775835306857294, "Girls": 3.8272972225753534}, {"year": 2014, "state": "Himachal Pradesh", "BOYS": 21.74403124115289, "Girls": 7.294971721843606}, {"year": 2014, "state": "Jammu and Kashmir", "BOYS": 19.616710555150078, "Girls": 25.168089210766297}, {"year": 2014, "state": "Jharkhand", "BOYS": 23.878598768131702, "Girls": 23.704096505294252}, {"year": 2014, "state": "Karnataka", "BOYS": 17.71725160788295, "Girls": 20.399394131005522}, {"year": 2014, "state": "Kerala", "BOYS": 22.722016326058665, "Girls": 18.849499048452195}, {"year": 2014, "state": "Madhya Pradesh", "BOYS": 4.696133676030728, "Girls": 17.52728253507344}, {"year": 2014, "state": "Maharashtra", "BOYS": 12.091441849370616, "Girls": 20.27675031726563}, {"year": 2014, "state": "Manipur", "BOYS": 23.05708435366607, "Girls": 4.314994990845445}, {"year": 2014, "state": "Meghalaya", "BOYS": 6.1554636364932644, "Girls": 3.9459505303340965}, {"year": 2014, "state": "Mizoram", "BOYS": 21.55199700179582, "Girls": 15.358611245087564}, {"year": 2014, "state": "Nagaland", "BOYS": 16.438078119168686, "Girls": 22.05905382378551}, {"year": 2014, "state": "Odisha", "BOYS": 18.975449786139606, "Girls": 18.917481300922873}, {"year": 2014, "state": "Punjab", "BOYS": 24.205171588536373, "Girls": 22.269022421516624}, {"year": 2014, "state": "Rajasthan", "BOYS": 19.907980564314848, "Girls": 5.03447144906171}, {"year": 2014, "state": "Sikkim", "BOYS": 7.790372004683151, "Girls": 16.227029398650686}, {"year": 2014, "state": "Tamil Nadu", "BOYS": 2.8326895570307773, "Girls": 27.513782129248845}, {"year": 2014, "state": "Telangana", "BOYS": 2.666191595614807, "Girls": 28.923982722495815}, {"year": 2014, "state": "Tripura", "BOYS": 17.47753685003085, "Girls": 7.834094138626501}, {"year": 2014, "state": "Uttarakhand", "BOYS": 17.671740574808226, "Girls": 5.070562647406957}, {"year": 2014, "state": "Uttar Pradesh", "BOYS": 10.818886182563661, "Girls": 24.97348090708831}, {"year": 2014, "state": "West Bengal", "BOYS": 14.248587104357375, "Girls": 13.47044339742447}, {"year": 2014, "state": "Andaman and Nicobar Islands", "BOYS": 3.5265250900221012, "Girls": 10.55092425835367}, {"year": 2014, "state": "Chandigarh", "BOYS": 1.0725070075246812, "Girls": 16.213527107021036}, {"year": 2014, "state": "Dadra and Nagar Haveli", "BOYS": 24.615097552762833, "Girls": 14.008056063114276}, {"year": 2014, "state": "Daman and Diu", "BOYS": 3.0953902252744836, "Girls": 20.512930704421848}, {"year": 2014, "state": "Delhi", "BOYS": 21.769325553166702, "Girls": 13.298021422705526}, {"year": 2014, "state": "Lakshadweep", "BOYS": 19.900119615290507, "Girls": 19.213928918744926}, {"year": 2014, "state": "Puducherry", "BOYS": 23.810574189847628, "Girls": 17.850576677121282}, {"year": 2015, "state": "Andhra Pradesh", "BOYS": 0.018771620919755705, "Girls": 14.678101926823011}, {"year": 2015, "state": "Arunachal Pradesh", "BOYS": 3.973907409533396, "Girls": 19.68163102197129}, {"year": 2015, "state": "Assam", "BOYS": 7.574397390165178, "Girls": 14.162543744640459}, {"year": 2015, "state": "Bihar", "BOYS": 13.076395315937347, "Girls": 8.701416754936158}, {"year": 2015, "state": "Chhattisgarh", "BOYS": 17.12340627074555, "Girls": 3.7692102394434333}, {"year": 2015, "state": "Goa", "BOYS": 2.7861057964842004, "Girls": 5.793054080142712}, {"year": 2015, "state": "Gujarat", "BOYS": -0.17570596074102074, "Girls": 17.73913819534742}, {"year": 2015, "state": "Haryana", "BOYS": 10.10372983597426, "Girls": 21.359224893173792}, {"year": 2015, "state": "Himachal Pradesh", "BOYS": 2.100394134305997, "Girls": 25.525833340632886}, {"year": 2015, "state": "Jammu and Kashmir", "BOYS": 18.827403949333245, "Girls": 13.313186331628344}, {"year": 2015, "state": "Jharkhand", "BOYS": 4.631818355260929, "Girls": 23.64567108704072}, {"year": 2015, "state": "Karnataka", "BOYS": 12.65014593704355, "Girls": 20.800771350561202}, {"year": 2015, "state": "Kerala", "BOYS": 17.507934744926306, "Girls": 10.899635089191804}, {"year": 2015, "state": "Madhya Pradesh", "BOYS": 4.642414121188999, "Girls": 16.841814217438717}, {"year": 2015, "state": "Maharashtra", "BOYS": 4.599166929527559, "Girls": 25.267003765871415}, {"year": 2015, "state": "Manipur", "BOYS": 12.789349328410683, "Girls": 25.000435560863277}, {"year": 2015, "state": "Meghalaya", "BOYS": 14.301094029381971, "Girls": 27.71169011430615}, {"year": 2015, "state": "Mizoram", "BOYS": 4.409892422405957, "Girls": 7.191243185909343}, {"year": 2015, "state": "Nagaland", "BOYS": 11.491332628308015, "Girls": 3.1770047632523326}, {"year": 2015, "state": "Odisha", "BOYS": 8.487629319183569, "Girls": 15.424152358142631}, {"year": 2015, "state": "Punjab", "BOYS": 12.226746498826905, "Girls": 8.19830834360516}, {"year": 2015, "state": "Rajasthan", "BOYS": 11.45702263474464, "Girls": 20.537384457923977}, {"year": 2015, "state": "Sikkim", "BOYS": 17.886866291106777, "Girls": 24.523526362324812}, {"year": 2015, "state": "Tamil Nadu", "BOYS": 23.572411636569008, "Girls": 13.921142385531756}, {"year": 2015, "state": "Telangana", "BOYS": 19.71561805729169, "Girls": 3.117842396468701}, {"year": 2015, "state": "Tripura", "BOYS": 19.079751814884002, "Girls": 3.6393880684327904}, {"year": 2015, "state": "Uttarakhand", "BOYS": 6.330264666282185, "Girls": 2.640065269526234}, {"year": 2015, "state": "Uttar Pradesh", "BOYS": 19.528003149412267, "Girls": 17.978251927416736}, {"year": 2015, "state": "West Bengal", "BOYS": 9.846643176811178, "Girls": 24.369628490512653}, {"year": 2015, "state": "Andaman and Nicobar Islands", "BOYS": 8.910124647596005, "Girls": 24.843556463206745}, {"year": 2015, "state": "Chandigarh", "BOYS": 18.435088169359588, "Girls": 27.867085314869755}, {"year": 2015, "state": "Dadra and Nagar Haveli", "BOYS": 17.2241642314518, "Girls": 27.166575306416533}, {"year": 2015, "state": "Daman and Diu", "BOYS": 13.5820034626933, "Girls": 15.407619627765563}, {"year": 2015, "state": "Delhi", "BOYS": 19.67352098122608, "Girls": 16.953138434941934}, {"year": 2015, "state": "Lakshadweep", "BOYS": -0.48804089486074975, "Girls": 26.61125521023996}, {"year": 2015, "state": "Puducherry", "BOYS": 9.157040587617011, "Girls": 19.689642248012692}, {"year": 2016, "state": "Andhra Pradesh", "BOYS": 18.090143980143544, "Girls": 19.833087386516603}, {"year": 2016, "state": "Arunachal Pradesh", "BOYS": 16.08576855631962, "Girls": 28.825444099888095}, {"year": 2016, "state": "Assam", "BOYS": 11.278572528022858, "Girls": 5.292543287249217}, {"year": 2016, "state": "Bihar", "BOYS": 16.453505966691615, "Girls": 10.706837802671691}, {"year": 2016, "state": "Chhattisgarh", "BOYS": 14.617050260288016, "Girls": 11.663511983955777}, {"year": 2016, "state": "Goa", "BOYS": 14.300357649292641, "Girls": 14.192221681461112}, {"year": 2016, "state": "Gujarat", "BOYS": 9.004205692470146, "Girls": 15.517108830950702}, {"year": 2016, "state": "Haryana", "BOYS": 2.0652795942465083, "Girls": 17.185868620152668}, {"year": 2016, "state": "Himachal Pradesh", "BOYS": 22.855869387819638, "Girls": 25.312061717906175}, {"year": 2016, "state": "Jammu and Kashmir", "BOYS": 1.3284734034062442, "Girls": 7.357764660685261}, {"year": 2016, "state": "Jharkhand", "BOYS": 17.09760543942142, "Girls": 14.280011814644906}, {"year": 2016, "state": "Karnataka", "BOYS": 19.1316768052399, "Girls": 18.510238277975972}, {"year": 2016, "state": "Kerala", "BOYS": 7.923424014385898, "Girls": 25.062349360192158}, {"year": 2016, "state": "Madhya Pradesh", "BOYS": 7.082177127345846, "Girls": 3.94622969109596}, {"year": 2016, "state": "Maharashtra", "BOYS": 19.721347091333115, "Girls": 11.220816642292268}, {"year": 2016, "state": "Manipur", "BOYS": 4.084704794591188, "Girls": 11.038270426097226}, {"year": 2016, "state": "Meghalaya", "BOYS": 16.830511594166744, "Girls": 19.925542758262957}, {"year": 2016, "state": "Mizoram", "BOYS": 17.243511860822906, "Girls": 20.56139551112514}, {"year": 2016, "state": "Nagaland", "BOYS": 11.456284795183253, "Girls": 9.569324938478859}, {"year": 2016, "state": "Odisha", "BOYS": -0.7816533171780513, "Girls": 10.504339732707228}, {"year": 2016, "state": "Punjab", "BOYS": 14.376976712087354, "Girls": 6.312081883376758}, {"year": 2016, "state": "Rajasthan", "BOYS": 12.90064525345898, "Girls": 9.272446676416932}, {"year": 2016, "state": "Sikkim", "BOYS": 20.182367731146236, "Girls": 26.11922728152161}, {"year": 2016, "state": "Tamil Nadu", "BOYS": 13.084095477911957, "Girls": 25.453889626374746}, {"year": 2016, "state": "Telangana", "BOYS": 22.799121365278545, "Girls": 3.7279498187346913}, {"year": 2016, "state": "Tripura", "BOYS": 14.897132464135117, "Girls": 17.501143163466708}, {"year": 2016, "state": "Uttarakhand", "BOYS": 4.635761178613343, "Girls": 20.78313710277949}, {"year": 2016, "state": "Uttar Pradesh", "BOYS": 11.319180146328241, "Girls": 9.63255826902513}, {"year": 2016, "state": "West Bengal", "BOYS": 19.029924046770567, "Girls": 13.814519375506206}, {"year": 2016, "state": "Andaman and Nicobar Islands", "BOYS": 6.192810403505092, "Girls": 14.463237479969886}, {"year": 2016, "state": "Chandigarh", "BOYS": 7.136572606066636, "Girls": 25.605013370464114}, {"year": 2016, "state": "Dadra and Nagar Haveli", "BOYS": -0.07083866558617302, "Girls": 21.583031138684305}, {"year": 2016, "state": "Daman and Diu", "BOYS": 13.835357871692748, "Girls": 9.192411869420287}, {"year": 2016, "state": "Delhi", "BOYS": 23.467754967849096, "Girls": 6.623028425702268}, {"year": 2016, "state": "Lakshadweep", "BOYS": 22.90705231440264, "Girls": 25.616300501279035}, {"year": 2016, "state": "Puducherry", "BOYS": 13.196006819945792, "Girls": 27.697999759479266}, {"year": 2017, "state": "Andhra Pradesh", "BOYS": 5.350496020899432, "Girls": 14.094996057137696}, {"year": 2017, "state": "Arunachal Pradesh", "BOYS": 11.911465537218174, "Girls": 18.798732994088194}, {"year": 2017, "state": "Assam", "BOYS": 10.66208934845827, "Girls": 26.682815954410703}, {"year": 2017, "state": "Bihar", "BOYS": 19.26412007695664, "Girls": 27.70078099829534}, {"year": 2017, "state": "Chhattisgarh", "BOYS": 0.10650600997022419, "Girls": 8.196398580147047}, {"year": 2017, "state": "Goa", "BOYS": 14.596892804148137, "Girls": 3.9919133371509377}, {"year": 2017, "state": "Gujarat", "BOYS": 4.509690960708313, "Girls": 15.588831118266324}, {"year": 2017, "state": "Haryana", "BOYS": 10.437401105966881, "Girls": 26.198817535727972}, {"year": 2017, "state": "Himachal Pradesh", "BOYS": 22.584411088632116, "Girls": 13.961019888081392}, {"year": 2017, "state": "Jammu and Kashmir", "BOYS": 6.748299668666244, "Girls": 14.661522781780189}, {"year": 2017, "state": "Jharkhand", "BOYS": 11.539959436473683, "Girls": 14.088100681449223}, {"year": 2017, "state": "Karnataka", "BOYS": 0.11664046698489816, "Girls": 27.766303860679383}, {"year": 2017, "state": "Kerala", "BOYS": 15.140630201941512, "Girls": 18.794184928811998}, {"year": 2017, "state": "Madhya Pradesh", "BOYS": 16.98261313571316, "Girls": 16.743077258243364}, {"year": 2017, "state": "Maharashtra", "BOYS": 8.521058780805479, "Girls": 19.298543916859582}, {"year": 2017, "state": "Manipur", "BOYS": 21.683512286539166, "Girls": 24.3791312858738}, {"year": 2017, "state": "Meghalaya", "BOYS": 4.93811082115148, "Girls": 5.770745665608962}, {"year": 2017, "state": "Mizoram", "BOYS": 16.52795949855265, "Girls": 22.844334294192702}, {"year": 2017, "state": "Nagaland", "BOYS": 21.38997201172335, "Girls": 15.349835700341874}, {"year": 2017, "state": "Odisha", "BOYS": 15.11767717227383, "Girls": 25.713961698226047}, {"year": 2017, "state": "Punjab", "BOYS": 19.543575055016284, "Girls": 22.539886135708212}, {"year": 2017, "state": "Rajasthan", "BOYS": 0.5695218929258683, "Girls": 3.3562076601808615}, {"year": 2017, "state": "Sikkim", "BOYS": 11.963137879634264, "Girls": 15.362109166786585}, {"year": 2017, "state": "Tamil Nadu", "BOYS": 0.582332748280483, "Girls": 19.999123904381655}, {"year": 2017, "state": "Telangana", "BOYS": 7.819283993463862, "Girls": 26.034925559359326}, {"year": 2017, "state": "Tripura", "BOYS": 8.858238075959449, "Girls": 17.231990616496123}, {"year": 2017, "state": "Uttarakhand", "BOYS": 21.56294744211503, "Girls": 23.205780212121038}, {"year": 2017, "state": "Uttar Pradesh", "BOYS": 1.2477524136434868, "Girls": 15.613541924501352}, {"year": 2017, "state": "West Bengal", "BOYS": 17.971972342189932, "Girls": 12.731951102048576}, {"year": 2017, "state": "Andaman and Nicobar Islands", "BOYS": 1.4796300099380177, "Girls": 28.6962420663823}, {"year": 2017, "state": "Chandigarh", "BOYS": 14.666847621281295, "Girls": 9.5840066397575}, {"year": 2017, "state": "Dadra and Nagar Haveli", "BOYS": 1.1478934113895685, "Girls": 22.92558224676187}, {"year": 2017, "state": "Daman and Diu", "BOYS": 8.899417013251433, "Girls": 14.482757053119496}, {"year": 2017, "state": "Delhi", "BOYS": 1.0299800171401872, "Girls": 28.124313026877356}, {"year": 2017, "state": "Lakshadweep", "BOYS": 11.687337965409828, "Girls": 19.362373545664514}, {"year": 2017, "state": "Puducherry", "BOYS": 5.5172864463456515, "Girls": 26.721640815289017}, {"year": 2018, "state": "Andhra Pradesh", "BOYS": 2.5350826482316497, "Girls": 21.5598090162599}, {"year": 2018, "state": "Arunachal Pradesh", "BOYS": 5.6934003125070225, "Girls": 25.87934003690012}, {"year": 2018, "state": "Assam", "BOYS": 8.290992305235228, "Girls": 18.9052283395911}, {"year": 2018, "state": "Bihar", "BOYS": 8.694614316029018, "Girls": 27.004581898293882}, {"year": 2018, "state": "Chhattisgarh", "BOYS": 12.812979771006777, "Girls": 13.992387233849215}, {"year": 2018, "state": "Goa", "BOYS": 16.180387570760423, "Girls": 24.85644794230814}, {"year": 2018, "state": "Gujarat", "BOYS": 9.15657990279892, "Girls": 28.226868737847948}, {"year": 2018, "state": "Haryana", "BOYS": 7.193079308913625, "Girls": 11.426252230586268}, {"year": 2018, "state": "Himachal Pradesh", "BOYS": 8.751291281873474, "Girls": 8.508016028902784}, {"year": 2018, "state": "Jammu and Kashmir", "BOYS": 7.243700990314621, "Girls": 26.302870678936603}, {"year": 2018, "state": "Jharkhand", "BOYS": 20.9378354939519, "Girls": 23.275404219385464}, {"year": 2018, "state": "Karnataka", "BOYS": 9.1740013838475, "Girls": 18.859756262556438}, {"year": 2018, "state": "Kerala", "BOYS": 20.872489074903978, "Girls": 5.113640078321965}, {"year": 2018, "state": "Madhya Pradesh", "BOYS": 5.298504436519242, "Girls": 4.613130757720593}, {"year": 2018, "state": "Maharashtra", "BOYS": 11.745533781471895, "Girls": 12.09317424940157}, {"year": 2018, "state": "Manipur", "BOYS": 0.43845784628476014, "Girls": 2.7378974055798553}, {"year": 2018, "state": "Meghalaya", "BOYS": 17.89343208168783, "Girls": 12.11732809357471}, {"year": 2018, "state": "Mizoram", "BOYS": 8.546594186878423, "Girls": 24.68257267934632}, {"year": 2018, "state": "Nagaland", "BOYS": 20.339231528204667, "Girls": 21.705846286021938}, {"year": 2018, "state": "Odisha", "BOYS": 20.32473346469993, "Girls": 1.7477846895040203}, {"year": 2018, "state": "Punjab", "BOYS": 4.9450424825237596, "Girls": 11.88857402097737}, {"year": 2018, "state": "Rajasthan", "BOYS": 9.26011990474922, "Girls": 7.113138385262206}, {"year": 2018, "state": "Sikkim", "BOYS": 21.273021426271658, "Girls": 6.335476404578656}, {"year": 2018, "state": "Tamil Nadu", "BOYS": 9.357444458677445, "Girls": 10.877683587203354}, {"year": 2018, "state": "Telangana", "BOYS": 16.748437286657946, "Girls": 19.35356473609772}, {"year": 2018, "state": "Tripura", "BOYS": -1.1629261913286522, "Girls": 18.102784368000425}, {"year": 2018, "state": "Uttarakhand", "BOYS": 8.013626652059504, "Girls": 18.358552406188085}, {"year": 2018, "state": "Uttar Pradesh", "BOYS": 13.845833746180222, "Girls": 19.725345020638922}, {"year": 2018, "state": "West Bengal", "BOYS": 5.329543910399695, "Girls": 20.682985036355532}, {"year": 2018, "state": "Andaman and Nicobar Islands", "BOYS": 4.431760844686143, "Girls": 3.4225516287169624}, {"year": 2018, "state": "Chandigarh", "BOYS": 19.268894859222844, "Girls": 13.156736807407878}, {"year": 2018, "state": "Dadra and Nagar Haveli", "BOYS": 10.948428993276199, "Girls": 27.295456109742705}, {"year": 2018, "state": "Daman and Diu", "BOYS": 21.600562640760078, "Girls": 26.79760298763404}, {"year": 2018, "state": "Delhi", "BOYS": 8.916782189857155, "Girls": 7.215660714420555}, {"year": 2018, "state": "Lakshadweep", "BOYS": 15.555470827724811, "Girls": 13.01136076140526}, {"year": 2018, "state": "Puducherry", "BOYS": 13.848416930509845, "Girls": 7.704717582047549}, {"year": 2019, "state": "Andhra Pradesh", "BOYS": -1.6562199427021893, "Girls": 4.1514846138719985}, {"year": 2019, "state": "Arunachal Pradesh", "BOYS": 1.8695299399913452, "Girls": 24.87757684007881}, {"year": 2019, "state": "Assam", "BOYS": 19.179344903243248, "Girls": 17.417153227681574}, {"year": 2019, "state": "Bihar", "BOYS": 12.876177096224263, "Girls": 15.4551813682401}, {"year": 2019, "state": "Chhattisgarh", "BOYS": 7.606436072238623, "Girls": 3.3773430015655013}, {"year": 2019, "state": "Goa", "BOYS": 17.288686924155037, "Girls": 13.056421892788835}, {"year": 2019, "state": "Gujarat", "BOYS": 21.118569414815404, "Girls": 13.7260180499504}, {"year": 2019, "state": "Haryana", "BOYS": 17.06339087587768, "Girls": 20.077937471169278}, {"year": 2019, "state": "Himachal Pradesh", "BOYS": 12.986910387514415, "Girls": 20.56490649947134}, {"year": 2019, "state": "Jammu and Kashmir", "BOYS": 3.0943301256215214, "Girls": 1.8667640858153476}, {"year": 2019, "state": "Jharkhand", "BOYS": 17.411604935994134, "Girls": 1.3431645569049735}, {"year": 2019, "state": "Karnataka", "BOYS": 17.176858868116113, "Girls": 16.2694011886662}, {"year": 2019, "state": "Kerala", "BOYS": 0.9819628038247199, "Girls": 9.618710026280143}, {"year": 2019, "state": "Madhya Pradesh", "BOYS": 13.605481052813852, "Girls": 1.5016254204096242}, {"year": 2019, "state": "Maharashtra", "BOYS": -0.5672191923628036, "Girls": 11.196364758405453}, {"year": 2019, "state": "Manipur", "BOYS": 15.490784224272074, "Girls": 26.51925296822308}, {"year": 2019, "state": "Meghalaya", "BOYS": 9.661207432742904, "Girls": 12.643047985189897}, {"year": 2019, "state": "Mizoram", "BOYS": 5.6970582296818915, "Girls": 14.501478347179988}, {"year": 2019, "state": "Nagaland", "BOYS": 18.224706310819556, "Girls": 5.946531473818661}, {"year": 2019, "state": "Odisha", "BOYS": 19.407547386789766, "Girls": 26.581509800620502}, {"year": 2019, "state": "Punjab", "BOYS": 0.5350113741067712, "Girls": 22.635989541332343}, {"year": 2019, "state": "Rajasthan", "BOYS": 3.3772639933829236, "Girls": 19.231789171986478}, {"year": 2019, "state": "Sikkim", "BOYS": -1.4892961612617448, "Girls": 23.302470868385456}, {"year": 2019, "state": "Tamil Nadu", "BOYS": 0.9525536662512071, "Girls": 8.352164734954755}, {"year": 2019, "state": "Telangana", "BOYS": 8.521081083750348, "Girls": 17.174565246273694}, {"year": 2019, "state": "Tripura", "BOYS": 10.565627229640297, "Girls": 15.453580558875627}, {"year": 2019, "state": "Uttarakhand", "BOYS": 19.952914271390533, "Girls": 10.982444204262402}, {"year": 2019, "state": "Uttar Pradesh", "BOYS": 2.7963109053155044, "Girls": 8.850199467264192}, {"year": 2019, "state": "West Bengal", "BOYS": 10.789125582720123, "Girls": 27.44421843621013}, {"year": 2019, "state": "Andaman and Nicobar Islands", "BOYS": 0.9746377704526878, "Girls": 1.6109686900452118}, {"year": 2019, "state": "Chandigarh", "BOYS": 11.348174176157892, "Girls": 23.757150901866375}, {"year": 2019, "state": "Dadra and Nagar Haveli", "BOYS": 9.65189241592712, "Girls": 8.783353862913264}, {"year": 2019, "state": "Daman and Diu", "BOYS": 2.9656019549667025, "Girls": 7.745064232565589}, {"year": 2019, "state": "Delhi", "BOYS": 2.8012841969642537, "Girls": 25.72060054183516}, {"year": 2019, "state": "Lakshadweep", "BOYS": 20.036927094162586, "Girls": 20.845456151556867}, {"year": 2019, "state": "Puducherry", "BOYS": 12.744761603391785, "Girls": 25.75044201584138}, {"year": 2020, "state": "Andhra Pradesh", "BOYS": 18.992968402168632, "Girls": 1.0769979502593205}, {"year": 2020, "state": "Arunachal Pradesh", "BOYS": 8.417902740706008, "Girls": 9.82824645453045}, {"year": 2020, "state": "Assam", "BOYS": 12.00726062577155, "Girls": 21.752096002437394}, {"year": 2020, "state": "Bihar", "BOYS": 15.52535404782034, "Girls": 24.87559085592018}, {"year": 2020, "state": "Chhattisgarh", "BOYS": 0.8056056437596215, "Girls": 11.50285424789163}, {"year": 2020, "state": "Goa", "BOYS": 11.185368722971326, "Girls": 15.088856120680624}, {"year": 2020, "state": "Gujarat", "BOYS": 2.3400818170229236, "Girls": 6.748115331623508}, {"year": 2020, "state": "Haryana", "BOYS": 6.980279598274095, "Girls": 8.610517700945273}, {"year": 2020, "state": "Himachal Pradesh", "BOYS": 5.080047496224335, "Girls": 25.950367676657592}, {"year": 2020, "state": "Jammu and Kashmir", "BOYS": 14.90777587540666, "Girls": 6.097834330104318}, {"year": 2020, "state": "Jharkhand", "BOYS": 4.978946987154956, "Girls": 16.93538042337544}, {"year": 2020, "state": "Karnataka", "BOYS": 20.550946592345554, "Girls": 18.67722919677234}, {"year": 2020, "state": "Kerala", "BOYS": -1.7600436746621684, "Girls": 22.980739286372675}, {"year": 2020, "state": "Madhya Pradesh", "BOYS": 17.83153867285127, "Girls": 10.026011484569548}, {"year": 2020, "state": "Maharashtra", "BOYS": 7.0100328537494345, "Girls": 10.424855504348635}, {"year": 2020, "state": "Manipur", "BOYS": 13.547567681232696, "Girls": 24.205887932787974}, {"year": 2020, "state": "Meghalaya", "BOYS": 22.36519601669766, "Girls": 18.575823059582888}, {"year": 2020, "state": "Mizoram", "BOYS": 11.176902488497294, "Girls": 16.863590118976894}, {"year": 2020, "state": "Nagaland", "BOYS": -1.4560576060691615, "Girls": 15.86419891991411}, {"year": 2020, "state": "Odisha", "BOYS": -0.4692932236712304, "Girls": 25.511673400475786}, {"year": 2020, "state": "Punjab", "BOYS": 3.6114907421999263, "Girls": 16.149797811825696}, {"year": 2020, "state": "Rajasthan", "BOYS": -1.9524085679233423, "Girls": 18.821762629659418}, {"year": 2020, "state": "Sikkim", "BOYS": 19.34012911036018, "Girls": 24.0785980381512}, {"year": 2020, "state": "Tamil Nadu", "BOYS": 17.229045734135898, "Girls": 5.757614917972251}, {"year": 2020, "state": "Telangana", "BOYS": 5.136403758257051, "Girls": 24.021897433628894}, {"year": 2020, "state": "Tripura", "BOYS": 15.203729797466458, "Girls": 23.47140422250239}, {"year": 2020, "state": "Uttarakhand", "BOYS": 1.879359868042613, "Girls": 21.74479714919983}, {"year": 2020, "state": "Uttar Pradesh", "BOYS": 20.89376063568049, "Girls": 12.706010692167752}, {"year": 2020, "state": "West Bengal", "BOYS": 21.446057914999408, "Girls": 24.955505541630124}, {"year": 2020, "state": "Andaman and Nicobar Islands", "BOYS": 6.530851558976973, "Girls": 21.07082714026859}, {"year": 2020, "state": "Chandigarh", "BOYS": 16.42741504869095, "Girls": 25.64475681443794}, {"year": 2020, "state": "Dadra and Nagar Haveli", "BOYS": 19.004290686462525, "Girls": 15.472631660889629}, {"year": 2020, "state": "Daman and Diu", "BOYS": 20.945931695095908, "Girls": 18.8883645250286}, {"year": 2020, "state": "Delhi", "BOYS": 11.790952573896242, "Girls": 26.2229444225118}, {"year": 2020, "state": "Lakshadweep", "BOYS": 20.318622978874455, "Girls": 3.3823314468841286}, {"year": 2020, "state": "Puducherry", "BOYS": 13.374770208338916, "Girls": 18.523616299840853}, {"year": 2021, "state": "Andhra Pradesh", "BOYS": -0.3548307533968451, "Girls": 12.43696457555894}, {"year": 2021, "state": "Arunachal Pradesh", "BOYS": 4.799752206356883, "Girls": 11.926235204314443}, {"year": 2021, "state": "Assam", "BOYS": 20.791790997709363, "Girls": 15.2552418200747}, {"year": 2021, "state": "Bihar", "BOYS": 5.020240955869026, "Girls": 23.811206603552513}, {"year": 2021, "state": "Chhattisgarh", "BOYS": 14.268402730715534, "Girls": 12.999503443125276}, {"year": 2021, "state": "Goa", "BOYS": 8.794783760674482, "Girls": 24.987447560602533}, {"year": 2021, "state": "Gujarat", "BOYS": 12.482685162392807, "Girls": 25.315146582370545}, {"year": 2021, "state": "Haryana", "BOYS": 18.20119674775742, "Girls": 17.481853914878442}, {"year": 2021, "state": "Himachal Pradesh", "BOYS": 6.2670239206434, "Girls": 22.4505443991238}, {"year": 2021, "state": "Jammu and Kashmir", "BOYS": 2.0096298484012127, "Girls": 25.813639923198316}, {"year": 2021, "state": "Jharkhand", "BOYS": 11.071710448556244, "Girls": 18.700228043281854}, {"year": 2021, "state": "Karnataka", "BOYS": -1.2652618815071737, "Girls": 18.460997098993168}, {"year": 2021, "state": "Kerala", "BOYS": 2.965937050340221, "Girls": 15.572444206159416}, {"year": 2021, "state": "Madhya Pradesh", "BOYS": 16.307689927625887, "Girls": 24.62942407157881}, {"year": 2021, "state": "Maharashtra", "BOYS": -0.38518447548044676, "Girls": 10.386704632175283}, {"year": 2021, "state": "Manipur", "BOYS": 11.312212096410098, "Girls": 26.234725653238584}, {"year": 2021, "state": "Meghalaya", "BOYS": 18.25479304144956, "Girls": 5.659576367204915}, {"year": 2021, "state": "Mizoram", "BOYS": 15.18809273732593, "Girls": 12.119022417078417}, {"year": 2021, "state": "Nagaland", "BOYS": 10.615229952482265, "Girls": 23.65072361152034}, {"year": 2021, "state": "Odisha", "BOYS": 9.931500381875596, "Girls": 0.39716393289942076}, {"year": 2021, "state": "Punjab", "BOYS": 6.327758643027908, "Girls": 10.637447328991284}, {"year": 2021, "state": "Rajasthan", "BOYS": 21.926815374531543, "Girls": 25.987339975461175}, {"year": 2021, "state": "Sikkim", "BOYS": 6.606869302761714, "Girls": 11.337547168026992}, {"year": 2021, "state": "Tamil Nadu", "BOYS": 21.74213550016858, "Girls": 3.533466042430602}, {"year": 2021, "state": "Telangana", "BOYS": 8.307150842715748, "Girls": 10.235079404960702}, {"year": 2021, "state": "Tripura", "BOYS": 11.546836837899361, "Girls": 5.510493015373671}, {"year": 2021, "state": "Uttarakhand", "BOYS": 16.542735861702788, "Girls": 21.860775528972624}, {"year": 2021, "state": "Uttar Pradesh", "BOYS": -0.9871490925044641, "Girls": 16.468856679973122}, {"year": 2021, "state": "West Bengal", "BOYS": 10.2772746633225, "Girls": 24.2970604320382}, {"year": 2021, "state": "Andaman and Nicobar Islands", "BOYS": 4.032648392613895, "Girls": 9.166429254757356}, {"year": 2021, "state": "Chandigarh", "BOYS": 17.705198662425005, "Girls": 4.910293886318348}, {"year": 2021, "state": "Dadra and Nagar Haveli", "BOYS": 16.003668888305107, "Girls": 2.4514071718019323}, {"year": 2021, "state": "Daman and Diu", "BOYS": 7.350275779226877, "Girls": 24.152575052407194}, {"year": 2021, "state": "Delhi", "BOYS": 6.843987747359932, "Girls": 23.589949302810822}, {"year": 2021, "state": "Lakshadweep", "BOYS": 12.438574088022493, "Girls": 20.5033590570484}, {"year": 2021, "state": "Puducherry", "BOYS": -0.7736947990533514, "Girls": 16.891407716877524}, {"year": 2022, "state": "Andhra Pradesh", "BOYS": 5.60586942712639, "Girls": 10.975722640250417}, {"year": 2022, "state": "Arunachal Pradesh", "BOYS": 13.933274932868507, "Girls": 2.2225268078735354}, {"year": 2022, "state": "Assam", "BOYS": 11.053645811822047, "Girls": 21.555721637064725}, {"year": 2022, "state": "Bihar", "BOYS": 17.55570353488103, "Girls": 12.039649493701713}, {"year": 2022, "state": "Chhattisgarh", "BOYS": 18.057363973226064, "Girls": 24.294226026168705}, {"year": 2022, "state": "Goa", "BOYS": 12.30588354196573, "Girls": 9.014346520133508}, {"year": 2022, "state": "Gujarat", "BOYS": 13.514211307080025, "Girls": 21.805965735109975}, {"year": 2022, "state": "Haryana", "BOYS": 8.30744236284518, "Girls": 23.669664144800674}, {"year": 2022, "state": "Himachal Pradesh", "BOYS": 3.5861749174123077, "Girls": 15.108787308101213}, {"year": 2022, "state": "Jammu and Kashmir", "BOYS": -1.3677000467698548, "Girls": 3.6402212017071527}, {"year": 2022, "state": "Jharkhand", "BOYS": 17.12910210160634, "Girls": 12.728809664513314}, {"year": 2022, "state": "Karnataka", "BOYS": 15.92764595140368, "Girls": 18.595439341383944}, {"year": 2022, "state": "Kerala", "BOYS": 15.913650219429275, "Girls": 13.685431733337385}, {"year": 2022, "state": "Madhya Pradesh", "BOYS": 4.6229578421341735, "Girls": 13.371042782280878}, {"year": 2022, "state": "Maharashtra", "BOYS": 9.360095864896092, "Girls": 14.463234681105224}, {"year": 2022, "state": "Manipur", "BOYS": 11.317509921452352, "Girls": 18.485043984456627}, {"year": 2022, "state": "Meghalaya", "BOYS": 14.400760524222445, "Girls": 15.167247663063325}, {"year": 2022, "state": "Mizoram", "BOYS": 17.18427727819524, "Girls": 18.43313272195159}, {"year": 2022, "state": "Nagaland", "BOYS": 0.013447448315838884, "Girls": 21.46396822509663}, {"year": 2022, "state": "Odisha", "BOYS": -0.7573081491211617, "Girls": 11.252930507110385}, {"year": 2022, "state": "Punjab", "BOYS": 17.39180256342212, "Girls": 9.790165839506574}, {"year": 2022, "state": "Rajasthan", "BOYS": 13.7808528374945, "Girls": 17.438409755234876}, {"year": 2022, "state": "Sikkim", "BOYS": 18.8044963000101, "Girls": 16.38189336292347}, {"year": 2022, "state": "Tamil Nadu", "BOYS": 18.50006320287704, "Girls": 18.89074320874908}, {"year": 2022, "state": "Telangana", "BOYS": -0.9799227215662292, "Girls": 0.8755728130441032}, {"year": 2022, "state": "Tripura", "BOYS": 10.962413458057664, "Girls": 11.219703582585655}, {"year": 2022, "state": "Uttarakhand", "BOYS": 16.306707141097874, "Girls": 16.63330980918035}, {"year": 2022, "state": "Uttar Pradesh", "BOYS": 6.47744455744556, "Girls": 2.487606287700979}, {"year": 2022, "state": "West Bengal", "BOYS": 2.484053039523733, "Girls": 6.670400492285504}, {"year": 2022, "state": "Andaman and Nicobar Islands", "BOYS": 11.310631162744954, "Girls": 9.978536580530633}, {"year": 2022, "state": "Chandigarh", "BOYS": 17.879504439774465, "Girls": 12.504942877109354}, {"year": 2022, "state": "Dadra and Nagar Haveli", "BOYS": 15.083553298090155, "Girls": 23.490134839792898}, {"year": 2022, "state": "Daman and Diu", "BOYS": 16.600572900957065, "Girls": 0.043493093515236225}, {"year": 2022, "state": "Delhi", "BOYS": 6.029311903559467, "Girls": 15.362757087405384}, {"year": 2022, "state": "Lakshadweep", "BOYS": 2.4668422064609192, "Girls": 16.11684549600537}, {"year": 2022, "state": "Puducherry", "BOYS": 12.657526787667678, "Girls": 18.49934290841382}]}
+{
+  "ByYearBygender": [
+    { "year": 2000, "BOYS": 25.18828907850797, "Girls": 10.623000938214286 },
+    { "year": 2001, "BOYS": 10.584241645953616, "Girls": 20.475835622657932 },
+    { "year": 2002, "BOYS": 17.391174123238446, "Girls": 14.929392836063311 },
+    { "year": 2003, "BOYS": 22.059036946362223, "Girls": 19.11379685816422 },
+    { "year": 2004, "BOYS": 14.414144252287148, "Girls": 26.776103925920125 },
+    { "year": 2005, "BOYS": 27.53366012308806, "Girls": 15.32809408369203 },
+    { "year": 2006, "BOYS": 15.571651758399186, "Girls": 20.882143384100594 },
+    { "year": 2007, "BOYS": 13.358638983966216, "Girls": 17.08073917120265 },
+    { "year": 2008, "BOYS": 25.881020813863373, "Girls": 30.21119691874833 },
+    { "year": 2009, "BOYS": 25.907477400540593, "Girls": 23.513666782743954 },
+    { "year": 2010, "BOYS": 17.41628074595322, "Girls": 18.645953217910858 },
+    { "year": 2011, "BOYS": 19.784746365576762, "Girls": 25.920167578439738 },
+    { "year": 2012, "BOYS": 30.94746687143968, "Girls": 27.611288333680534 },
+    { "year": 2013, "BOYS": 27.061536397432548, "Girls": 32.36533316290249 },
+    { "year": 2014, "BOYS": 37.01085730921632, "Girls": 35.18445644609455 },
+    { "year": 2015, "BOYS": 35.37037510597977, "Girls": 35.478935978855354 },
+    { "year": 2016, "BOYS": 31.579464274365577, "Girls": 30.257863869206236 },
+    { "year": 2017, "BOYS": 41.467028938864146, "Girls": 30.313183037230115 },
+    { "year": 2018, "BOYS": 39.54440894886238, "Girls": 34.56853458698603 },
+    { "year": 2019, "BOYS": 34.906335190911506, "Girls": 37.445150438685744 },
+    { "year": 2020, "BOYS": 29.81910121703573, "Girls": 39.50153749783103 },
+    { "year": 2021, "BOYS": 45.443932906941704, "Girls": 34.158429496699554 },
+    { "year": 2022, "BOYS": 35.886718835287155, "Girls": 43.406834998240825 }
+  ],
+  "ByRegionByyear": [
+    {
+      "year": 2000,
+      "state": "Andhra Pradesh",
+      "BOYS": 19.14295748943563,
+      "Girls": 20.11423066715603
+    },
+    {
+      "year": 2000,
+      "state": "Arunachal Pradesh",
+      "BOYS": 24.238293231295238,
+      "Girls": 19.697714168144582
+    },
+    {
+      "year": 2000,
+      "state": "Assam",
+      "BOYS": 12.492869335516472,
+      "Girls": 10.711189927394312
+    },
+    {
+      "year": 2000,
+      "state": "Bihar",
+      "BOYS": 23.475865302169893,
+      "Girls": 9.140089146094875
+    },
+    {
+      "year": 2000,
+      "state": "Chhattisgarh",
+      "BOYS": 25.723845686696613,
+      "Girls": 20.118787118858172
+    },
+    {
+      "year": 2000,
+      "state": "Goa",
+      "BOYS": 10.752622886227767,
+      "Girls": 15.146682189358078
+    },
+    {
+      "year": 2000,
+      "state": "Gujarat",
+      "BOYS": 12.827004981668953,
+      "Girls": 30.311560531480108
+    },
+    {
+      "year": 2000,
+      "state": "Haryana",
+      "BOYS": 12.063151001081863,
+      "Girls": 31.729175185200916
+    },
+    {
+      "year": 2000,
+      "state": "Himachal Pradesh",
+      "BOYS": 11.514932910076004,
+      "Girls": 11.34695628500518
+    },
+    {
+      "year": 2000,
+      "state": "Jammu and Kashmir",
+      "BOYS": 12.796113753032804,
+      "Girls": 16.395723039129464
+    },
+    {
+      "year": 2000,
+      "state": "Jharkhand",
+      "BOYS": 9.057038861075192,
+      "Girls": 23.42757730234129
+    },
+    {
+      "year": 2000,
+      "state": "Karnataka",
+      "BOYS": 27.83744225499621,
+      "Girls": 17.14161761964609
+    },
+    {
+      "year": 2000,
+      "state": "Kerala",
+      "BOYS": 27.80988666635997,
+      "Girls": 23.34262052623957
+    },
+    {
+      "year": 2000,
+      "state": "Madhya Pradesh",
+      "BOYS": 5.851068611536181,
+      "Girls": 33.278385738536485
+    },
+    {
+      "year": 2000,
+      "state": "Maharashtra",
+      "BOYS": 11.317463779802765,
+      "Girls": 17.80070346336205
+    },
+    {
+      "year": 2000,
+      "state": "Manipur",
+      "BOYS": 12.717824733842875,
+      "Girls": 30.017062098103935
+    },
+    {
+      "year": 2000,
+      "state": "Meghalaya",
+      "BOYS": 30.373329822238226,
+      "Girls": 15.9005098502669
+    },
+    {
+      "year": 2000,
+      "state": "Mizoram",
+      "BOYS": 30.1256733290931,
+      "Girls": 10.252470691839505
+    },
+    {
+      "year": 2000,
+      "state": "Nagaland",
+      "BOYS": 22.758072826357854,
+      "Girls": 19.388527432502688
+    },
+    {
+      "year": 2000,
+      "state": "Odisha",
+      "BOYS": 28.116853062719375,
+      "Girls": 27.53107035067289
+    },
+    {
+      "year": 2000,
+      "state": "Punjab",
+      "BOYS": 21.213582521339045,
+      "Girls": 17.84150820184923
+    },
+    {
+      "year": 2000,
+      "state": "Rajasthan",
+      "BOYS": 24.161311741338693,
+      "Girls": 32.08608299358346
+    },
+    {
+      "year": 2000,
+      "state": "Sikkim",
+      "BOYS": 21.791082285655545,
+      "Girls": 21.265461632481014
+    },
+    {
+      "year": 2000,
+      "state": "Tamil Nadu",
+      "BOYS": 16.460625577985326,
+      "Girls": 30.339148264813765
+    },
+    {
+      "year": 2000,
+      "state": "Telangana",
+      "BOYS": 16.871765773490452,
+      "Girls": 28.410420374280076
+    },
+    {
+      "year": 2000,
+      "state": "Tripura",
+      "BOYS": 20.02073750689368,
+      "Girls": 22.315968458516167
+    },
+    {
+      "year": 2000,
+      "state": "Uttarakhand",
+      "BOYS": 15.583112517450948,
+      "Girls": 26.48898988076375
+    },
+    {
+      "year": 2000,
+      "state": "Uttar Pradesh",
+      "BOYS": 24.433151092765986,
+      "Girls": 13.348640646941183
+    },
+    {
+      "year": 2000,
+      "state": "West Bengal",
+      "BOYS": 28.700255271518962,
+      "Girls": 25.46499997214978
+    },
+    {
+      "year": 2000,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 24.262532720216164,
+      "Girls": 16.489416640508658
+    },
+    {
+      "year": 2000,
+      "state": "Chandigarh",
+      "BOYS": 11.194346274635265,
+      "Girls": 16.851767602949803
+    },
+    {
+      "year": 2000,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 9.801285784278104,
+      "Girls": 26.06695470396262
+    },
+    {
+      "year": 2000,
+      "state": "Daman and Diu",
+      "BOYS": 26.68136503643328,
+      "Girls": 25.410543214168513
+    },
+    {
+      "year": 2000,
+      "state": "Delhi",
+      "BOYS": 6.32370839305829,
+      "Girls": 22.654277658541872
+    },
+    {
+      "year": 2000,
+      "state": "Lakshadweep",
+      "BOYS": 25.85868801936234,
+      "Girls": 34.281817099378834
+    },
+    {
+      "year": 2000,
+      "state": "Puducherry",
+      "BOYS": 16.088048589562895,
+      "Girls": 25.13819392462771
+    },
+    {
+      "year": 2001,
+      "state": "Andhra Pradesh",
+      "BOYS": 17.54974335913199,
+      "Girls": 19.410629176359578
+    },
+    {
+      "year": 2001,
+      "state": "Arunachal Pradesh",
+      "BOYS": 23.9069499928334,
+      "Girls": 15.027629613536359
+    },
+    {
+      "year": 2001,
+      "state": "Assam",
+      "BOYS": 16.717222178574712,
+      "Girls": 16.70908249386475
+    },
+    {
+      "year": 2001,
+      "state": "Bihar",
+      "BOYS": 20.33651530128223,
+      "Girls": 15.265076967009025
+    },
+    {
+      "year": 2001,
+      "state": "Chhattisgarh",
+      "BOYS": 27.143265353800935,
+      "Girls": 16.542115457694678
+    },
+    {
+      "year": 2001,
+      "state": "Goa",
+      "BOYS": 14.023916412194529,
+      "Girls": 13.69461399328828
+    },
+    {
+      "year": 2001,
+      "state": "Gujarat",
+      "BOYS": 14.160232513294705,
+      "Girls": 14.127314244192165
+    },
+    {
+      "year": 2001,
+      "state": "Haryana",
+      "BOYS": 17.793191347058965,
+      "Girls": 10.00001410894454
+    },
+    {
+      "year": 2001,
+      "state": "Himachal Pradesh",
+      "BOYS": 26.117996481818334,
+      "Girls": 18.5529840284659
+    },
+    {
+      "year": 2001,
+      "state": "Jammu and Kashmir",
+      "BOYS": 7.1754227727057645,
+      "Girls": 16.174328870631584
+    },
+    {
+      "year": 2001,
+      "state": "Jharkhand",
+      "BOYS": 8.951869479685053,
+      "Girls": 18.94946135132756
+    },
+    {
+      "year": 2001,
+      "state": "Karnataka",
+      "BOYS": 6.019734063652333,
+      "Girls": 12.47015256990552
+    },
+    {
+      "year": 2001,
+      "state": "Kerala",
+      "BOYS": 17.3818987106281,
+      "Girls": 17.404049449234165
+    },
+    {
+      "year": 2001,
+      "state": "Madhya Pradesh",
+      "BOYS": 7.76693797215388,
+      "Girls": 10.043883368394892
+    },
+    {
+      "year": 2001,
+      "state": "Maharashtra",
+      "BOYS": 8.779095824973746,
+      "Girls": 14.168593938548764
+    },
+    {
+      "year": 2001,
+      "state": "Manipur",
+      "BOYS": 9.441232187950192,
+      "Girls": 15.09232849183753
+    },
+    {
+      "year": 2001,
+      "state": "Meghalaya",
+      "BOYS": 24.563422448103367,
+      "Girls": 23.164866280115795
+    },
+    {
+      "year": 2001,
+      "state": "Mizoram",
+      "BOYS": 11.936272155151746,
+      "Girls": 14.050848034715068
+    },
+    {
+      "year": 2001,
+      "state": "Nagaland",
+      "BOYS": 24.47017853790884,
+      "Girls": 26.679675815520834
+    },
+    {
+      "year": 2001,
+      "state": "Odisha",
+      "BOYS": 26.79409869951237,
+      "Girls": 21.44426469808993
+    },
+    {
+      "year": 2001,
+      "state": "Punjab",
+      "BOYS": 18.224031765524412,
+      "Girls": 31.642256597630855
+    },
+    {
+      "year": 2001,
+      "state": "Rajasthan",
+      "BOYS": 6.74864180897181,
+      "Girls": 14.785063992833376
+    },
+    {
+      "year": 2001,
+      "state": "Sikkim",
+      "BOYS": 8.564602221844359,
+      "Girls": 13.689740247382916
+    },
+    {
+      "year": 2001,
+      "state": "Tamil Nadu",
+      "BOYS": 12.14804194202427,
+      "Girls": 23.469086039107445
+    },
+    {
+      "year": 2001,
+      "state": "Telangana",
+      "BOYS": 23.36233872634883,
+      "Girls": 12.998012649128599
+    },
+    {
+      "year": 2001,
+      "state": "Tripura",
+      "BOYS": 11.744223815342334,
+      "Girls": 21.873161717873156
+    },
+    {
+      "year": 2001,
+      "state": "Uttarakhand",
+      "BOYS": 22.820120964848748,
+      "Girls": 26.624267952584557
+    },
+    {
+      "year": 2001,
+      "state": "Uttar Pradesh",
+      "BOYS": 6.415933545142842,
+      "Girls": 14.19818441008272
+    },
+    {
+      "year": 2001,
+      "state": "West Bengal",
+      "BOYS": 14.783811004356465,
+      "Girls": 22.16443415736063
+    },
+    {
+      "year": 2001,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 12.035945554780147,
+      "Girls": 19.753206111113474
+    },
+    {
+      "year": 2001,
+      "state": "Chandigarh",
+      "BOYS": 6.066001608497705,
+      "Girls": 10.616288753504032
+    },
+    {
+      "year": 2001,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 20.324260797348323,
+      "Girls": 16.71986697276549
+    },
+    {
+      "year": 2001,
+      "state": "Daman and Diu",
+      "BOYS": 15.534462165968613,
+      "Girls": 9.467643528003052
+    },
+    {
+      "year": 2001,
+      "state": "Delhi",
+      "BOYS": 11.32011190671791,
+      "Girls": 15.925795196928219
+    },
+    {
+      "year": 2001,
+      "state": "Lakshadweep",
+      "BOYS": 23.558329914466512,
+      "Girls": 18.602824711918338
+    },
+    {
+      "year": 2001,
+      "state": "Puducherry",
+      "BOYS": 16.72595456382769,
+      "Girls": 16.611904244795337
+    },
+    {
+      "year": 2002,
+      "state": "Andhra Pradesh",
+      "BOYS": 18.663832817451638,
+      "Girls": 15.886882512563083
+    },
+    {
+      "year": 2002,
+      "state": "Arunachal Pradesh",
+      "BOYS": 23.20818551148128,
+      "Girls": 15.46267407149033
+    },
+    {
+      "year": 2002,
+      "state": "Assam",
+      "BOYS": 15.273478336525148,
+      "Girls": 23.14918053698688
+    },
+    {
+      "year": 2002,
+      "state": "Bihar",
+      "BOYS": 21.79388682553942,
+      "Girls": 14.952549415937886
+    },
+    {
+      "year": 2002,
+      "state": "Chhattisgarh",
+      "BOYS": 23.79957037202325,
+      "Girls": 26.46877156304071
+    },
+    {
+      "year": 2002,
+      "state": "Goa",
+      "BOYS": 21.757456031468102,
+      "Girls": 14.13224201299577
+    },
+    {
+      "year": 2002,
+      "state": "Gujarat",
+      "BOYS": 23.372596693400922,
+      "Girls": 24.540607128689185
+    },
+    {
+      "year": 2002,
+      "state": "Haryana",
+      "BOYS": 27.219767248971632,
+      "Girls": 20.295553987430505
+    },
+    {
+      "year": 2002,
+      "state": "Himachal Pradesh",
+      "BOYS": 28.582963513335205,
+      "Girls": 9.101413482690047
+    },
+    {
+      "year": 2002,
+      "state": "Jammu and Kashmir",
+      "BOYS": 19.85727780363854,
+      "Girls": 8.014878878509073
+    },
+    {
+      "year": 2002,
+      "state": "Jharkhand",
+      "BOYS": 29.524729573751298,
+      "Girls": 13.259761134282993
+    },
+    {
+      "year": 2002,
+      "state": "Karnataka",
+      "BOYS": 13.739639550900456,
+      "Girls": 7.8415248436609675
+    },
+    {
+      "year": 2002,
+      "state": "Kerala",
+      "BOYS": 13.282495519572993,
+      "Girls": 32.12524060966566
+    },
+    {
+      "year": 2002,
+      "state": "Madhya Pradesh",
+      "BOYS": 17.877158944275667,
+      "Girls": 15.516523264197506
+    },
+    {
+      "year": 2002,
+      "state": "Maharashtra",
+      "BOYS": 9.133966293368008,
+      "Girls": 20.940403755117707
+    },
+    {
+      "year": 2002,
+      "state": "Manipur",
+      "BOYS": 11.86637526544897,
+      "Girls": 33.79667704905687
+    },
+    {
+      "year": 2002,
+      "state": "Meghalaya",
+      "BOYS": 25.010429328578965,
+      "Girls": 24.68464059310077
+    },
+    {
+      "year": 2002,
+      "state": "Mizoram",
+      "BOYS": 18.51740268002288,
+      "Girls": 23.14563685250526
+    },
+    {
+      "year": 2002,
+      "state": "Nagaland",
+      "BOYS": 27.69329942511683,
+      "Girls": 21.33049307725349
+    },
+    {
+      "year": 2002,
+      "state": "Odisha",
+      "BOYS": 13.007262429340706,
+      "Girls": 14.261115446234292
+    },
+    {
+      "year": 2002,
+      "state": "Punjab",
+      "BOYS": 22.22498829541497,
+      "Girls": 22.73332967769959
+    },
+    {
+      "year": 2002,
+      "state": "Rajasthan",
+      "BOYS": 5.631666276646437,
+      "Girls": 13.180753922513771
+    },
+    {
+      "year": 2002,
+      "state": "Sikkim",
+      "BOYS": 19.86242193909405,
+      "Girls": 23.505535777868303
+    },
+    {
+      "year": 2002,
+      "state": "Tamil Nadu",
+      "BOYS": 5.734132831521967,
+      "Girls": 28.45382818694547
+    },
+    {
+      "year": 2002,
+      "state": "Telangana",
+      "BOYS": 11.28409442216639,
+      "Girls": 32.23986438288031
+    },
+    {
+      "year": 2002,
+      "state": "Tripura",
+      "BOYS": 26.717536577627243,
+      "Girls": 20.032121932271185
+    },
+    {
+      "year": 2002,
+      "state": "Uttarakhand",
+      "BOYS": 27.49059397065555,
+      "Girls": 17.612013285794653
+    },
+    {
+      "year": 2002,
+      "state": "Uttar Pradesh",
+      "BOYS": 18.81081085769491,
+      "Girls": 28.83600957282824
+    },
+    {
+      "year": 2002,
+      "state": "West Bengal",
+      "BOYS": 20.05703946273399,
+      "Girls": 22.27421185318244
+    },
+    {
+      "year": 2002,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 27.695531995928068,
+      "Girls": 17.987925436863506
+    },
+    {
+      "year": 2002,
+      "state": "Chandigarh",
+      "BOYS": 23.624839297309762,
+      "Girls": 26.87959654206323
+    },
+    {
+      "year": 2002,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 13.876704114082138,
+      "Girls": 18.071157523907818
+    },
+    {
+      "year": 2002,
+      "state": "Daman and Diu",
+      "BOYS": 20.558046076910333,
+      "Girls": 29.49519092727925
+    },
+    {
+      "year": 2002,
+      "state": "Delhi",
+      "BOYS": 15.439335284800684,
+      "Girls": 9.8302222147137
+    },
+    {
+      "year": 2002,
+      "state": "Lakshadweep",
+      "BOYS": 23.900223735318022,
+      "Girls": 33.205546931752345
+    },
+    {
+      "year": 2002,
+      "state": "Puducherry",
+      "BOYS": 23.661658676909198,
+      "Girls": 17.93540635672516
+    },
+    {
+      "year": 2003,
+      "state": "Andhra Pradesh",
+      "BOYS": 8.585080357652508,
+      "Girls": 23.497382850083664
+    },
+    {
+      "year": 2003,
+      "state": "Arunachal Pradesh",
+      "BOYS": 28.384336269838073,
+      "Girls": 34.0240567722475
+    },
+    {
+      "year": 2003,
+      "state": "Assam",
+      "BOYS": 13.312718636432086,
+      "Girls": 25.80171359002769
+    },
+    {
+      "year": 2003,
+      "state": "Bihar",
+      "BOYS": 11.033505259208347,
+      "Girls": 12.72716022384823
+    },
+    {
+      "year": 2003,
+      "state": "Chhattisgarh",
+      "BOYS": 4.782500525877372,
+      "Girls": 28.775354356649636
+    },
+    {
+      "year": 2003,
+      "state": "Goa",
+      "BOYS": 23.571591923251066,
+      "Girls": 25.28934266185734
+    },
+    {
+      "year": 2003,
+      "state": "Gujarat",
+      "BOYS": 20.537928642742546,
+      "Girls": 19.15659325410138
+    },
+    {
+      "year": 2003,
+      "state": "Haryana",
+      "BOYS": 12.95682758669492,
+      "Girls": 24.255707782138728
+    },
+    {
+      "year": 2003,
+      "state": "Himachal Pradesh",
+      "BOYS": 28.026194994284385,
+      "Girls": 22.26545592145926
+    },
+    {
+      "year": 2003,
+      "state": "Jammu and Kashmir",
+      "BOYS": 15.394730216120632,
+      "Girls": 8.193886721584827
+    },
+    {
+      "year": 2003,
+      "state": "Jharkhand",
+      "BOYS": 29.122703881395363,
+      "Girls": 21.196155662571442
+    },
+    {
+      "year": 2003,
+      "state": "Karnataka",
+      "BOYS": 10.23911884489192,
+      "Girls": 13.15016273566859
+    },
+    {
+      "year": 2003,
+      "state": "Kerala",
+      "BOYS": 28.593884803298668,
+      "Girls": 29.42671067467871
+    },
+    {
+      "year": 2003,
+      "state": "Madhya Pradesh",
+      "BOYS": 24.690569277932138,
+      "Girls": 33.551521079601585
+    },
+    {
+      "year": 2003,
+      "state": "Maharashtra",
+      "BOYS": 13.336302755170879,
+      "Girls": 22.00795049299405
+    },
+    {
+      "year": 2003,
+      "state": "Manipur",
+      "BOYS": 12.855519989024327,
+      "Girls": 14.07372660518198
+    },
+    {
+      "year": 2003,
+      "state": "Meghalaya",
+      "BOYS": 5.84730099674086,
+      "Girls": 18.733587764534896
+    },
+    {
+      "year": 2003,
+      "state": "Mizoram",
+      "BOYS": 23.67018065932079,
+      "Girls": 26.113313841129145
+    },
+    {
+      "year": 2003,
+      "state": "Nagaland",
+      "BOYS": 8.24155148047683,
+      "Girls": 33.61546056615417
+    },
+    {
+      "year": 2003,
+      "state": "Odisha",
+      "BOYS": 14.563512874913886,
+      "Girls": 15.549237703301003
+    },
+    {
+      "year": 2003,
+      "state": "Punjab",
+      "BOYS": 18.264496198761037,
+      "Girls": 10.328145670146702
+    },
+    {
+      "year": 2003,
+      "state": "Rajasthan",
+      "BOYS": 18.96501032976963,
+      "Girls": 30.883226949587073
+    },
+    {
+      "year": 2003,
+      "state": "Sikkim",
+      "BOYS": 6.840788624661486,
+      "Girls": 32.08247342888984
+    },
+    {
+      "year": 2003,
+      "state": "Tamil Nadu",
+      "BOYS": 10.865095431656204,
+      "Girls": 30.53595191667139
+    },
+    {
+      "year": 2003,
+      "state": "Telangana",
+      "BOYS": 22.936572416822372,
+      "Girls": 8.420534544708907
+    },
+    {
+      "year": 2003,
+      "state": "Tripura",
+      "BOYS": 12.144416452461837,
+      "Girls": 24.01052936590248
+    },
+    {
+      "year": 2003,
+      "state": "Uttarakhand",
+      "BOYS": 29.042274866163734,
+      "Girls": 10.497481487113633
+    },
+    {
+      "year": 2003,
+      "state": "Uttar Pradesh",
+      "BOYS": 29.118334758909945,
+      "Girls": 13.18544128865284
+    },
+    {
+      "year": 2003,
+      "state": "West Bengal",
+      "BOYS": 19.344309410867066,
+      "Girls": 18.795968201017946
+    },
+    {
+      "year": 2003,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 20.42903057799262,
+      "Girls": 26.554849434803593
+    },
+    {
+      "year": 2003,
+      "state": "Chandigarh",
+      "BOYS": 9.98261096730792,
+      "Girls": 13.498457975857862
+    },
+    {
+      "year": 2003,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 19.90073154575795,
+      "Girls": 16.0678850432752
+    },
+    {
+      "year": 2003,
+      "state": "Daman and Diu",
+      "BOYS": 16.641608297436857,
+      "Girls": 22.019781577343146
+    },
+    {
+      "year": 2003,
+      "state": "Delhi",
+      "BOYS": 27.697269989866893,
+      "Girls": 16.664358864213362
+    },
+    {
+      "year": 2003,
+      "state": "Lakshadweep",
+      "BOYS": 25.00855676388376,
+      "Girls": 12.309200437134061
+    },
+    {
+      "year": 2003,
+      "state": "Puducherry",
+      "BOYS": 5.533460299151112,
+      "Girls": 31.31358046198081
+    },
+    {
+      "year": 2004,
+      "state": "Andhra Pradesh",
+      "BOYS": 6.192866900509758,
+      "Girls": 16.30259255978992
+    },
+    {
+      "year": 2004,
+      "state": "Arunachal Pradesh",
+      "BOYS": 11.570225850203586,
+      "Girls": 13.1293631414896
+    },
+    {
+      "year": 2004,
+      "state": "Assam",
+      "BOYS": 13.98941810299852,
+      "Girls": 28.119715152762872
+    },
+    {
+      "year": 2004,
+      "state": "Bihar",
+      "BOYS": 10.460155021085892,
+      "Girls": 18.91374373478972
+    },
+    {
+      "year": 2004,
+      "state": "Chhattisgarh",
+      "BOYS": 27.629753763669168,
+      "Girls": 28.452977143285317
+    },
+    {
+      "year": 2004,
+      "state": "Goa",
+      "BOYS": 8.938118015737448,
+      "Girls": 24.556246250129572
+    },
+    {
+      "year": 2004,
+      "state": "Gujarat",
+      "BOYS": 5.241138934482539,
+      "Girls": 32.44203504850453
+    },
+    {
+      "year": 2004,
+      "state": "Haryana",
+      "BOYS": 27.932688802670164,
+      "Girls": 27.106170600163637
+    },
+    {
+      "year": 2004,
+      "state": "Himachal Pradesh",
+      "BOYS": 24.901583279842395,
+      "Girls": 14.211709726161095
+    },
+    {
+      "year": 2004,
+      "state": "Jammu and Kashmir",
+      "BOYS": 10.78375602835033,
+      "Girls": 9.124583114909218
+    },
+    {
+      "year": 2004,
+      "state": "Jharkhand",
+      "BOYS": 11.727102529497548,
+      "Girls": 7.796526237468994
+    },
+    {
+      "year": 2004,
+      "state": "Karnataka",
+      "BOYS": 16.893395425084993,
+      "Girls": 24.07176575051042
+    },
+    {
+      "year": 2004,
+      "state": "Kerala",
+      "BOYS": 8.207860082760845,
+      "Girls": 18.729563680236712
+    },
+    {
+      "year": 2004,
+      "state": "Madhya Pradesh",
+      "BOYS": 17.02687293284182,
+      "Girls": 15.093828912971121
+    },
+    {
+      "year": 2004,
+      "state": "Maharashtra",
+      "BOYS": 15.7194380975585,
+      "Girls": 31.91177718430111
+    },
+    {
+      "year": 2004,
+      "state": "Manipur",
+      "BOYS": 24.06467200148525,
+      "Girls": 18.740516306111246
+    },
+    {
+      "year": 2004,
+      "state": "Meghalaya",
+      "BOYS": 3.9146281115051935,
+      "Girls": 31.71043868904733
+    },
+    {
+      "year": 2004,
+      "state": "Mizoram",
+      "BOYS": 28.59322862408562,
+      "Girls": 33.48526793658717
+    },
+    {
+      "year": 2004,
+      "state": "Nagaland",
+      "BOYS": 24.22260695507472,
+      "Girls": 14.433320358584771
+    },
+    {
+      "year": 2004,
+      "state": "Odisha",
+      "BOYS": 22.201634230980343,
+      "Girls": 25.817877016065317
+    },
+    {
+      "year": 2004,
+      "state": "Punjab",
+      "BOYS": 18.09040273959713,
+      "Girls": 19.033227503838237
+    },
+    {
+      "year": 2004,
+      "state": "Rajasthan",
+      "BOYS": 22.30340861696137,
+      "Girls": 20.544353141482702
+    },
+    {
+      "year": 2004,
+      "state": "Sikkim",
+      "BOYS": 13.670496573819785,
+      "Girls": 13.52519201423065
+    },
+    {
+      "year": 2004,
+      "state": "Tamil Nadu",
+      "BOYS": 9.663612445915371,
+      "Girls": 17.156734494733165
+    },
+    {
+      "year": 2004,
+      "state": "Telangana",
+      "BOYS": 23.94288503366146,
+      "Girls": 27.995530124579826
+    },
+    {
+      "year": 2004,
+      "state": "Tripura",
+      "BOYS": 7.010395990928336,
+      "Girls": 25.04540820451207
+    },
+    {
+      "year": 2004,
+      "state": "Uttarakhand",
+      "BOYS": 18.539663145970476,
+      "Girls": 31.099390288057435
+    },
+    {
+      "year": 2004,
+      "state": "Uttar Pradesh",
+      "BOYS": 9.708270442880904,
+      "Girls": 8.168799925163018
+    },
+    {
+      "year": 2004,
+      "state": "West Bengal",
+      "BOYS": 24.09345209787087,
+      "Girls": 15.752378640028093
+    },
+    {
+      "year": 2004,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 8.631398611723439,
+      "Girls": 31.972243750748305
+    },
+    {
+      "year": 2004,
+      "state": "Chandigarh",
+      "BOYS": 9.430725881206937,
+      "Girls": 7.705025674064856
+    },
+    {
+      "year": 2004,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 13.505279398187126,
+      "Girls": 19.954512892149673
+    },
+    {
+      "year": 2004,
+      "state": "Daman and Diu",
+      "BOYS": 16.964282167321983,
+      "Girls": 18.582946217449567
+    },
+    {
+      "year": 2004,
+      "state": "Delhi",
+      "BOYS": 11.552250716934497,
+      "Girls": 16.26549981638137
+    },
+    {
+      "year": 2004,
+      "state": "Lakshadweep",
+      "BOYS": 23.28713775060169,
+      "Girls": 33.30649098909101
+    },
+    {
+      "year": 2004,
+      "state": "Puducherry",
+      "BOYS": 16.36871673214152,
+      "Girls": 15.107060670821093
+    },
+    {
+      "year": 2005,
+      "state": "Andhra Pradesh",
+      "BOYS": 20.665795878477812,
+      "Girls": 20.630829938547688
+    },
+    {
+      "year": 2005,
+      "state": "Arunachal Pradesh",
+      "BOYS": 17.451911130167417,
+      "Girls": 33.2996442701411
+    },
+    {
+      "year": 2005,
+      "state": "Assam",
+      "BOYS": 20.970877388317856,
+      "Girls": 27.681835931836336
+    },
+    {
+      "year": 2005,
+      "state": "Bihar",
+      "BOYS": 25.792873775292396,
+      "Girls": 13.522083261501475
+    },
+    {
+      "year": 2005,
+      "state": "Chhattisgarh",
+      "BOYS": 6.997419853741352,
+      "Girls": 7.784821908182936
+    },
+    {
+      "year": 2005,
+      "state": "Goa",
+      "BOYS": 11.018859489086879,
+      "Girls": 26.5326776410907
+    },
+    {
+      "year": 2005,
+      "state": "Gujarat",
+      "BOYS": 19.985249330211555,
+      "Girls": 19.305465879453784
+    },
+    {
+      "year": 2005,
+      "state": "Haryana",
+      "BOYS": 5.365275009446563,
+      "Girls": 15.416723748346662
+    },
+    {
+      "year": 2005,
+      "state": "Himachal Pradesh",
+      "BOYS": 7.700708583686902,
+      "Girls": 10.856666234663434
+    },
+    {
+      "year": 2005,
+      "state": "Jammu and Kashmir",
+      "BOYS": 7.5750783803108455,
+      "Girls": 21.949279220876384
+    },
+    {
+      "year": 2005,
+      "state": "Jharkhand",
+      "BOYS": 20.987320348128186,
+      "Girls": 28.07995260088067
+    },
+    {
+      "year": 2005,
+      "state": "Karnataka",
+      "BOYS": 25.310691355144083,
+      "Girls": 10.890215187258978
+    },
+    {
+      "year": 2005,
+      "state": "Kerala",
+      "BOYS": 6.32877101115675,
+      "Girls": 17.68379890937099
+    },
+    {
+      "year": 2005,
+      "state": "Madhya Pradesh",
+      "BOYS": 6.674729054011394,
+      "Girls": 23.70536012558633
+    },
+    {
+      "year": 2005,
+      "state": "Maharashtra",
+      "BOYS": 14.268746118387082,
+      "Girls": 19.501731241654177
+    },
+    {
+      "year": 2005,
+      "state": "Manipur",
+      "BOYS": 18.19943882868656,
+      "Girls": 29.793234990488383
+    },
+    {
+      "year": 2005,
+      "state": "Meghalaya",
+      "BOYS": 26.73706052884809,
+      "Girls": 10.706413921087147
+    },
+    {
+      "year": 2005,
+      "state": "Mizoram",
+      "BOYS": 17.837282492618343,
+      "Girls": 11.164684358878231
+    },
+    {
+      "year": 2005,
+      "state": "Nagaland",
+      "BOYS": 18.072894610696075,
+      "Girls": 13.262086226210382
+    },
+    {
+      "year": 2005,
+      "state": "Odisha",
+      "BOYS": 24.287330425119098,
+      "Girls": 18.639274058411132
+    },
+    {
+      "year": 2005,
+      "state": "Punjab",
+      "BOYS": 25.630867101830766,
+      "Girls": 19.793358029657696
+    },
+    {
+      "year": 2005,
+      "state": "Rajasthan",
+      "BOYS": 22.653707349452976,
+      "Girls": 23.844435477051057
+    },
+    {
+      "year": 2005,
+      "state": "Sikkim",
+      "BOYS": 24.451871183845693,
+      "Girls": 21.499623649411227
+    },
+    {
+      "year": 2005,
+      "state": "Tamil Nadu",
+      "BOYS": 3.6217732353763488,
+      "Girls": 12.243987147505635
+    },
+    {
+      "year": 2005,
+      "state": "Telangana",
+      "BOYS": 5.363646910665426,
+      "Girls": 30.435909500673887
+    },
+    {
+      "year": 2005,
+      "state": "Tripura",
+      "BOYS": 13.648670466753176,
+      "Girls": 23.32182202559009
+    },
+    {
+      "year": 2005,
+      "state": "Uttarakhand",
+      "BOYS": 8.159456884789066,
+      "Girls": 11.196571025464857
+    },
+    {
+      "year": 2005,
+      "state": "Uttar Pradesh",
+      "BOYS": 17.826535926811587,
+      "Girls": 15.010417969791831
+    },
+    {
+      "year": 2005,
+      "state": "West Bengal",
+      "BOYS": 19.957461523054384,
+      "Girls": 14.987534391737341
+    },
+    {
+      "year": 2005,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 5.821832472798399,
+      "Girls": 18.865220048190473
+    },
+    {
+      "year": 2005,
+      "state": "Chandigarh",
+      "BOYS": 16.53022185208975,
+      "Girls": 27.234861874387562
+    },
+    {
+      "year": 2005,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 21.480645636180107,
+      "Girls": 16.580699006443854
+    },
+    {
+      "year": 2005,
+      "state": "Daman and Diu",
+      "BOYS": 8.13741578747427,
+      "Girls": 15.277704347814598
+    },
+    {
+      "year": 2005,
+      "state": "Delhi",
+      "BOYS": 26.919908638161125,
+      "Girls": 6.501895724957288
+    },
+    {
+      "year": 2005,
+      "state": "Lakshadweep",
+      "BOYS": 26.810592372090845,
+      "Girls": 17.145958143802794
+    },
+    {
+      "year": 2005,
+      "state": "Puducherry",
+      "BOYS": 6.912719355319371,
+      "Girls": 17.428319412345008
+    },
+    {
+      "year": 2006,
+      "state": "Andhra Pradesh",
+      "BOYS": 12.336539557731538,
+      "Girls": 29.845875076455037
+    },
+    {
+      "year": 2006,
+      "state": "Arunachal Pradesh",
+      "BOYS": 3.979099000423037,
+      "Girls": 13.825825904629545
+    },
+    {
+      "year": 2006,
+      "state": "Assam",
+      "BOYS": 6.143109177448837,
+      "Girls": 7.798759323716304
+    },
+    {
+      "year": 2006,
+      "state": "Bihar",
+      "BOYS": 27.779463712359792,
+      "Girls": 22.52184008593466
+    },
+    {
+      "year": 2006,
+      "state": "Chhattisgarh",
+      "BOYS": 8.614946142965701,
+      "Girls": 11.194107866487716
+    },
+    {
+      "year": 2006,
+      "state": "Goa",
+      "BOYS": 14.828126468820164,
+      "Girls": 27.48627258076381
+    },
+    {
+      "year": 2006,
+      "state": "Gujarat",
+      "BOYS": 26.53144723760843,
+      "Girls": 9.929185523519601
+    },
+    {
+      "year": 2006,
+      "state": "Haryana",
+      "BOYS": 18.682138523335638,
+      "Girls": 17.742409846343616
+    },
+    {
+      "year": 2006,
+      "state": "Himachal Pradesh",
+      "BOYS": 18.60066511207323,
+      "Girls": 6.38666816383976
+    },
+    {
+      "year": 2006,
+      "state": "Jammu and Kashmir",
+      "BOYS": 12.518792284527994,
+      "Girls": 13.08354690598137
+    },
+    {
+      "year": 2006,
+      "state": "Jharkhand",
+      "BOYS": 27.687068095928048,
+      "Girls": 17.95364599943678
+    },
+    {
+      "year": 2006,
+      "state": "Karnataka",
+      "BOYS": 14.820088480305676,
+      "Girls": 16.070253898557148
+    },
+    {
+      "year": 2006,
+      "state": "Kerala",
+      "BOYS": 23.56864782504582,
+      "Girls": 21.55852700821049
+    },
+    {
+      "year": 2006,
+      "state": "Madhya Pradesh",
+      "BOYS": 8.847323905809079,
+      "Girls": 20.02372051467787
+    },
+    {
+      "year": 2006,
+      "state": "Maharashtra",
+      "BOYS": 6.8508307388731335,
+      "Girls": 19.878308197193157
+    },
+    {
+      "year": 2006,
+      "state": "Manipur",
+      "BOYS": 15.74827420665187,
+      "Girls": 12.1429526137914
+    },
+    {
+      "year": 2006,
+      "state": "Meghalaya",
+      "BOYS": 13.167254010337073,
+      "Girls": 6.704266394005732
+    },
+    {
+      "year": 2006,
+      "state": "Mizoram",
+      "BOYS": 27.190421750081025,
+      "Girls": 21.87252093194366
+    },
+    {
+      "year": 2006,
+      "state": "Nagaland",
+      "BOYS": 18.289488651478795,
+      "Girls": 16.554947570419266
+    },
+    {
+      "year": 2006,
+      "state": "Odisha",
+      "BOYS": 6.748957420831376,
+      "Girls": 16.743311571584393
+    },
+    {
+      "year": 2006,
+      "state": "Punjab",
+      "BOYS": 16.895536236540842,
+      "Girls": 15.611015814320448
+    },
+    {
+      "year": 2006,
+      "state": "Rajasthan",
+      "BOYS": 15.903750121290559,
+      "Girls": 9.627347803354944
+    },
+    {
+      "year": 2006,
+      "state": "Sikkim",
+      "BOYS": 22.31711499485392,
+      "Girls": 23.329715341444512
+    },
+    {
+      "year": 2006,
+      "state": "Tamil Nadu",
+      "BOYS": 11.606849942051946,
+      "Girls": 13.033679371150372
+    },
+    {
+      "year": 2006,
+      "state": "Telangana",
+      "BOYS": 22.25261994271362,
+      "Girls": 31.885496669236282
+    },
+    {
+      "year": 2006,
+      "state": "Tripura",
+      "BOYS": 12.071271944006256,
+      "Girls": 16.269692720187805
+    },
+    {
+      "year": 2006,
+      "state": "Uttarakhand",
+      "BOYS": 6.49341202995303,
+      "Girls": 18.366785354257498
+    },
+    {
+      "year": 2006,
+      "state": "Uttar Pradesh",
+      "BOYS": 17.341716807029545,
+      "Girls": 23.14657664877086
+    },
+    {
+      "year": 2006,
+      "state": "West Bengal",
+      "BOYS": 4.9991392981545015,
+      "Girls": 6.734286487708022
+    },
+    {
+      "year": 2006,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 22.373166682841017,
+      "Girls": 14.797520446930529
+    },
+    {
+      "year": 2006,
+      "state": "Chandigarh",
+      "BOYS": 17.884662408562377,
+      "Girls": 31.92533587902284
+    },
+    {
+      "year": 2006,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 21.974319082792718,
+      "Girls": 30.702402338851734
+    },
+    {
+      "year": 2006,
+      "state": "Daman and Diu",
+      "BOYS": 24.29934144396561,
+      "Girls": 14.151291756192846
+    },
+    {
+      "year": 2006,
+      "state": "Delhi",
+      "BOYS": 23.949305444767717,
+      "Girls": 26.14614130506964
+    },
+    {
+      "year": 2006,
+      "state": "Lakshadweep",
+      "BOYS": 8.777537356401277,
+      "Girls": 17.669622619288674
+    },
+    {
+      "year": 2006,
+      "state": "Puducherry",
+      "BOYS": 20.48631287531724,
+      "Girls": 8.409185013403825
+    },
+    {
+      "year": 2007,
+      "state": "Andhra Pradesh",
+      "BOYS": 19.95971852267997,
+      "Girls": 8.283471970119457
+    },
+    {
+      "year": 2007,
+      "state": "Arunachal Pradesh",
+      "BOYS": 23.502621590438665,
+      "Girls": 23.610481646607916
+    },
+    {
+      "year": 2007,
+      "state": "Assam",
+      "BOYS": 16.18950864119275,
+      "Girls": 27.40775118102199
+    },
+    {
+      "year": 2007,
+      "state": "Bihar",
+      "BOYS": 24.863972375780744,
+      "Girls": 16.18386302165644
+    },
+    {
+      "year": 2007,
+      "state": "Chhattisgarh",
+      "BOYS": 4.839847390900549,
+      "Girls": 9.1659022453977
+    },
+    {
+      "year": 2007,
+      "state": "Goa",
+      "BOYS": 27.4018521999254,
+      "Girls": 26.025359517399412
+    },
+    {
+      "year": 2007,
+      "state": "Gujarat",
+      "BOYS": 15.512405278224794,
+      "Girls": 12.437984669109284
+    },
+    {
+      "year": 2007,
+      "state": "Haryana",
+      "BOYS": 27.638547006330406,
+      "Girls": 29.824302950060545
+    },
+    {
+      "year": 2007,
+      "state": "Himachal Pradesh",
+      "BOYS": 26.21410059646598,
+      "Girls": 26.536862661481706
+    },
+    {
+      "year": 2007,
+      "state": "Jammu and Kashmir",
+      "BOYS": 14.34375356520242,
+      "Girls": 17.676443663555986
+    },
+    {
+      "year": 2007,
+      "state": "Jharkhand",
+      "BOYS": 17.887838563156595,
+      "Girls": 19.249892144677634
+    },
+    {
+      "year": 2007,
+      "state": "Karnataka",
+      "BOYS": 23.10648282741361,
+      "Girls": 25.58057198665489
+    },
+    {
+      "year": 2007,
+      "state": "Kerala",
+      "BOYS": 20.369068328669112,
+      "Girls": 6.219394806072766
+    },
+    {
+      "year": 2007,
+      "state": "Madhya Pradesh",
+      "BOYS": 9.079582975339427,
+      "Girls": 7.385821569628326
+    },
+    {
+      "year": 2007,
+      "state": "Maharashtra",
+      "BOYS": 21.514661485573033,
+      "Girls": 23.527887876694773
+    },
+    {
+      "year": 2007,
+      "state": "Manipur",
+      "BOYS": 16.74250167595923,
+      "Girls": 15.745093914631678
+    },
+    {
+      "year": 2007,
+      "state": "Meghalaya",
+      "BOYS": 3.838827653287944,
+      "Girls": 24.972367128958354
+    },
+    {
+      "year": 2007,
+      "state": "Mizoram",
+      "BOYS": 14.25416322502377,
+      "Girls": 22.39268331272613
+    },
+    {
+      "year": 2007,
+      "state": "Nagaland",
+      "BOYS": 27.008421001722297,
+      "Girls": 6.165599668480451
+    },
+    {
+      "year": 2007,
+      "state": "Odisha",
+      "BOYS": 25.926984164041237,
+      "Girls": 7.57927058262957
+    },
+    {
+      "year": 2007,
+      "state": "Punjab",
+      "BOYS": 7.351982611369142,
+      "Girls": 7.067796052914564
+    },
+    {
+      "year": 2007,
+      "state": "Rajasthan",
+      "BOYS": 18.75909009868499,
+      "Girls": 14.57398323344287
+    },
+    {
+      "year": 2007,
+      "state": "Sikkim",
+      "BOYS": 8.25145975822236,
+      "Girls": 28.78331960886914
+    },
+    {
+      "year": 2007,
+      "state": "Tamil Nadu",
+      "BOYS": 8.619893484146907,
+      "Girls": 18.504657508675148
+    },
+    {
+      "year": 2007,
+      "state": "Telangana",
+      "BOYS": 3.3683704254840547,
+      "Girls": 7.4364322572000825
+    },
+    {
+      "year": 2007,
+      "state": "Tripura",
+      "BOYS": 11.828969448777265,
+      "Girls": 20.827003795955985
+    },
+    {
+      "year": 2007,
+      "state": "Uttarakhand",
+      "BOYS": 13.359956328382818,
+      "Girls": 9.471189489094563
+    },
+    {
+      "year": 2007,
+      "state": "Uttar Pradesh",
+      "BOYS": 24.198648052284344,
+      "Girls": 24.904888586564425
+    },
+    {
+      "year": 2007,
+      "state": "West Bengal",
+      "BOYS": 3.8430397170009014,
+      "Girls": 13.281021393388862
+    },
+    {
+      "year": 2007,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 6.222341285527791,
+      "Girls": 12.463494610528116
+    },
+    {
+      "year": 2007,
+      "state": "Chandigarh",
+      "BOYS": 14.734549862250471,
+      "Girls": 12.6342187109586
+    },
+    {
+      "year": 2007,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 27.26419446818718,
+      "Girls": 18.37542079968568
+    },
+    {
+      "year": 2007,
+      "state": "Daman and Diu",
+      "BOYS": 8.70026246014202,
+      "Girls": 25.330549980600097
+    },
+    {
+      "year": 2007,
+      "state": "Delhi",
+      "BOYS": 14.598889706593813,
+      "Girls": 26.66737517398861
+    },
+    {
+      "year": 2007,
+      "state": "Lakshadweep",
+      "BOYS": 4.41077451738611,
+      "Girls": 7.964079202807182
+    },
+    {
+      "year": 2007,
+      "state": "Puducherry",
+      "BOYS": 24.15970321964347,
+      "Girls": 23.839188622246063
+    },
+    {
+      "year": 2008,
+      "state": "Andhra Pradesh",
+      "BOYS": 20.070821228065395,
+      "Girls": 26.13231127359767
+    },
+    {
+      "year": 2008,
+      "state": "Arunachal Pradesh",
+      "BOYS": 7.520688968581102,
+      "Girls": 13.636695591463706
+    },
+    {
+      "year": 2008,
+      "state": "Assam",
+      "BOYS": 4.798374457634894,
+      "Girls": 28.359785383454835
+    },
+    {
+      "year": 2008,
+      "state": "Bihar",
+      "BOYS": 15.36987778153161,
+      "Girls": 15.96543234897499
+    },
+    {
+      "year": 2008,
+      "state": "Chhattisgarh",
+      "BOYS": 22.210952946205122,
+      "Girls": 19.81346303172388
+    },
+    {
+      "year": 2008,
+      "state": "Goa",
+      "BOYS": 4.960174736847068,
+      "Girls": 8.428570593731433
+    },
+    {
+      "year": 2008,
+      "state": "Gujarat",
+      "BOYS": 22.634602916966198,
+      "Girls": 26.703413728890357
+    },
+    {
+      "year": 2008,
+      "state": "Haryana",
+      "BOYS": 10.48966507107248,
+      "Girls": 28.408882549202385
+    },
+    {
+      "year": 2008,
+      "state": "Himachal Pradesh",
+      "BOYS": 15.21586638272911,
+      "Girls": 11.875546260891301
+    },
+    {
+      "year": 2008,
+      "state": "Jammu and Kashmir",
+      "BOYS": 20.307292271784235,
+      "Girls": 14.579735561928036
+    },
+    {
+      "year": 2008,
+      "state": "Jharkhand",
+      "BOYS": 18.64032683574181,
+      "Girls": 24.53499534392273
+    },
+    {
+      "year": 2008,
+      "state": "Karnataka",
+      "BOYS": 10.579559614483266,
+      "Girls": 12.794422522837149
+    },
+    {
+      "year": 2008,
+      "state": "Kerala",
+      "BOYS": 12.598601314890864,
+      "Girls": 26.762047823761836
+    },
+    {
+      "year": 2008,
+      "state": "Madhya Pradesh",
+      "BOYS": 22.579454550675035,
+      "Girls": 18.56145858648421
+    },
+    {
+      "year": 2008,
+      "state": "Maharashtra",
+      "BOYS": 2.647085738102465,
+      "Girls": 24.85708410267457
+    },
+    {
+      "year": 2008,
+      "state": "Manipur",
+      "BOYS": 4.426540545799171,
+      "Girls": 24.754755324875873
+    },
+    {
+      "year": 2008,
+      "state": "Meghalaya",
+      "BOYS": 24.368634670125555,
+      "Girls": 23.25528983228015
+    },
+    {
+      "year": 2008,
+      "state": "Mizoram",
+      "BOYS": 18.70690623074627,
+      "Girls": 29.398821625964548
+    },
+    {
+      "year": 2008,
+      "state": "Nagaland",
+      "BOYS": 5.520366391142487,
+      "Girls": 30.013730898807783
+    },
+    {
+      "year": 2008,
+      "state": "Odisha",
+      "BOYS": 13.07997518423008,
+      "Girls": 10.887895901928164
+    },
+    {
+      "year": 2008,
+      "state": "Punjab",
+      "BOYS": 19.3797326324591,
+      "Girls": 21.145144454290577
+    },
+    {
+      "year": 2008,
+      "state": "Rajasthan",
+      "BOYS": 7.6433334092578376,
+      "Girls": 28.443197873282255
+    },
+    {
+      "year": 2008,
+      "state": "Sikkim",
+      "BOYS": 7.1386107997752335,
+      "Girls": 18.45218705006725
+    },
+    {
+      "year": 2008,
+      "state": "Tamil Nadu",
+      "BOYS": 9.733227314433258,
+      "Girls": 17.06586798905165
+    },
+    {
+      "year": 2008,
+      "state": "Telangana",
+      "BOYS": 19.784984661079015,
+      "Girls": 18.495997374058643
+    },
+    {
+      "year": 2008,
+      "state": "Tripura",
+      "BOYS": 26.785375512427816,
+      "Girls": 23.219663209440363
+    },
+    {
+      "year": 2008,
+      "state": "Uttarakhand",
+      "BOYS": 21.873906617696445,
+      "Girls": 20.343688544637917
+    },
+    {
+      "year": 2008,
+      "state": "Uttar Pradesh",
+      "BOYS": 10.782416814248904,
+      "Girls": 14.88241572851559
+    },
+    {
+      "year": 2008,
+      "state": "West Bengal",
+      "BOYS": 16.956969846308574,
+      "Girls": 11.415612174003027
+    },
+    {
+      "year": 2008,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 17.111641947998915,
+      "Girls": 7.580719947666652
+    },
+    {
+      "year": 2008,
+      "state": "Chandigarh",
+      "BOYS": 23.24515233390217,
+      "Girls": 23.211437833021368
+    },
+    {
+      "year": 2008,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 12.7576355484705,
+      "Girls": 21.861244538637
+    },
+    {
+      "year": 2008,
+      "state": "Daman and Diu",
+      "BOYS": 13.979877181481424,
+      "Girls": 24.322773347555177
+    },
+    {
+      "year": 2008,
+      "state": "Delhi",
+      "BOYS": 23.88498232359671,
+      "Girls": 24.59337994394034
+    },
+    {
+      "year": 2008,
+      "state": "Lakshadweep",
+      "BOYS": 22.647624194185422,
+      "Girls": 20.53856912219999
+    },
+    {
+      "year": 2008,
+      "state": "Puducherry",
+      "BOYS": 23.494629621712427,
+      "Girls": 28.810740521354372
+    },
+    {
+      "year": 2009,
+      "state": "Andhra Pradesh",
+      "BOYS": 20.49649915943764,
+      "Girls": 24.460197558295622
+    },
+    {
+      "year": 2009,
+      "state": "Arunachal Pradesh",
+      "BOYS": 21.49588193372977,
+      "Girls": 12.334065863005767
+    },
+    {
+      "year": 2009,
+      "state": "Assam",
+      "BOYS": 24.49012951751807,
+      "Girls": 4.953085134009562
+    },
+    {
+      "year": 2009,
+      "state": "Bihar",
+      "BOYS": 16.427500410351275,
+      "Girls": 11.114345753822876
+    },
+    {
+      "year": 2009,
+      "state": "Chhattisgarh",
+      "BOYS": 10.209252815695809,
+      "Girls": 24.633970340961024
+    },
+    {
+      "year": 2009,
+      "state": "Goa",
+      "BOYS": 6.529504626363794,
+      "Girls": 16.346783056186926
+    },
+    {
+      "year": 2009,
+      "state": "Gujarat",
+      "BOYS": 3.2487337404299663,
+      "Girls": 15.64562689369845
+    },
+    {
+      "year": 2009,
+      "state": "Haryana",
+      "BOYS": 15.496905880359948,
+      "Girls": 22.475122318896634
+    },
+    {
+      "year": 2009,
+      "state": "Himachal Pradesh",
+      "BOYS": 26.33226280765751,
+      "Girls": 18.16389306414458
+    },
+    {
+      "year": 2009,
+      "state": "Jammu and Kashmir",
+      "BOYS": 18.764376265406803,
+      "Girls": 17.063564337431746
+    },
+    {
+      "year": 2009,
+      "state": "Jharkhand",
+      "BOYS": 6.827497791843909,
+      "Girls": 5.671833613309426
+    },
+    {
+      "year": 2009,
+      "state": "Karnataka",
+      "BOYS": 5.70400967909824,
+      "Girls": 11.560300123944378
+    },
+    {
+      "year": 2009,
+      "state": "Kerala",
+      "BOYS": 20.496724133920026,
+      "Girls": 21.659102521321653
+    },
+    {
+      "year": 2009,
+      "state": "Madhya Pradesh",
+      "BOYS": 25.357695523864905,
+      "Girls": 14.14034224419394
+    },
+    {
+      "year": 2009,
+      "state": "Maharashtra",
+      "BOYS": 9.885091587476834,
+      "Girls": 24.521883229709378
+    },
+    {
+      "year": 2009,
+      "state": "Manipur",
+      "BOYS": 22.876221560678964,
+      "Girls": 18.303478722040275
+    },
+    {
+      "year": 2009,
+      "state": "Meghalaya",
+      "BOYS": 15.021303410772143,
+      "Girls": 27.044021816403703
+    },
+    {
+      "year": 2009,
+      "state": "Mizoram",
+      "BOYS": 6.470735575451512,
+      "Girls": 13.496004119983622
+    },
+    {
+      "year": 2009,
+      "state": "Nagaland",
+      "BOYS": 16.03007496777266,
+      "Girls": 26.815169336699928
+    },
+    {
+      "year": 2009,
+      "state": "Odisha",
+      "BOYS": 5.857168753365768,
+      "Girls": 20.39446367742514
+    },
+    {
+      "year": 2009,
+      "state": "Punjab",
+      "BOYS": 8.499134169067823,
+      "Girls": 24.581840900023572
+    },
+    {
+      "year": 2009,
+      "state": "Rajasthan",
+      "BOYS": 8.711354476999277,
+      "Girls": 11.31195131930748
+    },
+    {
+      "year": 2009,
+      "state": "Sikkim",
+      "BOYS": 13.059581652209944,
+      "Girls": 16.838098708494606
+    },
+    {
+      "year": 2009,
+      "state": "Tamil Nadu",
+      "BOYS": 13.772802150759064,
+      "Girls": 14.666220690666053
+    },
+    {
+      "year": 2009,
+      "state": "Telangana",
+      "BOYS": 23.499410340724634,
+      "Girls": 22.181521663022636
+    },
+    {
+      "year": 2009,
+      "state": "Tripura",
+      "BOYS": 15.933477094178764,
+      "Girls": 11.604559305056727
+    },
+    {
+      "year": 2009,
+      "state": "Uttarakhand",
+      "BOYS": 23.08505984645787,
+      "Girls": 11.57515503126715
+    },
+    {
+      "year": 2009,
+      "state": "Uttar Pradesh",
+      "BOYS": 5.629291465542426,
+      "Girls": 28.13025329965895
+    },
+    {
+      "year": 2009,
+      "state": "West Bengal",
+      "BOYS": 6.079222519248171,
+      "Girls": 24.77238577500054
+    },
+    {
+      "year": 2009,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 18.708825205178897,
+      "Girls": 25.662634557499697
+    },
+    {
+      "year": 2009,
+      "state": "Chandigarh",
+      "BOYS": 24.549763174868804,
+      "Girls": 9.55245307248835
+    },
+    {
+      "year": 2009,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 20.100571495467285,
+      "Girls": 8.287431837524856
+    },
+    {
+      "year": 2009,
+      "state": "Daman and Diu",
+      "BOYS": 10.885979660050586,
+      "Girls": 30.681009102419573
+    },
+    {
+      "year": 2009,
+      "state": "Delhi",
+      "BOYS": 14.782612483442096,
+      "Girls": 19.611365530197197
+    },
+    {
+      "year": 2009,
+      "state": "Lakshadweep",
+      "BOYS": 3.3419031937190877,
+      "Girls": 15.565343948163184
+    },
+    {
+      "year": 2009,
+      "state": "Puducherry",
+      "BOYS": 22.606986897829962,
+      "Girls": 23.8442224141052
+    },
+    {
+      "year": 2010,
+      "state": "Andhra Pradesh",
+      "BOYS": 15.489282962444157,
+      "Girls": 10.810035799237642
+    },
+    {
+      "year": 2010,
+      "state": "Arunachal Pradesh",
+      "BOYS": 14.65554344409454,
+      "Girls": 12.974921701118816
+    },
+    {
+      "year": 2010,
+      "state": "Assam",
+      "BOYS": 7.373113630425745,
+      "Girls": 17.22158322132366
+    },
+    {
+      "year": 2010,
+      "state": "Bihar",
+      "BOYS": 5.465209067813182,
+      "Girls": 8.278047990929156
+    },
+    {
+      "year": 2010,
+      "state": "Chhattisgarh",
+      "BOYS": 11.677286275032568,
+      "Girls": 27.46329680875554
+    },
+    {
+      "year": 2010,
+      "state": "Goa",
+      "BOYS": 8.679624625894391,
+      "Girls": 19.791505298787005
+    },
+    {
+      "year": 2010,
+      "state": "Gujarat",
+      "BOYS": 16.29379378868174,
+      "Girls": 18.515678091545865
+    },
+    {
+      "year": 2010,
+      "state": "Haryana",
+      "BOYS": 20.356938274312846,
+      "Girls": 22.020839208789216
+    },
+    {
+      "year": 2010,
+      "state": "Himachal Pradesh",
+      "BOYS": 9.727799880582284,
+      "Girls": 10.449947729431802
+    },
+    {
+      "year": 2010,
+      "state": "Jammu and Kashmir",
+      "BOYS": 14.596515828891594,
+      "Girls": 19.05688154619094
+    },
+    {
+      "year": 2010,
+      "state": "Jharkhand",
+      "BOYS": 2.9278435273676395,
+      "Girls": 31.166966860835274
+    },
+    {
+      "year": 2010,
+      "state": "Karnataka",
+      "BOYS": 16.556234826787353,
+      "Girls": 16.127372627138023
+    },
+    {
+      "year": 2010,
+      "state": "Kerala",
+      "BOYS": 8.374428235664372,
+      "Girls": 26.288535214169542
+    },
+    {
+      "year": 2010,
+      "state": "Madhya Pradesh",
+      "BOYS": 6.565281896281416,
+      "Girls": 24.94427846029068
+    },
+    {
+      "year": 2010,
+      "state": "Maharashtra",
+      "BOYS": 22.107647720360397,
+      "Girls": 7.8137543572489605
+    },
+    {
+      "year": 2010,
+      "state": "Manipur",
+      "BOYS": 8.642001866973471,
+      "Girls": 31.13073139989833
+    },
+    {
+      "year": 2010,
+      "state": "Meghalaya",
+      "BOYS": 15.657109161965828,
+      "Girls": 17.188681229309665
+    },
+    {
+      "year": 2010,
+      "state": "Mizoram",
+      "BOYS": 11.975784961489918,
+      "Girls": 24.392353129593765
+    },
+    {
+      "year": 2010,
+      "state": "Nagaland",
+      "BOYS": 5.214581218465511,
+      "Girls": 13.34017185291274
+    },
+    {
+      "year": 2010,
+      "state": "Odisha",
+      "BOYS": 24.4692283083078,
+      "Girls": 11.986630509005737
+    },
+    {
+      "year": 2010,
+      "state": "Punjab",
+      "BOYS": 24.498835466128927,
+      "Girls": 17.391398620755503
+    },
+    {
+      "year": 2010,
+      "state": "Rajasthan",
+      "BOYS": 5.176528583215429,
+      "Girls": 6.522453516549515
+    },
+    {
+      "year": 2010,
+      "state": "Sikkim",
+      "BOYS": 3.0445410504124233,
+      "Girls": 17.20361513552311
+    },
+    {
+      "year": 2010,
+      "state": "Tamil Nadu",
+      "BOYS": 20.501140256473278,
+      "Girls": 14.459355797188493
+    },
+    {
+      "year": 2010,
+      "state": "Telangana",
+      "BOYS": 19.940905643649312,
+      "Girls": 10.246758234298934
+    },
+    {
+      "year": 2010,
+      "state": "Tripura",
+      "BOYS": 22.18838329738016,
+      "Girls": 26.838731152955777
+    },
+    {
+      "year": 2010,
+      "state": "Uttarakhand",
+      "BOYS": 13.323544389845097,
+      "Girls": 12.577181420013716
+    },
+    {
+      "year": 2010,
+      "state": "Uttar Pradesh",
+      "BOYS": 3.258520437387717,
+      "Girls": 28.206056932994343
+    },
+    {
+      "year": 2010,
+      "state": "West Bengal",
+      "BOYS": 12.308913409222555,
+      "Girls": 26.68316348319209
+    },
+    {
+      "year": 2010,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 15.303556634900836,
+      "Girls": 25.934223100354707
+    },
+    {
+      "year": 2010,
+      "state": "Chandigarh",
+      "BOYS": 17.550183353467403,
+      "Girls": 30.15021581145372
+    },
+    {
+      "year": 2010,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 13.934380507549921,
+      "Girls": 14.386613173370097
+    },
+    {
+      "year": 2010,
+      "state": "Daman and Diu",
+      "BOYS": 12.156574321427406,
+      "Girls": 22.838426165510384
+    },
+    {
+      "year": 2010,
+      "state": "Delhi",
+      "BOYS": 2.688759932000358,
+      "Girls": 17.55695067658451
+    },
+    {
+      "year": 2010,
+      "state": "Lakshadweep",
+      "BOYS": 8.592567081576135,
+      "Girls": 16.813370646318482
+    },
+    {
+      "year": 2010,
+      "state": "Puducherry",
+      "BOYS": 23.91472941123936,
+      "Girls": 7.701906531298363
+    },
+    {
+      "year": 2011,
+      "state": "Andhra Pradesh",
+      "BOYS": 24.773006893857364,
+      "Girls": 6.662823757739627
+    },
+    {
+      "year": 2011,
+      "state": "Arunachal Pradesh",
+      "BOYS": 8.719147693225027,
+      "Girls": 19.867252072371826
+    },
+    {
+      "year": 2011,
+      "state": "Assam",
+      "BOYS": 7.1298576371536395,
+      "Girls": 30.060999515065163
+    },
+    {
+      "year": 2011,
+      "state": "Bihar",
+      "BOYS": 7.6518241872950625,
+      "Girls": 5.906259829999067
+    },
+    {
+      "year": 2011,
+      "state": "Chhattisgarh",
+      "BOYS": 25.330437557713175,
+      "Girls": 6.903864530885773
+    },
+    {
+      "year": 2011,
+      "state": "Goa",
+      "BOYS": 12.19661142843948,
+      "Girls": 16.91100915625598
+    },
+    {
+      "year": 2011,
+      "state": "Gujarat",
+      "BOYS": 24.55441430173847,
+      "Girls": 28.623635742927043
+    },
+    {
+      "year": 2011,
+      "state": "Haryana",
+      "BOYS": 1.2252851698070844,
+      "Girls": 12.051042489015293
+    },
+    {
+      "year": 2011,
+      "state": "Himachal Pradesh",
+      "BOYS": 19.084467397701303,
+      "Girls": 10.299587765278124
+    },
+    {
+      "year": 2011,
+      "state": "Jammu and Kashmir",
+      "BOYS": 16.454493232630924,
+      "Girls": 8.197822834835554
+    },
+    {
+      "year": 2011,
+      "state": "Jharkhand",
+      "BOYS": 7.940233671443696,
+      "Girls": 24.46078107484899
+    },
+    {
+      "year": 2011,
+      "state": "Karnataka",
+      "BOYS": 24.80504567420259,
+      "Girls": 18.374233684285265
+    },
+    {
+      "year": 2011,
+      "state": "Kerala",
+      "BOYS": 16.126422010120173,
+      "Girls": 6.6803816313124464
+    },
+    {
+      "year": 2011,
+      "state": "Madhya Pradesh",
+      "BOYS": 11.378824039212097,
+      "Girls": 10.696433606765344
+    },
+    {
+      "year": 2011,
+      "state": "Maharashtra",
+      "BOYS": 2.1329689182792446,
+      "Girls": 16.5004389043107
+    },
+    {
+      "year": 2011,
+      "state": "Manipur",
+      "BOYS": 9.56842129339902,
+      "Girls": 7.969896182600561
+    },
+    {
+      "year": 2011,
+      "state": "Meghalaya",
+      "BOYS": 10.79653371518656,
+      "Girls": 15.111812219668378
+    },
+    {
+      "year": 2011,
+      "state": "Mizoram",
+      "BOYS": 5.90418757098136,
+      "Girls": 19.499924320251935
+    },
+    {
+      "year": 2011,
+      "state": "Nagaland",
+      "BOYS": 7.058542519656305,
+      "Girls": 12.069047904273427
+    },
+    {
+      "year": 2011,
+      "state": "Odisha",
+      "BOYS": 20.99091036440457,
+      "Girls": 6.577461695765196
+    },
+    {
+      "year": 2011,
+      "state": "Punjab",
+      "BOYS": 18.072253437540233,
+      "Girls": 18.52583882433995
+    },
+    {
+      "year": 2011,
+      "state": "Rajasthan",
+      "BOYS": 4.292119963129673,
+      "Girls": 6.113895464791943
+    },
+    {
+      "year": 2011,
+      "state": "Sikkim",
+      "BOYS": 15.536268119444832,
+      "Girls": 17.915937782395524
+    },
+    {
+      "year": 2011,
+      "state": "Tamil Nadu",
+      "BOYS": 21.115617341911367,
+      "Girls": 6.60877062852221
+    },
+    {
+      "year": 2011,
+      "state": "Telangana",
+      "BOYS": 8.870091428740922,
+      "Girls": 21.84038550149652
+    },
+    {
+      "year": 2011,
+      "state": "Tripura",
+      "BOYS": 22.83776537391911,
+      "Girls": 5.8889608923385826
+    },
+    {
+      "year": 2011,
+      "state": "Uttarakhand",
+      "BOYS": 4.3892792749050855,
+      "Girls": 20.95372882198668
+    },
+    {
+      "year": 2011,
+      "state": "Uttar Pradesh",
+      "BOYS": 14.900816438606379,
+      "Girls": 27.481776971660274
+    },
+    {
+      "year": 2011,
+      "state": "West Bengal",
+      "BOYS": 23.661229257469472,
+      "Girls": 7.848776282401575
+    },
+    {
+      "year": 2011,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 20.985169985855244,
+      "Girls": 29.350755464178405
+    },
+    {
+      "year": 2011,
+      "state": "Chandigarh",
+      "BOYS": 19.341171022426522,
+      "Girls": 29.561387665085384
+    },
+    {
+      "year": 2011,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 21.167502081215957,
+      "Girls": 16.35068375406236
+    },
+    {
+      "year": 2011,
+      "state": "Daman and Diu",
+      "BOYS": 8.608396658210458,
+      "Girls": 22.33191691449288
+    },
+    {
+      "year": 2011,
+      "state": "Delhi",
+      "BOYS": 4.098217897289063,
+      "Girls": 10.633268296656844
+    },
+    {
+      "year": 2011,
+      "state": "Lakshadweep",
+      "BOYS": 18.73285400912394,
+      "Girls": 13.569080190675935
+    },
+    {
+      "year": 2011,
+      "state": "Puducherry",
+      "BOYS": 18.002509456320674,
+      "Girls": 7.991277594022572
+    },
+    {
+      "year": 2012,
+      "state": "Andhra Pradesh",
+      "BOYS": 4.908478031200965,
+      "Girls": 20.310099546211262
+    },
+    {
+      "year": 2012,
+      "state": "Arunachal Pradesh",
+      "BOYS": 11.759990302573971,
+      "Girls": 7.189229238921446
+    },
+    {
+      "year": 2012,
+      "state": "Assam",
+      "BOYS": 8.592136255110105,
+      "Girls": 8.48621145706187
+    },
+    {
+      "year": 2012,
+      "state": "Bihar",
+      "BOYS": 16.791329568716396,
+      "Girls": 22.826307805173563
+    },
+    {
+      "year": 2012,
+      "state": "Chhattisgarh",
+      "BOYS": 8.771153819071873,
+      "Girls": 15.41243984236942
+    },
+    {
+      "year": 2012,
+      "state": "Goa",
+      "BOYS": 4.5716037540296925,
+      "Girls": 22.87109388451443
+    },
+    {
+      "year": 2012,
+      "state": "Gujarat",
+      "BOYS": 24.503596061290015,
+      "Girls": 4.007187811646676
+    },
+    {
+      "year": 2012,
+      "state": "Haryana",
+      "BOYS": 9.17860452488296,
+      "Girls": 18.377662752736896
+    },
+    {
+      "year": 2012,
+      "state": "Himachal Pradesh",
+      "BOYS": 1.2048866669586538,
+      "Girls": 5.822583160920975
+    },
+    {
+      "year": 2012,
+      "state": "Jammu and Kashmir",
+      "BOYS": 13.551548896612761,
+      "Girls": 22.420034713517143
+    },
+    {
+      "year": 2012,
+      "state": "Jharkhand",
+      "BOYS": 6.426284180591376,
+      "Girls": 29.92526439979333
+    },
+    {
+      "year": 2012,
+      "state": "Karnataka",
+      "BOYS": 21.595415412572194,
+      "Girls": 12.747104509980606
+    },
+    {
+      "year": 2012,
+      "state": "Kerala",
+      "BOYS": 5.476036564297526,
+      "Girls": 29.303001971748298
+    },
+    {
+      "year": 2012,
+      "state": "Madhya Pradesh",
+      "BOYS": 12.720286790483815,
+      "Girls": 26.61215495033479
+    },
+    {
+      "year": 2012,
+      "state": "Maharashtra",
+      "BOYS": 20.86699091140335,
+      "Girls": 8.108523233826261
+    },
+    {
+      "year": 2012,
+      "state": "Manipur",
+      "BOYS": 23.300931134905852,
+      "Girls": 20.33067216050831
+    },
+    {
+      "year": 2012,
+      "state": "Meghalaya",
+      "BOYS": 22.110261046044027,
+      "Girls": 11.64907914519003
+    },
+    {
+      "year": 2012,
+      "state": "Mizoram",
+      "BOYS": 25.268014104136988,
+      "Girls": 24.869668552395215
+    },
+    {
+      "year": 2012,
+      "state": "Nagaland",
+      "BOYS": 9.732663575031207,
+      "Girls": 26.21557692969978
+    },
+    {
+      "year": 2012,
+      "state": "Odisha",
+      "BOYS": 3.6923845030836135,
+      "Girls": 7.1672029391452154
+    },
+    {
+      "year": 2012,
+      "state": "Punjab",
+      "BOYS": 9.08353412777619,
+      "Girls": 26.409686193772327
+    },
+    {
+      "year": 2012,
+      "state": "Rajasthan",
+      "BOYS": 0.7162493575513178,
+      "Girls": 15.893607519409422
+    },
+    {
+      "year": 2012,
+      "state": "Sikkim",
+      "BOYS": 5.400856370028724,
+      "Girls": 24.6182840896533
+    },
+    {
+      "year": 2012,
+      "state": "Tamil Nadu",
+      "BOYS": 3.7198011928694674,
+      "Girls": 27.36394711994443
+    },
+    {
+      "year": 2012,
+      "state": "Telangana",
+      "BOYS": 17.79107879677652,
+      "Girls": 27.674697919786187
+    },
+    {
+      "year": 2012,
+      "state": "Tripura",
+      "BOYS": 24.258261361779482,
+      "Girls": 24.534578216993665
+    },
+    {
+      "year": 2012,
+      "state": "Uttarakhand",
+      "BOYS": 10.248348107867177,
+      "Girls": 10.512754661817787
+    },
+    {
+      "year": 2012,
+      "state": "Uttar Pradesh",
+      "BOYS": 1.8670908621454174,
+      "Girls": 10.779244975088488
+    },
+    {
+      "year": 2012,
+      "state": "West Bengal",
+      "BOYS": 14.302274307328315,
+      "Girls": 12.426450681767694
+    },
+    {
+      "year": 2012,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 4.127585656826482,
+      "Girls": 27.587629822774485
+    },
+    {
+      "year": 2012,
+      "state": "Chandigarh",
+      "BOYS": 5.032854722509453,
+      "Girls": 15.171808488896406
+    },
+    {
+      "year": 2012,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 10.586457899326266,
+      "Girls": 8.371495780968576
+    },
+    {
+      "year": 2012,
+      "state": "Daman and Diu",
+      "BOYS": 21.459656721918282,
+      "Girls": 7.560457191586749
+    },
+    {
+      "year": 2012,
+      "state": "Delhi",
+      "BOYS": 22.298204156459043,
+      "Girls": 29.8855915491044
+    },
+    {
+      "year": 2012,
+      "state": "Lakshadweep",
+      "BOYS": 8.001074613934726,
+      "Girls": 24.741862865783585
+    },
+    {
+      "year": 2012,
+      "state": "Puducherry",
+      "BOYS": 3.6284150639191983,
+      "Girls": 11.29731890192075
+    },
+    {
+      "year": 2013,
+      "state": "Andhra Pradesh",
+      "BOYS": 21.74970160421473,
+      "Girls": 20.228002286128596
+    },
+    {
+      "year": 2013,
+      "state": "Arunachal Pradesh",
+      "BOYS": 10.16023065665392,
+      "Girls": 26.978320606459366
+    },
+    {
+      "year": 2013,
+      "state": "Assam",
+      "BOYS": 8.175355633937706,
+      "Girls": 27.762028611758044
+    },
+    {
+      "year": 2013,
+      "state": "Bihar",
+      "BOYS": 10.596117672587415,
+      "Girls": 12.66665233718484
+    },
+    {
+      "year": 2013,
+      "state": "Chhattisgarh",
+      "BOYS": 15.024155423075353,
+      "Girls": 13.267031497764496
+    },
+    {
+      "year": 2013,
+      "state": "Goa",
+      "BOYS": 24.81071137907634,
+      "Girls": 25.80154401387395
+    },
+    {
+      "year": 2013,
+      "state": "Gujarat",
+      "BOYS": 0.8791756561739943,
+      "Girls": 18.96408005083928
+    },
+    {
+      "year": 2013,
+      "state": "Haryana",
+      "BOYS": 5.6717505976040306,
+      "Girls": 8.302689554355517
+    },
+    {
+      "year": 2013,
+      "state": "Himachal Pradesh",
+      "BOYS": 16.60751821762089,
+      "Girls": 30.023638742027973
+    },
+    {
+      "year": 2013,
+      "state": "Jammu and Kashmir",
+      "BOYS": 13.939026000305045,
+      "Girls": 6.47883248991356
+    },
+    {
+      "year": 2013,
+      "state": "Jharkhand",
+      "BOYS": 12.765812315281618,
+      "Girls": 11.442732780665956
+    },
+    {
+      "year": 2013,
+      "state": "Karnataka",
+      "BOYS": 20.013694673086995,
+      "Girls": 7.611940638893993
+    },
+    {
+      "year": 2013,
+      "state": "Kerala",
+      "BOYS": 17.26192494933696,
+      "Girls": 16.931713611669178
+    },
+    {
+      "year": 2013,
+      "state": "Madhya Pradesh",
+      "BOYS": 4.266838083364354,
+      "Girls": 5.1754953146224
+    },
+    {
+      "year": 2013,
+      "state": "Maharashtra",
+      "BOYS": 6.771192274099167,
+      "Girls": 15.09746751614465
+    },
+    {
+      "year": 2013,
+      "state": "Manipur",
+      "BOYS": 21.737835183329967,
+      "Girls": 5.229437808040234
+    },
+    {
+      "year": 2013,
+      "state": "Meghalaya",
+      "BOYS": 1.9529136015574684,
+      "Girls": 9.955611791880898
+    },
+    {
+      "year": 2013,
+      "state": "Mizoram",
+      "BOYS": 9.211828928135805,
+      "Girls": 28.99352898848615
+    },
+    {
+      "year": 2013,
+      "state": "Nagaland",
+      "BOYS": 19.15161829416793,
+      "Girls": 13.919369205508868
+    },
+    {
+      "year": 2013,
+      "state": "Odisha",
+      "BOYS": 2.7268583000513127,
+      "Girls": 25.144889507050017
+    },
+    {
+      "year": 2013,
+      "state": "Punjab",
+      "BOYS": 11.195623739031436,
+      "Girls": 25.447430391076658
+    },
+    {
+      "year": 2013,
+      "state": "Rajasthan",
+      "BOYS": 6.167707295910218,
+      "Girls": 21.271510024560204
+    },
+    {
+      "year": 2013,
+      "state": "Sikkim",
+      "BOYS": 16.096190035853457,
+      "Girls": 24.575421324982727
+    },
+    {
+      "year": 2013,
+      "state": "Tamil Nadu",
+      "BOYS": 4.242854083913943,
+      "Girls": 24.124196005325093
+    },
+    {
+      "year": 2013,
+      "state": "Telangana",
+      "BOYS": 12.581024060762836,
+      "Girls": 9.480760458223088
+    },
+    {
+      "year": 2013,
+      "state": "Tripura",
+      "BOYS": 13.509405837136345,
+      "Girls": 21.622185527649076
+    },
+    {
+      "year": 2013,
+      "state": "Uttarakhand",
+      "BOYS": 4.827365494530908,
+      "Girls": 17.387047526704936
+    },
+    {
+      "year": 2013,
+      "state": "Uttar Pradesh",
+      "BOYS": 11.385228379912636,
+      "Girls": 22.89578548219426
+    },
+    {
+      "year": 2013,
+      "state": "West Bengal",
+      "BOYS": 24.011372885762796,
+      "Girls": 8.54489822919323
+    },
+    {
+      "year": 2013,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 8.937446700464783,
+      "Girls": 22.678836463309693
+    },
+    {
+      "year": 2013,
+      "state": "Chandigarh",
+      "BOYS": 13.168370229484157,
+      "Girls": 23.562939212697092
+    },
+    {
+      "year": 2013,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 5.747231012149114,
+      "Girls": 24.9509459015298
+    },
+    {
+      "year": 2013,
+      "state": "Daman and Diu",
+      "BOYS": 10.210820785509846,
+      "Girls": 14.7751565406858
+    },
+    {
+      "year": 2013,
+      "state": "Delhi",
+      "BOYS": 9.82676674211999,
+      "Girls": 16.15188371845674
+    },
+    {
+      "year": 2013,
+      "state": "Lakshadweep",
+      "BOYS": 0.4072715404511733,
+      "Girls": 7.443049093966072
+    },
+    {
+      "year": 2013,
+      "state": "Puducherry",
+      "BOYS": 6.319022065098841,
+      "Girls": 14.756636921867443
+    },
+    {
+      "year": 2014,
+      "state": "Andhra Pradesh",
+      "BOYS": 15.31408737682255,
+      "Girls": 4.623437626199424
+    },
+    {
+      "year": 2014,
+      "state": "Arunachal Pradesh",
+      "BOYS": 3.1416894848580537,
+      "Girls": 27.326948829165104
+    },
+    {
+      "year": 2014,
+      "state": "Assam",
+      "BOYS": 0.9818692744977824,
+      "Girls": 14.61225031944968
+    },
+    {
+      "year": 2014,
+      "state": "Bihar",
+      "BOYS": 20.834514830521464,
+      "Girls": 6.530953788966556
+    },
+    {
+      "year": 2014,
+      "state": "Chhattisgarh",
+      "BOYS": 17.578485027881356,
+      "Girls": 23.851951794002147
+    },
+    {
+      "year": 2014,
+      "state": "Goa",
+      "BOYS": 12.894745914800636,
+      "Girls": 21.521573575550683
+    },
+    {
+      "year": 2014,
+      "state": "Gujarat",
+      "BOYS": 20.36615811472433,
+      "Girls": 11.345477638317698
+    },
+    {
+      "year": 2014,
+      "state": "Haryana",
+      "BOYS": 6.775835306857294,
+      "Girls": 3.8272972225753534
+    },
+    {
+      "year": 2014,
+      "state": "Himachal Pradesh",
+      "BOYS": 21.74403124115289,
+      "Girls": 7.294971721843606
+    },
+    {
+      "year": 2014,
+      "state": "Jammu and Kashmir",
+      "BOYS": 19.616710555150078,
+      "Girls": 25.168089210766297
+    },
+    {
+      "year": 2014,
+      "state": "Jharkhand",
+      "BOYS": 23.878598768131702,
+      "Girls": 23.704096505294252
+    },
+    {
+      "year": 2014,
+      "state": "Karnataka",
+      "BOYS": 17.71725160788295,
+      "Girls": 20.399394131005522
+    },
+    {
+      "year": 2014,
+      "state": "Kerala",
+      "BOYS": 22.722016326058665,
+      "Girls": 18.849499048452195
+    },
+    {
+      "year": 2014,
+      "state": "Madhya Pradesh",
+      "BOYS": 4.696133676030728,
+      "Girls": 17.52728253507344
+    },
+    {
+      "year": 2014,
+      "state": "Maharashtra",
+      "BOYS": 12.091441849370616,
+      "Girls": 20.27675031726563
+    },
+    {
+      "year": 2014,
+      "state": "Manipur",
+      "BOYS": 23.05708435366607,
+      "Girls": 4.314994990845445
+    },
+    {
+      "year": 2014,
+      "state": "Meghalaya",
+      "BOYS": 6.1554636364932644,
+      "Girls": 3.9459505303340965
+    },
+    {
+      "year": 2014,
+      "state": "Mizoram",
+      "BOYS": 21.55199700179582,
+      "Girls": 15.358611245087564
+    },
+    {
+      "year": 2014,
+      "state": "Nagaland",
+      "BOYS": 16.438078119168686,
+      "Girls": 22.05905382378551
+    },
+    {
+      "year": 2014,
+      "state": "Odisha",
+      "BOYS": 18.975449786139606,
+      "Girls": 18.917481300922873
+    },
+    {
+      "year": 2014,
+      "state": "Punjab",
+      "BOYS": 24.205171588536373,
+      "Girls": 22.269022421516624
+    },
+    {
+      "year": 2014,
+      "state": "Rajasthan",
+      "BOYS": 19.907980564314848,
+      "Girls": 5.03447144906171
+    },
+    {
+      "year": 2014,
+      "state": "Sikkim",
+      "BOYS": 7.790372004683151,
+      "Girls": 16.227029398650686
+    },
+    {
+      "year": 2014,
+      "state": "Tamil Nadu",
+      "BOYS": 2.8326895570307773,
+      "Girls": 27.513782129248845
+    },
+    {
+      "year": 2014,
+      "state": "Telangana",
+      "BOYS": 2.666191595614807,
+      "Girls": 28.923982722495815
+    },
+    {
+      "year": 2014,
+      "state": "Tripura",
+      "BOYS": 17.47753685003085,
+      "Girls": 7.834094138626501
+    },
+    {
+      "year": 2014,
+      "state": "Uttarakhand",
+      "BOYS": 17.671740574808226,
+      "Girls": 5.070562647406957
+    },
+    {
+      "year": 2014,
+      "state": "Uttar Pradesh",
+      "BOYS": 10.818886182563661,
+      "Girls": 24.97348090708831
+    },
+    {
+      "year": 2014,
+      "state": "West Bengal",
+      "BOYS": 14.248587104357375,
+      "Girls": 13.47044339742447
+    },
+    {
+      "year": 2014,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 3.5265250900221012,
+      "Girls": 10.55092425835367
+    },
+    {
+      "year": 2014,
+      "state": "Chandigarh",
+      "BOYS": 1.0725070075246812,
+      "Girls": 16.213527107021036
+    },
+    {
+      "year": 2014,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 24.615097552762833,
+      "Girls": 14.008056063114276
+    },
+    {
+      "year": 2014,
+      "state": "Daman and Diu",
+      "BOYS": 3.0953902252744836,
+      "Girls": 20.512930704421848
+    },
+    {
+      "year": 2014,
+      "state": "Delhi",
+      "BOYS": 21.769325553166702,
+      "Girls": 13.298021422705526
+    },
+    {
+      "year": 2014,
+      "state": "Lakshadweep",
+      "BOYS": 19.900119615290507,
+      "Girls": 19.213928918744926
+    },
+    {
+      "year": 2014,
+      "state": "Puducherry",
+      "BOYS": 23.810574189847628,
+      "Girls": 17.850576677121282
+    },
+    {
+      "year": 2015,
+      "state": "Andhra Pradesh",
+      "BOYS": 0.018771620919755705,
+      "Girls": 14.678101926823011
+    },
+    {
+      "year": 2015,
+      "state": "Arunachal Pradesh",
+      "BOYS": 3.973907409533396,
+      "Girls": 19.68163102197129
+    },
+    {
+      "year": 2015,
+      "state": "Assam",
+      "BOYS": 7.574397390165178,
+      "Girls": 14.162543744640459
+    },
+    {
+      "year": 2015,
+      "state": "Bihar",
+      "BOYS": 13.076395315937347,
+      "Girls": 8.701416754936158
+    },
+    {
+      "year": 2015,
+      "state": "Chhattisgarh",
+      "BOYS": 17.12340627074555,
+      "Girls": 3.7692102394434333
+    },
+    {
+      "year": 2015,
+      "state": "Goa",
+      "BOYS": 2.7861057964842004,
+      "Girls": 5.793054080142712
+    },
+    {
+      "year": 2015,
+      "state": "Gujarat",
+      "BOYS": -0.17570596074102074,
+      "Girls": 17.73913819534742
+    },
+    {
+      "year": 2015,
+      "state": "Haryana",
+      "BOYS": 10.10372983597426,
+      "Girls": 21.359224893173792
+    },
+    {
+      "year": 2015,
+      "state": "Himachal Pradesh",
+      "BOYS": 2.100394134305997,
+      "Girls": 25.525833340632886
+    },
+    {
+      "year": 2015,
+      "state": "Jammu and Kashmir",
+      "BOYS": 18.827403949333245,
+      "Girls": 13.313186331628344
+    },
+    {
+      "year": 2015,
+      "state": "Jharkhand",
+      "BOYS": 4.631818355260929,
+      "Girls": 23.64567108704072
+    },
+    {
+      "year": 2015,
+      "state": "Karnataka",
+      "BOYS": 12.65014593704355,
+      "Girls": 20.800771350561202
+    },
+    {
+      "year": 2015,
+      "state": "Kerala",
+      "BOYS": 17.507934744926306,
+      "Girls": 10.899635089191804
+    },
+    {
+      "year": 2015,
+      "state": "Madhya Pradesh",
+      "BOYS": 4.642414121188999,
+      "Girls": 16.841814217438717
+    },
+    {
+      "year": 2015,
+      "state": "Maharashtra",
+      "BOYS": 4.599166929527559,
+      "Girls": 25.267003765871415
+    },
+    {
+      "year": 2015,
+      "state": "Manipur",
+      "BOYS": 12.789349328410683,
+      "Girls": 25.000435560863277
+    },
+    {
+      "year": 2015,
+      "state": "Meghalaya",
+      "BOYS": 14.301094029381971,
+      "Girls": 27.71169011430615
+    },
+    {
+      "year": 2015,
+      "state": "Mizoram",
+      "BOYS": 4.409892422405957,
+      "Girls": 7.191243185909343
+    },
+    {
+      "year": 2015,
+      "state": "Nagaland",
+      "BOYS": 11.491332628308015,
+      "Girls": 3.1770047632523326
+    },
+    {
+      "year": 2015,
+      "state": "Odisha",
+      "BOYS": 8.487629319183569,
+      "Girls": 15.424152358142631
+    },
+    {
+      "year": 2015,
+      "state": "Punjab",
+      "BOYS": 12.226746498826905,
+      "Girls": 8.19830834360516
+    },
+    {
+      "year": 2015,
+      "state": "Rajasthan",
+      "BOYS": 11.45702263474464,
+      "Girls": 20.537384457923977
+    },
+    {
+      "year": 2015,
+      "state": "Sikkim",
+      "BOYS": 17.886866291106777,
+      "Girls": 24.523526362324812
+    },
+    {
+      "year": 2015,
+      "state": "Tamil Nadu",
+      "BOYS": 23.572411636569008,
+      "Girls": 13.921142385531756
+    },
+    {
+      "year": 2015,
+      "state": "Telangana",
+      "BOYS": 19.71561805729169,
+      "Girls": 3.117842396468701
+    },
+    {
+      "year": 2015,
+      "state": "Tripura",
+      "BOYS": 19.079751814884002,
+      "Girls": 3.6393880684327904
+    },
+    {
+      "year": 2015,
+      "state": "Uttarakhand",
+      "BOYS": 6.330264666282185,
+      "Girls": 2.640065269526234
+    },
+    {
+      "year": 2015,
+      "state": "Uttar Pradesh",
+      "BOYS": 19.528003149412267,
+      "Girls": 17.978251927416736
+    },
+    {
+      "year": 2015,
+      "state": "West Bengal",
+      "BOYS": 9.846643176811178,
+      "Girls": 24.369628490512653
+    },
+    {
+      "year": 2015,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 8.910124647596005,
+      "Girls": 24.843556463206745
+    },
+    {
+      "year": 2015,
+      "state": "Chandigarh",
+      "BOYS": 18.435088169359588,
+      "Girls": 27.867085314869755
+    },
+    {
+      "year": 2015,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 17.2241642314518,
+      "Girls": 27.166575306416533
+    },
+    {
+      "year": 2015,
+      "state": "Daman and Diu",
+      "BOYS": 13.5820034626933,
+      "Girls": 15.407619627765563
+    },
+    {
+      "year": 2015,
+      "state": "Delhi",
+      "BOYS": 19.67352098122608,
+      "Girls": 16.953138434941934
+    },
+    {
+      "year": 2015,
+      "state": "Lakshadweep",
+      "BOYS": -0.48804089486074975,
+      "Girls": 26.61125521023996
+    },
+    {
+      "year": 2015,
+      "state": "Puducherry",
+      "BOYS": 9.157040587617011,
+      "Girls": 19.689642248012692
+    },
+    {
+      "year": 2016,
+      "state": "Andhra Pradesh",
+      "BOYS": 18.090143980143544,
+      "Girls": 19.833087386516603
+    },
+    {
+      "year": 2016,
+      "state": "Arunachal Pradesh",
+      "BOYS": 16.08576855631962,
+      "Girls": 28.825444099888095
+    },
+    {
+      "year": 2016,
+      "state": "Assam",
+      "BOYS": 11.278572528022858,
+      "Girls": 5.292543287249217
+    },
+    {
+      "year": 2016,
+      "state": "Bihar",
+      "BOYS": 16.453505966691615,
+      "Girls": 10.706837802671691
+    },
+    {
+      "year": 2016,
+      "state": "Chhattisgarh",
+      "BOYS": 14.617050260288016,
+      "Girls": 11.663511983955777
+    },
+    {
+      "year": 2016,
+      "state": "Goa",
+      "BOYS": 14.300357649292641,
+      "Girls": 14.192221681461112
+    },
+    {
+      "year": 2016,
+      "state": "Gujarat",
+      "BOYS": 9.004205692470146,
+      "Girls": 15.517108830950702
+    },
+    {
+      "year": 2016,
+      "state": "Haryana",
+      "BOYS": 2.0652795942465083,
+      "Girls": 17.185868620152668
+    },
+    {
+      "year": 2016,
+      "state": "Himachal Pradesh",
+      "BOYS": 22.855869387819638,
+      "Girls": 25.312061717906175
+    },
+    {
+      "year": 2016,
+      "state": "Jammu and Kashmir",
+      "BOYS": 1.3284734034062442,
+      "Girls": 7.357764660685261
+    },
+    {
+      "year": 2016,
+      "state": "Jharkhand",
+      "BOYS": 17.09760543942142,
+      "Girls": 14.280011814644906
+    },
+    {
+      "year": 2016,
+      "state": "Karnataka",
+      "BOYS": 19.1316768052399,
+      "Girls": 18.510238277975972
+    },
+    {
+      "year": 2016,
+      "state": "Kerala",
+      "BOYS": 7.923424014385898,
+      "Girls": 25.062349360192158
+    },
+    {
+      "year": 2016,
+      "state": "Madhya Pradesh",
+      "BOYS": 7.082177127345846,
+      "Girls": 3.94622969109596
+    },
+    {
+      "year": 2016,
+      "state": "Maharashtra",
+      "BOYS": 19.721347091333115,
+      "Girls": 11.220816642292268
+    },
+    {
+      "year": 2016,
+      "state": "Manipur",
+      "BOYS": 4.084704794591188,
+      "Girls": 11.038270426097226
+    },
+    {
+      "year": 2016,
+      "state": "Meghalaya",
+      "BOYS": 16.830511594166744,
+      "Girls": 19.925542758262957
+    },
+    {
+      "year": 2016,
+      "state": "Mizoram",
+      "BOYS": 17.243511860822906,
+      "Girls": 20.56139551112514
+    },
+    {
+      "year": 2016,
+      "state": "Nagaland",
+      "BOYS": 11.456284795183253,
+      "Girls": 9.569324938478859
+    },
+    {
+      "year": 2016,
+      "state": "Odisha",
+      "BOYS": -0.7816533171780513,
+      "Girls": 10.504339732707228
+    },
+    {
+      "year": 2016,
+      "state": "Punjab",
+      "BOYS": 14.376976712087354,
+      "Girls": 6.312081883376758
+    },
+    {
+      "year": 2016,
+      "state": "Rajasthan",
+      "BOYS": 12.90064525345898,
+      "Girls": 9.272446676416932
+    },
+    {
+      "year": 2016,
+      "state": "Sikkim",
+      "BOYS": 20.182367731146236,
+      "Girls": 26.11922728152161
+    },
+    {
+      "year": 2016,
+      "state": "Tamil Nadu",
+      "BOYS": 13.084095477911957,
+      "Girls": 25.453889626374746
+    },
+    {
+      "year": 2016,
+      "state": "Telangana",
+      "BOYS": 22.799121365278545,
+      "Girls": 3.7279498187346913
+    },
+    {
+      "year": 2016,
+      "state": "Tripura",
+      "BOYS": 14.897132464135117,
+      "Girls": 17.501143163466708
+    },
+    {
+      "year": 2016,
+      "state": "Uttarakhand",
+      "BOYS": 4.635761178613343,
+      "Girls": 20.78313710277949
+    },
+    {
+      "year": 2016,
+      "state": "Uttar Pradesh",
+      "BOYS": 11.319180146328241,
+      "Girls": 9.63255826902513
+    },
+    {
+      "year": 2016,
+      "state": "West Bengal",
+      "BOYS": 19.029924046770567,
+      "Girls": 13.814519375506206
+    },
+    {
+      "year": 2016,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 6.192810403505092,
+      "Girls": 14.463237479969886
+    },
+    {
+      "year": 2016,
+      "state": "Chandigarh",
+      "BOYS": 7.136572606066636,
+      "Girls": 25.605013370464114
+    },
+    {
+      "year": 2016,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": -0.07083866558617302,
+      "Girls": 21.583031138684305
+    },
+    {
+      "year": 2016,
+      "state": "Daman and Diu",
+      "BOYS": 13.835357871692748,
+      "Girls": 9.192411869420287
+    },
+    {
+      "year": 2016,
+      "state": "Delhi",
+      "BOYS": 23.467754967849096,
+      "Girls": 6.623028425702268
+    },
+    {
+      "year": 2016,
+      "state": "Lakshadweep",
+      "BOYS": 22.90705231440264,
+      "Girls": 25.616300501279035
+    },
+    {
+      "year": 2016,
+      "state": "Puducherry",
+      "BOYS": 13.196006819945792,
+      "Girls": 27.697999759479266
+    },
+    {
+      "year": 2017,
+      "state": "Andhra Pradesh",
+      "BOYS": 5.350496020899432,
+      "Girls": 14.094996057137696
+    },
+    {
+      "year": 2017,
+      "state": "Arunachal Pradesh",
+      "BOYS": 11.911465537218174,
+      "Girls": 18.798732994088194
+    },
+    {
+      "year": 2017,
+      "state": "Assam",
+      "BOYS": 10.66208934845827,
+      "Girls": 26.682815954410703
+    },
+    {
+      "year": 2017,
+      "state": "Bihar",
+      "BOYS": 19.26412007695664,
+      "Girls": 27.70078099829534
+    },
+    {
+      "year": 2017,
+      "state": "Chhattisgarh",
+      "BOYS": 0.10650600997022419,
+      "Girls": 8.196398580147047
+    },
+    {
+      "year": 2017,
+      "state": "Goa",
+      "BOYS": 14.596892804148137,
+      "Girls": 3.9919133371509377
+    },
+    {
+      "year": 2017,
+      "state": "Gujarat",
+      "BOYS": 4.509690960708313,
+      "Girls": 15.588831118266324
+    },
+    {
+      "year": 2017,
+      "state": "Haryana",
+      "BOYS": 10.437401105966881,
+      "Girls": 26.198817535727972
+    },
+    {
+      "year": 2017,
+      "state": "Himachal Pradesh",
+      "BOYS": 22.584411088632116,
+      "Girls": 13.961019888081392
+    },
+    {
+      "year": 2017,
+      "state": "Jammu and Kashmir",
+      "BOYS": 6.748299668666244,
+      "Girls": 14.661522781780189
+    },
+    {
+      "year": 2017,
+      "state": "Jharkhand",
+      "BOYS": 11.539959436473683,
+      "Girls": 14.088100681449223
+    },
+    {
+      "year": 2017,
+      "state": "Karnataka",
+      "BOYS": 0.11664046698489816,
+      "Girls": 27.766303860679383
+    },
+    {
+      "year": 2017,
+      "state": "Kerala",
+      "BOYS": 15.140630201941512,
+      "Girls": 18.794184928811998
+    },
+    {
+      "year": 2017,
+      "state": "Madhya Pradesh",
+      "BOYS": 16.98261313571316,
+      "Girls": 16.743077258243364
+    },
+    {
+      "year": 2017,
+      "state": "Maharashtra",
+      "BOYS": 8.521058780805479,
+      "Girls": 19.298543916859582
+    },
+    {
+      "year": 2017,
+      "state": "Manipur",
+      "BOYS": 21.683512286539166,
+      "Girls": 24.3791312858738
+    },
+    {
+      "year": 2017,
+      "state": "Meghalaya",
+      "BOYS": 4.93811082115148,
+      "Girls": 5.770745665608962
+    },
+    {
+      "year": 2017,
+      "state": "Mizoram",
+      "BOYS": 16.52795949855265,
+      "Girls": 22.844334294192702
+    },
+    {
+      "year": 2017,
+      "state": "Nagaland",
+      "BOYS": 21.38997201172335,
+      "Girls": 15.349835700341874
+    },
+    {
+      "year": 2017,
+      "state": "Odisha",
+      "BOYS": 15.11767717227383,
+      "Girls": 25.713961698226047
+    },
+    {
+      "year": 2017,
+      "state": "Punjab",
+      "BOYS": 19.543575055016284,
+      "Girls": 22.539886135708212
+    },
+    {
+      "year": 2017,
+      "state": "Rajasthan",
+      "BOYS": 0.5695218929258683,
+      "Girls": 3.3562076601808615
+    },
+    {
+      "year": 2017,
+      "state": "Sikkim",
+      "BOYS": 11.963137879634264,
+      "Girls": 15.362109166786585
+    },
+    {
+      "year": 2017,
+      "state": "Tamil Nadu",
+      "BOYS": 0.582332748280483,
+      "Girls": 19.999123904381655
+    },
+    {
+      "year": 2017,
+      "state": "Telangana",
+      "BOYS": 7.819283993463862,
+      "Girls": 26.034925559359326
+    },
+    {
+      "year": 2017,
+      "state": "Tripura",
+      "BOYS": 8.858238075959449,
+      "Girls": 17.231990616496123
+    },
+    {
+      "year": 2017,
+      "state": "Uttarakhand",
+      "BOYS": 21.56294744211503,
+      "Girls": 23.205780212121038
+    },
+    {
+      "year": 2017,
+      "state": "Uttar Pradesh",
+      "BOYS": 1.2477524136434868,
+      "Girls": 15.613541924501352
+    },
+    {
+      "year": 2017,
+      "state": "West Bengal",
+      "BOYS": 17.971972342189932,
+      "Girls": 12.731951102048576
+    },
+    {
+      "year": 2017,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 1.4796300099380177,
+      "Girls": 28.6962420663823
+    },
+    {
+      "year": 2017,
+      "state": "Chandigarh",
+      "BOYS": 14.666847621281295,
+      "Girls": 9.5840066397575
+    },
+    {
+      "year": 2017,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 1.1478934113895685,
+      "Girls": 22.92558224676187
+    },
+    {
+      "year": 2017,
+      "state": "Daman and Diu",
+      "BOYS": 8.899417013251433,
+      "Girls": 14.482757053119496
+    },
+    {
+      "year": 2017,
+      "state": "Delhi",
+      "BOYS": 1.0299800171401872,
+      "Girls": 28.124313026877356
+    },
+    {
+      "year": 2017,
+      "state": "Lakshadweep",
+      "BOYS": 11.687337965409828,
+      "Girls": 19.362373545664514
+    },
+    {
+      "year": 2017,
+      "state": "Puducherry",
+      "BOYS": 5.5172864463456515,
+      "Girls": 26.721640815289017
+    },
+    {
+      "year": 2018,
+      "state": "Andhra Pradesh",
+      "BOYS": 2.5350826482316497,
+      "Girls": 21.5598090162599
+    },
+    {
+      "year": 2018,
+      "state": "Arunachal Pradesh",
+      "BOYS": 5.6934003125070225,
+      "Girls": 25.87934003690012
+    },
+    {
+      "year": 2018,
+      "state": "Assam",
+      "BOYS": 8.290992305235228,
+      "Girls": 18.9052283395911
+    },
+    {
+      "year": 2018,
+      "state": "Bihar",
+      "BOYS": 8.694614316029018,
+      "Girls": 27.004581898293882
+    },
+    {
+      "year": 2018,
+      "state": "Chhattisgarh",
+      "BOYS": 12.812979771006777,
+      "Girls": 13.992387233849215
+    },
+    {
+      "year": 2018,
+      "state": "Goa",
+      "BOYS": 16.180387570760423,
+      "Girls": 24.85644794230814
+    },
+    {
+      "year": 2018,
+      "state": "Gujarat",
+      "BOYS": 9.15657990279892,
+      "Girls": 28.226868737847948
+    },
+    {
+      "year": 2018,
+      "state": "Haryana",
+      "BOYS": 7.193079308913625,
+      "Girls": 11.426252230586268
+    },
+    {
+      "year": 2018,
+      "state": "Himachal Pradesh",
+      "BOYS": 8.751291281873474,
+      "Girls": 8.508016028902784
+    },
+    {
+      "year": 2018,
+      "state": "Jammu and Kashmir",
+      "BOYS": 7.243700990314621,
+      "Girls": 26.302870678936603
+    },
+    {
+      "year": 2018,
+      "state": "Jharkhand",
+      "BOYS": 20.9378354939519,
+      "Girls": 23.275404219385464
+    },
+    {
+      "year": 2018,
+      "state": "Karnataka",
+      "BOYS": 9.1740013838475,
+      "Girls": 18.859756262556438
+    },
+    {
+      "year": 2018,
+      "state": "Kerala",
+      "BOYS": 20.872489074903978,
+      "Girls": 5.113640078321965
+    },
+    {
+      "year": 2018,
+      "state": "Madhya Pradesh",
+      "BOYS": 5.298504436519242,
+      "Girls": 4.613130757720593
+    },
+    {
+      "year": 2018,
+      "state": "Maharashtra",
+      "BOYS": 11.745533781471895,
+      "Girls": 12.09317424940157
+    },
+    {
+      "year": 2018,
+      "state": "Manipur",
+      "BOYS": 0.43845784628476014,
+      "Girls": 2.7378974055798553
+    },
+    {
+      "year": 2018,
+      "state": "Meghalaya",
+      "BOYS": 17.89343208168783,
+      "Girls": 12.11732809357471
+    },
+    {
+      "year": 2018,
+      "state": "Mizoram",
+      "BOYS": 8.546594186878423,
+      "Girls": 24.68257267934632
+    },
+    {
+      "year": 2018,
+      "state": "Nagaland",
+      "BOYS": 20.339231528204667,
+      "Girls": 21.705846286021938
+    },
+    {
+      "year": 2018,
+      "state": "Odisha",
+      "BOYS": 20.32473346469993,
+      "Girls": 1.7477846895040203
+    },
+    {
+      "year": 2018,
+      "state": "Punjab",
+      "BOYS": 4.9450424825237596,
+      "Girls": 11.88857402097737
+    },
+    {
+      "year": 2018,
+      "state": "Rajasthan",
+      "BOYS": 9.26011990474922,
+      "Girls": 7.113138385262206
+    },
+    {
+      "year": 2018,
+      "state": "Sikkim",
+      "BOYS": 21.273021426271658,
+      "Girls": 6.335476404578656
+    },
+    {
+      "year": 2018,
+      "state": "Tamil Nadu",
+      "BOYS": 9.357444458677445,
+      "Girls": 10.877683587203354
+    },
+    {
+      "year": 2018,
+      "state": "Telangana",
+      "BOYS": 16.748437286657946,
+      "Girls": 19.35356473609772
+    },
+    {
+      "year": 2018,
+      "state": "Tripura",
+      "BOYS": -1.1629261913286522,
+      "Girls": 18.102784368000425
+    },
+    {
+      "year": 2018,
+      "state": "Uttarakhand",
+      "BOYS": 8.013626652059504,
+      "Girls": 18.358552406188085
+    },
+    {
+      "year": 2018,
+      "state": "Uttar Pradesh",
+      "BOYS": 13.845833746180222,
+      "Girls": 19.725345020638922
+    },
+    {
+      "year": 2018,
+      "state": "West Bengal",
+      "BOYS": 5.329543910399695,
+      "Girls": 20.682985036355532
+    },
+    {
+      "year": 2018,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 4.431760844686143,
+      "Girls": 3.4225516287169624
+    },
+    {
+      "year": 2018,
+      "state": "Chandigarh",
+      "BOYS": 19.268894859222844,
+      "Girls": 13.156736807407878
+    },
+    {
+      "year": 2018,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 10.948428993276199,
+      "Girls": 27.295456109742705
+    },
+    {
+      "year": 2018,
+      "state": "Daman and Diu",
+      "BOYS": 21.600562640760078,
+      "Girls": 26.79760298763404
+    },
+    {
+      "year": 2018,
+      "state": "Delhi",
+      "BOYS": 8.916782189857155,
+      "Girls": 7.215660714420555
+    },
+    {
+      "year": 2018,
+      "state": "Lakshadweep",
+      "BOYS": 15.555470827724811,
+      "Girls": 13.01136076140526
+    },
+    {
+      "year": 2018,
+      "state": "Puducherry",
+      "BOYS": 13.848416930509845,
+      "Girls": 7.704717582047549
+    },
+    {
+      "year": 2019,
+      "state": "Andhra Pradesh",
+      "BOYS": -1.6562199427021893,
+      "Girls": 4.1514846138719985
+    },
+    {
+      "year": 2019,
+      "state": "Arunachal Pradesh",
+      "BOYS": 1.8695299399913452,
+      "Girls": 24.87757684007881
+    },
+    {
+      "year": 2019,
+      "state": "Assam",
+      "BOYS": 19.179344903243248,
+      "Girls": 17.417153227681574
+    },
+    {
+      "year": 2019,
+      "state": "Bihar",
+      "BOYS": 12.876177096224263,
+      "Girls": 15.4551813682401
+    },
+    {
+      "year": 2019,
+      "state": "Chhattisgarh",
+      "BOYS": 7.606436072238623,
+      "Girls": 3.3773430015655013
+    },
+    {
+      "year": 2019,
+      "state": "Goa",
+      "BOYS": 17.288686924155037,
+      "Girls": 13.056421892788835
+    },
+    {
+      "year": 2019,
+      "state": "Gujarat",
+      "BOYS": 21.118569414815404,
+      "Girls": 13.7260180499504
+    },
+    {
+      "year": 2019,
+      "state": "Haryana",
+      "BOYS": 17.06339087587768,
+      "Girls": 20.077937471169278
+    },
+    {
+      "year": 2019,
+      "state": "Himachal Pradesh",
+      "BOYS": 12.986910387514415,
+      "Girls": 20.56490649947134
+    },
+    {
+      "year": 2019,
+      "state": "Jammu and Kashmir",
+      "BOYS": 3.0943301256215214,
+      "Girls": 1.8667640858153476
+    },
+    {
+      "year": 2019,
+      "state": "Jharkhand",
+      "BOYS": 17.411604935994134,
+      "Girls": 1.3431645569049735
+    },
+    {
+      "year": 2019,
+      "state": "Karnataka",
+      "BOYS": 17.176858868116113,
+      "Girls": 16.2694011886662
+    },
+    {
+      "year": 2019,
+      "state": "Kerala",
+      "BOYS": 0.9819628038247199,
+      "Girls": 9.618710026280143
+    },
+    {
+      "year": 2019,
+      "state": "Madhya Pradesh",
+      "BOYS": 13.605481052813852,
+      "Girls": 1.5016254204096242
+    },
+    {
+      "year": 2019,
+      "state": "Maharashtra",
+      "BOYS": -0.5672191923628036,
+      "Girls": 11.196364758405453
+    },
+    {
+      "year": 2019,
+      "state": "Manipur",
+      "BOYS": 15.490784224272074,
+      "Girls": 26.51925296822308
+    },
+    {
+      "year": 2019,
+      "state": "Meghalaya",
+      "BOYS": 9.661207432742904,
+      "Girls": 12.643047985189897
+    },
+    {
+      "year": 2019,
+      "state": "Mizoram",
+      "BOYS": 5.6970582296818915,
+      "Girls": 14.501478347179988
+    },
+    {
+      "year": 2019,
+      "state": "Nagaland",
+      "BOYS": 18.224706310819556,
+      "Girls": 5.946531473818661
+    },
+    {
+      "year": 2019,
+      "state": "Odisha",
+      "BOYS": 19.407547386789766,
+      "Girls": 26.581509800620502
+    },
+    {
+      "year": 2019,
+      "state": "Punjab",
+      "BOYS": 0.5350113741067712,
+      "Girls": 22.635989541332343
+    },
+    {
+      "year": 2019,
+      "state": "Rajasthan",
+      "BOYS": 3.3772639933829236,
+      "Girls": 19.231789171986478
+    },
+    {
+      "year": 2019,
+      "state": "Sikkim",
+      "BOYS": -1.4892961612617448,
+      "Girls": 23.302470868385456
+    },
+    {
+      "year": 2019,
+      "state": "Tamil Nadu",
+      "BOYS": 0.9525536662512071,
+      "Girls": 8.352164734954755
+    },
+    {
+      "year": 2019,
+      "state": "Telangana",
+      "BOYS": 8.521081083750348,
+      "Girls": 17.174565246273694
+    },
+    {
+      "year": 2019,
+      "state": "Tripura",
+      "BOYS": 10.565627229640297,
+      "Girls": 15.453580558875627
+    },
+    {
+      "year": 2019,
+      "state": "Uttarakhand",
+      "BOYS": 19.952914271390533,
+      "Girls": 10.982444204262402
+    },
+    {
+      "year": 2019,
+      "state": "Uttar Pradesh",
+      "BOYS": 2.7963109053155044,
+      "Girls": 8.850199467264192
+    },
+    {
+      "year": 2019,
+      "state": "West Bengal",
+      "BOYS": 10.789125582720123,
+      "Girls": 27.44421843621013
+    },
+    {
+      "year": 2019,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 0.9746377704526878,
+      "Girls": 1.6109686900452118
+    },
+    {
+      "year": 2019,
+      "state": "Chandigarh",
+      "BOYS": 11.348174176157892,
+      "Girls": 23.757150901866375
+    },
+    {
+      "year": 2019,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 9.65189241592712,
+      "Girls": 8.783353862913264
+    },
+    {
+      "year": 2019,
+      "state": "Daman and Diu",
+      "BOYS": 2.9656019549667025,
+      "Girls": 7.745064232565589
+    },
+    {
+      "year": 2019,
+      "state": "Delhi",
+      "BOYS": 2.8012841969642537,
+      "Girls": 25.72060054183516
+    },
+    {
+      "year": 2019,
+      "state": "Lakshadweep",
+      "BOYS": 20.036927094162586,
+      "Girls": 20.845456151556867
+    },
+    {
+      "year": 2019,
+      "state": "Puducherry",
+      "BOYS": 12.744761603391785,
+      "Girls": 25.75044201584138
+    },
+    {
+      "year": 2020,
+      "state": "Andhra Pradesh",
+      "BOYS": 18.992968402168632,
+      "Girls": 1.0769979502593205
+    },
+    {
+      "year": 2020,
+      "state": "Arunachal Pradesh",
+      "BOYS": 8.417902740706008,
+      "Girls": 9.82824645453045
+    },
+    {
+      "year": 2020,
+      "state": "Assam",
+      "BOYS": 12.00726062577155,
+      "Girls": 21.752096002437394
+    },
+    {
+      "year": 2020,
+      "state": "Bihar",
+      "BOYS": 15.52535404782034,
+      "Girls": 24.87559085592018
+    },
+    {
+      "year": 2020,
+      "state": "Chhattisgarh",
+      "BOYS": 0.8056056437596215,
+      "Girls": 11.50285424789163
+    },
+    {
+      "year": 2020,
+      "state": "Goa",
+      "BOYS": 11.185368722971326,
+      "Girls": 15.088856120680624
+    },
+    {
+      "year": 2020,
+      "state": "Gujarat",
+      "BOYS": 2.3400818170229236,
+      "Girls": 6.748115331623508
+    },
+    {
+      "year": 2020,
+      "state": "Haryana",
+      "BOYS": 6.980279598274095,
+      "Girls": 8.610517700945273
+    },
+    {
+      "year": 2020,
+      "state": "Himachal Pradesh",
+      "BOYS": 5.080047496224335,
+      "Girls": 25.950367676657592
+    },
+    {
+      "year": 2020,
+      "state": "Jammu and Kashmir",
+      "BOYS": 14.90777587540666,
+      "Girls": 6.097834330104318
+    },
+    {
+      "year": 2020,
+      "state": "Jharkhand",
+      "BOYS": 4.978946987154956,
+      "Girls": 16.93538042337544
+    },
+    {
+      "year": 2020,
+      "state": "Karnataka",
+      "BOYS": 20.550946592345554,
+      "Girls": 18.67722919677234
+    },
+    {
+      "year": 2020,
+      "state": "Kerala",
+      "BOYS": -1.7600436746621684,
+      "Girls": 22.980739286372675
+    },
+    {
+      "year": 2020,
+      "state": "Madhya Pradesh",
+      "BOYS": 17.83153867285127,
+      "Girls": 10.026011484569548
+    },
+    {
+      "year": 2020,
+      "state": "Maharashtra",
+      "BOYS": 7.0100328537494345,
+      "Girls": 10.424855504348635
+    },
+    {
+      "year": 2020,
+      "state": "Manipur",
+      "BOYS": 13.547567681232696,
+      "Girls": 24.205887932787974
+    },
+    {
+      "year": 2020,
+      "state": "Meghalaya",
+      "BOYS": 22.36519601669766,
+      "Girls": 18.575823059582888
+    },
+    {
+      "year": 2020,
+      "state": "Mizoram",
+      "BOYS": 11.176902488497294,
+      "Girls": 16.863590118976894
+    },
+    {
+      "year": 2020,
+      "state": "Nagaland",
+      "BOYS": -1.4560576060691615,
+      "Girls": 15.86419891991411
+    },
+    {
+      "year": 2020,
+      "state": "Odisha",
+      "BOYS": -0.4692932236712304,
+      "Girls": 25.511673400475786
+    },
+    {
+      "year": 2020,
+      "state": "Punjab",
+      "BOYS": 3.6114907421999263,
+      "Girls": 16.149797811825696
+    },
+    {
+      "year": 2020,
+      "state": "Rajasthan",
+      "BOYS": -1.9524085679233423,
+      "Girls": 18.821762629659418
+    },
+    {
+      "year": 2020,
+      "state": "Sikkim",
+      "BOYS": 19.34012911036018,
+      "Girls": 24.0785980381512
+    },
+    {
+      "year": 2020,
+      "state": "Tamil Nadu",
+      "BOYS": 17.229045734135898,
+      "Girls": 5.757614917972251
+    },
+    {
+      "year": 2020,
+      "state": "Telangana",
+      "BOYS": 5.136403758257051,
+      "Girls": 24.021897433628894
+    },
+    {
+      "year": 2020,
+      "state": "Tripura",
+      "BOYS": 15.203729797466458,
+      "Girls": 23.47140422250239
+    },
+    {
+      "year": 2020,
+      "state": "Uttarakhand",
+      "BOYS": 1.879359868042613,
+      "Girls": 21.74479714919983
+    },
+    {
+      "year": 2020,
+      "state": "Uttar Pradesh",
+      "BOYS": 20.89376063568049,
+      "Girls": 12.706010692167752
+    },
+    {
+      "year": 2020,
+      "state": "West Bengal",
+      "BOYS": 21.446057914999408,
+      "Girls": 24.955505541630124
+    },
+    {
+      "year": 2020,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 6.530851558976973,
+      "Girls": 21.07082714026859
+    },
+    {
+      "year": 2020,
+      "state": "Chandigarh",
+      "BOYS": 16.42741504869095,
+      "Girls": 25.64475681443794
+    },
+    {
+      "year": 2020,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 19.004290686462525,
+      "Girls": 15.472631660889629
+    },
+    {
+      "year": 2020,
+      "state": "Daman and Diu",
+      "BOYS": 20.945931695095908,
+      "Girls": 18.8883645250286
+    },
+    {
+      "year": 2020,
+      "state": "Delhi",
+      "BOYS": 11.790952573896242,
+      "Girls": 26.2229444225118
+    },
+    {
+      "year": 2020,
+      "state": "Lakshadweep",
+      "BOYS": 20.318622978874455,
+      "Girls": 3.3823314468841286
+    },
+    {
+      "year": 2020,
+      "state": "Puducherry",
+      "BOYS": 13.374770208338916,
+      "Girls": 18.523616299840853
+    },
+    {
+      "year": 2021,
+      "state": "Andhra Pradesh",
+      "BOYS": -0.3548307533968451,
+      "Girls": 12.43696457555894
+    },
+    {
+      "year": 2021,
+      "state": "Arunachal Pradesh",
+      "BOYS": 4.799752206356883,
+      "Girls": 11.926235204314443
+    },
+    {
+      "year": 2021,
+      "state": "Assam",
+      "BOYS": 20.791790997709363,
+      "Girls": 15.2552418200747
+    },
+    {
+      "year": 2021,
+      "state": "Bihar",
+      "BOYS": 5.020240955869026,
+      "Girls": 23.811206603552513
+    },
+    {
+      "year": 2021,
+      "state": "Chhattisgarh",
+      "BOYS": 14.268402730715534,
+      "Girls": 12.999503443125276
+    },
+    {
+      "year": 2021,
+      "state": "Goa",
+      "BOYS": 8.794783760674482,
+      "Girls": 24.987447560602533
+    },
+    {
+      "year": 2021,
+      "state": "Gujarat",
+      "BOYS": 12.482685162392807,
+      "Girls": 25.315146582370545
+    },
+    {
+      "year": 2021,
+      "state": "Haryana",
+      "BOYS": 18.20119674775742,
+      "Girls": 17.481853914878442
+    },
+    {
+      "year": 2021,
+      "state": "Himachal Pradesh",
+      "BOYS": 6.2670239206434,
+      "Girls": 22.4505443991238
+    },
+    {
+      "year": 2021,
+      "state": "Jammu and Kashmir",
+      "BOYS": 2.0096298484012127,
+      "Girls": 25.813639923198316
+    },
+    {
+      "year": 2021,
+      "state": "Jharkhand",
+      "BOYS": 11.071710448556244,
+      "Girls": 18.700228043281854
+    },
+    {
+      "year": 2021,
+      "state": "Karnataka",
+      "BOYS": -1.2652618815071737,
+      "Girls": 18.460997098993168
+    },
+    {
+      "year": 2021,
+      "state": "Kerala",
+      "BOYS": 2.965937050340221,
+      "Girls": 15.572444206159416
+    },
+    {
+      "year": 2021,
+      "state": "Madhya Pradesh",
+      "BOYS": 16.307689927625887,
+      "Girls": 24.62942407157881
+    },
+    {
+      "year": 2021,
+      "state": "Maharashtra",
+      "BOYS": -0.38518447548044676,
+      "Girls": 10.386704632175283
+    },
+    {
+      "year": 2021,
+      "state": "Manipur",
+      "BOYS": 11.312212096410098,
+      "Girls": 26.234725653238584
+    },
+    {
+      "year": 2021,
+      "state": "Meghalaya",
+      "BOYS": 18.25479304144956,
+      "Girls": 5.659576367204915
+    },
+    {
+      "year": 2021,
+      "state": "Mizoram",
+      "BOYS": 15.18809273732593,
+      "Girls": 12.119022417078417
+    },
+    {
+      "year": 2021,
+      "state": "Nagaland",
+      "BOYS": 10.615229952482265,
+      "Girls": 23.65072361152034
+    },
+    {
+      "year": 2021,
+      "state": "Odisha",
+      "BOYS": 9.931500381875596,
+      "Girls": 0.39716393289942076
+    },
+    {
+      "year": 2021,
+      "state": "Punjab",
+      "BOYS": 6.327758643027908,
+      "Girls": 10.637447328991284
+    },
+    {
+      "year": 2021,
+      "state": "Rajasthan",
+      "BOYS": 21.926815374531543,
+      "Girls": 25.987339975461175
+    },
+    {
+      "year": 2021,
+      "state": "Sikkim",
+      "BOYS": 6.606869302761714,
+      "Girls": 11.337547168026992
+    },
+    {
+      "year": 2021,
+      "state": "Tamil Nadu",
+      "BOYS": 21.74213550016858,
+      "Girls": 3.533466042430602
+    },
+    {
+      "year": 2021,
+      "state": "Telangana",
+      "BOYS": 8.307150842715748,
+      "Girls": 10.235079404960702
+    },
+    {
+      "year": 2021,
+      "state": "Tripura",
+      "BOYS": 11.546836837899361,
+      "Girls": 5.510493015373671
+    },
+    {
+      "year": 2021,
+      "state": "Uttarakhand",
+      "BOYS": 16.542735861702788,
+      "Girls": 21.860775528972624
+    },
+    {
+      "year": 2021,
+      "state": "Uttar Pradesh",
+      "BOYS": -0.9871490925044641,
+      "Girls": 16.468856679973122
+    },
+    {
+      "year": 2021,
+      "state": "West Bengal",
+      "BOYS": 10.2772746633225,
+      "Girls": 24.2970604320382
+    },
+    {
+      "year": 2021,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 4.032648392613895,
+      "Girls": 9.166429254757356
+    },
+    {
+      "year": 2021,
+      "state": "Chandigarh",
+      "BOYS": 17.705198662425005,
+      "Girls": 4.910293886318348
+    },
+    {
+      "year": 2021,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 16.003668888305107,
+      "Girls": 2.4514071718019323
+    },
+    {
+      "year": 2021,
+      "state": "Daman and Diu",
+      "BOYS": 7.350275779226877,
+      "Girls": 24.152575052407194
+    },
+    {
+      "year": 2021,
+      "state": "Delhi",
+      "BOYS": 6.843987747359932,
+      "Girls": 23.589949302810822
+    },
+    {
+      "year": 2021,
+      "state": "Lakshadweep",
+      "BOYS": 12.438574088022493,
+      "Girls": 20.5033590570484
+    },
+    {
+      "year": 2021,
+      "state": "Puducherry",
+      "BOYS": -0.7736947990533514,
+      "Girls": 16.891407716877524
+    },
+    {
+      "year": 2022,
+      "state": "Andhra Pradesh",
+      "BOYS": 5.60586942712639,
+      "Girls": 10.975722640250417
+    },
+    {
+      "year": 2022,
+      "state": "Arunachal Pradesh",
+      "BOYS": 13.933274932868507,
+      "Girls": 2.2225268078735354
+    },
+    {
+      "year": 2022,
+      "state": "Assam",
+      "BOYS": 11.053645811822047,
+      "Girls": 21.555721637064725
+    },
+    {
+      "year": 2022,
+      "state": "Bihar",
+      "BOYS": 17.55570353488103,
+      "Girls": 12.039649493701713
+    },
+    {
+      "year": 2022,
+      "state": "Chhattisgarh",
+      "BOYS": 18.057363973226064,
+      "Girls": 24.294226026168705
+    },
+    {
+      "year": 2022,
+      "state": "Goa",
+      "BOYS": 12.30588354196573,
+      "Girls": 9.014346520133508
+    },
+    {
+      "year": 2022,
+      "state": "Gujarat",
+      "BOYS": 13.514211307080025,
+      "Girls": 21.805965735109975
+    },
+    {
+      "year": 2022,
+      "state": "Haryana",
+      "BOYS": 8.30744236284518,
+      "Girls": 23.669664144800674
+    },
+    {
+      "year": 2022,
+      "state": "Himachal Pradesh",
+      "BOYS": 3.5861749174123077,
+      "Girls": 15.108787308101213
+    },
+    {
+      "year": 2022,
+      "state": "Jammu and Kashmir",
+      "BOYS": -1.3677000467698548,
+      "Girls": 3.6402212017071527
+    },
+    {
+      "year": 2022,
+      "state": "Jharkhand",
+      "BOYS": 17.12910210160634,
+      "Girls": 12.728809664513314
+    },
+    {
+      "year": 2022,
+      "state": "Karnataka",
+      "BOYS": 15.92764595140368,
+      "Girls": 18.595439341383944
+    },
+    {
+      "year": 2022,
+      "state": "Kerala",
+      "BOYS": 15.913650219429275,
+      "Girls": 13.685431733337385
+    },
+    {
+      "year": 2022,
+      "state": "Madhya Pradesh",
+      "BOYS": 4.6229578421341735,
+      "Girls": 13.371042782280878
+    },
+    {
+      "year": 2022,
+      "state": "Maharashtra",
+      "BOYS": 9.360095864896092,
+      "Girls": 14.463234681105224
+    },
+    {
+      "year": 2022,
+      "state": "Manipur",
+      "BOYS": 11.317509921452352,
+      "Girls": 18.485043984456627
+    },
+    {
+      "year": 2022,
+      "state": "Meghalaya",
+      "BOYS": 14.400760524222445,
+      "Girls": 15.167247663063325
+    },
+    {
+      "year": 2022,
+      "state": "Mizoram",
+      "BOYS": 17.18427727819524,
+      "Girls": 18.43313272195159
+    },
+    {
+      "year": 2022,
+      "state": "Nagaland",
+      "BOYS": 0.013447448315838884,
+      "Girls": 21.46396822509663
+    },
+    {
+      "year": 2022,
+      "state": "Odisha",
+      "BOYS": -0.7573081491211617,
+      "Girls": 11.252930507110385
+    },
+    {
+      "year": 2022,
+      "state": "Punjab",
+      "BOYS": 17.39180256342212,
+      "Girls": 9.790165839506574
+    },
+    {
+      "year": 2022,
+      "state": "Rajasthan",
+      "BOYS": 13.7808528374945,
+      "Girls": 17.438409755234876
+    },
+    {
+      "year": 2022,
+      "state": "Sikkim",
+      "BOYS": 18.8044963000101,
+      "Girls": 16.38189336292347
+    },
+    {
+      "year": 2022,
+      "state": "Tamil Nadu",
+      "BOYS": 18.50006320287704,
+      "Girls": 18.89074320874908
+    },
+    {
+      "year": 2022,
+      "state": "Telangana",
+      "BOYS": -0.9799227215662292,
+      "Girls": 0.8755728130441032
+    },
+    {
+      "year": 2022,
+      "state": "Tripura",
+      "BOYS": 10.962413458057664,
+      "Girls": 11.219703582585655
+    },
+    {
+      "year": 2022,
+      "state": "Uttarakhand",
+      "BOYS": 16.306707141097874,
+      "Girls": 16.63330980918035
+    },
+    {
+      "year": 2022,
+      "state": "Uttar Pradesh",
+      "BOYS": 6.47744455744556,
+      "Girls": 2.487606287700979
+    },
+    {
+      "year": 2022,
+      "state": "West Bengal",
+      "BOYS": 2.484053039523733,
+      "Girls": 6.670400492285504
+    },
+    {
+      "year": 2022,
+      "state": "Andaman and Nicobar Islands",
+      "BOYS": 11.310631162744954,
+      "Girls": 9.978536580530633
+    },
+    {
+      "year": 2022,
+      "state": "Chandigarh",
+      "BOYS": 17.879504439774465,
+      "Girls": 12.504942877109354
+    },
+    {
+      "year": 2022,
+      "state": "Dadra and Nagar Haveli",
+      "BOYS": 15.083553298090155,
+      "Girls": 23.490134839792898
+    },
+    {
+      "year": 2022,
+      "state": "Daman and Diu",
+      "BOYS": 16.600572900957065,
+      "Girls": 0.043493093515236225
+    },
+    {
+      "year": 2022,
+      "state": "Delhi",
+      "BOYS": 6.029311903559467,
+      "Girls": 15.362757087405384
+    },
+    {
+      "year": 2022,
+      "state": "Lakshadweep",
+      "BOYS": 2.4668422064609192,
+      "Girls": 16.11684549600537
+    },
+    {
+      "year": 2022,
+      "state": "Puducherry",
+      "BOYS": 12.657526787667678,
+      "Girls": 18.49934290841382
+    }
+  ]
+}
