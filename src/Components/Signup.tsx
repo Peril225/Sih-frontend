@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
+// import * as dotenv from "dotenv";
 // import
 
+// interface how the response is retured
 interface resp {
   body: {
     id: string;
@@ -9,52 +11,71 @@ interface resp {
 }
 
 function Signup() {
+  // dotenv.config();
+  // states to store FORM DATA
   const [Firstname, setFirstname] = useState<string>("");
   const [username, setusername] = useState<string>("");
   const [email, setemail] = useState<string>("");
   const [password, setpassword] = useState<string>("");
   const [confirm, setconfirm] = useState<string>("");
-  const Submit = () => {
-    console.log(Firstname, username, email, password, confirm, "here");
-    if (Firstname && username && email && password && confirm) {
-      // var mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
-      if (password.trim() == confirm.trim()) {
-        toast("Loading ...", { position: "top-right" });
-        fetch("https://sih-backend.srikharshashish.repl.co/auth/register", {
-          method: "POST",
-          body: JSON.stringify({
-            name: username,
-            email: email,
-            password: password,
-          }),
-          headers: { "Content-Type": "application/json" },
-        })
-          .then((resp) => {
-            if ((resp.status as number) !== 200) {
-              toast.error("Email  or User Aleady Exist");
-              throw "errr";
-            }
 
-            resp
-              .json()
-              .then((ress) => {
-                toast.success("Succes u can Login now");
-                console.log(ress, "dang it");
-              })
-              .catch((Err) => {
-                toast.error("EInvalid Email");
-                console.log(Err, "hehe failed");
-              });
+  useEffect(() => {
+    // Component did Mount function
+    console.log(import.meta.env.VITE_BASE_URL, "urll");
+  }, []);
+
+  // ASYNC Signup submit function
+  const Submit = () => {
+    // verify FORMDATA is valid
+    console.log(Firstname, username, email, password, confirm, "here");
+
+    if (Firstname && username && email && password && confirm) {
+      // valid email verification using regex
+      var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      if (mailformat.test(email)) {
+        // password handling
+        if (password.trim() == confirm.trim()) {
+          toast("Loading ...", { position: "top-right" });
+          // POSTING request
+          fetch(import.meta.env.VITE_BASE_URL + "/auth/register", {
+            method: "POST",
+            body: JSON.stringify({
+              name: username,
+              email: email,
+              password: password,
+            }),
+            headers: { "Content-Type": "application/json" },
           })
-          .catch((err) => console.log(err, "messed up"));
+            // Handling edge Cases
+            .then((resp) => {
+              if ((resp.status as number) !== 200) {
+                toast.error("Email or User Aleady Exist");
+                throw "errr";
+              }
+              resp
+                .json()
+                .then((ress) => {
+                  toast.success("Succes u can Login now");
+                  console.log(ress, "dang it");
+                })
+                .catch((Err) => {
+                  toast.error("EInvalid Email");
+                  console.log(Err, "hehe failed");
+                });
+            })
+            .catch((err) => console.log(err, "messed up"));
+        } else {
+          alert("pws dont match");
+        }
       } else {
-        alert("pws dont match");
+        toast.error("Email Is invalid");
       }
     } else {
       alert("DUDE U HAVENT FILLED EM");
     }
   };
   return (
+    // TAILWIND login component
     <div>
       <div className='App'>
         <div className='min-w-screen min-h-screen bg-gray-900 flex items-center justify-center px-5 py-5'>
