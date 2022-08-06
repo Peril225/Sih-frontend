@@ -9,7 +9,7 @@ function Boxes() {
             <div className='text-red-600'>DropOut Percent</div>
             <div className=''>2022 Stats</div>
             <div className='pt-5 text-red-700 text-lg'>+5.5 %</div>
-            <div className='text-red-600 text-2xl '>23,000</div>
+            <div className='text-red-600 text-2xl '>22,000</div>
           </div>
           <div className='w-40  h-60 rounded-lg  bg-green-400 bg-opacity-30 hover:bg-opacity-50 cursor-pointer items-center justify-center flex font-bold  flex-col'>
             <div className='text-green-600'>EnrolMent Index</div>
