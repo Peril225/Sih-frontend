@@ -1,14 +1,17 @@
-//@ts-nocheck
 import React, { useEffect, useState } from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { ReactSVG } from "react-svg";
 import IndiaMap from "../../DATA/indiaHigh.svg";
 import DatamapsIndia from "react-datamaps-india";
 import India from "@svg-maps/india";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import { SVGMap } from "react-svg-map";
 import "react-svg-map/lib/index.css";
-import LOGO from "../../DATA/in.svg";
-
+import ScrollAnimation from "react-animate-on-scroll";
+import { PieChart } from "react-minimal-pie-chart";
+import ReactApexChart from "react-apexcharts";
+import Logo from "../assets/Logo.png";
+import { AiOutlinePoweroff } from "react-icons/ai";
 interface VAL {
   value: { name: string; value: string };
 }
@@ -21,6 +24,99 @@ function Home() {
   const [ShowState, setShowState] = useState(false);
   const [stateCode, setStateCode] = useState("");
   const [stateName, setStateName] = useState("");
+  const [Current, setCurrent] = useState("Odissa");
+  const [pievals, setpievals] = useState([44, 55, 13]);
+
+  let States = [
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttarakhand",
+    "Uttar Pradesh",
+    "West Bengal",
+    "Andaman and Nicobar Islands",
+    "Chandigarh",
+    "Dadra and Nagar Haveli",
+    "Daman and Diu",
+    "Delhi",
+    "Lakshadweep",
+    "Puducherry",
+  ];
+  const Options = {
+    // plotOptions: {
+    //   pie: {
+    //     donut: {
+    //       size: "65%",
+    //     },
+    //   },
+    // },
+    labels: ["ELEMENTERY", "HIGHSCHOOL", "TECHNICAL"],
+    colors: ["#4287f5", "#39eaed", "#9e4ca8"],
+    chart: {
+      width: 380,
+      type: "donut",
+    },
+    plotOptions: {
+      pie: {
+        donut: {
+          size: "50%",
+        },
+      },
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    responsive: [
+      {
+        breakpoint: 480,
+        options: {
+          chart: {
+            width: 200,
+          },
+          legend: {
+            show: false,
+          },
+        },
+      },
+    ],
+    legend: {
+      position: "right",
+      offsetY: 0,
+      height: 630,
+    },
+  };
+
+  const ChangeState = (State: string) => {
+    setpievals([
+      Math.floor(Math.random() * 100),
+      Math.floor(Math.random() * 100),
+      Math.floor(Math.random() * 100),
+    ]);
+    setCurrent(State);
+  };
 
   const onLocationClick = (event: any) => {
     setStateCode(event.target.id);
@@ -44,12 +140,23 @@ function Home() {
       }
       setPlaceholder(placehol[placeholderIndex].slice(0, placeHoldcount + 1));
     }, 300);
+    const pievals = setInterval(() => {
+      setpievals([
+        Math.floor(Math.random() * 100),
+        Math.floor(Math.random() * 100),
+        Math.floor(Math.random() * 100),
+      ]);
+      setCurrent(States[Math.floor(Math.random() * States.length)]);
+    }, 800);
     return () => {
+      clearInterval(pievals);
       clearInterval(intr);
     };
   });
   useEffect(() => {
-    fetch(import.meta.env.BASE_URL + "/data/pass-fail", {
+    console.log(import.meta.env.VITE_BASE_URL);
+
+    fetch(import.meta.env.VITE_BASE_URL + "/data/pass-fail", {
       method: "POST",
       body: JSON.stringify({
         from: null,
@@ -66,106 +173,137 @@ function Home() {
   }, []);
 
   return (
-    <div className='h-screen overflow-x-hidden justify-center items-center flex bg-bgr pt-32 '>
-      <div className='items-center justify-center flex flex-col space-y-5 pt-96 mt-96'>
-        <div className=' text-slate-400 font-bold font-serif text-5xl px-5 mt-11'>
-          National Educational Database.
+    <div className='flex items-center bg-bgr'>
+      <div className=' px-4 py-6 hidden sm:flex bg-bgr1 h-screen justify-between items-center flex-col'>
+        <div className='py-7'>
+          <img className='cursor-pointer' src={Logo} width={75} height={75} />
         </div>
-        <div className='text-slate-500 max-w-xl text-lg px-5'>
-          " Endure, Master Wayne. Take it. They’ll hate you for it, but that’s
-          the point of Batman, he can be the outcast. He can make the choice
-          that no one else can make, the right choice." - Alfred Pennyworth, The
-          Dark Knight{" "}
+        <div className='p-4 bg-slate-500 rounded-lg hover:text-red-400 cursor-pointer'>
+          <AiOutlinePoweroff size={40} className='' />
         </div>
-        <div className='  flex-col flex md:w-9/12 space-y-3 max-w-2xl'>
-          <label className='text-slate-500 font-bold px-4'>
-            Select State or District
-          </label>
-          <div className='w-full flex items-center bg-bgr1'>
-            <BiSearchAlt className='text-slate-500 px-4 ' size={60} />
-            <input
-              className='bg-bgr1 outline-none w-full p-5 pl-0 text-blue-400 text-lg font-mono'
-              placeholder={placeholder}
-              onFocus={() => setShowState(true)}
-              onBlur={() => setShowState(false)}
-            />
+      </div>
+      <div className='h-screen overflow-x-hidden justify-center items-center flex  pt-32 '>
+        <div className='items-center justify-center flex flex-col space-y-5 pt-96 mt-96'>
+          <div className=' text-slate-400 font-bold font-serif text-5xl px-5 mt-11'>
+            National Educational Database.
           </div>
-          <div
-            className={`text-blue-400 font-semibold text-lg pl-16 underline ${
-              ShowState ? "" : "hidden"
-            }  animate-fade`}
-          >
-            States And Teritories
+          <div className='text-slate-500 max-w-xl text-lg px-5'>
+            " Endure, Master Wayne. Take it. They’ll hate you for it, but that’s
+            the point of Batman, he can be the outcast. He can make the choice
+            that no one else can make, the right choice." - Alfred Pennyworth,
+            The Dark Knight{" "}
           </div>
-          <div
-            className={`flex text-slate-300 text-lg justify-around ${
-              ShowState ? "" : "hidden"
-            }  animate-fade`}
-          >
-            <div>
-              <ol className='space-y-3 '>
-                <dl className='hover:underline cursor-pointer'>Telangana</dl>
-                <li className='hover:underline cursor-pointer'>Uppal</li>
-                <li className='hover:underline cursor-pointer'>Oddisa</li>
-                <li className='hover:underline cursor-pointer'>Jaipu</li>
-              </ol>
-            </div>
-            <div>
-              <ol className='space-y-3  '>
-                <dl className='hover:underline cursor-pointer'>Andra Pra</dl>
-                <li className='hover:underline cursor-pointer'>Punjab</li>
-                <li className='hover:underline cursor-pointer'>JAMMU</li>
-                <li className='hover:underline cursor-pointer'>Kashmir</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-        <div className='sm:flex text-slate-400 justify-between pt-20 sm:px-12 p-6 w-screen'>
-          <div className='sm:pl-14 font-mono space-y-3'>
-            <div className='text-xl flex'>
-              <div>Browse through these Data . . .</div>
-            </div>
-            <div className='BOXES sm:flex  space-x-3'>
-              <div className='flex space-x-3'>
-                <div className='w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-red-400 bg-opacity-30 items-center justify-center flex font-bold  flex-col'>
-                  <div className='text-red-600'>DropOut Percent</div>
-                  <div className=''>2022 Stats</div>
-                  <div className='pt-5 text-red-700 text-lg'>+5.5 %</div>
-                  <div className='text-red-600 text-2xl '>23,000</div>
-                </div>
-                <div className='w-40  h-60 rounded-lg  bg-green-400 bg-opacity-30 hover:bg-opacity-50 cursor-pointer items-center justify-center flex font-bold  flex-col'>
-                  <div className='text-green-600'>EnrolMent Index</div>
-                  <div className=''>2022 Stats</div>
-                  <div className='pt-5 text-green-700 text-lg'>+5.5 %</div>
-                  <div className='text-green-600 text-2xl '>23,000</div>
-                </div>
-              </div>
-              <div className='flex  space-x-3'>
-                <div className='w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-blue-400 items-center justify-center flex font-bold  flex-col'>
-                  <div className='text-blue-600'>Pass Fail ratio</div>
-                  <div className=''>2022 Stats</div>
-                  <div className='pt-5 text-blue-700 text-lg'>+5.5 %</div>
-                  <div className='text-blue-600 text-2xl '>23,000</div>
-                </div>
-                <div className='w-40  h-60 rounded-lg hover:bg-opacity-10 cursor-pointer hover:bg-gray-400 items-center justify-center flex font-bold  flex-col'>
-                  <div className='text-gray-600'>GP INDEX</div>
-                  <div className=''>2022 Stats</div>
-                  <div className='pt-5 text-gray-700 text-lg'>+5.5 %</div>
-                  <div className='text-gray-600 text-2xl '>23,000</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='w-screen sm:w-1/2'>
-            <>
-              {/* <p>{stateName}</p>
-              <p>{stateCode}</p> */}
-              <SVGMap
-                className='bg-transparent'
-                map={India}
-                onLocationClick={(e) => onLocationClick(e)}
+          <div className='  flex-col flex md:w-9/12 space-y-3 max-w-2xl'>
+            <label className='text-slate-500 font-bold px-4'>
+              Select State or District
+            </label>
+            <div className='w-full flex items-center bg-bgr1'>
+              <BiSearchAlt className='text-slate-500 px-4 ' size={60} />
+              <input
+                className='bg-bgr1 outline-none w-full p-5 pl-0 text-blue-400 text-lg font-mono'
+                placeholder={placeholder}
+                onFocus={() => setShowState(true)}
+                onBlur={() => setShowState(false)}
               />
-            </>
+            </div>
+            <div
+              className={`text-blue-400 font-semibold text-lg pl-16 underline ${
+                ShowState ? "" : "hidden"
+              }  animate-fade`}
+            >
+              States And Teritories
+            </div>
+            <div
+              className={`flex text-slate-300 text-lg justify-around ${
+                ShowState ? "" : "hidden"
+              }  animate-fade`}
+            >
+              <div>
+                <ol className='space-y-3 '>
+                  <dl className='hover:underline cursor-pointer'>Telangana</dl>
+                  <li className='hover:underline cursor-pointer'>Uppal</li>
+                  <li className='hover:underline cursor-pointer'>Oddisa</li>
+                  <li className='hover:underline cursor-pointer'>Jaipu</li>
+                </ol>
+              </div>
+              <div>
+                <ol className='space-y-3  '>
+                  <dl className='hover:underline cursor-pointer'>Andra Pra</dl>
+                  <li className='hover:underline cursor-pointer'>Punjab</li>
+                  <li className='hover:underline cursor-pointer'>JAMMU</li>
+                  <li className='hover:underline cursor-pointer'>Kashmir</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div className='lg:flex text-slate-400 justify-between pt-20 sm:px-12 p-6 w-screen'>
+            <div className='sm:pl-14 font-mono space-y-3'>
+              <div className='text-xl flex'>
+                <div>Browse through these Data . . .</div>
+              </div>
+              <div className='BOXES sm:flex  space-x-3'>
+                <div className='flex space-x-3'>
+                  <div className='w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-red-400 bg-opacity-30 items-center justify-center flex font-bold  flex-col'>
+                    <div className='text-red-600'>DropOut Percent</div>
+                    <div className=''>2022 Stats</div>
+                    <div className='pt-5 text-red-700 text-lg'>+5.5 %</div>
+                    <div className='text-red-600 text-2xl '>23,000</div>
+                  </div>
+                  <div className='w-40  h-60 rounded-lg  bg-green-400 bg-opacity-30 hover:bg-opacity-50 cursor-pointer items-center justify-center flex font-bold  flex-col'>
+                    <div className='text-green-600'>EnrolMent Index</div>
+                    <div className=''>2022 Stats</div>
+                    <div className='pt-5 text-green-700 text-lg'>+5.5 %</div>
+                    <div className='text-green-600 text-2xl '>23,000</div>
+                  </div>
+                </div>
+                <div className='flex  space-x-3'>
+                  <div className='w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-blue-400 items-center justify-center flex font-bold  flex-col'>
+                    <div className='text-blue-600'>Pass Fail ratio</div>
+                    <div className=''>2022 Stats</div>
+                    <div className='pt-5 text-blue-700 text-lg'>+5.5 %</div>
+                    <div className='text-blue-600 text-2xl '>23,000</div>
+                  </div>
+                  <div className='w-40  h-60 rounded-lg hover:bg-opacity-10 cursor-pointer hover:bg-gray-400 items-center justify-center flex font-bold  flex-col'>
+                    <div className='text-gray-600'>GP INDEX</div>
+                    <div className=''>2022 Stats</div>
+                    <div className='pt-5 text-gray-700 text-lg'>+5.5 %</div>
+                    <div className='text-gray-600 text-2xl '>23,000</div>
+                  </div>
+                </div>
+              </div>
+              {/* import ScrollAnimation from 'react-animate-on-scroll'; */}
+              {/* <ScrollAnimation animateIn='fadeIn'>
+              <div className='text-xl text-white'>kjbkbk</div> */}
+              {/* </> */}
+              <div className='py-9 space-y-10'>
+                <h2 className='text-xl w-4/5 h-4 py-8'>
+                  GPI INDEX OF {Current}
+                </h2>
+                <ReactApexChart
+                  options={Options as object}
+                  series={pievals}
+                  type='donut'
+                  width={510}
+                />
+              </div>
+              {/* </ScrollAnimation> */}
+              {/* <AnimationOnScroll animateIn='animate__bounceIn'></AnimationOnScroll> */}
+            </div>
+            <div className='w-screen sm:w-1/2'>
+              <>
+                {/* <p>{stateName}</p>
+              <p>{stateCode}</p> */}
+                <SVGMap
+                  className='IndianMap'
+                  map={India}
+                  // role
+                  onLocationMouseOver={(event) =>
+                    ChangeState(event.target.getAttribute("name"))
+                  }
+                  onLocationClick={(e) => onLocationClick(e)}
+                />
+              </>
+            </div>
           </div>
         </div>
       </div>
