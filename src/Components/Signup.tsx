@@ -27,12 +27,18 @@ function Signup() {
   // ASYNC Signup submit function
   const Submit = () => {
     // verify FORMDATA is valid
-    console.log(Firstname, username, email, password, confirm, "here");
+    // console.log(Firstname, username, email, password, confirm, "here");
 
     if (Firstname && username && email && password && confirm) {
+      console.log(username.length, password.length, "dayy wahhh");
       // valid email verification using regex
       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       if (mailformat.test(email)) {
+        console.log(username.length, password.length, "dayy wahhh");
+        if (password.length < 8 || username.length < 8) {
+          toast.error("Email and username must be 10+ char [no spaces]");
+          return;
+        }
         // password handling
         if (password.trim() == confirm.trim()) {
           toast("Loading ...", { position: "top-right" });

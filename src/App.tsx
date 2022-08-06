@@ -5,6 +5,7 @@ import Signup from "./Components/Signup";
 import React from "react";
 import Signin from "./Components/Signin";
 import Default from "./Components/Default";
+import Home from "./Components/Home";
 // import {Redirect} from 'react-router'
 import { Routes, Route, Navigate } from "react-router-dom";
 // App made with vite
@@ -18,20 +19,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route
-          path='/'
-          element={
-            <div>
-              <div className='flex flex-col justify-center items-center h-screen text-2xl font-bold text-slate-500'>
-                <div>HI MOM</div>
-
-                <a href='/Signup' className='underline'>
-                  SIGNUP
-                </a>
-              </div>
-            </div>
-          }
-        ></Route>
+        <Route path='/' element={<Home />}></Route>
 
         <Route path='/Signup' element={<Signup />}></Route>
 

@@ -62,7 +62,7 @@ function Signin() {
                 } else {
                   localStorage.setItem(
                     "auth-token",
-                    resp.headers.get("auth-token")
+                    resp.headers.get("auth-token") as string
                   );
                   const run = () => {
                     console.log("verify 0");

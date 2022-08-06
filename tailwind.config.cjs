@@ -3,7 +3,21 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bgr: "#171729",
+        bgr1: "#1e1e30",
+      },
+      animation: {
+        fade: "fadeOut 1s ease-in-out",
+      },
+      keyframes: (theme) => ({
+        fadeOut: {
+          "0%": { opacity: "0%" },
+          "100%": { opacity: "100%" },
+        },
+      }),
+    },
   },
   plugins: [],
 };

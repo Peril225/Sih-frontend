@@ -9,15 +9,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@svg-maps/india": "^1.0.1",
     "react": "^18.2.0",
+    "react-datamaps-india": "^0.5.1",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.3.0",
+    "react-icons": "^4.4.0",
+    "react-input-hints": "^3.0.0",
+    "react-jvectormap": "0.0.16",
     "react-router": "^6.3.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "react-svg": "^15.1.4",
+    "react-svg-map": "^2.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "@types/react-svg-map": "^2.1.2",
     "@vitejs/plugin-react": "^2.0.0",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.14",

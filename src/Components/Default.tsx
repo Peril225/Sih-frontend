@@ -1,14 +1,46 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { ReactSVG } from "react-svg";
 
 function Default() {
+  let history = useNavigate();
+  useEffect(() => {
+    const jwt = localStorage.getItem("auth-token");
+    console.log(jwt);
+
+    if (!jwt) {
+      history("/");
+    }
+  }, []);
+
   return (
     <div>
-      <div className='flex flex-col justify-center items-center h-screen text-2xl font-bold text-slate-500'>
-        <div>HI MOM</div>
-
-        <a href='/Signup' className='underline'>
-          Not Exactly 404 but kinda yeah
-        </a>
+      <div className='w-screen h-screen'>
+        <ReactSVG
+          afterInjection={(error, svg) => {
+            if (error) {
+              console.error(error);
+              return;
+            }
+            console.log(svg);
+          }}
+          beforeInjection={(svg) => {
+            svg.classList.add("svg-class-name");
+            svg.setAttribute("style", "width: 200px");
+          }}
+          className='wrapper-class-name'
+          evalScripts='always'
+          fallback={() => <span>Error!</span>}
+          httpRequestWithCredentials={true}
+          loading={() => <span>Loading</span>}
+          onClick={() => {
+            console.log("wrapper onClick");
+          }}
+          renumerateIRIElements={false}
+          src='../../DATA/in.svg'
+          useRequestCache={false}
+          wrapper='span'
+        />
       </div>
     </div>
   );
