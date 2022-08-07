@@ -208,6 +208,4 @@ npm run dev
 - ### [**Jayendra Madaram**](https://github.com/jayendramadaram) {Full Stack Developer}
 - ### [**D Srikhar Shashi**](https://github.com/srikharshashi) {Backend Developer}
 - ### [**Vijayakash Allenki**](https://github.com/vijayakashallenki)  {Full Stack Developer}
-<a href = "https://github.com/Team-Codinos/Sih-frontend/contributors">
-  <img src = "https://contrib.rocks/image?repo=Team-Codinos/Sih-frontend"/>
-</a>
+
