@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         bgr: "#171729",
-        bgr1: "#1e1e30",
+        bgr1: "#242443",
       },
       animation: {
         fade: "fadeOut 1s ease-in-out",

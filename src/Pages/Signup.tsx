@@ -1,14 +1,6 @@
 import React, { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
-// import * as dotenv from "dotenv";
-// import
-
-// interface how the response is retured
-interface resp {
-  body: {
-    id: string;
-  };
-}
+import { Signup as FSingup } from "../utils/Auth/";
 
 function Signup() {
   // dotenv.config();
@@ -19,8 +11,8 @@ function Signup() {
   const [password, setpassword] = useState<string>("");
   const [confirm, setconfirm] = useState<string>("");
 
+  // Component did mount
   useEffect(() => {
-    // Component did Mount function
     console.log(import.meta.env.VITE_BASE_URL, "urll");
   }, []);
 
@@ -43,33 +35,7 @@ function Signup() {
         if (password.trim() == confirm.trim()) {
           toast("Loading ...", { position: "top-right" });
           // POSTING request
-          fetch(import.meta.env.VITE_BASE_URL + "/auth/register", {
-            method: "POST",
-            body: JSON.stringify({
-              name: username,
-              email: email,
-              password: password,
-            }),
-            headers: { "Content-Type": "application/json" },
-          })
-            // Handling edge Cases
-            .then((resp) => {
-              if ((resp.status as number) !== 200) {
-                toast.error("Email or User Aleady Exist");
-                throw "errr";
-              }
-              resp
-                .json()
-                .then((ress) => {
-                  toast.success("Succes u can Login now");
-                  console.log(ress, "dang it");
-                })
-                .catch((Err) => {
-                  toast.error("EInvalid Email");
-                  console.log(Err, "hehe failed");
-                });
-            })
-            .catch((err) => console.log(err, "messed up"));
+          FSingup({ username, email, password });
         } else {
           alert("pws dont match");
         }
@@ -80,6 +46,7 @@ function Signup() {
       alert("DUDE U HAVENT FILLED EM");
     }
   };
+
   return (
     // TAILWIND login component
     <div>

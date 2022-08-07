@@ -205,6 +205,8 @@ npm run dev
 - ### [**P.S.Vaishnavi**](https://github.com/psvaish) {Front End Developer}
 - ### [**Sahil Apte**](https://github.com/SahilApte) {Full Stack Developer and Data Engineer}
 - ### [**Santosh Kiran Sulake**](https://github.com/Ssulakhe39) {Front End Developer}
+- ### [**Srikanth Macha**](https://github.com/Srikanth-Macha)  {Backend Developer}
 - ### [**Jayendra Madaram**](https://github.com/jayendramadaram) {Full Stack Developer}
 - ### [**D Srikhar Shashi**](https://github.com/srikharshashi) {Backend Developer}
 - ### [**Vijayakash Allenki**](https://github.com/vijayakashallenki)  {Full Stack Developer}
+
