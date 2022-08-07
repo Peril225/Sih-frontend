@@ -2,15 +2,15 @@ import React, { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { SignIn } from "../utils/Auth";
-
+import { useDispatch, useSelector } from "react-redux";
+import { LOGIN } from "../Redux/Login/action";
 function Signin() {
   // dotenv.config();
   // states to store FORM DATA
-
+  let history = useNavigate();
   const [email, setemail] = useState<string>("");
-
   const [password, setpassword] = useState<string>("");
-
+  const dispatch = useDispatch();
   useEffect(() => {
     // Component did Mount function
     console.log(import.meta.env.VITE_BASE_URL, "urll");
@@ -26,7 +26,7 @@ function Signin() {
       // POSTING request
       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       if (mailformat.test(email)) {
-        SignIn({ email, password });
+        SignIn({ email, password, history, dispatch });
       } else {
         toast.error("email invalid");
       }
