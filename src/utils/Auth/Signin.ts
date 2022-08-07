@@ -1,9 +1,9 @@
 import { TSignIp } from "../../../typings";
 import { Toast, toast } from "react-hot-toast";
 import { useNavigate } from "react-router";
+import { LOGIN } from "../../Redux/Login/action";
 
-export const SignIn = ({ email, password }: TSignIp) => {
-  let history = useNavigate();
+export const SignIn = ({ email, password, history, dispatch }: TSignIp) => {
   toast("Loading ...", { position: "top-right" });
   fetch(import.meta.env.VITE_BASE_URL + "/auth/login", {
     method: "POST",
@@ -13,12 +13,15 @@ export const SignIn = ({ email, password }: TSignIp) => {
     }),
     headers: {
       "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*",
+      // "Access-Control-Allow-Origin": "*",
     },
   })
     // Handling edge Cases
     .then((resp) => {
-      console.log(resp.headers.get("auth-token"));
+      console.log(
+        resp.headers.get("auth-token"),
+        resp.headers.get("Connection")
+      );
       // for (var pair of) {
       // }
       resp
@@ -33,6 +36,13 @@ export const SignIn = ({ email, password }: TSignIp) => {
               "auth-token",
               resp.headers.get("auth-token") as string
             );
+            dispatch(LOGIN());
+            console.log(
+              "JWTT",
+              resp.headers.get("Auth-Token"),
+              resp.headers.get("auth-token")
+            );
+
             const run = () => {
               console.log("verify 0");
               setTimeout(() => {

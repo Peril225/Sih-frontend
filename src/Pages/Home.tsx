@@ -6,6 +6,8 @@ import "react-svg-map/lib/index.css";
 import { SideBar, Search } from "../layouts";
 import { placehol, States } from "../constants/";
 import { Testing } from "../utils/Home";
+import { useSelector } from "react-redux";
+import { STATE } from "../../typings";
 
 function Home() {
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
@@ -16,6 +18,7 @@ function Home() {
   const [stateName, setStateName] = useState("");
   const [Current, setCurrent] = useState("Odissa");
   const [pievals, setpievals] = useState([44, 55, 13]);
+  const LOGGED = useSelector((state: STATE) => state.auth.LOGGED);
 
   const ChangeState = (State: string) => {
     setpievals([
@@ -34,6 +37,8 @@ function Home() {
   };
 
   useEffect(() => {
+    // console.log(LOGGED, "Look What you have DONE");
+
     const intr = setInterval(() => {
       setplaceHoldcount(placeHoldcount + 1);
       if (!placehol[placeholderIndex]) {

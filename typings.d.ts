@@ -19,6 +19,8 @@ export interface TSignup {
 export interface TSignIp {
   email: string;
   password: string;
+  history: (val: string) => void;
+  dispatch: (val: { type: string }) => void;
 }
 
 export interface SearchProps {
@@ -35,4 +37,14 @@ export interface IndiaMap {
 export interface TPieDonut {
   Current: string;
   pievals: number[3];
+}
+
+export interface STATE {
+  auth: {
+    LOGGED: boolean;
+  };
+}
+
+interface ACTION {
+  type: string;
 }

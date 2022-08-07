@@ -909,6 +909,10 @@ StateXdist = {
     ]
 }
 # print(desp)
-resp = requests.get(
-    "https://mighty-spire-15674.herokuapp.com/data/pass-fail", json=data, headers=head)
+data = {
+    "email": "Firstname@gmail.com",
+    "password": "Firstname@gmail.com"
+}
+resp = requests.post(
+    "https://mighty-spire-15674.herokuapp.com/auth/login", json=data, headers=head)
 print(resp.text, resp.status_code, resp.headers)
