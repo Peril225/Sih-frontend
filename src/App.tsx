@@ -1,11 +1,11 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import Signup from "./Components/Signup";
+import Signup from "./Pages/Signup";
 import React from "react";
-import Signin from "./Components/Signin";
-import Default from "./Components/Default";
-import Home from "./Components/Home";
+import Signin from "./Pages/Signin";
+import Default from "./Pages/Default";
+import Home from "./Pages/Home";
 // import {Redirect} from 'react-router'
 import { Routes, Route, Navigate } from "react-router-dom";
 // App made with vite

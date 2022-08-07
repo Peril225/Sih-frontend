@@ -1,20 +1,12 @@
 import React, { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-// import * as dotenv from "dotenv";
-// import
-
-// interface how the response is retured
-interface resp {
-  body: {
-    id: string;
-  };
-}
+import { SignIn } from "../utils/Auth";
 
 function Signin() {
   // dotenv.config();
   // states to store FORM DATA
-  let history = useNavigate();
+
   const [email, setemail] = useState<string>("");
 
   const [password, setpassword] = useState<string>("");
@@ -31,57 +23,10 @@ function Signin() {
 
     if (email && password) {
       // valid email verification using regex
-
       // POSTING request
       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       if (mailformat.test(email)) {
-        toast("Loading ...", { position: "top-right" });
-        fetch(import.meta.env.VITE_BASE_URL + "/auth/login", {
-          method: "POST",
-          body: JSON.stringify({
-            email: email,
-            password: password,
-          }),
-          headers: {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
-          },
-        })
-          // Handling edge Cases
-          .then((resp) => {
-            console.log(resp.headers.get("auth-token"));
-            // for (var pair of) {
-            // }
-            resp
-              .json()
-              .then((ress) => {
-                if ((resp.status as number) !== 200) {
-                  console.log(ress.errMsg, "hehe");
-                  toast.error(`${ress.errMsg}`);
-                  return;
-                } else {
-                  localStorage.setItem(
-                    "auth-token",
-                    resp.headers.get("auth-token") as string
-                  );
-                  const run = () => {
-                    console.log("verify 0");
-                    setTimeout(() => {
-                      console.log("verify 1");
-                      history("/Dashbard");
-                    }, 2000);
-                  };
-                  run();
-                  toast.success("Succes u can Login now");
-                  console.log(ress, resp, "dang it");
-                }
-              })
-              .catch((Err) => {
-                toast.error(`ERROR WHILE LOGIN ${Err}`);
-                console.log(Err, "hehe failed");
-              });
-          })
-          .catch((err) => console.log(err, "messed up"));
+        SignIn({ email, password });
       } else {
         toast.error("email invalid");
       }
