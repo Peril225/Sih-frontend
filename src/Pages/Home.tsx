@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { IndiaMap, Boxes, PieDonut, SearchState } from "../Components";
 import "react-svg-map/lib/index.css";
 import { SideBar, Search, ExploreC } from "../layouts";
-import { LITRACY, placehol, States } from "../constants/";
+import { config, LITRACY, placehol, States } from "../constants/";
 import { Testing } from "../utils/Home";
 import { useSelector } from "react-redux";
 import { STATE } from "../../typings";
 import { StatesXcolor, LITracy } from "../constants/";
+import Confetti from "react-dom-confetti";
 import {
   ComposedChart,
   Line,
@@ -29,6 +30,7 @@ function Home() {
   const [placeHoldcount, setplaceHoldcount] = useState(0);
   const [placeholder, setPlaceholder] = useState("");
   const [ShowState, setShowState] = useState(false);
+  const [animecon, setanimecon] = useState(false);
 
   const [Explore, setExplore] = useState(false);
   const [isFlipped, setIsFlipped] = React.useState(false);
@@ -126,7 +128,7 @@ function Home() {
   });
 
   useEffect(() => {
-    Testing();
+    // Testing();
     StatesXcolor.map((state) => {
       console.log(state);
       document.getElementById(state.State)!.style.fill = `rgba(${Color[0]} , ${
@@ -135,26 +137,38 @@ function Home() {
     });
   }, [Color]);
 
-  const CardStyle = {
-    border: "1px solid black",
-    padding: "20px",
-    margin: "20px",
-    width: "200px",
-    height: "300px",
+  const ref = useRef(null);
+  // const first = useRef(second)
+
+  const onScroll = () => {
+    if (ref.current) {
+      const { scrollTop, scrollHeight, clientHeight } = ref.current;
+      // console.log("here", Math.floor());
+
+      if (scrollTop >= scrollHeight - clientHeight - 20) {
+        setanimecon(!animecon);
+        // console.log("reached bottom");
+      }
+    }
   };
 
   // const Component = () => <div>yo</div>;
 
   return (
-    <div className='flex items-center bg-bgr '>
+    <div className='flex items-center bg-bgr overflow-hidden'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
-      <div className='h-screen overflow-x-hidden justify-center items-center  flex  overflow-scroll  pt-96 '>
+      <Confetti active={animecon} config={config} />
+      <div
+        className='h-screen overflow-x-hidden justify-center   flex  overflow-scroll   '
+        ref={ref}
+        onScroll={onScroll}
+      >
         {/* <ScrollAnimation animateIn='fadeIn'> */}
-        <div className='items-center justify-center flex flex-col space-y-5  mt-96 top-0 animate-fade pt-96'>
-          <div className=' p-96'>hi</div>
-          <div className='p-96'>hi</div>
-          <div className=' text-slate-400 font-bold font-serif text-5xl px-5 mt-11'>
+        <div className='items-center  flex flex-col space-y-5  mt-72 top-0 animate-fade '>
+          {/* <div className=' p-96'>hi</div>
+          <div className='p-96'>hi</div> */}
+          <div className=' text-slate-400 font-bold font-serif text-5xl '>
             National Educational Database.
           </div>
           <div className='text-slate-500 max-w-xl text-lg px-5'>
@@ -177,12 +191,13 @@ function Home() {
             </div>
             <div className='w-screen sm:w-1/2 pr-7 mr-9'>
               <IndiaMap
+                hide={false}
                 ChangeState={ChangeState}
                 onLocationClick={onLocationClick}
               />
             </div>
           </div>
-          <div className='justify-between items-center flex flex-col space-y-14'>
+          <div className='justify-between items-center flex flex-col space-y-14 '>
             <div className='text-4xl text-slate-500 font-bold font-mono pb-40 mt-24 italic '>
               How India Is Performing ...
             </div>
@@ -321,7 +336,7 @@ function Home() {
                 </div>
                 {/* <div>Ther</div> */}
               </div>
-              <div className='p-3 rounded-xl border md:mr-60'>
+              <div className='p-3 rounded-xl border md:mr-60 '>
                 <ComposedChart
                   width={600}
                   height={350}

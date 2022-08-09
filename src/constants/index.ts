@@ -179,6 +179,20 @@ export const LITracy = [
   { year: 2022, BOYS: 87, GIRLS: 81, Total: 84 },
 ];
 
+export const config = {
+  angle: 90,
+  spread: 360,
+  startVelocity: 40,
+  elementCount: 70,
+  dragFriction: 0.12,
+  duration: 3000,
+  stagger: 3,
+  width: "10px",
+  height: "10px",
+  perspective: "500px",
+  colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"],
+};
+
 export const LITRACY = [
   { year: 2000, BOYS: 60, GIRLS: 77, Total: 68 },
   { year: 2001, BOYS: 85, GIRLS: 81, Total: 83 },
@@ -203,4 +217,30 @@ export const LITRACY = [
   { year: 2020, BOYS: 81, GIRLS: 96, Total: 88 },
   { year: 2021, BOYS: 87, GIRLS: 95, Total: 91 },
   { year: 2022, BOYS: 88, GIRLS: 92, Total: 90 },
+];
+
+export const TEACHERS = [
+  { year: 2000, TEACHERS: 6 },
+  { year: 2001, TEACHERS: 6 },
+  { year: 2002, TEACHERS: 6 },
+  { year: 2003, TEACHERS: 7 },
+  { year: 2004, TEACHERS: 7 },
+  { year: 2005, TEACHERS: 7 },
+  { year: 2006, TEACHERS: 4 },
+  { year: 2007, TEACHERS: 7 },
+  { year: 2008, TEACHERS: 8 },
+  { year: 2009, TEACHERS: 5 },
+  { year: 2010, TEACHERS: 9 },
+  { year: 2011, TEACHERS: 9 },
+  { year: 2012, TEACHERS: 9 },
+  { year: 2013, TEACHERS: 9 },
+  { year: 2014, TEACHERS: 7 },
+  { year: 2015, TEACHERS: 10 },
+  { year: 2016, TEACHERS: 10 },
+  { year: 2017, TEACHERS: 8 },
+  { year: 2018, TEACHERS: 11 },
+  { year: 2019, TEACHERS: 10 },
+  { year: 2020, TEACHERS: 11 },
+  { year: 2021, TEACHERS: 13 },
+  { year: 2022, TEACHERS: 13 },
 ];

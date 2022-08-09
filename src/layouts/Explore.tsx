@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Explore({
   Explore,
@@ -58,9 +59,11 @@ function Explore({
             How to Contribute , documentation devs who made it possible
           </div>
 
-          <div className='Cardbg1 flex w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono text-2xl justify-center items-center'>
-            How Many Students does a Average Teacher get Assigned?
-          </div>
+          <Link to='/Teachers-Students'>
+            <div className='Cardbg1 flex w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono text-2xl justify-center items-center'>
+              How Many Students does a Average Teacher get Assigned?
+            </div>
+          </Link>
         </div>
       </div>
     </div>
