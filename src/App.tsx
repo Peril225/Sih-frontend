@@ -13,6 +13,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 // App made with vite
 
 import AnimatedCursor from "react-animated-cursor";
+import TeacherSTU from "./Pages/TeacherSTU";
 function App() {
   /*
     React router used for routing 
@@ -23,17 +24,9 @@ function App() {
     <div>
       <AnimatedCursor color='67, 186, 148' />
       <Routes>
-        <Route
-          path='/'
-          element={
-            // <ReactCursorPosition>
-            <Home />
-            // </ReactCursorPosition>
-          }
-        ></Route>
-
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/Teachers-Students' element={<TeacherSTU />}></Route>
         <Route path='/Signup' element={<Signup />}></Route>
-
         <Route path='/Login' element={<Signin />}></Route>
         <Route path='/Dashbard' element={<Default />}></Route>
         {/* default Route */}

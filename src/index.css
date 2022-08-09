@@ -14,7 +14,28 @@
   border: 20px solid white;
   outline: 20px;
 }
+
+.letsSEE {
+  background-color: #171729;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(152.5, 26%, 18%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(298.8, 44%, 13%) 0, transparent 55%);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
 .svg-map__location:hover {
+  /* fill: gray; */
+  stroke-width: 3px;
+  border: 20px solid white;
+  outline: 20px;
+}
+.svg-map__location:focus {
   /* fill: gray; */
   stroke-width: 3px;
   border: 20px solid white;

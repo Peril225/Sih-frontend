@@ -33,6 +33,7 @@ export interface IndiaMap {
   // hide: boolean;
   // x: number;
   // y: number;
+  hide: boolean;
   ChangeState: (val: string) => void;
   onLocationClick: (val: any) => void;
 }

@@ -46,6 +46,11 @@ export default function Indiamap(props: IndiaMap) {
         <SVGMap
           className='IndianMap '
           map={India}
+          onLocationFocus={(event) =>
+            props.hide
+              ? props.ChangeState(event.target.getAttribute("name"))
+              : null
+          }
           // role
           onLocationMouseMove={(event) => {
             // setW(100);
@@ -55,7 +60,9 @@ export default function Indiamap(props: IndiaMap) {
             sethide(false);
             console.log(event.pageX, event.pageY);
             setCurrentState(event.target.getAttribute("name"));
-            props.ChangeState(event.target.getAttribute("name"));
+            !props.hide
+              ? props.ChangeState(event.target.getAttribute("name"))
+              : null;
           }}
           onLocationClick={(e) => props.onLocationClick(e)}
           onLocationMouseOut={() => {
@@ -78,7 +85,7 @@ export default function Indiamap(props: IndiaMap) {
           className='DailogeBOX w-auto h-auto rounded-lg text-gray-300 font-bold font-mono flex transition transform justify-center items-center delay-150 text-xl p-14  duration-300 ease-in-out animate-fade'
           style={{
             position: "absolute",
-            display: hide ? "none" : "flex",
+            display: hide || props.hide ? "none" : "flex",
             left: X - Width - 20,
             top: Y - height - 20,
             background: "#a9c4c7",

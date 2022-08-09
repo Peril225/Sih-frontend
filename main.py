@@ -919,12 +919,9 @@ StateXdist = {
 # print(resp.text, resp.status_code, resp.headers)
 dic = []
 for i in range(2000, 2023):
-    boys = min(random.randint(55, 85) - 2000 + i, 96)
-    GIRLS = min(random.randint(55, 85) - 2000 + i, 96)
+    boys = min(random.randint(2, 6) + (i - 2000)//3)
     dic.append({
         "year": i,
-        "BOYS": boys,
-        "GIRLS": GIRLS,
-        "Total": (boys + GIRLS) // 2
+        "TEACHERS": boys,
     })
 print(dic)

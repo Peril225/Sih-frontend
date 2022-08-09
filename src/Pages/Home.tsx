@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { IndiaMap, Boxes, PieDonut, SearchState } from "../Components";
 import "react-svg-map/lib/index.css";
 import { SideBar, Search, ExploreC } from "../layouts";
-import { LITRACY, placehol, States } from "../constants/";
+import { config, LITRACY, placehol, States } from "../constants/";
 import { Testing } from "../utils/Home";
 import { useSelector } from "react-redux";
 import { STATE } from "../../typings";
@@ -128,7 +128,7 @@ function Home() {
   });
 
   useEffect(() => {
-    Testing();
+    // Testing();
     StatesXcolor.map((state) => {
       console.log(state);
       document.getElementById(state.State)!.style.fill = `rgba(${Color[0]} , ${
@@ -137,26 +137,6 @@ function Home() {
     });
   }, [Color]);
 
-  const CardStyle = {
-    border: "1px solid black",
-    padding: "20px",
-    margin: "20px",
-    width: "200px",
-    height: "300px",
-  };
-  const config = {
-    angle: 90,
-    spread: 360,
-    startVelocity: 40,
-    elementCount: 70,
-    dragFriction: 0.12,
-    duration: 3000,
-    stagger: 3,
-    width: "10px",
-    height: "10px",
-    perspective: "500px",
-    colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"],
-  };
   const ref = useRef(null);
   // const first = useRef(second)
 
@@ -211,6 +191,7 @@ function Home() {
             </div>
             <div className='w-screen sm:w-1/2 pr-7 mr-9'>
               <IndiaMap
+                hide={false}
                 ChangeState={ChangeState}
                 onLocationClick={onLocationClick}
               />

@@ -4,6 +4,10 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backdropFilter: {
+        none: "none",
+        blur: "blur(20px)",
+      },
       colors: {
         bgr: "#171729",
         bgr1: "#242443",
@@ -19,5 +23,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-filters")],
 };
