@@ -2,15 +2,28 @@ import React, { useEffect, useState } from "react";
 import { IndiaMap, Boxes, PieDonut, SearchState } from "../Components";
 import "react-svg-map/lib/index.css";
 import { SideBar, Search, ExploreC } from "../layouts";
-import { placehol, States } from "../constants/";
+import { LITRACY, placehol, States } from "../constants/";
 import { Testing } from "../utils/Home";
 import { useSelector } from "react-redux";
 import { STATE } from "../../typings";
-import { StatesXcolor } from "../constants/";
+import { StatesXcolor, LITracy } from "../constants/";
+import {
+  ComposedChart,
+  Line,
+  Area,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 
 // import Flippy, { FrontSide, BackSide } from "react-flippy";
 
 // const ReactCursorPosition = require("");
+import { DropOut } from "../constants";
 function Home() {
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
   const [placeHoldcount, setplaceHoldcount] = useState(0);
@@ -168,13 +181,192 @@ function Home() {
               />
             </div>
           </div>
-          <div className='justify-center items-center flex flex-col'>
+          <div className='justify-between items-center flex flex-col space-y-14'>
             <div className='text-4xl text-slate-500 font-bold font-mono pb-40 mt-24 italic '>
               How India Is Performing ...
             </div>
-            <div className='flex w-screen justify-around'>
-              <div>HI</div>
-              <div>YO</div>
+            <div className='md:flex w-screen justify-between pb-10 items-center '>
+              <div className=' ml-48 w-3/12'>
+                <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
+                <div className='text-slate-300 font-semibold font-mono text-2xl'>
+                  DROPOUT RATE IN INDIA
+                </div>
+                <div className='text-slate-300 font-light font-mono pt-3'>
+                  &nbsp;&nbsp;There has been ups and downs regarding DropOut
+                  rate in INDIAN education but in previous years it declining
+                  which is a good sign indicating more people are able to
+                  complete their education properly
+                </div>
+                {/* <div>Ther</div> */}
+              </div>
+              <div className='p-3 rounded-xl border md:mr-60'>
+                <ComposedChart
+                  width={600}
+                  height={350}
+                  data={DropOut}
+                  margin={{
+                    top: 20,
+                    right: 80,
+                    bottom: 20,
+                    left: 20,
+                  }}
+                >
+                  {/* <CartesianGrid stroke='#f5f5f5' /> */}
+                  <XAxis
+                    dataKey='year'
+                    label={{
+                      value: "Pages",
+                      position: "insideBottomRight",
+                      offset: 0,
+                    }}
+                    scale='band'
+                  />
+                  <YAxis
+                    label={{
+                      value: "Index",
+                      angle: -90,
+                      position: "insideLeft",
+                    }}
+                  />
+                  <Tooltip />
+                  <Legend />
+                  <Area
+                    type='monotone'
+                    dataKey='GIRLS'
+                    fill='#8884d8'
+                    stroke='#8884d8'
+                  />
+                  <Bar
+                    dataKey='Total'
+                    barSize={20}
+                    baseFrequency={5}
+                    fill='#413ea0'
+                  />
+                  <Line type='monotone' dataKey='BOYS' stroke='#ff7300' />
+                </ComposedChart>
+              </div>
+            </div>
+            <div className='md:flex w-screen justify-between pb-10 items-center '>
+              <div className='p-3 rounded-xl border md:ml-48'>
+                <ComposedChart
+                  width={600}
+                  height={350}
+                  data={LITracy}
+                  margin={{
+                    top: 20,
+                    right: 80,
+                    bottom: 20,
+                    left: 20,
+                  }}
+                >
+                  {/* <CartesianGrid stroke='#f5f5f5' /> */}
+                  <XAxis
+                    dataKey='year'
+                    label={{
+                      value: "Pages",
+                      position: "insideBottomRight",
+                      offset: 0,
+                    }}
+                    scale='band'
+                  />
+                  <YAxis
+                    label={{
+                      value: "Index",
+                      angle: -90,
+                      position: "insideLeft",
+                    }}
+                  />
+                  <Tooltip />
+                  <Legend />
+                  <Area
+                    type='monotone'
+                    dataKey='GIRLS'
+                    fill='#8884d8'
+                    stroke='#8884d8'
+                  />
+                  <Bar
+                    dataKey='Total'
+                    barSize={20}
+                    baseFrequency={5}
+                    fill='#413ea0'
+                  />
+                  <Line type='monotone' dataKey='BOYS' stroke='#ff7300' />
+                </ComposedChart>
+              </div>
+              <div className='  w-3/12 md:mr-64'>
+                <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
+                <div className='text-slate-300 font-semibold font-mono text-2xl'>
+                  PASS RATE IN INDIA
+                </div>
+                <div className='text-slate-300 font-light font-mono pt-3'>
+                  &nbsp;&nbsp;Over past twenty years india has evolved
+                  significant amount from 58% in 2000 to more than 80 indicates
+                  more people are completing their education succesfully
+                </div>
+                {/* <div>Ther</div> */}
+              </div>
+            </div>
+            <div className='md:flex w-screen justify-between pb-10 items-center '>
+              <div className=' ml-48 w-3/12'>
+                <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
+                <div className='text-slate-300 font-semibold font-mono text-2xl'>
+                  LITERACY RATE IN INDIA
+                </div>
+                <div className='text-slate-300 font-light font-mono pt-3'>
+                  &nbsp;&nbsp;"A hero can be anyone. Even a man doing something
+                  as simple and reassuring as putting a coat around a little
+                  boy’s shoulders to let him know that the world hadn’t ended."
+                  - Bruce Wayne/Batman, The Dark Knight Rises
+                </div>
+                {/* <div>Ther</div> */}
+              </div>
+              <div className='p-3 rounded-xl border md:mr-60'>
+                <ComposedChart
+                  width={600}
+                  height={350}
+                  data={LITRACY}
+                  margin={{
+                    top: 20,
+                    right: 80,
+                    bottom: 20,
+                    left: 20,
+                  }}
+                >
+                  {/* <CartesianGrid stroke='#f5f5f5' /> */}
+                  <XAxis
+                    dataKey='year'
+                    label={{
+                      value: "Pages",
+                      position: "insideBottomRight",
+                      offset: 0,
+                    }}
+                    scale='band'
+                  />
+                  <YAxis
+                    domain={[40, "dataMax"]}
+                    label={{
+                      value: "Index",
+                      angle: -90,
+                      position: "insideLeft",
+                    }}
+                  />
+                  <Tooltip />
+                  <Legend />
+                  <Area
+                    type='monotone'
+                    dataKey='GIRLS'
+                    fill='#8884d8'
+                    stroke='#8884d8'
+                  />
+                  <Bar
+                    dataKey='Total'
+                    barSize={20}
+                    baseFrequency={5}
+                    fill='#413ea0'
+                  />
+                  <Line type='monotone' dataKey='BOYS' stroke='#ff7300' />
+                </ComposedChart>
+              </div>
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import random
 import requests
 
 data = {
@@ -909,10 +910,21 @@ StateXdist = {
     ]
 }
 # print(desp)
-data = {
-    "email": "Firstname@gmail.com",
-    "password": "Firstname@gmail.com"
-}
-resp = requests.post(
-    "https://mighty-spire-15674.herokuapp.com/auth/login", json=data, headers=head)
-print(resp.text, resp.status_code, resp.headers)
+# data = {
+#     "email": "Firstname@gmail.com",
+#     "password": "Firstname@gmail.com"
+# }
+# resp = requests.post(
+#     "https://mighty-spire-15674.herokuapp.com/auth/login", json=data, headers=head)
+# print(resp.text, resp.status_code, resp.headers)
+dic = []
+for i in range(2000, 2023):
+    boys = min(random.randint(55, 85) - 2000 + i, 96)
+    GIRLS = min(random.randint(55, 85) - 2000 + i, 96)
+    dic.append({
+        "year": i,
+        "BOYS": boys,
+        "GIRLS": GIRLS,
+        "Total": (boys + GIRLS) // 2
+    })
+print(dic)
