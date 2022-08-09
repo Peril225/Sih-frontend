@@ -149,10 +149,11 @@ function Home() {
     <div className='flex items-center bg-bgr '>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
-      <div className='h-screen overflow-x-hidden justify-center items-center  flex  overflow-scroll  pt-96'>
+      <div className='h-screen overflow-x-hidden justify-center items-center  flex  overflow-scroll  pt-96 '>
         {/* <ScrollAnimation animateIn='fadeIn'> */}
-        <div className='items-center justify-center flex flex-col space-y-5  mt-96 top-0 animate-fade '>
-          <div className='mt-96 p-14'>hi</div>
+        <div className='items-center justify-center flex flex-col space-y-5  mt-96 top-0 animate-fade pt-96'>
+          <div className=' p-96'>hi</div>
+          <div className='p-96'>hi</div>
           <div className=' text-slate-400 font-bold font-serif text-5xl px-5 mt-11'>
             National Educational Database.
           </div>
