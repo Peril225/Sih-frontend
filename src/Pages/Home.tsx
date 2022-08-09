@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import LOGO from "../assets/Images/kcr.png";
 import { IndiaMap, Boxes, PieDonut, SearchState } from "../Components";
 import "react-svg-map/lib/index.css";
 import { SideBar, Search, ExploreC } from "../layouts";
@@ -138,9 +136,10 @@ function Home() {
     <div className='flex items-center bg-bgr '>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
-      <div className='h-screen overflow-x-hidden justify-center items-center flex  pt-44 '>
+      <div className='h-screen overflow-x-hidden justify-center items-center  flex  overflow-scroll  pt-96'>
         {/* <ScrollAnimation animateIn='fadeIn'> */}
-        <div className='items-center justify-center flex flex-col space-y-5 pt-96 mt-96 animate-fade'>
+        <div className='items-center justify-center flex flex-col space-y-5  mt-96 top-0 animate-fade '>
+          <div className='mt-96 p-14'>hi</div>
           <div className=' text-slate-400 font-bold font-serif text-5xl px-5 mt-11'>
             National Educational Database.
           </div>
@@ -169,8 +168,14 @@ function Home() {
               />
             </div>
           </div>
-          <div className='text-4xl text-slate-500 font-bold font-mono pb-40 mt-5'>
-            How India Is Performing ...
+          <div className='justify-center items-center flex flex-col'>
+            <div className='text-4xl text-slate-500 font-bold font-mono pb-40 mt-24 italic '>
+              How India Is Performing ...
+            </div>
+            <div className='flex w-screen justify-around'>
+              <div>HI</div>
+              <div>YO</div>
+            </div>
           </div>
         </div>
       </div>
