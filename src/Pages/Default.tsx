@@ -1,49 +1,15 @@
-import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { ReactSVG } from "react-svg";
+// import React from "react";
+// import { VectorMap } from "react-jvectormap";
+// const map = [
+//   { code: "IN-RJ", value: 10000 },
+//   { code: "IN-MP", value: 800 },
+//   { code: "IN-DL", value: 900 },
+//   { code: "IN-KL", value: 500 },
+// ];
 
-function Default() {
-  let history = useNavigate();
-  useEffect(() => {
-    const jwt = localStorage.getItem("auth-token");
-    console.log(jwt);
+// https://varunon9.medium.com/building-choropleth-map-heatmap-of-india-in-javascript-using-react-simple-maps-2e71758fc4df
+import React from "react";
 
-    if (!jwt) {
-      history("/");
-    }
-  }, []);
-
-  return (
-    <div>
-      <div className='w-screen h-screen'>
-        <ReactSVG
-          afterInjection={(error, svg) => {
-            if (error) {
-              console.error(error);
-              return;
-            }
-            console.log(svg);
-          }}
-          beforeInjection={(svg) => {
-            svg.classList.add("svg-class-name");
-            svg.setAttribute("style", "width: 200px");
-          }}
-          className='wrapper-class-name'
-          evalScripts='always'
-          fallback={() => <span>Error!</span>}
-          httpRequestWithCredentials={true}
-          loading={() => <span>Loading</span>}
-          onClick={() => {
-            console.log("wrapper onClick");
-          }}
-          renumerateIRIElements={false}
-          src='../../DATA/in.svg'
-          useRequestCache={false}
-          wrapper='span'
-        />
-      </div>
-    </div>
-  );
+export default function Default() {
+  return <div>Default</div>;
 }
-
-export default Default;

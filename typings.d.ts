@@ -30,6 +30,9 @@ export interface SearchProps {
 }
 
 export interface IndiaMap {
+  // hide: boolean;
+  // x: number;
+  // y: number;
   ChangeState: (val: string) => void;
   onLocationClick: (val: any) => void;
 }
