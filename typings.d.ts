@@ -39,6 +39,8 @@ export interface IndiaMap {
 }
 
 export interface TPieDonut {
+  width: number;
+  labels: string[];
   Current: string;
   pievals: number[3];
 }

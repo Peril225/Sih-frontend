@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { IndiaMap } from "../Components";
-import { StatesXcolor, TEACHERS, TableVals } from "../constants";
+import { IndiaMap, PieDonut } from "../Components";
+import { StatesXcolor, TEACHERS, Options, ENrollTable } from "../constants";
 import { ExploreC, SideBar } from "../layouts";
 import { useTable, useSortBy } from "react-table";
 
@@ -15,8 +15,10 @@ import {
   // ColumnInterface,
 } from "recharts";
 import styled from "styled-components";
-function TeacherSTU() {
+import ReactApexChart from "react-apexcharts";
+function ENrollment() {
   const ref = useRef(null);
+  const [pievals, setpievals] = useState([44, 55, 13]);
   const [Explore, setExplore] = useState(false);
   const [barHide, setbarHide] = useState(false);
   const [barHide2, setbarHide2] = useState(true);
@@ -69,8 +71,13 @@ function TeacherSTU() {
       const { offsetHeight } = ref.current;
       const el = document.getElementById("#LETSGIVEITASHOT");
       const distanceFromTop = el?.getBoundingClientRect().top;
-      // console.log();
-      if (parseInt(distanceFromTop + offsetHeight) < 0) {
+      console.log(
+        distanceFromTop,
+        offsetHeight,
+        el?.getBoundingClientRect(),
+        "wtfff"
+      );
+      if (parseInt(distanceFromTop + offsetHeight) - 200 < 0) {
         setbarHide(true);
       } else {
         setbarHide(false);
@@ -91,9 +98,15 @@ function TeacherSTU() {
           TEACHERS: Math.floor(Math.random() * 5 + (i - 2000) / 3),
         });
       }
+      setpievals([
+        Math.floor(Math.random() * 100),
+        Math.floor(Math.random() * 100),
+        Math.floor(Math.random() * 100),
+      ]);
       setTEACHER(temp);
     }
   };
+
   const CustomTooltip = ({
     active,
     payload,
@@ -176,7 +189,9 @@ function TeacherSTU() {
                         }
                         {...cell.getCellProps()}
                       >
-                        {cell.render("Cell")}
+                        <div className='flex justify-center'>
+                          {cell.render("Cell")}
+                        </div>
                       </td>
                     );
                   })}
@@ -200,11 +215,11 @@ function TeacherSTU() {
         Header: "PRIMARY EDUCATION",
         columns: [
           {
-            Header: "STUDENTS",
+            Header: "BOYS",
             accessor: "PRIM_STU",
           },
           {
-            Header: "TEACHERS",
+            Header: "GIRLS",
             accessor: "PRIM_TEACH",
           },
         ],
@@ -213,11 +228,11 @@ function TeacherSTU() {
         Header: "HIGH SCHOOL",
         columns: [
           {
-            Header: "STUDENTS",
+            Header: "BOYS",
             accessor: "HIGH_STU",
           },
           {
-            Header: "TEACHERS",
+            Header: "GIRLS",
             accessor: "HIGH_TEA",
           },
         ],
@@ -226,11 +241,11 @@ function TeacherSTU() {
         Header: "TECHNICAL EDU",
         columns: [
           {
-            Header: "STUDENTS",
+            Header: "BOYS",
             accessor: "TECH_STU",
           },
           {
-            Header: "TEACHERS",
+            Header: "GIRLS",
             accessor: "TECH_TEACH",
           },
         ],
@@ -238,8 +253,8 @@ function TeacherSTU() {
     ],
     []
   );
-  const TableVal = React.useMemo(() => TableVals, []);
-
+  const TableVal = React.useMemo(() => ENrollTable, []);
+  const labels = ["General", "OBC", "Sceduled Castes"];
   return (
     <div className='flex items-center bg-bgr overflow-hidden'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
@@ -250,7 +265,7 @@ function TeacherSTU() {
         onScroll={onScroll}
       >
         <div className='text-3xl text-slate-400 font-bold font-mono cursor-pointer  px-5 py-3 rounded-2xl hover:shadow-2xl hover:shadow-slate-600'>
-          Teachers And Students Analytics
+          Enrollment Rate Analytics
         </div>
         <div className='w-screen '>
           <div className=' flex'>
@@ -261,18 +276,22 @@ function TeacherSTU() {
                 onLocationClick={onLocationClick}
               />
             </div>
-            <div className=''>
+            <div className='' ref={ref} id='#LETSGIVEITASHOT'>
               <div
-                className='text-white    my-5  flex flex-col h-80   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
+                className='text-white    my-5  flex flex-col h-72   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
                 style={{ backdropFilter: "20px" }}
               >
                 <div className='py-3  text-3xl w-full flex justify-center border-b border-slate-400'>
-                  Country Stats
+                  {Current ? Current : "Country"} Stats
                 </div>
                 {/* <div className='pt-3 inline-block'>Country Stats</div> */}
                 <div className='flex justify-between w-full px-5'>
-                  <div className='text-slate-300'>number of schools / km</div>
-                  <div>2</div>
+                  <div className='text-slate-300'>
+                    Percentage change over Decade
+                  </div>
+                  <div className='text-green-400'>
+                    + {Math.ceil(Math.random() * 1000) / 100} %
+                  </div>
                 </div>
                 <div className='flex justify-between w-full px-5'>
                   <div className='text-slate-300'>number of Govt Schools</div>
@@ -290,54 +309,22 @@ function TeacherSTU() {
                   </div>
                   <div>10k</div>
                 </div>
-                <div className='flex justify-between w-full px-5'>
-                  <div className='text-slate-300'>
-                    please fill some random text
-                  </div>
-                  <div>10k</div>
-                </div>
               </div>
-              <div className='mt-12 border rounded-xl' ref={ref}>
-                <ComposedChart
-                  width={600}
-                  height={300}
-                  data={TEACHER}
-                  margin={{
-                    top: 20,
-                    right: 80,
-                    bottom: 20,
-                    left: 20,
-                  }}
-                  id='#LETSGIVEITASHOT'
-                >
-                  <XAxis dataKey='year' className='text-white' scale='band'>
-                    <Label color='#f5f5f5' offset={0} position='insideBottom'>
-                      <div className='text-white'>Pages of my website</div>
-                    </Label>
-                  </XAxis>
-                  <YAxis
-                    label={{
-                      value: "Index",
-                      angle: -90,
-                      position: "insideLeft",
-                    }}
-                  />
-                  <Tooltip content={<CustomTooltip active payload label />} />
-
-                  <Bar
-                    dataKey='TEACHERS'
-                    barSize={20}
-                    baseFrequency={5}
-                    fill='#413ea0'
-                  />
-                  <Line type='monotone' dataKey='TEACHERS' stroke='#ff7300' />
-                </ComposedChart>
+              <div className='mt-12  rounded-xl px-6'>
+                {/* <h2 className='text-xl w-4/5 h-4 '>GPI INDEX OF {Current}</h2> */}
+                <ReactApexChart
+                  height={400}
+                  options={{ ...Options, labels: labels } as object}
+                  series={pievals}
+                  type='donut'
+                  width={450}
+                />
               </div>
             </div>
           </div>
           <div className='flex flex-col justify-center items-center w-full'>
             <Styles>
-              <Table columns={columns} data={TableVals} />
+              <Table columns={columns} data={TableVal} />
             </Styles>
             {/* <div className='py-96'>HI YO</div> */}
           </div>
@@ -387,4 +374,4 @@ function TeacherSTU() {
   );
 }
 
-export default TeacherSTU;
+export default ENrollment;

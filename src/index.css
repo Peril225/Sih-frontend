@@ -69,3 +69,7 @@
   background-color: #1e1e30 !important;
   transition-timing-function: ease-in-out;
 }
+
+.Final_Table {
+  padding: 1rem;
+}

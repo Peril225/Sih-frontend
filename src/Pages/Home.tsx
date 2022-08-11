@@ -158,7 +158,7 @@ function Home() {
     <div className='flex items-center bg-bgr overflow-hidden'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
-      <Confetti active={animecon} config={config} />
+      {/* <Confetti active={animecon} config={config} /> */}
       <div
         className='h-screen overflow-x-hidden justify-center   flex  overflow-scroll   '
         ref={ref}
@@ -187,7 +187,12 @@ function Home() {
                 <div>Browse through these Data . . .</div>
               </div>
               <Boxes Feature={CurrentSTAT} SelectedFeature={SelectedFeature} />
-              <PieDonut Current={Current} pievals={pievals} />
+              <PieDonut
+                width={500}
+                labels={["PRIMARY", "SECONDARY", "TECHNICAL"]}
+                Current={Current}
+                pievals={pievals}
+              />
             </div>
             <div className='w-screen sm:w-1/2 pr-7 mr-9'>
               <IndiaMap
