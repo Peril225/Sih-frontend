@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         bgr: "#171729",
         bgr1: "#242443",
+        bgr2: "#2a3652",
       },
       animation: {
         fade: "fadeOut 1s ease-in-out",

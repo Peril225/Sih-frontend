@@ -14,6 +14,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 
 import AnimatedCursor from "react-animated-cursor";
 import TeacherSTU from "./Pages/TeacherSTU";
+import ENrollment from "./Pages/Enrollment";
 function App() {
   /*
     React router used for routing 
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/Teachers-Students' element={<TeacherSTU />}></Route>
+        <Route path='/Enrollmentrate' element={<ENrollment />}></Route>
         <Route path='/Signup' element={<Signup />}></Route>
         <Route path='/Login' element={<Signin />}></Route>
         <Route path='/Dashbard' element={<Default />}></Route>
