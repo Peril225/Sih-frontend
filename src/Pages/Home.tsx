@@ -189,10 +189,10 @@ function Home() {
         onScroll={onScroll}
       >
         {/* <ScrollAnimation animateIn='fadeIn'> */}
-        <div className='items-center  flex flex-col space-y-5  mt-72 top-0 animate-fade '>
+        <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-20 top-0 animate-fade '>
           {/* <div className=' p-96'>hi</div>
           <div className='p-96'>hi</div> */}
-          <div className=' text-slate-400 font-bold font-serif text-5xl '>
+          <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0'>
             National Educational Database.
           </div>
           <div className='text-slate-500 max-w-xl text-lg px-5'>
