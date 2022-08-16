@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 import { STATE } from "../../typings";
 import { StatesXcolor, LITracy } from "../constants/";
 import Confetti from "react-dom-confetti";
+import Logo from "../assets/Images/Logo.png";
 import {
   ComposedChart,
   Line,
@@ -25,6 +26,7 @@ import {
 
 // const ReactCursorPosition = require("");
 import { DropOut } from "../constants";
+import { AiOutlinePoweroff } from "react-icons/ai";
 function Home() {
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
   const [placeHoldcount, setplaceHoldcount] = useState(0);
@@ -155,9 +157,31 @@ function Home() {
   // const Component = () => <div>yo</div>;
 
   return (
-    <div className='flex items-center bg-bgr overflow-hidden'>
+    <div className='sm:flex items-center bg-bgr overflow-hidden'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
+      <nav>
+        <div className='px-5  flex bg-bgr1 w-screen justify-between items-center sm:hidden'>
+          <div className='py-2'>
+            <img
+              className='cursor-pointer'
+              src={Logo}
+              width={75}
+              height={75}
+              onClick={() => setExplore(true)}
+            />
+          </div>
+          <div
+            className='p-2 bg-slate-500 rounded-lg hover:text-red-400 cursor-pointer '
+            onClick={() => {
+              localStorage.removeItem("auth-token");
+              // history("/login");
+            }}
+          >
+            <AiOutlinePoweroff size={40} className='' />
+          </div>
+        </div>
+      </nav>
       {/* <Confetti active={animecon} config={config} /> */}
       <div
         className='h-screen overflow-x-hidden justify-center   flex  overflow-scroll   '
