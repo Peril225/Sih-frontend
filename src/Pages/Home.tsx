@@ -9,6 +9,7 @@ import { STATE } from "../../typings";
 import { StatesXcolor, LITracy } from "../constants/";
 import Confetti from "react-dom-confetti";
 import Logo from "../assets/Images/Logo.png";
+import { useNavigate } from "react-router";
 import {
   ComposedChart,
   Line,
@@ -28,6 +29,7 @@ import {
 import { DropOut } from "../constants";
 import { AiOutlinePoweroff } from "react-icons/ai";
 function Home() {
+  const history = useNavigate();
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
   const [placeHoldcount, setplaceHoldcount] = useState(0);
   const [placeholder, setPlaceholder] = useState("");
@@ -175,7 +177,7 @@ function Home() {
             className='p-2 bg-slate-500 rounded-lg hover:text-red-400 cursor-pointer '
             onClick={() => {
               localStorage.removeItem("auth-token");
-              // history("/login");
+              history("/login");
             }}
           >
             <AiOutlinePoweroff size={40} className='' />
