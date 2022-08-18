@@ -1,12 +1,9 @@
-//@ts-nocheck
-
 import React, { useEffect, useRef, useState } from "react";
 import { SVGMap } from "react-svg-map";
 import India from "@svg-maps/india";
 import { IndiaMap } from "../../typings";
 
 export default function Indiamap(props: IndiaMap) {
-  // console.log(props.x);
   const [hide, sethide] = useState(true);
   const [X, setX] = useState(0);
   const [Y, setY] = useState(0);
@@ -23,8 +20,10 @@ export default function Indiamap(props: IndiaMap) {
   const [GPI, setGPI] = useState(0);
 
   useEffect(() => {
-    setWidth(ref.current.clientWidth);
-    setHeight(ref.current.clientHeight);
+    if (ref.current) {
+      setWidth(ref.current["clientWidth"]);
+      setHeight(ref.current["clientHeight"]);
+    }
   });
 
   // const {
