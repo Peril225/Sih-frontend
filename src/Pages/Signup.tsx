@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
+import { Link } from "react-router-dom";
 import { Signup as FSingup } from "../utils/Auth/";
 
 function Signup() {
@@ -160,7 +161,7 @@ function Signup() {
                     </div>
                   </div>
                   <div className='flex -mx-3'>
-                    <div className='w-full px-3 mb-5'>                   
+                    <div className='w-full px-3 mb-5'>
                       <button
                         className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'
                         onClick={() => Submit()}
@@ -168,17 +169,22 @@ function Signup() {
                         Register Now
                       </button>
                       <br></br>
-                      <a href = "/login">
-                      <button
-                        className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'
-
-                        >
-                        Already a User?
-                      </button>
-                        </a>
+                      <Link to={"/login"}>
+                        <button className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'>
+                          Already a User?
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
+                <Link to={"/"}>
+                  <button
+                    type='button'
+                    className='fixed bottom-5 right-5 inline-block  rounded-full bg-purple-500 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-purple-600 hover:shadow-lg focus:bg-purple-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg '
+                  >
+                    HOME
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
