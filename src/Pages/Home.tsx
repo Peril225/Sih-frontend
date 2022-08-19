@@ -10,6 +10,7 @@ import { StatesXcolor, LITracy } from "../constants/";
 import Confetti from "react-dom-confetti";
 import Logo from "../assets/Images/Logo.png";
 import { useNavigate } from "react-router";
+import AnimatedCursor from "react-animated-cursor";
 import {
   ComposedChart,
   Line,
@@ -28,6 +29,7 @@ import {
 // const ReactCursorPosition = require("");
 import { DropOut } from "../constants";
 import { AiOutlinePoweroff } from "react-icons/ai";
+import Footer from "../layouts/Footer";
 function Home() {
   const history = useNavigate();
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
@@ -160,6 +162,7 @@ function Home() {
 
   return (
     <div className='sm:flex items-center bg-bgr overflow-hidden'>
+      {/* <AnimatedCursor color='67, 186, 148' /> */}
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
       <nav>
@@ -416,6 +419,7 @@ function Home() {
               </div>
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     </div>

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+iframe {
+  display: none;
+  visibility: hidden;
+}
+
 .svg-map__location {
   /* fill: #1e1e30; */
   border: 20px solid white;

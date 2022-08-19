@@ -12,6 +12,7 @@ module.exports = {
         bgr: "#171729",
         bgr1: "#242443",
         bgr2: "#2a3652",
+        bgr_dark: "#121217",
       },
       animation: {
         fade: "fadeOut 1s ease-in-out",

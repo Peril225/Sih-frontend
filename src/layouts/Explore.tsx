@@ -25,22 +25,30 @@ function Explore({
             <div className='Cardbg1  w-36 sm:w-44 h-64  rounded-xl  cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono flex justify-center items-center p-5 ml-10 lg:ml-10 '>
               Explore Education Statistics Among States
             </div>
-            <div className='Cardbg flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
-              Explore State Historical DropOut Rate
-            </div>
+            <Link to={"/DROPOUT"}>
+              <div className='Cardbg flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
+                Explore State Historical DropOut Rate
+              </div>
+            </Link>
           </div>
           <div className='flex space-x-7'>
-            <div className='bg-gradient-to-r from-sky-400 to-cyan-300 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
-              Gender Pararity Index Historical data
-            </div>
-            <div className='bg-gradient-to-r from-fuchsia-600 to-pink-600 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
-              FindOut Out-Turn Rate Accross Country
-            </div>
+            <Link to={"/GPI"}>
+              <div className='bg-gradient-to-r from-sky-400 to-cyan-300 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
+                Gender Pararity Index Historical data
+              </div>
+            </Link>
+            <Link to={"/OutTurn"}>
+              <div className='bg-gradient-to-r from-fuchsia-600 to-pink-600 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
+                FindOut Out-Turn Rate Accross Country
+              </div>
+            </Link>
           </div>
           <div className='flex space-x-7'>
-            <div className='Cardbg2 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
-              Pass & fail Statistics Analysis
-            </div>
+            <Link to={"/PassFail"}>
+              <div className='Cardbg2 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
+                Pass & fail Statistics Analysis
+              </div>
+            </Link>
             <Link to={"/Enrollmentrate"}>
               <div className='bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-400 font-bold font-mono  justify-center items-center'>
                 Student Enrollment rate Data Analytics accross INDIA
@@ -50,17 +58,21 @@ function Explore({
         </div>
         <div className='lg:flex space-x-10 space-y-7 lg:space-y-0  animate-fade'>
           <div className='flex space-x-7'>
-            <div className='bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 ml-10 text-slate-300 font-bold font-mono  justify-center items-center'>
-              Find Out How Literacy Rate did Over Years
-            </div>
+            <Link to={"/LiteracyRate"}>
+              <div className='bg-gradient-to-r from-gray-600 via-gray-700 to-gray-800 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 ml-10 text-slate-300 font-bold font-mono  justify-center items-center'>
+                Find Out How Literacy Rate did Over Years
+              </div>
+            </Link>
             <div className='Cardbg2 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
-              Educational Institutions and their Performance in INDIA
+              Dashboard and state based Pridiction for protected users
             </div>
           </div>
           <div className='flex space-x-7'>
-            <div className='Cardbg flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
-              Caste Based educational info From Ages Simplified
-            </div>
+            <Link to={"/CasteBased"}>
+              <div className='Cardbg flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
+                Caste Based educational info From Ages Simplified
+              </div>
+            </Link>
             <div className='bg-gradient-to-r from-sky-400 to-cyan-300 flex w-36 sm:w-44 h-64  rounded-xl p-5 cursor-pointer transition ease-in-out hover:scale-110 duration-300 text-slate-600 font-bold font-mono  justify-center items-center'>
               Historical INformation 'bout India is doin
             </div>
