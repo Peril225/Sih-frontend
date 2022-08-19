@@ -37,7 +37,7 @@ function Signup() {
           // POSTING request
           FSingup({ username, email, password });
         } else {
-          alert("pws dont match");
+          alert("Passwords don't match");
         }
       } else {
         toast.error("Email Is invalid");
@@ -57,7 +57,7 @@ function Signup() {
               <div className='hidden md:block w-1/2 bg-indigo-500'>
                 <img
                   className='w-full h-full'
-                  src='https://static.toiimg.com/thumb/msid-89374999,imgsize-15328,width-400,resizemode-4/89374999.jpg'
+                  src='https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
                 />
               </div>
               <div className='w-full md:w-1/2 py-10 px-5 md:px-10'>
@@ -78,7 +78,7 @@ function Signup() {
                         <input
                           type='text'
                           className='w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500'
-                          placeholder='Triffiny'
+                          placeholder='Neil'
                           onChange={(e) => setFirstname(e.target.value)}
                           value={Firstname}
                         />
@@ -114,7 +114,7 @@ function Signup() {
                         <input
                           type='email'
                           className='w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500'
-                          placeholder='Triffinysmith@example.com'
+                          placeholder='neilsmith@example.com'
                           onChange={(e) => setemail(e.target.value)}
                           value={email}
                         />
@@ -160,13 +160,22 @@ function Signup() {
                     </div>
                   </div>
                   <div className='flex -mx-3'>
-                    <div className='w-full px-3 mb-5'>
+                    <div className='w-full px-3 mb-5'>                   
                       <button
                         className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'
                         onClick={() => Submit()}
                       >
-                        REGISTER NOW
+                        Register Now
                       </button>
+                      <br></br>
+                      <a href = "/login">
+                      <button
+                        className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'
+
+                        >
+                        Already a User?
+                      </button>
+                        </a>
                     </div>
                   </div>
                 </div>
