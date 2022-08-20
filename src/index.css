@@ -78,3 +78,18 @@ iframe {
 .Final_Table {
   padding: 1rem;
 }
+
+.apexcharts-tooltip-series-group.apexcharts-active {
+  color: black !important;
+}
+
+.apexcharts-menu-item {
+  padding: 6px 7px;
+  font-size: 12px;
+  cursor: pointer;
+  color: black;
+}
+
+.apexcharts-tooltip-title {
+  color: black;
+}
