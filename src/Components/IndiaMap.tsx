@@ -7,8 +7,6 @@ export default function Indiamap(props: IndiaMap) {
   const [hide, sethide] = useState(true);
   const [X, setX] = useState(0);
   const [Y, setY] = useState(0);
-  const [W, setW] = useState(100);
-  const [H, setH] = useState(100);
   const [CurrentState, setCurrentState] = useState();
   const [height, setHeight] = useState(0);
   const [Width, setWidth] = useState(0);
@@ -26,21 +24,8 @@ export default function Indiamap(props: IndiaMap) {
     }
   });
 
-  // const {
-  //   detectedEnvironment: {
-  //     isMouseDetected = false,
-  //     isTouchDetected = false,
-  //   } = {},
-  //   elementDimensions: { width = 0, height = 0 } = {},
-  //   isActive = false,
-  //   isPositionOutside = false,
-  //   position: { x = 0, y = 0 } = {},
-  // } = props;
-
   return (
     <>
-      {/* <p>{stateName}</p>
-<p>{stateCode}</p> */}
       <div>
         <SVGMap
           className='IndianMap '

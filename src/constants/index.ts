@@ -55,7 +55,7 @@ export const Options = {
   labels: ["ELEMENTERY", "HIGHSCHOOL", "TECHNICAL"],
   colors: ["#4287f5", "#39eaed", "#9e4ca8"],
   chart: {
-    width: 380,
+    width: 320,
     type: "donut",
   },
   plotOptions: {
@@ -66,14 +66,14 @@ export const Options = {
     },
   },
   dataLabels: {
-    enabled: false,
+    enabled: true,
   },
   responsive: [
     {
-      breakpoint: 480,
+      breakpoint: 620,
       options: {
         chart: {
-          width: 200,
+          width: 350,
         },
         legend: {
           show: false,
