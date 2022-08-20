@@ -9,7 +9,7 @@ function classNames(...classes: any) {
 
 export default function DropdownCaste() {
   return (
-    <Menu as='div' className='relative inline-block text-left text-lg'>
+    <Menu as='div' className='relative inline-block text-left text-lg h-auto'>
       <div>
         <Menu.Button className='inline-flex justify-center w-full rounded-md  border-slate-700 shadow-sm px-4 py-2 bg-bgr1  font-medium text-slate-400  border-none outline-none text-lg items-center'>
           Features

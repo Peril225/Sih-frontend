@@ -3,10 +3,12 @@ import ReactApexChart from "react-apexcharts";
 import { useNavigate, useParams } from "react-router";
 import { IndiaMap } from "../Components";
 import { ApexOptions } from "apexcharts";
+import Logo from "../assets/Images/Logo.png";
 import DropdownCaste from "../Components/Dropdown";
 import DropDownState from "../Components/DropDownStates";
 import { StatesXcolor } from "../constants";
 import { ExploreC, SideBar } from "../layouts";
+import { AiOutlinePoweroff } from "react-icons/ai";
 
 function Standard() {
   const [Current, setCurrent] = useState("Odissa");
@@ -467,20 +469,42 @@ function Standard() {
   // chart.render();
 
   return (
-    <div className='flex h-screen  items-center bg-bgr'>
+    <div className='md:flex h-screen  items-center bg-bgr'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
+      <nav>
+        <div className='px-5  flex bg-bgr1 w-screen justify-between items-center md:hidden'>
+          <div className='py-2'>
+            <img
+              className='cursor-pointer'
+              src={Logo}
+              width={75}
+              height={75}
+              onClick={() => setExplore(true)}
+            />
+          </div>
+          <div
+            className='p-2 bg-slate-500 rounded-xl hover:text-red-400 cursor-pointer '
+            onClick={() => {
+              localStorage.removeItem("auth-token");
+              history("/login");
+            }}
+          >
+            <AiOutlinePoweroff size={40} className='' />
+          </div>
+        </div>
+      </nav>
       <div className='w-full text-white  h-screen overflow-y-auto overflow-x-hidden p-9'>
         <div className='w-full flex justify-center font-mono text-3xl text-slate-300 font-bold py-5 capitalize'>
           {level} Education
         </div>
-        <div className='p-5  pl-20 space-x-4'>
+        <div className='p-5  md:pl-20 flex justify-center items-center h-auto space-x-5 md:space-x-4'>
           <DropdownCaste />
           <DropDownState />
         </div>
         <div className='w-full '>
-          <div className=' flex justify-between'>
-            <div className='w-5/12 h-3/5 my-10 sm:ml-20 space-y-20'>
+          <div className=' xl:flex-row flex-col items-center flex xl:justify-between'>
+            <div className='lg:w-5/12 lg:h-3/5 w-11/12 h-4/5 my-10 sm:ml-20 space-y-20'>
               <IndiaMap
                 hide={true}
                 ChangeState={ChangeState}
@@ -488,14 +512,14 @@ function Standard() {
               />
               <div>
                 <div
-                  className='text-white    my-5  flex flex-col h-300   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
+                  className='text-white xl:flex hidden   my-5   flex-col h-300   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
                   style={{ backdropFilter: "20px" }}
                 >
                   <div className='py-3  text-3xl w-full flex justify-start px-4 border-b border-slate-400'>
                     Initiatives By Govt of India
                   </div>
                   {/* <div className='pt-3 inline-block'>Country Stats</div> */}
-                  <div className='px-7'>
+                  <div className='px-7 '>
                     &nbsp;Batman was first named "Bat-Man" by Kane.[3] Batman
                     made its first appearance in 1939 in Detective Comics No.
                     27.[3] He was the second DC superhero to be created. The
@@ -535,14 +559,14 @@ function Standard() {
                 </div>
               </div>
             </div>
-            <div className=' w-1/2 justify-center text-purple-800  rounded-xl pt-5 space-y-5'>
+            <div className=' xl:w-1/2  justify-center text-purple-800  rounded-xl pt-5 space-y-5'>
               <div className=' flex justify-center text-purple-800 bg-bgr2 h-90 rounded-xl py-7'>
                 <ReactApexChart
                   options={DROPoptions.options as ApexOptions}
                   series={DROPoptions.series}
                   type='line'
-                  height={300}
-                  width={600}
+                  height={window.innerWidth > 420 ? 300 : 200}
+                  width={window.innerWidth > 420 ? 600 : 400}
                 />
               </div>
               <div className='flex justify-center text-purple-800 rounded-xl pt-7 bg-bgr2 h-96 py-5'>
@@ -550,8 +574,8 @@ function Standard() {
                   options={Enrolloptions.options as ApexOptions}
                   series={Enrolloptions.series}
                   type='bar'
-                  height={300}
-                  width={600}
+                  height={window.innerWidth > 420 ? 300 : 200}
+                  width={window.innerWidth > 420 ? 600 : 400}
                 />
               </div>
               <div className='flex justify-center text-purple-800 rounded-xl pt-7 bg-bgr2 h-96 py-5'>
@@ -559,8 +583,8 @@ function Standard() {
                   options={LiteracyRate.options as ApexOptions}
                   series={LiteracyRate.series}
                   type='bar'
-                  height={300}
-                  width={600}
+                  height={window.innerWidth > 420 ? 300 : 200}
+                  width={window.innerWidth > 420 ? 600 : 400}
                 />
               </div>
               <div className='flex justify-center text-purple-800 rounded-xl pt-7 bg-slate-200 h-96 py-5'>
@@ -568,8 +592,8 @@ function Standard() {
                   options={PassFail.options as ApexOptions}
                   series={PassFail.series}
                   type='line'
-                  height={300}
-                  width={600}
+                  height={window.innerWidth > 420 ? 300 : 200}
+                  width={window.innerWidth > 420 ? 600 : 400}
                 />
               </div>
             </div>
