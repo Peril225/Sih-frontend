@@ -488,7 +488,7 @@ function Standard() {
               />
               <div>
                 <div
-                  className='text-white    my-5  flex flex-col h-72   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
+                  className='text-white    my-5  flex flex-col h-300   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
                   style={{ backdropFilter: "20px" }}
                 >
                   <div className='py-3  text-3xl w-full flex justify-start px-4 border-b border-slate-400'>
@@ -496,22 +496,41 @@ function Standard() {
                   </div>
                   {/* <div className='pt-3 inline-block'>Country Stats</div> */}
                   <div className='px-7'>
-                    &nbsp;Government Schemes in India are launched by the
-                    government to address the social and economic welfare of the
-                    citizens of this nation. These schemes play a crucial role
-                    in solving many socio-economic problems that beset Indian
-                    society, and thus their awareness is a must for any
-                    concerned citizen. On February 1, 2021, the Finance Minister
-                    of India released the Union Budget 2021-22 and made new
-                    announcements regarding the government schemes in India. In
-                    2020, a relief package worth Rs 1.70 lakh crore was
-                    announced to tackle the financial difficulties which were
-                    faced due to the COVID-19 outbreak under the PM Garib Kalyan
-                    Yojana. This year, the government has announced the
-                    Aatmanirbhar package amounting to Rs. 27.1 lakh crores to
-                    deal with the impact of coronavirus. This article will
-                    provide all the details of the Government Schemes 2022 that
-                    are implemented in India
+                    &nbsp;Batman was first named "Bat-Man" by Kane.[3] Batman
+                    made its first appearance in 1939 in Detective Comics No.
+                    27.[3] He was the second DC superhero to be created. The
+                    first was Superman.[1] Batman's origin story is that as a
+                    young child, Bruce Wayne saw a robber named Joe Chill murder
+                    his mother and father after the family left a theatre. Bruce
+                    decided that he did not want that kind of violence to happen
+                    to anyone else and wanted to avenge his parents' death. He
+                    then dedicated his life to protect his city, Gotham City.
+                    Wayne learned many different ways to fight as he grew up. As
+                    an adult, Wayne used a costume to scare criminals so that
+                    there would be less crime in Gotham City. He called himself
+                    Batman. Batman is often helped from other people in Gotham.
+                    Batman and his some of his various allies are often referred
+                    to as the Bat Family. Some of these people also put on
+                    costumes and become superheroes when they help him. Some of
+                    the notable people who help him are his sidekick, Robin
+                    (Dick Grayson, Jason Todd, Tim Drake, and Damian Wayne), his
+                    butler Alfred Pennyworth, police commissioner James Gordon,
+                    Wayne Enterprises CEO and president Lucius Fox, and Gordon's
+                    daughter Barbara Gordon. Barbara Gordon became a superhero
+                    named Batgirl (and later used the name Oracle). Commissioner
+                    Gordon uses a Bat-Signal which shines a light into the sky
+                    with a shadow in the shape of a bat on when he needs
+                    Batman's assistance. Batman is often, but not always, shown
+                    being friends with Superman. He is often shown as a friend
+                    of wonder woman. Batman, superman, and wonder woman are
+                    often referred to as the "Trinity". Batman is a part of many
+                    superhero teams that fight against evil, most notably the
+                    Justice League or JL for short, and Justice League Dark or
+                    JLD. Some of the villains that Batman fights, called his
+                    Rogues Gallery are the Joker, Penguin, Ra's al Ghul,
+                    Scarecrow, Talia al Ghul, Poison Ivy, Catwoman, Mr. Freeze,
+                    Bane, Riddler, Two-Face, and Clayface. Because of the way
+                    Batman deals with criminals
                   </div>
                 </div>
               </div>
