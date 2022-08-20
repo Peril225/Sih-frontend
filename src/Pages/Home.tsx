@@ -39,7 +39,6 @@ function Home() {
   const [animecon, setanimecon] = useState(false);
 
   const [Explore, setExplore] = useState(false);
-  const [isFlipped, setIsFlipped] = React.useState(false);
   const [stateCode, setStateCode] = useState("");
   const [stateName, setStateName] = useState("");
   const [Current, setCurrent] = useState("Odissa");

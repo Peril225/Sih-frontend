@@ -1,8 +1,5 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Signup from "./Pages/Signup";
-import React from "react";
 import Signin from "./Pages/Signin";
 import Default from "./Pages/Default";
 import Home from "./Pages/Home";
@@ -19,6 +16,7 @@ import CasteBased from "./Pages/CasteBased";
 import GPI from "./Pages/GPI";
 import DropOut from "./Pages/DropOut";
 import LiteracyRate from "./Pages/Literacy";
+import Standard from "./Pages/Standard";
 function App() {
   /*
     React router used for routing 
@@ -41,6 +39,7 @@ function App() {
         <Route path='/Login' element={<Signin />}></Route>
         <Route path='/Dashbard' element={<Default />}></Route>
         {/* default Route */}
+        <Route path='/levels/:level' element={<Standard />}></Route>
         <Route path='*' element={<div>404</div>} />
       </Routes>
     </div>
