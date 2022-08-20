@@ -184,7 +184,7 @@ function Standard() {
   const Enrolloptions = {
     series: [
       {
-        name: "Inflation",
+        name: "Index",
         data: [
           67, 85, 86, 77, 80, 70, 82, 75, 86, 73, 89, 77, 81, 84, 89, 78, 91,
           92, 83, 75, 89, 92,
@@ -295,6 +295,174 @@ function Standard() {
     },
   };
 
+  const LiteracyRate = {
+    series: [
+      {
+        name: "BOYS",
+        data: [79, 88, 78, 89, 88, 91, 83, 94, 85, 86, 86, 86, 94, 85, 90],
+      },
+      {
+        name: "GIRLS",
+        data: [80, 71, 67, 61, 67, 83, 62, 63, 83, 71, 78, 70, 81, 76, 88],
+      },
+    ],
+    options: {
+      chart: {
+        type: "bar",
+        height: 350,
+        stacked: true,
+        stackType: "100%",
+      },
+      responsive: [
+        {
+          breakpoint: 480,
+          options: {
+            legend: {
+              position: "bottom",
+              offsetX: -10,
+              offsetY: 0,
+            },
+          },
+        },
+      ],
+      xaxis: {
+        labels: {
+          style: {
+            colors: "white",
+          },
+        },
+        categories: [
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+        ],
+      },
+      fill: {
+        opacity: 1,
+      },
+      legend: {
+        labels: {
+          colors: "white",
+        },
+        position: "bottom",
+        offsetX: -10,
+        offsetY: 0,
+      },
+      yaxis: {
+        labels: {
+          style: {
+            colors: "white",
+          },
+        },
+      },
+    },
+  };
+
+  const PassFail = {
+    series: [
+      {
+        name: "High - 2013",
+        data: [80, 77, 85, 93, 89, 96, 92, 89, 88, 87, 95, 86, 88, 89, 91, 88],
+      },
+      {
+        name: "Low - 2013",
+        data: [88, 90, 78, 88, 94, 94, 78, 92, 91, 82, 88, 80, 88, 81, 90, 86],
+      },
+    ],
+    options: {
+      chart: {
+        height: 350,
+        type: "line",
+        dropShadow: {
+          enabled: true,
+          color: "#000",
+          top: 18,
+          left: 7,
+          blur: 10,
+          opacity: 0.2,
+        },
+        toolbar: {
+          show: false,
+        },
+      },
+      colors: ["#77B6EA", "#545454"],
+      dataLabels: {
+        enabled: true,
+      },
+      stroke: {
+        curve: "smooth",
+      },
+      title: {
+        text: `PassFail Stats ${Current}`,
+        align: "left",
+      },
+      grid: {
+        borderColor: "#e7e7e7",
+        row: {
+          colors: ["#f3f3f3", "transparent"], // takes an array which will be repeated on columns
+          opacity: 0.5,
+        },
+      },
+      markers: {
+        size: 1,
+      },
+      xaxis: {
+        categories: [
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+        ],
+        title: {
+          text: "Month",
+        },
+      },
+      yaxis: {
+        title: {
+          text: "Temperature",
+        },
+        min: 60,
+        max: 100,
+      },
+      legend: {
+        position: "top",
+        horizontalAlign: "right",
+        floating: true,
+        offsetY: -25,
+        offsetX: -5,
+      },
+    },
+  };
+
   // var chart = new ApexCharts(document.querySelector("#chart"), options);
   // chart.render();
 
@@ -303,8 +471,8 @@ function Standard() {
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
       <div className='w-full text-white  h-screen overflow-y-auto overflow-x-hidden p-9'>
-        <div className='w-full flex justify-center font-mono text-3xl text-slate-300 font-bold py-5'>
-          Primary Education
+        <div className='w-full flex justify-center font-mono text-3xl text-slate-300 font-bold py-5 capitalize'>
+          {level} Education
         </div>
         <div className='p-5  pl-20 space-x-4'>
           <DropdownCaste />
@@ -312,12 +480,41 @@ function Standard() {
         </div>
         <div className='w-full '>
           <div className=' flex justify-between'>
-            <div className='w-5/12 h-3/5 my-10 sm:ml-20'>
+            <div className='w-5/12 h-3/5 my-10 sm:ml-20 space-y-20'>
               <IndiaMap
                 hide={true}
                 ChangeState={ChangeState}
                 onLocationClick={onLocationClick}
               />
+              <div>
+                <div
+                  className='text-white    my-5  flex flex-col h-72   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
+                  style={{ backdropFilter: "20px" }}
+                >
+                  <div className='py-3  text-3xl w-full flex justify-start px-4 border-b border-slate-400'>
+                    Initiatives By Govt of India
+                  </div>
+                  {/* <div className='pt-3 inline-block'>Country Stats</div> */}
+                  <div className='px-7'>
+                    &nbsp;Government Schemes in India are launched by the
+                    government to address the social and economic welfare of the
+                    citizens of this nation. These schemes play a crucial role
+                    in solving many socio-economic problems that beset Indian
+                    society, and thus their awareness is a must for any
+                    concerned citizen. On February 1, 2021, the Finance Minister
+                    of India released the Union Budget 2021-22 and made new
+                    announcements regarding the government schemes in India. In
+                    2020, a relief package worth Rs 1.70 lakh crore was
+                    announced to tackle the financial difficulties which were
+                    faced due to the COVID-19 outbreak under the PM Garib Kalyan
+                    Yojana. This year, the government has announced the
+                    Aatmanirbhar package amounting to Rs. 27.1 lakh crores to
+                    deal with the impact of coronavirus. This article will
+                    provide all the details of the Government Schemes 2022 that
+                    are implemented in India
+                  </div>
+                </div>
+              </div>
             </div>
             <div className=' w-1/2 justify-center text-purple-800  rounded-xl pt-5 space-y-5'>
               <div className=' flex justify-center text-purple-800 bg-bgr2 h-90 rounded-xl py-7'>
@@ -329,11 +526,29 @@ function Standard() {
                   width={600}
                 />
               </div>
-              <div className='flex justify-center text-purple-800 rounded-xl pt-7 bg-bgr2 h-90 py-5'>
+              <div className='flex justify-center text-purple-800 rounded-xl pt-7 bg-bgr2 h-96 py-5'>
                 <ReactApexChart
                   options={Enrolloptions.options as ApexOptions}
                   series={Enrolloptions.series}
                   type='bar'
+                  height={300}
+                  width={600}
+                />
+              </div>
+              <div className='flex justify-center text-purple-800 rounded-xl pt-7 bg-bgr2 h-96 py-5'>
+                <ReactApexChart
+                  options={LiteracyRate.options as ApexOptions}
+                  series={LiteracyRate.series}
+                  type='bar'
+                  height={300}
+                  width={600}
+                />
+              </div>
+              <div className='flex justify-center text-purple-800 rounded-xl pt-7 bg-slate-200 h-96 py-5'>
+                <ReactApexChart
+                  options={PassFail.options as ApexOptions}
+                  series={PassFail.series}
+                  type='line'
                   height={300}
                   width={600}
                 />
@@ -351,10 +566,10 @@ export default Standard;
 // notes [Line , bar  , biBar , Compound ]
 {
   /**
-   * Dropout - Comp https://apexcharts.com/javascript-chart-demos/mixed-charts/line-column-area/
+   * Dropout - Comp https://apexcharts.com/javascript-chart-demos/mixed-charts/line-column-area/ -----
    * GPI = Line https://apexcharts.com/javascript-chart-demos/line-charts/gradient/
    * Liter = https://apexcharts.com/javascript-chart-demos/line-charts/syncing-charts/
-   * Enroll = bar [https://apexcharts.com/javascript-chart-demos/column-charts/column-with-data-labels/]
+   * Enroll = bar [https://apexcharts.com/javascript-chart-demos/column-charts/column-with-data-labels/] -----
    * Fail + Out turn = LINE [https://apexcharts.com/javascript-chart-demos/line-charts/data-labels/]
    */
 }
