@@ -17,6 +17,7 @@ import {
 import styled from "styled-components";
 import { AiOutlinePoweroff } from "react-icons/ai";
 import { useNavigate } from "react-router";
+import Footer from "../layouts/Footer";
 function TeacherSTU() {
   const ref = useRef(null);
   const [Explore, setExplore] = useState(false);
@@ -29,7 +30,7 @@ function TeacherSTU() {
   const Styles = styled.div`
     padding: 1rem;
     width: 1200px;
-    overflow : scroll;
+    // overflow : scroll;
     // border-radius: 300px;
     table {
       border-spacing: 0;
@@ -125,7 +126,7 @@ function TeacherSTU() {
       <>
         <table
           {...getTableProps()}
-          className='text-slate-300 w-3/4 rounded-2xl xl:w-full  cursor-pointer overflow-scroll'
+          className='text-slate-300 w-3/4 rounded-2xl xl:w-full  cursor-pointer overflow-scroll HideScroll'
         >
           <thead>
             {headerGroups.map((headerGroup) => (
@@ -250,7 +251,7 @@ function TeacherSTU() {
   const TableVal = React.useMemo(() => TableVals, []);
 
   return (
-    <div className='md:flex  items-center bg-bgr overflow-hidden'>
+    <div className='md:flex items-center bg-bgr overflow-hidden'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
       <nav>
@@ -327,7 +328,7 @@ function TeacherSTU() {
                   <div>10k</div>
                 </div>
               </div>
-              <div className='mt-12 border rounded-xl' ref={ref}>
+              <div className='mt-12 border rounded-xl xl:mr-10' ref={ref}>
                 <ComposedChart
                   width={window.innerWidth > 642 ? 600 : 450}
                   height={window.innerWidth > 642 ? 350 : 280}
@@ -365,7 +366,7 @@ function TeacherSTU() {
               </div>
             </div>
           </div>
-          <div className='flex flex-col mx-3 xl:mx-32 md:mx-24 w-full overflow-x-scroll '>
+          <div className='flex flex-col mx-3 xl:mx-32 md:mx-24 w-full overflow-x-scroll HideScroll '>
 
             <Styles>
               <Table columns={columns} data={TableVals} />
@@ -413,6 +414,7 @@ function TeacherSTU() {
             <Line type='monotone' dataKey='TEACHERS' stroke='#ff7300' />
           </ComposedChart>
         </div>
+        <Footer />
       </div>
     </div>
   );

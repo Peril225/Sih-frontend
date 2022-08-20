@@ -13,6 +13,9 @@
   outline: 20px;
   cursor: pointer;
 }
+.HideScroll::-webkit-scrollbar {
+  display: none;
+}
 
 .svg-map__location:hover {
   /* fill: gray; */

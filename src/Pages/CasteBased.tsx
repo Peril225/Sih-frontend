@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { IndiaMap, PieDonut } from "../Components";
 import { StatesXcolor, TEACHERS, Options, ENrollTable } from "../constants";
+import Logo from "../assets/Images/Logo.png";
 import { ExploreC, SideBar } from "../layouts";
 import { useTable, useSortBy } from "react-table";
-
 import {
   ComposedChart,
   Line,
@@ -17,14 +17,16 @@ import {
 import styled from "styled-components";
 import ReactApexChart from "react-apexcharts";
 import Footer from "../layouts/Footer";
-import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import DropdownCaste from "../Components/Dropdown";
+import { AiOutlinePoweroff } from "react-icons/ai";
+import { useNavigate } from "react-router";
 
 function CasteBased() {
   const ref = useRef(null);
   const [pievals, setpievals] = useState([44, 55, 13]);
   const [Explore, setExplore] = useState(false);
   const [barHide, setbarHide] = useState(false);
+  const history = useNavigate();
   const [barHide2, setbarHide2] = useState(true);
   const [Current, setCurrent] = useState("");
   const [TEACHER, setTEACHER] = useState(TEACHERS);
@@ -64,8 +66,7 @@ function CasteBased() {
     StatesXcolor.map((state) => {
       document.getElementById(
         state.State
-      )!.style.fill = `rgba(${127} , ${0} , ${255} , ${
-        Math.random() * 0.62 + 0.33
+      )!.style.fill = `rgba(${127} , ${0} , ${255} , ${Math.random() * 0.62 + 0.33
       })`;
     });
   }, []);
@@ -88,7 +89,7 @@ function CasteBased() {
       }
     }
   };
-  const onLocationClick = (event: any) => {};
+  const onLocationClick = (event: any) => { };
 
   const ChangeState = (State: string) => {
     // console.log(State, "SOCCUSS TRIFFY");
@@ -151,7 +152,7 @@ function CasteBased() {
       <>
         <table
           {...getTableProps()}
-          className='text-slate-300 w-full rounded-2xl cursor-pointer'
+          className='text-slate-300 w-3/4 rounded-2xl xl:w-full  cursor-pointer overflow-scroll'
         >
           <thead>
             {headerGroups.map((headerGroup) => (
@@ -260,10 +261,31 @@ function CasteBased() {
   const TableVal = React.useMemo(() => ENrollTable, []);
   const labels = ["General", "OBC", "SHEDULED"];
   return (
-    <div className='flex items-center bg-bgr overflow-hidden'>
+    <div className='md:flex items-center bg-bgr overflow-hidden'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
-      {/* <Confetti active={animecon} config={config} /> */}
+      <nav>
+        <div className='px-5  flex bg-bgr1 w-screen justify-between items-center md:hidden'>
+          <div className='py-2'>
+            <img
+              className='cursor-pointer'
+              src={Logo}
+              width={75}
+              height={75}
+              onClick={() => setExplore(true)}
+            />
+          </div>
+          <div
+            className='p-2 bg-slate-500 rounded-xl hover:text-red-400 cursor-pointer '
+            onClick={() => {
+              localStorage.removeItem("auth-token");
+              history("/login");
+            }}
+          >
+            <AiOutlinePoweroff size={40} className='' />
+          </div>
+        </div>
+      </nav>
       <div
         className='h-screen overflow-x-hidden items-center flex flex-col  overflow-scroll   w-screen pt-6'
         onScroll={onScroll}
@@ -272,8 +294,8 @@ function CasteBased() {
           Caste Based Statistics
         </div>
         <div className='w-screen '>
-          <div className=' flex'>
-            <div className='w-4/12 h-2/5 m-20 sm:ml-40 space-y-6'>
+          <div className='xl:flex-row flex flex-col-reverse justify-around'>
+            <div className='w-8/12 h-2/5 m-20 sm:ml-40 space-y-6'>
               <div className='flex text-slate-300 items-center'>
                 <div className='bg-bgr1 p-4 rounded-l-xl border-r-2 border-bgr_dark'>
                   STATS FOR
@@ -289,9 +311,9 @@ function CasteBased() {
                 onLocationClick={onLocationClick}
               />
             </div>
-            <div className='' ref={ref} id='#LETSGIVEITASHOT'>
+            <div className='w-full flex flex-col items-center' ref={ref} id='#LETSGIVEITASHOT'>
               <div
-                className='text-white    my-5  flex flex-col h-72   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
+                className='text-white  xl:w-4/6 md:w-1/2 w-3/4   my-5  flex flex-col h-72   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
                 style={{ backdropFilter: "20px" }}
               >
                 <div className='py-3  text-3xl w-full flex justify-center border-b border-slate-400'>
@@ -335,7 +357,7 @@ function CasteBased() {
               </div>
             </div>
           </div>
-          <div className='flex flex-col justify-center items-center w-full'>
+          <div className='flex flex-col ml-3 xl:mx-32 md:mx-24 w-full overflow-x-scroll HideScroll'>
             <Styles>
               <Table columns={columns} data={TableVal} />
             </Styles>
@@ -344,9 +366,8 @@ function CasteBased() {
         </div>
 
         <div
-          className={`mt-12 border rounded-xl fixed bottom-5 right-10 backdrop-blur-xl ${
-            barHide && barHide2 ? "" : "hidden"
-          }`}
+          className={`mt-12 border rounded-xl fixed bottom-5 md:right-10 right-0 backdrop-blur-xl ${barHide && barHide2 ? "" : "hidden"
+            }`}
         >
           <div
             className='w-full justify-between flex text-2xl text-slate-300 pt-5 pr-5 pl-16 cursor-pointer'
@@ -356,8 +377,8 @@ function CasteBased() {
             <div>&#x2715;</div>
           </div>
           <ComposedChart
-            width={500}
-            height={220}
+            width={window.innerWidth > 500 ? 500 : 410}
+            height={window.innerWidth > 500 ? 240 : 180}
             data={TEACHER}
             margin={{
               top: 20,
