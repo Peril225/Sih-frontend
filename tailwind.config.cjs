@@ -4,6 +4,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      height: {
+        300: "860px",
+      },
       backdropFilter: {
         none: "none",
         blur: "blur(20px)",
