@@ -12,7 +12,7 @@ export default function DropdownCaste() {
     <Menu as='div' className='relative inline-block text-left text-lg'>
       <div>
         <Menu.Button className='inline-flex justify-center w-full rounded-md  border-slate-700 shadow-sm px-4 py-2 bg-bgr1  font-medium text-slate-400  border-none outline-none text-lg items-center'>
-          DropOut
+          Features
           <ChevronDownIcon
             className='-mr-1 ml-2 h-5 w-5 text-2xl'
             aria-hidden='true'
@@ -97,6 +97,19 @@ export default function DropdownCaste() {
                   )}
                 >
                   Pass Fail
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  href='#'
+                  className={classNames(
+                    active ? "bg-bgr2 text-slate-300" : "text-slate-200",
+                    "block px-4 py-2 text-sm"
+                  )}
+                >
+                  Drop OUT
                 </a>
               )}
             </Menu.Item>
