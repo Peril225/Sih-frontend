@@ -3,7 +3,7 @@ import { IndiaMap } from "../Components";
 import { StatesXcolor, TEACHERS, TableVals } from "../constants";
 import { ExploreC, SideBar } from "../layouts";
 import { useTable, useSortBy } from "react-table";
-
+import Logo from "../assets/Images/Logo.png";
 import {
   ComposedChart,
   Line,
@@ -15,10 +15,13 @@ import {
   // ColumnInterface,
 } from "recharts";
 import styled from "styled-components";
+import { AiOutlinePoweroff } from "react-icons/ai";
+import { useNavigate } from "react-router";
 function TeacherSTU() {
   const ref = useRef(null);
   const [Explore, setExplore] = useState(false);
   const [barHide, setbarHide] = useState(false);
+  const history = useNavigate();
   const [barHide2, setbarHide2] = useState(true);
   const [Current, setCurrent] = useState("");
   const [TEACHER, setTEACHER] = useState(TEACHERS);
@@ -26,6 +29,7 @@ function TeacherSTU() {
   const Styles = styled.div`
     padding: 1rem;
     width: 1200px;
+    overflow : scroll;
     // border-radius: 300px;
     table {
       border-spacing: 0;
@@ -58,26 +62,13 @@ function TeacherSTU() {
     StatesXcolor.map((state) => {
       document.getElementById(
         state.State
-      )!.style.fill = `rgba(${127} , ${0} , ${255} , ${
-        Math.random() * 0.62 + 0.33
+      )!.style.fill = `rgba(${127} , ${0} , ${255} , ${Math.random() * 0.62 + 0.33
       })`;
     });
   }, []);
 
-  const onScroll = () => {
-    if (ref.current) {
-      const { offsetHeight } = ref.current;
-      const el = document.getElementById("#LETSGIVEITASHOT");
-      const distanceFromTop = el?.getBoundingClientRect().top;
-      // console.log();
-      if (parseInt(distanceFromTop + offsetHeight) < 0) {
-        setbarHide(true);
-      } else {
-        setbarHide(false);
-      }
-    }
-  };
-  const onLocationClick = (event: any) => {};
+
+  const onLocationClick = (event: any) => { };
 
   const ChangeState = (State: string) => {
     // console.log(State, "SOCCUSS TRIFFY");
@@ -134,7 +125,7 @@ function TeacherSTU() {
       <>
         <table
           {...getTableProps()}
-          className='text-slate-300 w-full rounded-2xl cursor-pointer'
+          className='text-slate-300 w-3/4 rounded-2xl xl:w-full  cursor-pointer overflow-scroll'
         >
           <thead>
             {headerGroups.map((headerGroup) => (
@@ -238,13 +229,52 @@ function TeacherSTU() {
     ],
     []
   );
+  const onScroll = () => {
+    if (ref.current) {
+      const { offsetHeight } = ref.current;
+      const el = document.getElementById("#LETSGIVEITASHOT");
+      const distanceFromTop = el?.getBoundingClientRect().top;
+      console.log(
+        distanceFromTop,
+        offsetHeight,
+        el?.getBoundingClientRect(),
+        "wtfff"
+      );
+      if (parseInt(distanceFromTop + offsetHeight) - 200 < 0) {
+        setbarHide(true);
+      } else {
+        setbarHide(false);
+      }
+    }
+  };
   const TableVal = React.useMemo(() => TableVals, []);
 
   return (
-    <div className='flex items-center bg-bgr overflow-hidden'>
+    <div className='md:flex  items-center bg-bgr overflow-hidden'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
-      {/* <Confetti active={animecon} config={config} /> */}
+      <nav>
+        <div className='px-5  flex bg-bgr1 w-screen justify-between items-center md:hidden'>
+          <div className='py-2'>
+            <img
+              className='cursor-pointer'
+              src={Logo}
+              width={75}
+              height={75}
+              onClick={() => setExplore(true)}
+            />
+          </div>
+          <div
+            className='p-2 bg-slate-500 rounded-xl hover:text-red-400 cursor-pointer '
+            onClick={() => {
+              localStorage.removeItem("auth-token");
+              history("/login");
+            }}
+          >
+            <AiOutlinePoweroff size={40} className='' />
+          </div>
+        </div>
+      </nav>
       <div
         className='h-screen overflow-x-hidden items-center flex flex-col  overflow-scroll   w-screen pt-6'
         onScroll={onScroll}
@@ -253,17 +283,17 @@ function TeacherSTU() {
           Teachers And Students Analytics
         </div>
         <div className='w-screen '>
-          <div className=' flex'>
-            <div className='w-4/12 h-2/5 m-20 sm:ml-40'>
+          <div className='xl:flex-row flex items-center flex-col-reverse'>
+            <div className='md:w-7/12 lg:w-5/12 xl:w-3/4 h-2/5 m-20 sm:ml-40 w-3/4'>
               <IndiaMap
                 hide={true}
                 ChangeState={ChangeState}
                 onLocationClick={onLocationClick}
               />
             </div>
-            <div className=''>
+            <div className='flex flex-col items-center w-full'>
               <div
-                className='text-white    my-5  flex flex-col h-80   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
+                className='text-white  w-3/4  my-5  flex flex-col h-80   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'
                 style={{ backdropFilter: "20px" }}
               >
                 <div className='py-3  text-3xl w-full flex justify-center border-b border-slate-400'>
@@ -299,8 +329,8 @@ function TeacherSTU() {
               </div>
               <div className='mt-12 border rounded-xl' ref={ref}>
                 <ComposedChart
-                  width={600}
-                  height={300}
+                  width={window.innerWidth > 642 ? 600 : 450}
+                  height={window.innerWidth > 642 ? 350 : 280}
                   data={TEACHER}
                   margin={{
                     top: 20,
@@ -335,7 +365,8 @@ function TeacherSTU() {
               </div>
             </div>
           </div>
-          <div className='flex flex-col justify-center items-center w-full'>
+          <div className='flex flex-col mx-3 xl:mx-32 md:mx-24 w-full overflow-x-scroll '>
+
             <Styles>
               <Table columns={columns} data={TableVals} />
             </Styles>
@@ -343,9 +374,8 @@ function TeacherSTU() {
           </div>
         </div>
         <div
-          className={`mt-12 border rounded-xl fixed bottom-5 right-10 backdrop-blur-xl ${
-            barHide && barHide2 ? "" : "hidden"
-          }`}
+          className={`mt-12 border rounded-xl fixed bottom-5 md:right-10 right-0 backdrop-blur-xl ${barHide && barHide2 ? "" : "hidden"
+            }`}
         >
           <div
             className='w-full justify-end flex text-2xl text-slate-300 pt-5 pr-5 cursor-pointer'
@@ -354,8 +384,9 @@ function TeacherSTU() {
             &#x2715;
           </div>
           <ComposedChart
-            width={500}
-            height={220}
+            width={window.innerWidth > 500 ? 500 : 410
+            }
+            height={window.innerWidth > 500 ? 240 : 180}
             data={TEACHER}
             margin={{
               top: 20,

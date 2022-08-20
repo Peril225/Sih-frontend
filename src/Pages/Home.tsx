@@ -137,9 +137,8 @@ function Home() {
     // Testing();
     StatesXcolor.map((state) => {
       console.log(state);
-      document.getElementById(state.State)!.style.fill = `rgba(${Color[0]} , ${
-        Color[1]
-      } , ${Color[2]} , ${Math.random() * 0.62 + 0.33})`;
+      document.getElementById(state.State)!.style.fill = `rgba(${Color[0]} , ${Color[1]
+        } , ${Color[2]} , ${Math.random() * 0.62 + 0.33})`;
     });
   }, [Color]);
 
@@ -148,11 +147,11 @@ function Home() {
   // const Component = () => <div>yo</div>;
 
   return (
-    <div className='sm:flex items-center bg-bgr overflow-hidden'>
+    <div className='md:flex items-center bg-bgr overflow-hidden'>
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
       <nav>
-        <div className='px-5  flex bg-bgr1 w-screen justify-between items-center sm:hidden'>
+        <div className='px-5  flex bg-bgr1 w-screen justify-between items-center md:hidden'>
           <div className='py-2'>
             <img
               className='cursor-pointer'
@@ -173,12 +172,13 @@ function Home() {
           </div>
         </div>
       </nav>
+
       <div className='h-screen overflow-x-hidden justify-center flex '>
         <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-20 top-0 animate-fade '>
-          <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-24 xl:pl-2 lg:w-5/6 flex items-center justify-center'>
+          <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-2 xl:pl-2 lg:w-5/6 flex items-center justify-center'>
             National Educational Database.
           </div>
-          <div className='text-slate-500 max-w-xl text-lg px-5 shrink w-1/3 sm:w-1/2 '>
+          <div className='text-slate-500 max-w-xl text-lg px-5 shrink  lg:w-1/2  w-2/3'>
             " Endure, Master Wayne. Take it. They’ll hate you for it, but that’s
             the point of Batman, he can be the outcast. He can make the choice
             that no one else can make, the right choice." - Alfred Pennyworth,
