@@ -18,7 +18,7 @@ function Footer() {
         </div>
       </div>
       <div className='flex items-center space-x-6 text-slate-500 font-bold'>
-        <div className='cursor-pointer capitalize'>acknowledgement</div>
+        <div className='cursor-pointer capitalize hidden sm:block'>acknowledgement</div>
         <div className='flex items-center cursor-pointer'>
           <span className='text-xl pr-2'></span>
           <div className='capitalize'>English</div>
@@ -28,7 +28,7 @@ function Footer() {
         </div>
         <div className='flex items-center cursor-pointer '>
           <div className='hidden sm:block'>Biblography & Resources</div>
-          <div className='text-3xl rotate-180'>
+          <div className='text-3xl rotate-180 hidden sm:block'>
             <MdOutlineKeyboardArrowDown />
           </div>
         </div>

@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-iframe {
+/* iframe {
   display: none;
   visibility: hidden;
-}
+} */
 
 .svg-map__location {
   /* fill: #1e1e30; */
@@ -18,6 +18,9 @@ iframe {
   /* fill: gray; */
   border: 20px solid white;
   outline: 20px;
+}
+table {
+  /* wid */
 }
 
 .letsSEE {
