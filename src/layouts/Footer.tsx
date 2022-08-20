@@ -8,9 +8,9 @@ function Footer() {
         <div className='text-md text-slate-500 font-bold'>
           2022 TEAM-CODINOS, INC
         </div>
-        <div className='text-slate-500 pl-16'>
+        <div className='text-slate-500 pl-16 hidden xl:block'>
           <ul className='list-disc flex space-x-10 cursor-pointer'>
-            <li>Privacy</li>
+            <li className=''>Privacy</li>
             <li>Terms</li>
             <li>Sitemap</li>
             <li>GUIDE</li>

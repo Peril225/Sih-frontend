@@ -6,7 +6,7 @@ function Boxes(props: {
 }) {
   return (
     <div>
-      <div className='BOXES sm:flex  space-x-3'>
+      <div className='BOXES md:flex  space-x-3'>
         <div className='flex space-x-3'>
           <div
             className={`w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-red-400  bg-opacity-30 items-center justify-center flex font-bold  flex-col ${

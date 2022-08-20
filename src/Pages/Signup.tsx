@@ -52,8 +52,8 @@ function Signup() {
     // TAILWIND login component
     <div>
       <div className='App'>
-        <div className='min-w-screen min-h-screen bg-gray-900 flex items-center justify-center px-5 py-5'>
-          <div className='bg-gray-100 text-gray-500 rounded-3xl shadow-xl  overflow-hidden w-4/5'>
+        <div className='min-w-screen min-h-screen bg-gray-900 flex items-center justify-center sm:px-5 py-5'>
+          <div className='bg-gray-100 text-gray-500 rounded-3xl shadow-xl  overflow-hidden sm:w-4/5'>
             <div className='md:flex w-full'>
               <div className='hidden md:block w-1/2 bg-indigo-500'>
                 <img
@@ -61,14 +61,14 @@ function Signup() {
                   src='https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
                 />
               </div>
-              <div className='w-full md:w-1/2 py-10 px-5 md:px-10'>
+              <div className='w-full md:w-1/2 py-10 px-9 sm:px-5 md:px-10'>
                 <div className='text-center mb-10'>
                   <h1 className='font-bold text-3xl text-gray-900'>REGISTER</h1>
                   <p>Enter your information to register</p>
                 </div>
                 <div>
-                  <div className='flex -mx-3'>
-                    <div className='w-1/2 px-3 mb-5'>
+                  <div className='sm:flex -mx-3'>
+                    <div className='w-full sm:w-1/2 px-3 mb-5'>
                       <label className='text-xs font-semibold px-1'>
                         First name
                       </label>
@@ -85,7 +85,7 @@ function Signup() {
                         />
                       </div>
                     </div>
-                    <div className='w-1/2 px-3 mb-5'>
+                    <div className='w-full sm:w-1/2 px-3 mb-5'>
                       <label className='text-xs font-semibold px-1'>
                         User Name
                       </label>

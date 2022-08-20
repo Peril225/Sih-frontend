@@ -8,7 +8,7 @@ function PieDonut({ Current, pievals, labels, width }: TPieDonut) {
     <div className='py-9 space-y-10'>
       <h2 className='text-xl w-4/5 h-4 '>GPI INDEX OF {Current}</h2>
       <ReactApexChart
-        height={400}
+        // height={400}
         options={{ ...Options, labels: labels } as object}
         series={pievals}
         type='donut'

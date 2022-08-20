@@ -8,8 +8,12 @@
 // ];
 
 // https://varunon9.medium.com/building-choropleth-map-heatmap-of-india-in-javascript-using-react-simple-maps-2e71758fc4df
-import React from "react";
+// import Indiamap from "../Components/IndiaMap";
+// import { ReactComponent as ReactLogo } from "../assets/Telangana_districts (1).svg";
+// import { createRoot } from "react-dom/client";
+// import { ReactSVG } from "react-svg";
 
 export default function Default() {
-  return <div>Default</div>;
+  const ChangeState = () => {};
+  return <div>{/* <ReactLogo /> */}</div>;
 }

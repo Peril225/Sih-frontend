@@ -12,7 +12,7 @@ export default function SideBar({
 }) {
   const history = useNavigate();
   return (
-    <div className=' px-4 py-6 hidden sm:flex  bg-bgr1 h-screen justify-between items-center flex-col'>
+    <div className=' px-4 py-6 hidden md:flex  bg-bgr1 h-screen justify-between items-center flex-col'>
       <div className='py-7'>
         <img
           className='cursor-pointer'

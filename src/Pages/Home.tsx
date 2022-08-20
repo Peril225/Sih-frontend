@@ -32,6 +32,7 @@ import { AiOutlinePoweroff } from "react-icons/ai";
 import Footer from "../layouts/Footer";
 function Home() {
   const history = useNavigate();
+  // const { height, width } = useWindowDimensions();
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
   const [placeHoldcount, setplaceHoldcount] = useState(0);
   const [placeholder, setPlaceholder] = useState("");
@@ -142,26 +143,12 @@ function Home() {
     });
   }, [Color]);
 
-  const ref = useRef(null);
   // const first = useRef(second)
-
-  const onScroll = () => {
-    if (ref.current) {
-      const { scrollTop, scrollHeight, clientHeight } = ref.current;
-      // console.log("here", Math.floor());
-
-      if (scrollTop >= scrollHeight - clientHeight - 20) {
-        setanimecon(!animecon);
-        // console.log("reached bottom");
-      }
-    }
-  };
 
   // const Component = () => <div>yo</div>;
 
   return (
     <div className='sm:flex items-center bg-bgr overflow-hidden'>
-      {/* <AnimatedCursor color='67, 186, 148' /> */}
       <ExploreC Explore={Explore} setExplore={setExplore} />
       <SideBar setExplore={setExplore} Explore={Explore} />
       <nav>
@@ -186,43 +173,36 @@ function Home() {
           </div>
         </div>
       </nav>
-      {/* <Confetti active={animecon} config={config} /> */}
-      <div
-        className='h-screen overflow-x-hidden justify-center   flex  overflow-scroll   '
-        ref={ref}
-        onScroll={onScroll}
-      >
-        {/* <ScrollAnimation animateIn='fadeIn'> */}
+
+      <div className='h-screen overflow-x-hidden justify-center flex '>
         <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-20 top-0 animate-fade '>
-          {/* <div className=' p-96'>hi</div>
-          <div className='p-96'>hi</div> */}
-          <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0'>
+          <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-24 lg:pl-2 lg:w-5/6 flex items-center justify-center'>
             National Educational Database.
           </div>
-          <div className='text-slate-500 max-w-xl text-lg px-5'>
+          <div className='text-slate-500 max-w-xl text-lg px-5 shrink w-1/3 sm:w-1/2 '>
             " Endure, Master Wayne. Take it. They’ll hate you for it, but that’s
             the point of Batman, he can be the outcast. He can make the choice
             that no one else can make, the right choice." - Alfred Pennyworth,
             The Dark Knight{" "}
           </div>
-          <div className='  flex-col flex md:w-9/12 space-y-3 max-w-2xl'>
+          <div className='  flex-col flex md:w-9/12 space-y-3 max-w-2xl sm:w-1/2'>
             <Search placeholder={placeholder} setShowState={setShowState} />
             <SearchState ShowState={ShowState} />
           </div>
-          <div className='lg:flex text-slate-400 justify-between pt-20 sm:px-12 p-6 w-screen'>
-            <div className='sm:pl-14 font-mono space-y-3'>
-              <div className='text-xl flex'>
+          <div className='xl:flex-row flex text-slate-400 justify-between flex-col  items-center pt-20 sm:px-12 p-6 w-screen'>
+            <div className='sm:pl-14 font-mono space-y-3 flex flex-col items-center'>
+              <div className='text-xl flex w-full justify-center md:justify-start'>
                 <div>Browse through these Data . . .</div>
               </div>
               <Boxes Feature={CurrentSTAT} SelectedFeature={SelectedFeature} />
               <PieDonut
-                width={500}
+                width={window.innerWidth > 1350 ? 500 : 400}
                 labels={["PRIMARY", "SECONDARY", "TECHNICAL"]}
                 Current={Current}
                 pievals={pievals}
               />
             </div>
-            <div className='w-screen sm:w-1/2 pr-7 mr-9'>
+            <div className='w-screen sm:w-1/2 sm:pr-7   mr-9'>
               <IndiaMap
                 hide={false}
                 ChangeState={ChangeState}
@@ -230,15 +210,17 @@ function Home() {
               />
             </div>
           </div>
-          <div className='justify-between items-center flex flex-col space-y-14 '>
-            <div className='text-4xl text-slate-500 font-bold font-mono pb-40 mt-24 italic '>
+          <div className='justify-between items-center flex flex-col md:space-y-14 '>
+            <div className='text-4xl text-slate-500 font-bold font-mono md:pb-40 pb-20 mt-24 italic '>
               How India Is Performing ...
             </div>
-            <div className='md:flex w-screen justify-between pb-10 items-center '>
-              <div className=' ml-48 w-3/12'>
-                <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
-                <div className='text-slate-300 font-semibold font-mono text-2xl'>
-                  DROPOUT RATE IN INDIA
+            <div className='md:flex-row  flex flex-col-reverse  w-screen justify-between pb-10 items-center '>
+              <div className=' md:ml-48 px-5 py-5 md:px-0 md:py-0 md:w-3/12 flex flex-col '>
+                <div>
+                  <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
+                  <div className='text-slate-300 font-semibold font-mono text-2xl'>
+                    DROPOUT RATE IN INDIA
+                  </div>
                 </div>
                 <div className='text-slate-300 font-light font-mono pt-3'>
                   &nbsp;&nbsp;There has been ups and downs regarding DropOut
@@ -246,12 +228,11 @@ function Home() {
                   which is a good sign indicating more people are able to
                   complete their education properly
                 </div>
-                {/* <div>Ther</div> */}
               </div>
-              <div className='p-3 rounded-xl border md:mr-60'>
+              <div className='sm:p-3 p-0 rounded-xl border md:mr-60'>
                 <ComposedChart
-                  width={600}
-                  height={350}
+                  width={window.innerWidth > 642 ? 600 : 450}
+                  height={window.innerWidth > 642 ? 350 : 280}
                   data={DropOut}
                   margin={{
                     top: 20,
@@ -295,11 +276,11 @@ function Home() {
                 </ComposedChart>
               </div>
             </div>
-            <div className='md:flex w-screen justify-between pb-10 items-center '>
-              <div className='p-3 rounded-xl border md:ml-48'>
+            <div className='md:flex-row flex-col flex w-screen justify-between pb-10 items-center '>
+              <div className='sm:p-3 p-0 rounded-xl border md:ml-48'>
                 <ComposedChart
-                  width={600}
-                  height={350}
+                  width={window.innerWidth > 642 ? 600 : 450}
+                  height={window.innerWidth > 642 ? 350 : 280}
                   data={LITracy}
                   margin={{
                     top: 20,
@@ -342,7 +323,7 @@ function Home() {
                   <Line type='monotone' dataKey='BOYS' stroke='#ff7300' />
                 </ComposedChart>
               </div>
-              <div className='  w-3/12 md:mr-64'>
+              <div className='md:w-3/12 md:mr-64 px-3 py-3'>
                 <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
                 <div className='text-slate-300 font-semibold font-mono text-2xl'>
                   PASS RATE IN INDIA
@@ -355,8 +336,8 @@ function Home() {
                 {/* <div>Ther</div> */}
               </div>
             </div>
-            <div className='md:flex w-screen justify-between pb-10 items-center '>
-              <div className=' ml-48 w-3/12'>
+            <div className='md:flex-row  flex flex-col-reverse w-screen justify-between pb-10 items-center '>
+              <div className='md:ml-48 md:w-3/12 p-3'>
                 <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
                 <div className='text-slate-300 font-semibold font-mono text-2xl'>
                   LITERACY RATE IN INDIA
@@ -371,8 +352,8 @@ function Home() {
               </div>
               <div className='p-3 rounded-xl border md:mr-60 '>
                 <ComposedChart
-                  width={600}
-                  height={350}
+                  width={window.innerWidth > 642 ? 600 : 450}
+                  height={window.innerWidth > 642 ? 350 : 280}
                   data={LITRACY}
                   margin={{
                     top: 20,
