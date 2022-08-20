@@ -1,2485 +1,2485 @@
 year,state,standard,oc,obc,sc_st
-2000,Andhra Pradesh,primary,63,35,2
-2000,Andhra Pradesh,secondary,64,36,0
-2000,Andhra Pradesh,technical,58,36,6
-2000,Arunachal Pradesh,primary,70,32,-2
-2000,Arunachal Pradesh,secondary,58,38,4
-2000,Arunachal Pradesh,technical,53,36,11
-2000,Assam,primary,52,35,13
-2000,Assam,secondary,54,31,15
-2000,Assam,technical,53,35,12
-2000,Bihar,primary,58,38,4
-2000,Bihar,secondary,55,40,5
-2000,Bihar,technical,67,30,3
-2000,Chhattisgarh,primary,59,36,5
-2000,Chhattisgarh,secondary,52,36,12
-2000,Chhattisgarh,technical,51,37,12
-2000,Goa,primary,55,34,11
-2000,Goa,secondary,60,37,3
-2000,Goa,technical,66,34,0
-2000,Gujarat,primary,68,33,-1
-2000,Gujarat,secondary,62,34,4
-2000,Gujarat,technical,55,30,15
-2000,Haryana,primary,69,37,-6
-2000,Haryana,secondary,51,30,19
-2000,Haryana,technical,50,31,19
-2000,Himachal Pradesh,primary,69,36,-5
-2000,Himachal Pradesh,secondary,68,40,-8
-2000,Himachal Pradesh,technical,57,40,3
-2000,Jammu and Kashmir,primary,65,40,-5
-2000,Jammu and Kashmir,secondary,54,40,6
-2000,Jammu and Kashmir,technical,69,32,-1
-2000,Jharkhand,primary,64,36,0
-2000,Jharkhand,secondary,64,38,-2
-2000,Jharkhand,technical,62,36,2
-2000,Karnataka,primary,51,40,9
-2000,Karnataka,secondary,51,40,9
-2000,Karnataka,technical,67,35,-2
-2000,Kerala,primary,70,37,-7
-2000,Kerala,secondary,54,40,6
-2000,Kerala,technical,52,34,14
-2000,Madhya Pradesh,primary,64,30,6
+2000,Andhra Pradesh,primary,51,33,16
+2000,Andhra Pradesh,secondary,67,33,0
+2000,Andhra Pradesh,technical,58,34,8
+2000,Arunachal Pradesh,primary,55,34,11
+2000,Arunachal Pradesh,secondary,68,31,1
+2000,Arunachal Pradesh,technical,68,32,0
+2000,Assam,primary,54,38,8
+2000,Assam,secondary,69,40,-9
+2000,Assam,technical,54,39,7
+2000,Bihar,primary,56,33,11
+2000,Bihar,secondary,50,32,18
+2000,Bihar,technical,61,39,0
+2000,Chhattisgarh,primary,64,40,-4
+2000,Chhattisgarh,secondary,55,37,8
+2000,Chhattisgarh,technical,69,35,-4
+2000,Goa,primary,69,32,-1
+2000,Goa,secondary,68,32,0
+2000,Goa,technical,53,34,13
+2000,Gujarat,primary,53,31,16
+2000,Gujarat,secondary,68,34,-2
+2000,Gujarat,technical,57,37,6
+2000,Haryana,primary,70,36,-6
+2000,Haryana,secondary,53,38,9
+2000,Haryana,technical,58,31,11
+2000,Himachal Pradesh,primary,67,34,-1
+2000,Himachal Pradesh,secondary,70,35,-5
+2000,Himachal Pradesh,technical,53,40,7
+2000,Jammu and Kashmir,primary,64,31,5
+2000,Jammu and Kashmir,secondary,53,32,15
+2000,Jammu and Kashmir,technical,57,35,8
+2000,Jharkhand,primary,58,32,10
+2000,Jharkhand,secondary,67,31,2
+2000,Jharkhand,technical,62,40,-2
+2000,Karnataka,primary,66,33,1
+2000,Karnataka,secondary,65,38,-3
+2000,Karnataka,technical,56,36,8
+2000,Kerala,primary,64,31,5
+2000,Kerala,secondary,60,37,3
+2000,Kerala,technical,69,37,-6
+2000,Madhya Pradesh,primary,53,31,16
 2000,Madhya Pradesh,secondary,57,32,11
-2000,Madhya Pradesh,technical,54,37,9
-2000,Maharashtra,primary,50,32,18
-2000,Maharashtra,secondary,50,32,18
-2000,Maharashtra,technical,65,37,-2
-2000,Manipur,primary,51,33,16
-2000,Manipur,secondary,65,38,-3
-2000,Manipur,technical,70,35,-5
-2000,Meghalaya,primary,64,35,1
-2000,Meghalaya,secondary,53,34,13
-2000,Meghalaya,technical,58,30,12
-2000,Mizoram,primary,54,37,9
-2000,Mizoram,secondary,70,36,-6
-2000,Mizoram,technical,61,40,-1
-2000,Nagaland,primary,65,35,0
-2000,Nagaland,secondary,68,32,0
-2000,Nagaland,technical,54,38,8
-2000,Odisha,primary,51,39,10
-2000,Odisha,secondary,70,31,-1
-2000,Odisha,technical,58,35,7
-2000,Punjab,primary,64,37,-1
-2000,Punjab,secondary,69,33,-2
-2000,Punjab,technical,63,37,0
-2000,Rajasthan,primary,61,31,8
-2000,Rajasthan,secondary,58,36,6
-2000,Rajasthan,technical,66,39,-5
-2000,Sikkim,primary,52,40,8
-2000,Sikkim,secondary,56,32,12
-2000,Sikkim,technical,55,32,13
-2000,Tamil Nadu,primary,51,38,11
-2000,Tamil Nadu,secondary,50,40,10
-2000,Tamil Nadu,technical,63,37,0
-2000,Telangana,primary,57,32,11
-2000,Telangana,secondary,54,36,10
-2000,Telangana,technical,63,32,5
-2000,Tripura,primary,64,31,5
-2000,Tripura,secondary,68,37,-5
-2000,Tripura,technical,64,38,-2
-2000,Uttarakhand,primary,56,34,10
-2000,Uttarakhand,secondary,57,36,7
-2000,Uttarakhand,technical,61,33,6
-2000,Uttar Pradesh,primary,65,38,-3
-2000,Uttar Pradesh,secondary,69,33,-2
-2000,Uttar Pradesh,technical,69,37,-6
-2000,West Bengal,primary,55,32,13
-2000,West Bengal,secondary,61,32,7
-2000,West Bengal,technical,60,33,7
-2000,Andaman and Nicobar Islands,primary,65,40,-5
-2000,Andaman and Nicobar Islands,secondary,65,31,4
-2000,Andaman and Nicobar Islands,technical,62,34,4
-2000,Chandigarh,primary,55,32,13
-2000,Chandigarh,secondary,61,34,5
-2000,Chandigarh,technical,53,40,7
-2000,Dadra and Nagar Haveli,primary,56,37,7
-2000,Dadra and Nagar Haveli,secondary,58,40,2
-2000,Dadra and Nagar Haveli,technical,68,34,-2
-2000,Daman and Diu,primary,59,31,10
-2000,Daman and Diu,secondary,64,32,4
-2000,Daman and Diu,technical,54,39,7
-2000,Delhi,primary,50,36,14
-2000,Delhi,secondary,70,38,-8
-2000,Delhi,technical,64,34,2
-2000,Lakshadweep,primary,67,30,3
-2000,Lakshadweep,secondary,62,37,1
-2000,Lakshadweep,technical,57,32,11
-2000,Puducherry,primary,53,36,11
-2000,Puducherry,secondary,65,40,-5
-2000,Puducherry,technical,53,34,13
-2001,Andhra Pradesh,primary,60,36,4
-2001,Andhra Pradesh,secondary,56,33,11
-2001,Andhra Pradesh,technical,64,32,4
-2001,Arunachal Pradesh,primary,64,32,4
-2001,Arunachal Pradesh,secondary,60,35,5
-2001,Arunachal Pradesh,technical,63,40,-3
-2001,Assam,primary,67,31,2
-2001,Assam,secondary,56,35,9
-2001,Assam,technical,55,39,6
-2001,Bihar,primary,57,36,7
-2001,Bihar,secondary,58,32,10
-2001,Bihar,technical,64,31,5
-2001,Chhattisgarh,primary,68,39,-7
-2001,Chhattisgarh,secondary,56,31,13
-2001,Chhattisgarh,technical,50,32,18
-2001,Goa,primary,57,38,5
-2001,Goa,secondary,57,36,7
-2001,Goa,technical,62,32,6
-2001,Gujarat,primary,70,37,-7
-2001,Gujarat,secondary,51,39,10
-2001,Gujarat,technical,53,35,12
-2001,Haryana,primary,68,30,2
-2001,Haryana,secondary,60,37,3
-2001,Haryana,technical,50,32,18
-2001,Himachal Pradesh,primary,59,32,9
-2001,Himachal Pradesh,secondary,62,36,2
-2001,Himachal Pradesh,technical,54,36,10
-2001,Jammu and Kashmir,primary,53,30,17
-2001,Jammu and Kashmir,secondary,70,31,-1
-2001,Jammu and Kashmir,technical,56,37,7
-2001,Jharkhand,primary,70,35,-5
-2001,Jharkhand,secondary,50,35,15
-2001,Jharkhand,technical,50,30,20
-2001,Karnataka,primary,59,30,11
-2001,Karnataka,secondary,64,38,-2
-2001,Karnataka,technical,55,36,9
-2001,Kerala,primary,63,35,2
-2001,Kerala,secondary,58,36,6
-2001,Kerala,technical,61,37,2
-2001,Madhya Pradesh,primary,63,32,5
-2001,Madhya Pradesh,secondary,65,35,0
-2001,Madhya Pradesh,technical,61,40,-1
-2001,Maharashtra,primary,70,38,-8
-2001,Maharashtra,secondary,55,38,7
-2001,Maharashtra,technical,63,38,-1
-2001,Manipur,primary,61,33,6
-2001,Manipur,secondary,56,37,7
-2001,Manipur,technical,51,30,19
-2001,Meghalaya,primary,67,36,-3
-2001,Meghalaya,secondary,52,35,13
-2001,Meghalaya,technical,64,31,5
-2001,Mizoram,primary,66,39,-5
-2001,Mizoram,secondary,53,31,16
-2001,Mizoram,technical,60,35,5
-2001,Nagaland,primary,69,38,-7
-2001,Nagaland,secondary,51,39,10
-2001,Nagaland,technical,54,40,6
-2001,Odisha,primary,69,36,-5
-2001,Odisha,secondary,60,31,9
-2001,Odisha,technical,68,39,-7
-2001,Punjab,primary,55,32,13
-2001,Punjab,secondary,65,40,-5
-2001,Punjab,technical,62,36,2
-2001,Rajasthan,primary,57,32,11
-2001,Rajasthan,secondary,61,38,1
-2001,Rajasthan,technical,58,36,6
-2001,Sikkim,primary,64,39,-3
-2001,Sikkim,secondary,61,39,0
-2001,Sikkim,technical,61,35,4
-2001,Tamil Nadu,primary,69,33,-2
-2001,Tamil Nadu,secondary,68,30,2
-2001,Tamil Nadu,technical,53,39,8
-2001,Telangana,primary,62,31,7
-2001,Telangana,secondary,67,31,2
-2001,Telangana,technical,62,37,1
-2001,Tripura,primary,66,39,-5
-2001,Tripura,secondary,57,39,4
-2001,Tripura,technical,64,32,4
-2001,Uttarakhand,primary,57,40,3
-2001,Uttarakhand,secondary,58,34,8
-2001,Uttarakhand,technical,60,37,3
-2001,Uttar Pradesh,primary,60,31,9
-2001,Uttar Pradesh,secondary,51,39,10
-2001,Uttar Pradesh,technical,57,40,3
-2001,West Bengal,primary,52,31,17
-2001,West Bengal,secondary,57,40,3
-2001,West Bengal,technical,54,31,15
-2001,Andaman and Nicobar Islands,primary,58,36,6
-2001,Andaman and Nicobar Islands,secondary,61,35,4
-2001,Andaman and Nicobar Islands,technical,63,37,0
-2001,Chandigarh,primary,55,40,5
-2001,Chandigarh,secondary,61,32,7
-2001,Chandigarh,technical,65,35,0
-2001,Dadra and Nagar Haveli,primary,66,30,4
-2001,Dadra and Nagar Haveli,secondary,61,37,2
-2001,Dadra and Nagar Haveli,technical,60,38,2
-2001,Daman and Diu,primary,60,33,7
-2001,Daman and Diu,secondary,55,35,10
-2001,Daman and Diu,technical,58,30,12
-2001,Delhi,primary,56,35,9
-2001,Delhi,secondary,68,36,-4
-2001,Delhi,technical,51,40,9
-2001,Lakshadweep,primary,65,35,0
-2001,Lakshadweep,secondary,55,32,13
-2001,Lakshadweep,technical,69,35,-4
-2001,Puducherry,primary,70,38,-8
-2001,Puducherry,secondary,54,31,15
-2001,Puducherry,technical,52,40,8
-2002,Andhra Pradesh,primary,52,35,13
-2002,Andhra Pradesh,secondary,70,33,-3
-2002,Andhra Pradesh,technical,50,30,20
-2002,Arunachal Pradesh,primary,69,38,-7
-2002,Arunachal Pradesh,secondary,54,40,6
-2002,Arunachal Pradesh,technical,66,39,-5
-2002,Assam,primary,67,34,-1
-2002,Assam,secondary,69,38,-7
-2002,Assam,technical,56,40,4
-2002,Bihar,primary,54,33,13
-2002,Bihar,secondary,55,33,12
-2002,Bihar,technical,50,36,14
-2002,Chhattisgarh,primary,52,35,13
-2002,Chhattisgarh,secondary,69,34,-3
-2002,Chhattisgarh,technical,69,35,-4
-2002,Goa,primary,65,37,-2
-2002,Goa,secondary,60,34,6
-2002,Goa,technical,62,35,3
-2002,Gujarat,primary,60,39,1
-2002,Gujarat,secondary,56,32,12
-2002,Gujarat,technical,55,36,9
-2002,Haryana,primary,69,31,0
-2002,Haryana,secondary,60,37,3
-2002,Haryana,technical,62,40,-2
-2002,Himachal Pradesh,primary,68,39,-7
-2002,Himachal Pradesh,secondary,70,39,-9
-2002,Himachal Pradesh,technical,65,38,-3
-2002,Jammu and Kashmir,primary,50,40,10
-2002,Jammu and Kashmir,secondary,57,33,10
-2002,Jammu and Kashmir,technical,65,30,5
-2002,Jharkhand,primary,61,40,-1
-2002,Jharkhand,secondary,57,39,4
-2002,Jharkhand,technical,59,36,5
-2002,Karnataka,primary,51,38,11
-2002,Karnataka,secondary,54,35,11
-2002,Karnataka,technical,60,37,3
-2002,Kerala,primary,67,32,1
-2002,Kerala,secondary,60,30,10
-2002,Kerala,technical,63,32,5
-2002,Madhya Pradesh,primary,60,35,5
-2002,Madhya Pradesh,secondary,53,36,11
-2002,Madhya Pradesh,technical,63,32,5
-2002,Maharashtra,primary,55,33,12
-2002,Maharashtra,secondary,66,38,-4
-2002,Maharashtra,technical,57,32,11
-2002,Manipur,primary,68,35,-3
-2002,Manipur,secondary,50,35,15
-2002,Manipur,technical,69,36,-5
-2002,Meghalaya,primary,53,36,11
-2002,Meghalaya,secondary,53,37,10
-2002,Meghalaya,technical,50,32,18
-2002,Mizoram,primary,67,37,-4
-2002,Mizoram,secondary,55,30,15
-2002,Mizoram,technical,50,33,17
-2002,Nagaland,primary,63,31,6
-2002,Nagaland,secondary,54,34,12
-2002,Nagaland,technical,55,36,9
-2002,Odisha,primary,69,40,-9
-2002,Odisha,secondary,69,32,-1
-2002,Odisha,technical,56,35,9
-2002,Punjab,primary,60,32,8
-2002,Punjab,secondary,50,35,15
-2002,Punjab,technical,63,36,1
-2002,Rajasthan,primary,65,39,-4
-2002,Rajasthan,secondary,65,37,-2
-2002,Rajasthan,technical,70,33,-3
-2002,Sikkim,primary,69,36,-5
-2002,Sikkim,secondary,59,37,4
-2002,Sikkim,technical,57,34,9
-2002,Tamil Nadu,primary,52,31,17
-2002,Tamil Nadu,secondary,58,35,7
-2002,Tamil Nadu,technical,70,34,-4
-2002,Telangana,primary,70,40,-10
-2002,Telangana,secondary,59,30,11
-2002,Telangana,technical,61,35,4
-2002,Tripura,primary,63,36,1
-2002,Tripura,secondary,64,37,-1
-2002,Tripura,technical,58,32,10
-2002,Uttarakhand,primary,50,38,12
-2002,Uttarakhand,secondary,57,34,9
-2002,Uttarakhand,technical,61,30,9
-2002,Uttar Pradesh,primary,62,32,6
-2002,Uttar Pradesh,secondary,51,37,12
-2002,Uttar Pradesh,technical,69,38,-7
-2002,West Bengal,primary,70,31,-1
-2002,West Bengal,secondary,68,35,-3
-2002,West Bengal,technical,50,33,17
-2002,Andaman and Nicobar Islands,primary,58,36,6
-2002,Andaman and Nicobar Islands,secondary,68,40,-8
-2002,Andaman and Nicobar Islands,technical,69,37,-6
-2002,Chandigarh,primary,66,35,-1
-2002,Chandigarh,secondary,64,40,-4
-2002,Chandigarh,technical,65,30,5
-2002,Dadra and Nagar Haveli,primary,61,32,7
-2002,Dadra and Nagar Haveli,secondary,64,30,6
-2002,Dadra and Nagar Haveli,technical,57,37,6
-2002,Daman and Diu,primary,70,36,-6
-2002,Daman and Diu,secondary,52,34,14
-2002,Daman and Diu,technical,67,30,3
-2002,Delhi,primary,53,36,11
-2002,Delhi,secondary,66,40,-6
-2002,Delhi,technical,66,30,4
-2002,Lakshadweep,primary,70,32,-2
-2002,Lakshadweep,secondary,67,39,-6
-2002,Lakshadweep,technical,66,38,-4
-2002,Puducherry,primary,55,35,10
-2002,Puducherry,secondary,52,30,18
-2002,Puducherry,technical,69,30,1
-2003,Andhra Pradesh,primary,68,36,-4
-2003,Andhra Pradesh,secondary,63,36,1
-2003,Andhra Pradesh,technical,59,37,4
-2003,Arunachal Pradesh,primary,64,33,3
-2003,Arunachal Pradesh,secondary,64,31,5
-2003,Arunachal Pradesh,technical,54,40,6
-2003,Assam,primary,51,35,14
-2003,Assam,secondary,64,39,-3
-2003,Assam,technical,66,34,0
-2003,Bihar,primary,60,30,10
-2003,Bihar,secondary,67,38,-5
-2003,Bihar,technical,50,38,12
-2003,Chhattisgarh,primary,53,32,15
-2003,Chhattisgarh,secondary,64,37,-1
-2003,Chhattisgarh,technical,64,30,6
-2003,Goa,primary,58,38,4
-2003,Goa,secondary,61,35,4
-2003,Goa,technical,59,37,4
-2003,Gujarat,primary,57,36,7
-2003,Gujarat,secondary,52,38,10
-2003,Gujarat,technical,59,40,1
-2003,Haryana,primary,57,39,4
-2003,Haryana,secondary,58,32,10
-2003,Haryana,technical,58,34,8
-2003,Himachal Pradesh,primary,52,31,17
-2003,Himachal Pradesh,secondary,67,35,-2
-2003,Himachal Pradesh,technical,62,35,3
-2003,Jammu and Kashmir,primary,65,34,1
-2003,Jammu and Kashmir,secondary,64,36,0
-2003,Jammu and Kashmir,technical,50,31,19
-2003,Jharkhand,primary,65,39,-4
-2003,Jharkhand,secondary,66,32,2
-2003,Jharkhand,technical,58,40,2
-2003,Karnataka,primary,53,35,12
-2003,Karnataka,secondary,54,33,13
-2003,Karnataka,technical,54,37,9
-2003,Kerala,primary,50,31,19
-2003,Kerala,secondary,61,37,2
-2003,Kerala,technical,54,38,8
-2003,Madhya Pradesh,primary,57,34,9
-2003,Madhya Pradesh,secondary,58,39,3
-2003,Madhya Pradesh,technical,51,31,18
-2003,Maharashtra,primary,70,33,-3
-2003,Maharashtra,secondary,53,40,7
-2003,Maharashtra,technical,52,39,9
-2003,Manipur,primary,67,34,-1
-2003,Manipur,secondary,58,35,7
-2003,Manipur,technical,59,38,3
-2003,Meghalaya,primary,68,40,-8
-2003,Meghalaya,secondary,51,33,16
-2003,Meghalaya,technical,63,40,-3
-2003,Mizoram,primary,66,36,-2
-2003,Mizoram,secondary,63,35,2
-2003,Mizoram,technical,56,31,13
-2003,Nagaland,primary,65,33,2
-2003,Nagaland,secondary,57,37,6
-2003,Nagaland,technical,61,36,3
-2003,Odisha,primary,53,33,14
-2003,Odisha,secondary,54,30,16
-2003,Odisha,technical,58,40,2
-2003,Punjab,primary,60,31,9
-2003,Punjab,secondary,64,35,1
-2003,Punjab,technical,57,30,13
-2003,Rajasthan,primary,55,37,8
-2003,Rajasthan,secondary,68,36,-4
-2003,Rajasthan,technical,54,37,9
-2003,Sikkim,primary,62,30,8
-2003,Sikkim,secondary,59,40,1
-2003,Sikkim,technical,70,34,-4
-2003,Tamil Nadu,primary,53,37,10
-2003,Tamil Nadu,secondary,66,39,-5
-2003,Tamil Nadu,technical,68,31,1
-2003,Telangana,primary,63,31,6
-2003,Telangana,secondary,63,40,-3
-2003,Telangana,technical,54,40,6
-2003,Tripura,primary,54,37,9
-2003,Tripura,secondary,56,37,7
-2003,Tripura,technical,50,40,10
-2003,Uttarakhand,primary,66,31,3
-2003,Uttarakhand,secondary,65,31,4
-2003,Uttarakhand,technical,58,30,12
-2003,Uttar Pradesh,primary,58,34,8
-2003,Uttar Pradesh,secondary,62,31,7
-2003,Uttar Pradesh,technical,66,38,-4
-2003,West Bengal,primary,64,33,3
-2003,West Bengal,secondary,64,36,0
-2003,West Bengal,technical,52,33,15
-2003,Andaman and Nicobar Islands,primary,55,31,14
-2003,Andaman and Nicobar Islands,secondary,57,31,12
-2003,Andaman and Nicobar Islands,technical,65,30,5
-2003,Chandigarh,primary,52,37,11
-2003,Chandigarh,secondary,65,36,-1
-2003,Chandigarh,technical,65,37,-2
-2003,Dadra and Nagar Haveli,primary,67,33,0
-2003,Dadra and Nagar Haveli,secondary,68,40,-8
-2003,Dadra and Nagar Haveli,technical,54,38,8
-2003,Daman and Diu,primary,51,34,15
-2003,Daman and Diu,secondary,52,32,16
-2003,Daman and Diu,technical,54,33,13
-2003,Delhi,primary,52,40,8
-2003,Delhi,secondary,57,35,8
-2003,Delhi,technical,50,35,15
-2003,Lakshadweep,primary,53,37,10
-2003,Lakshadweep,secondary,51,38,11
-2003,Lakshadweep,technical,62,38,0
-2003,Puducherry,primary,56,40,4
-2003,Puducherry,secondary,61,39,0
-2003,Puducherry,technical,69,39,-8
-2004,Andhra Pradesh,primary,68,30,2
-2004,Andhra Pradesh,secondary,61,40,-1
-2004,Andhra Pradesh,technical,58,38,4
-2004,Arunachal Pradesh,primary,60,37,3
-2004,Arunachal Pradesh,secondary,67,31,2
-2004,Arunachal Pradesh,technical,55,30,15
-2004,Assam,primary,60,37,3
-2004,Assam,secondary,67,37,-4
-2004,Assam,technical,57,32,11
-2004,Bihar,primary,55,32,13
-2004,Bihar,secondary,55,34,11
-2004,Bihar,technical,54,31,15
-2004,Chhattisgarh,primary,65,35,0
-2004,Chhattisgarh,secondary,67,35,-2
-2004,Chhattisgarh,technical,68,30,2
-2004,Goa,primary,63,35,2
-2004,Goa,secondary,51,38,11
-2004,Goa,technical,66,34,0
-2004,Gujarat,primary,64,40,-4
-2004,Gujarat,secondary,65,34,1
-2004,Gujarat,technical,50,35,15
-2004,Haryana,primary,65,37,-2
-2004,Haryana,secondary,59,30,11
-2004,Haryana,technical,52,36,12
-2004,Himachal Pradesh,primary,66,38,-4
-2004,Himachal Pradesh,secondary,69,37,-6
-2004,Himachal Pradesh,technical,63,37,0
-2004,Jammu and Kashmir,primary,50,30,20
-2004,Jammu and Kashmir,secondary,60,37,3
-2004,Jammu and Kashmir,technical,52,34,14
-2004,Jharkhand,primary,60,40,0
-2004,Jharkhand,secondary,54,37,9
-2004,Jharkhand,technical,62,33,5
-2004,Karnataka,primary,56,38,6
-2004,Karnataka,secondary,64,34,2
-2004,Karnataka,technical,59,37,4
-2004,Kerala,primary,64,40,-4
-2004,Kerala,secondary,58,34,8
-2004,Kerala,technical,54,38,8
-2004,Madhya Pradesh,primary,65,37,-2
-2004,Madhya Pradesh,secondary,63,35,2
-2004,Madhya Pradesh,technical,50,38,12
-2004,Maharashtra,primary,62,31,7
-2004,Maharashtra,secondary,63,33,4
-2004,Maharashtra,technical,60,32,8
-2004,Manipur,primary,65,31,4
-2004,Manipur,secondary,52,35,13
-2004,Manipur,technical,64,34,2
-2004,Meghalaya,primary,58,40,2
-2004,Meghalaya,secondary,50,37,13
-2004,Meghalaya,technical,65,40,-5
-2004,Mizoram,primary,68,35,-3
-2004,Mizoram,secondary,57,36,7
-2004,Mizoram,technical,70,30,0
-2004,Nagaland,primary,70,35,-5
-2004,Nagaland,secondary,55,37,8
-2004,Nagaland,technical,60,39,1
-2004,Odisha,primary,66,36,-2
-2004,Odisha,secondary,63,39,-2
-2004,Odisha,technical,51,37,12
-2004,Punjab,primary,63,32,5
-2004,Punjab,secondary,54,33,13
-2004,Punjab,technical,52,30,18
-2004,Rajasthan,primary,62,38,0
-2004,Rajasthan,secondary,55,33,12
-2004,Rajasthan,technical,50,37,13
-2004,Sikkim,primary,63,40,-3
-2004,Sikkim,secondary,70,34,-4
-2004,Sikkim,technical,52,37,11
-2004,Tamil Nadu,primary,53,35,12
-2004,Tamil Nadu,secondary,62,40,-2
-2004,Tamil Nadu,technical,52,40,8
-2004,Telangana,primary,63,38,-1
-2004,Telangana,secondary,62,38,0
-2004,Telangana,technical,60,37,3
-2004,Tripura,primary,51,35,14
-2004,Tripura,secondary,66,39,-5
-2004,Tripura,technical,62,30,8
-2004,Uttarakhand,primary,61,37,2
-2004,Uttarakhand,secondary,57,37,6
-2004,Uttarakhand,technical,60,32,8
-2004,Uttar Pradesh,primary,67,34,-1
-2004,Uttar Pradesh,secondary,57,37,6
-2004,Uttar Pradesh,technical,68,39,-7
-2004,West Bengal,primary,67,35,-2
-2004,West Bengal,secondary,57,34,9
-2004,West Bengal,technical,59,35,6
-2004,Andaman and Nicobar Islands,primary,56,33,11
-2004,Andaman and Nicobar Islands,secondary,54,31,15
-2004,Andaman and Nicobar Islands,technical,64,34,2
-2004,Chandigarh,primary,57,37,6
-2004,Chandigarh,secondary,65,34,1
-2004,Chandigarh,technical,70,32,-2
-2004,Dadra and Nagar Haveli,primary,55,33,12
-2004,Dadra and Nagar Haveli,secondary,50,31,19
-2004,Dadra and Nagar Haveli,technical,56,36,8
-2004,Daman and Diu,primary,60,35,5
-2004,Daman and Diu,secondary,59,40,1
-2004,Daman and Diu,technical,63,31,6
-2004,Delhi,primary,57,40,3
-2004,Delhi,secondary,60,38,2
-2004,Delhi,technical,65,32,3
-2004,Lakshadweep,primary,53,34,13
-2004,Lakshadweep,secondary,56,35,9
-2004,Lakshadweep,technical,50,34,16
-2004,Puducherry,primary,66,33,1
-2004,Puducherry,secondary,59,31,10
-2004,Puducherry,technical,64,39,-3
-2005,Andhra Pradesh,primary,54,33,13
-2005,Andhra Pradesh,secondary,50,38,12
-2005,Andhra Pradesh,technical,65,37,-2
-2005,Arunachal Pradesh,primary,59,35,6
-2005,Arunachal Pradesh,secondary,70,37,-7
-2005,Arunachal Pradesh,technical,59,30,11
-2005,Assam,primary,55,30,15
+2000,Madhya Pradesh,technical,64,40,-4
+2000,Maharashtra,primary,55,36,9
+2000,Maharashtra,secondary,55,39,6
+2000,Maharashtra,technical,68,39,-7
+2000,Manipur,primary,69,33,-2
+2000,Manipur,secondary,63,31,6
+2000,Manipur,technical,63,30,7
+2000,Meghalaya,primary,51,35,14
+2000,Meghalaya,secondary,54,38,8
+2000,Meghalaya,technical,51,37,12
+2000,Mizoram,primary,62,32,6
+2000,Mizoram,secondary,50,39,11
+2000,Mizoram,technical,68,30,2
+2000,Nagaland,primary,54,30,16
+2000,Nagaland,secondary,60,37,3
+2000,Nagaland,technical,61,37,2
+2000,Odisha,primary,54,32,14
+2000,Odisha,secondary,67,40,-7
+2000,Odisha,technical,67,37,-4
+2000,Punjab,primary,52,37,11
+2000,Punjab,secondary,67,40,-7
+2000,Punjab,technical,61,35,4
+2000,Rajasthan,primary,50,36,14
+2000,Rajasthan,secondary,58,34,8
+2000,Rajasthan,technical,61,33,6
+2000,Sikkim,primary,52,33,15
+2000,Sikkim,secondary,67,38,-5
+2000,Sikkim,technical,67,40,-7
+2000,Tamil Nadu,primary,58,39,3
+2000,Tamil Nadu,secondary,68,40,-8
+2000,Tamil Nadu,technical,60,33,7
+2000,Telangana,primary,64,34,2
+2000,Telangana,secondary,61,31,8
+2000,Telangana,technical,51,40,9
+2000,Tripura,primary,53,36,11
+2000,Tripura,secondary,58,34,8
+2000,Tripura,technical,70,39,-9
+2000,Uttarakhand,primary,54,30,16
+2000,Uttarakhand,secondary,70,31,-1
+2000,Uttarakhand,technical,65,30,5
+2000,Uttar Pradesh,primary,52,31,17
+2000,Uttar Pradesh,secondary,59,35,6
+2000,Uttar Pradesh,technical,67,30,3
+2000,West Bengal,primary,54,32,14
+2000,West Bengal,secondary,64,39,-3
+2000,West Bengal,technical,65,36,-1
+2000,Andaman and Nicobar Islands,primary,50,34,16
+2000,Andaman and Nicobar Islands,secondary,52,34,14
+2000,Andaman and Nicobar Islands,technical,57,33,10
+2000,Chandigarh,primary,58,38,4
+2000,Chandigarh,secondary,52,39,9
+2000,Chandigarh,technical,63,31,6
+2000,Dadra and Nagar Haveli,primary,63,37,0
+2000,Dadra and Nagar Haveli,secondary,65,37,-2
+2000,Dadra and Nagar Haveli,technical,61,35,4
+2000,Daman and Diu,primary,62,37,1
+2000,Daman and Diu,secondary,56,37,7
+2000,Daman and Diu,technical,50,38,12
+2000,Delhi,primary,52,37,11
+2000,Delhi,secondary,67,39,-6
+2000,Delhi,technical,61,38,1
+2000,Lakshadweep,primary,64,35,1
+2000,Lakshadweep,secondary,57,34,9
+2000,Lakshadweep,technical,59,36,5
+2000,Puducherry,primary,54,33,13
+2000,Puducherry,secondary,57,30,13
+2000,Puducherry,technical,68,35,-3
+2001,Andhra Pradesh,primary,69,35,-4
+2001,Andhra Pradesh,secondary,57,40,3
+2001,Andhra Pradesh,technical,56,39,5
+2001,Arunachal Pradesh,primary,58,34,8
+2001,Arunachal Pradesh,secondary,52,34,14
+2001,Arunachal Pradesh,technical,65,35,0
+2001,Assam,primary,57,37,6
+2001,Assam,secondary,65,37,-2
+2001,Assam,technical,51,40,9
+2001,Bihar,primary,54,35,11
+2001,Bihar,secondary,61,39,0
+2001,Bihar,technical,67,34,-1
+2001,Chhattisgarh,primary,62,35,3
+2001,Chhattisgarh,secondary,52,37,11
+2001,Chhattisgarh,technical,57,31,12
+2001,Goa,primary,54,34,12
+2001,Goa,secondary,62,36,2
+2001,Goa,technical,63,32,5
+2001,Gujarat,primary,60,33,7
+2001,Gujarat,secondary,57,34,9
+2001,Gujarat,technical,70,39,-9
+2001,Haryana,primary,58,33,9
+2001,Haryana,secondary,51,39,10
+2001,Haryana,technical,53,31,16
+2001,Himachal Pradesh,primary,70,38,-8
+2001,Himachal Pradesh,secondary,58,33,9
+2001,Himachal Pradesh,technical,54,34,12
+2001,Jammu and Kashmir,primary,68,31,1
+2001,Jammu and Kashmir,secondary,64,30,6
+2001,Jammu and Kashmir,technical,50,34,16
+2001,Jharkhand,primary,60,35,5
+2001,Jharkhand,secondary,56,40,4
+2001,Jharkhand,technical,63,32,5
+2001,Karnataka,primary,67,36,-3
+2001,Karnataka,secondary,55,34,11
+2001,Karnataka,technical,60,33,7
+2001,Kerala,primary,56,35,9
+2001,Kerala,secondary,50,31,19
+2001,Kerala,technical,52,32,16
+2001,Madhya Pradesh,primary,55,32,13
+2001,Madhya Pradesh,secondary,58,35,7
+2001,Madhya Pradesh,technical,64,33,3
+2001,Maharashtra,primary,55,31,14
+2001,Maharashtra,secondary,61,35,4
+2001,Maharashtra,technical,69,35,-4
+2001,Manipur,primary,58,30,12
+2001,Manipur,secondary,51,40,9
+2001,Manipur,technical,55,40,5
+2001,Meghalaya,primary,55,38,7
+2001,Meghalaya,secondary,68,37,-5
+2001,Meghalaya,technical,66,35,-1
+2001,Mizoram,primary,61,39,0
+2001,Mizoram,secondary,53,30,17
+2001,Mizoram,technical,68,31,1
+2001,Nagaland,primary,66,36,-2
+2001,Nagaland,secondary,64,33,3
+2001,Nagaland,technical,66,38,-4
+2001,Odisha,primary,52,40,8
+2001,Odisha,secondary,69,31,0
+2001,Odisha,technical,51,32,17
+2001,Punjab,primary,50,32,18
+2001,Punjab,secondary,69,38,-7
+2001,Punjab,technical,51,31,18
+2001,Rajasthan,primary,56,38,6
+2001,Rajasthan,secondary,50,30,20
+2001,Rajasthan,technical,63,37,0
+2001,Sikkim,primary,58,38,4
+2001,Sikkim,secondary,61,30,9
+2001,Sikkim,technical,64,32,4
+2001,Tamil Nadu,primary,66,35,-1
+2001,Tamil Nadu,secondary,55,32,13
+2001,Tamil Nadu,technical,51,30,19
+2001,Telangana,primary,68,33,-1
+2001,Telangana,secondary,66,33,1
+2001,Telangana,technical,66,39,-5
+2001,Tripura,primary,58,38,4
+2001,Tripura,secondary,54,34,12
+2001,Tripura,technical,61,35,4
+2001,Uttarakhand,primary,63,35,2
+2001,Uttarakhand,secondary,68,31,1
+2001,Uttarakhand,technical,68,37,-5
+2001,Uttar Pradesh,primary,56,33,11
+2001,Uttar Pradesh,secondary,58,37,5
+2001,Uttar Pradesh,technical,69,30,1
+2001,West Bengal,primary,57,31,12
+2001,West Bengal,secondary,58,36,6
+2001,West Bengal,technical,64,37,-1
+2001,Andaman and Nicobar Islands,primary,62,34,4
+2001,Andaman and Nicobar Islands,secondary,64,33,3
+2001,Andaman and Nicobar Islands,technical,66,40,-6
+2001,Chandigarh,primary,51,37,12
+2001,Chandigarh,secondary,62,33,5
+2001,Chandigarh,technical,54,31,15
+2001,Dadra and Nagar Haveli,primary,66,34,0
+2001,Dadra and Nagar Haveli,secondary,57,33,10
+2001,Dadra and Nagar Haveli,technical,57,36,7
+2001,Daman and Diu,primary,61,34,5
+2001,Daman and Diu,secondary,50,34,16
+2001,Daman and Diu,technical,67,37,-4
+2001,Delhi,primary,55,30,15
+2001,Delhi,secondary,66,38,-4
+2001,Delhi,technical,68,39,-7
+2001,Lakshadweep,primary,51,30,19
+2001,Lakshadweep,secondary,53,31,16
+2001,Lakshadweep,technical,63,38,-1
+2001,Puducherry,primary,70,31,-1
+2001,Puducherry,secondary,58,33,9
+2001,Puducherry,technical,51,38,11
+2002,Andhra Pradesh,primary,66,36,-2
+2002,Andhra Pradesh,secondary,65,30,5
+2002,Andhra Pradesh,technical,68,34,-2
+2002,Arunachal Pradesh,primary,59,30,11
+2002,Arunachal Pradesh,secondary,64,35,1
+2002,Arunachal Pradesh,technical,69,37,-6
+2002,Assam,primary,62,40,-2
+2002,Assam,secondary,60,35,5
+2002,Assam,technical,70,37,-7
+2002,Bihar,primary,57,31,12
+2002,Bihar,secondary,68,34,-2
+2002,Bihar,technical,62,38,0
+2002,Chhattisgarh,primary,60,36,4
+2002,Chhattisgarh,secondary,59,35,6
+2002,Chhattisgarh,technical,60,37,3
+2002,Goa,primary,69,35,-4
+2002,Goa,secondary,63,39,-2
+2002,Goa,technical,70,31,-1
+2002,Gujarat,primary,54,38,8
+2002,Gujarat,secondary,63,37,0
+2002,Gujarat,technical,62,33,5
+2002,Haryana,primary,60,39,1
+2002,Haryana,secondary,53,30,17
+2002,Haryana,technical,69,36,-5
+2002,Himachal Pradesh,primary,52,40,8
+2002,Himachal Pradesh,secondary,58,39,3
+2002,Himachal Pradesh,technical,65,36,-1
+2002,Jammu and Kashmir,primary,51,36,13
+2002,Jammu and Kashmir,secondary,62,32,6
+2002,Jammu and Kashmir,technical,66,31,3
+2002,Jharkhand,primary,65,37,-2
+2002,Jharkhand,secondary,64,37,-1
+2002,Jharkhand,technical,63,40,-3
+2002,Karnataka,primary,66,33,1
+2002,Karnataka,secondary,54,31,15
+2002,Karnataka,technical,53,39,8
+2002,Kerala,primary,58,31,11
+2002,Kerala,secondary,57,35,8
+2002,Kerala,technical,62,34,4
+2002,Madhya Pradesh,primary,50,32,18
+2002,Madhya Pradesh,secondary,70,40,-10
+2002,Madhya Pradesh,technical,68,31,1
+2002,Maharashtra,primary,60,38,2
+2002,Maharashtra,secondary,58,39,3
+2002,Maharashtra,technical,60,39,1
+2002,Manipur,primary,58,35,7
+2002,Manipur,secondary,62,38,0
+2002,Manipur,technical,57,34,9
+2002,Meghalaya,primary,68,33,-1
+2002,Meghalaya,secondary,52,40,8
+2002,Meghalaya,technical,70,35,-5
+2002,Mizoram,primary,59,38,3
+2002,Mizoram,secondary,64,30,6
+2002,Mizoram,technical,50,36,14
+2002,Nagaland,primary,68,36,-4
+2002,Nagaland,secondary,52,31,17
+2002,Nagaland,technical,56,31,13
+2002,Odisha,primary,69,38,-7
+2002,Odisha,secondary,65,33,2
+2002,Odisha,technical,63,35,2
+2002,Punjab,primary,55,35,10
+2002,Punjab,secondary,59,34,7
+2002,Punjab,technical,61,37,2
+2002,Rajasthan,primary,60,38,2
+2002,Rajasthan,secondary,57,32,11
+2002,Rajasthan,technical,62,36,2
+2002,Sikkim,primary,58,38,4
+2002,Sikkim,secondary,65,40,-5
+2002,Sikkim,technical,67,35,-2
+2002,Tamil Nadu,primary,70,37,-7
+2002,Tamil Nadu,secondary,53,31,16
+2002,Tamil Nadu,technical,51,36,13
+2002,Telangana,primary,59,32,9
+2002,Telangana,secondary,54,40,6
+2002,Telangana,technical,59,33,8
+2002,Tripura,primary,59,30,11
+2002,Tripura,secondary,54,36,10
+2002,Tripura,technical,66,35,-1
+2002,Uttarakhand,primary,54,32,14
+2002,Uttarakhand,secondary,70,34,-4
+2002,Uttarakhand,technical,55,31,14
+2002,Uttar Pradesh,primary,62,31,7
+2002,Uttar Pradesh,secondary,62,38,0
+2002,Uttar Pradesh,technical,67,39,-6
+2002,West Bengal,primary,55,38,7
+2002,West Bengal,secondary,69,38,-7
+2002,West Bengal,technical,65,38,-3
+2002,Andaman and Nicobar Islands,primary,67,39,-6
+2002,Andaman and Nicobar Islands,secondary,60,39,1
+2002,Andaman and Nicobar Islands,technical,50,34,16
+2002,Chandigarh,primary,61,38,1
+2002,Chandigarh,secondary,60,31,9
+2002,Chandigarh,technical,70,40,-10
+2002,Dadra and Nagar Haveli,primary,51,34,15
+2002,Dadra and Nagar Haveli,secondary,62,31,7
+2002,Dadra and Nagar Haveli,technical,70,34,-4
+2002,Daman and Diu,primary,50,40,10
+2002,Daman and Diu,secondary,65,33,2
+2002,Daman and Diu,technical,54,30,16
+2002,Delhi,primary,65,39,-4
+2002,Delhi,secondary,60,30,10
+2002,Delhi,technical,65,40,-5
+2002,Lakshadweep,primary,66,33,1
+2002,Lakshadweep,secondary,51,38,11
+2002,Lakshadweep,technical,63,32,5
+2002,Puducherry,primary,69,35,-4
+2002,Puducherry,secondary,57,36,7
+2002,Puducherry,technical,58,31,11
+2003,Andhra Pradesh,primary,59,39,2
+2003,Andhra Pradesh,secondary,53,40,7
+2003,Andhra Pradesh,technical,53,33,14
+2003,Arunachal Pradesh,primary,62,33,5
+2003,Arunachal Pradesh,secondary,65,36,-1
+2003,Arunachal Pradesh,technical,52,30,18
+2003,Assam,primary,70,33,-3
+2003,Assam,secondary,68,36,-4
+2003,Assam,technical,52,39,9
+2003,Bihar,primary,63,34,3
+2003,Bihar,secondary,63,37,0
+2003,Bihar,technical,68,40,-8
+2003,Chhattisgarh,primary,62,40,-2
+2003,Chhattisgarh,secondary,55,35,10
+2003,Chhattisgarh,technical,63,37,0
+2003,Goa,primary,61,30,9
+2003,Goa,secondary,52,37,11
+2003,Goa,technical,53,32,15
+2003,Gujarat,primary,59,33,8
+2003,Gujarat,secondary,53,34,13
+2003,Gujarat,technical,67,30,3
+2003,Haryana,primary,67,38,-5
+2003,Haryana,secondary,54,34,12
+2003,Haryana,technical,61,30,9
+2003,Himachal Pradesh,primary,58,40,2
+2003,Himachal Pradesh,secondary,54,35,11
+2003,Himachal Pradesh,technical,70,30,0
+2003,Jammu and Kashmir,primary,52,38,10
+2003,Jammu and Kashmir,secondary,50,36,14
+2003,Jammu and Kashmir,technical,57,32,11
+2003,Jharkhand,primary,51,33,16
+2003,Jharkhand,secondary,62,37,1
+2003,Jharkhand,technical,64,39,-3
+2003,Karnataka,primary,65,40,-5
+2003,Karnataka,secondary,66,40,-6
+2003,Karnataka,technical,57,31,12
+2003,Kerala,primary,57,40,3
+2003,Kerala,secondary,61,34,5
+2003,Kerala,technical,65,30,5
+2003,Madhya Pradesh,primary,54,40,6
+2003,Madhya Pradesh,secondary,53,36,11
+2003,Madhya Pradesh,technical,53,36,11
+2003,Maharashtra,primary,62,33,5
+2003,Maharashtra,secondary,70,34,-4
+2003,Maharashtra,technical,68,33,-1
+2003,Manipur,primary,53,40,7
+2003,Manipur,secondary,61,30,9
+2003,Manipur,technical,60,31,9
+2003,Meghalaya,primary,51,34,15
+2003,Meghalaya,secondary,56,35,9
+2003,Meghalaya,technical,67,38,-5
+2003,Mizoram,primary,54,32,14
+2003,Mizoram,secondary,54,33,13
+2003,Mizoram,technical,59,31,10
+2003,Nagaland,primary,66,30,4
+2003,Nagaland,secondary,63,36,1
+2003,Nagaland,technical,56,37,7
+2003,Odisha,primary,64,32,4
+2003,Odisha,secondary,70,40,-10
+2003,Odisha,technical,57,32,11
+2003,Punjab,primary,69,38,-7
+2003,Punjab,secondary,65,34,1
+2003,Punjab,technical,56,37,7
+2003,Rajasthan,primary,66,40,-6
+2003,Rajasthan,secondary,70,30,0
+2003,Rajasthan,technical,62,32,6
+2003,Sikkim,primary,61,40,-1
+2003,Sikkim,secondary,60,32,8
+2003,Sikkim,technical,58,38,4
+2003,Tamil Nadu,primary,53,33,14
+2003,Tamil Nadu,secondary,52,37,11
+2003,Tamil Nadu,technical,57,30,13
+2003,Telangana,primary,68,30,2
+2003,Telangana,secondary,57,39,4
+2003,Telangana,technical,58,40,2
+2003,Tripura,primary,50,39,11
+2003,Tripura,secondary,51,32,17
+2003,Tripura,technical,57,34,9
+2003,Uttarakhand,primary,69,38,-7
+2003,Uttarakhand,secondary,69,36,-5
+2003,Uttarakhand,technical,69,36,-5
+2003,Uttar Pradesh,primary,65,30,5
+2003,Uttar Pradesh,secondary,51,30,19
+2003,Uttar Pradesh,technical,52,34,14
+2003,West Bengal,primary,56,38,6
+2003,West Bengal,secondary,52,38,10
+2003,West Bengal,technical,60,31,9
+2003,Andaman and Nicobar Islands,primary,62,35,3
+2003,Andaman and Nicobar Islands,secondary,56,34,10
+2003,Andaman and Nicobar Islands,technical,56,31,13
+2003,Chandigarh,primary,66,32,2
+2003,Chandigarh,secondary,52,39,9
+2003,Chandigarh,technical,69,37,-6
+2003,Dadra and Nagar Haveli,primary,66,39,-5
+2003,Dadra and Nagar Haveli,secondary,51,33,16
+2003,Dadra and Nagar Haveli,technical,64,32,4
+2003,Daman and Diu,primary,61,38,1
+2003,Daman and Diu,secondary,64,39,-3
+2003,Daman and Diu,technical,67,32,1
+2003,Delhi,primary,69,32,-1
+2003,Delhi,secondary,54,40,6
+2003,Delhi,technical,62,32,6
+2003,Lakshadweep,primary,70,37,-7
+2003,Lakshadweep,secondary,51,40,9
+2003,Lakshadweep,technical,66,38,-4
+2003,Puducherry,primary,61,36,3
+2003,Puducherry,secondary,54,34,12
+2003,Puducherry,technical,63,40,-3
+2004,Andhra Pradesh,primary,50,33,17
+2004,Andhra Pradesh,secondary,69,37,-6
+2004,Andhra Pradesh,technical,57,38,5
+2004,Arunachal Pradesh,primary,54,40,6
+2004,Arunachal Pradesh,secondary,68,35,-3
+2004,Arunachal Pradesh,technical,65,35,0
+2004,Assam,primary,67,39,-6
+2004,Assam,secondary,50,35,15
+2004,Assam,technical,64,38,-2
+2004,Bihar,primary,63,40,-3
+2004,Bihar,secondary,58,34,8
+2004,Bihar,technical,50,33,17
+2004,Chhattisgarh,primary,56,30,14
+2004,Chhattisgarh,secondary,52,32,16
+2004,Chhattisgarh,technical,56,31,13
+2004,Goa,primary,50,39,11
+2004,Goa,secondary,52,38,10
+2004,Goa,technical,61,34,5
+2004,Gujarat,primary,53,35,12
+2004,Gujarat,secondary,61,39,0
+2004,Gujarat,technical,56,37,7
+2004,Haryana,primary,68,37,-5
+2004,Haryana,secondary,57,38,5
+2004,Haryana,technical,64,37,-1
+2004,Himachal Pradesh,primary,66,35,-1
+2004,Himachal Pradesh,secondary,59,40,1
+2004,Himachal Pradesh,technical,50,38,12
+2004,Jammu and Kashmir,primary,65,40,-5
+2004,Jammu and Kashmir,secondary,57,33,10
+2004,Jammu and Kashmir,technical,56,37,7
+2004,Jharkhand,primary,52,35,13
+2004,Jharkhand,secondary,61,36,3
+2004,Jharkhand,technical,62,38,0
+2004,Karnataka,primary,60,36,4
+2004,Karnataka,secondary,58,36,6
+2004,Karnataka,technical,60,34,6
+2004,Kerala,primary,61,35,4
+2004,Kerala,secondary,60,37,3
+2004,Kerala,technical,57,40,3
+2004,Madhya Pradesh,primary,50,39,11
+2004,Madhya Pradesh,secondary,55,38,7
+2004,Madhya Pradesh,technical,55,38,7
+2004,Maharashtra,primary,67,31,2
+2004,Maharashtra,secondary,59,33,8
+2004,Maharashtra,technical,50,32,18
+2004,Manipur,primary,51,34,15
+2004,Manipur,secondary,53,35,12
+2004,Manipur,technical,69,32,-1
+2004,Meghalaya,primary,52,30,18
+2004,Meghalaya,secondary,52,34,14
+2004,Meghalaya,technical,50,36,14
+2004,Mizoram,primary,69,30,1
+2004,Mizoram,secondary,50,36,14
+2004,Mizoram,technical,68,39,-7
+2004,Nagaland,primary,61,40,-1
+2004,Nagaland,secondary,54,35,11
+2004,Nagaland,technical,51,31,18
+2004,Odisha,primary,69,31,0
+2004,Odisha,secondary,57,32,11
+2004,Odisha,technical,69,38,-7
+2004,Punjab,primary,51,32,17
+2004,Punjab,secondary,65,30,5
+2004,Punjab,technical,63,39,-2
+2004,Rajasthan,primary,62,39,-1
+2004,Rajasthan,secondary,59,36,5
+2004,Rajasthan,technical,69,33,-2
+2004,Sikkim,primary,53,36,11
+2004,Sikkim,secondary,51,36,13
+2004,Sikkim,technical,51,33,16
+2004,Tamil Nadu,primary,53,30,17
+2004,Tamil Nadu,secondary,52,30,18
+2004,Tamil Nadu,technical,64,37,-1
+2004,Telangana,primary,59,36,5
+2004,Telangana,secondary,53,33,14
+2004,Telangana,technical,59,37,4
+2004,Tripura,primary,50,34,16
+2004,Tripura,secondary,56,35,9
+2004,Tripura,technical,63,30,7
+2004,Uttarakhand,primary,63,30,7
+2004,Uttarakhand,secondary,66,40,-6
+2004,Uttarakhand,technical,51,37,12
+2004,Uttar Pradesh,primary,67,30,3
+2004,Uttar Pradesh,secondary,61,30,9
+2004,Uttar Pradesh,technical,54,38,8
+2004,West Bengal,primary,67,33,0
+2004,West Bengal,secondary,65,37,-2
+2004,West Bengal,technical,69,39,-8
+2004,Andaman and Nicobar Islands,primary,62,34,4
+2004,Andaman and Nicobar Islands,secondary,51,39,10
+2004,Andaman and Nicobar Islands,technical,55,38,7
+2004,Chandigarh,primary,62,35,3
+2004,Chandigarh,secondary,59,38,3
+2004,Chandigarh,technical,62,35,3
+2004,Dadra and Nagar Haveli,primary,59,32,9
+2004,Dadra and Nagar Haveli,secondary,64,31,5
+2004,Dadra and Nagar Haveli,technical,52,30,18
+2004,Daman and Diu,primary,69,37,-6
+2004,Daman and Diu,secondary,64,31,5
+2004,Daman and Diu,technical,64,30,6
+2004,Delhi,primary,70,31,-1
+2004,Delhi,secondary,57,36,7
+2004,Delhi,technical,52,39,9
+2004,Lakshadweep,primary,55,35,10
+2004,Lakshadweep,secondary,63,39,-2
+2004,Lakshadweep,technical,67,38,-5
+2004,Puducherry,primary,65,34,1
+2004,Puducherry,secondary,51,38,11
+2004,Puducherry,technical,52,37,11
+2005,Andhra Pradesh,primary,63,37,0
+2005,Andhra Pradesh,secondary,52,39,9
+2005,Andhra Pradesh,technical,61,32,7
+2005,Arunachal Pradesh,primary,66,38,-4
+2005,Arunachal Pradesh,secondary,55,39,6
+2005,Arunachal Pradesh,technical,62,35,3
+2005,Assam,primary,69,33,-2
 2005,Assam,secondary,65,31,4
-2005,Assam,technical,50,38,12
-2005,Bihar,primary,59,35,6
-2005,Bihar,secondary,51,37,12
-2005,Bihar,technical,61,32,7
-2005,Chhattisgarh,primary,56,37,7
-2005,Chhattisgarh,secondary,65,37,-2
-2005,Chhattisgarh,technical,70,38,-8
-2005,Goa,primary,69,34,-3
-2005,Goa,secondary,52,32,16
-2005,Goa,technical,62,39,-1
-2005,Gujarat,primary,62,31,7
-2005,Gujarat,secondary,53,34,13
-2005,Gujarat,technical,55,30,15
-2005,Haryana,primary,55,34,11
-2005,Haryana,secondary,69,38,-7
-2005,Haryana,technical,52,31,17
-2005,Himachal Pradesh,primary,63,31,6
-2005,Himachal Pradesh,secondary,67,35,-2
-2005,Himachal Pradesh,technical,53,34,13
-2005,Jammu and Kashmir,primary,52,40,8
-2005,Jammu and Kashmir,secondary,60,37,3
-2005,Jammu and Kashmir,technical,60,37,3
-2005,Jharkhand,primary,50,33,17
-2005,Jharkhand,secondary,65,33,2
-2005,Jharkhand,technical,52,38,10
-2005,Karnataka,primary,54,40,6
-2005,Karnataka,secondary,70,40,-10
-2005,Karnataka,technical,56,37,7
-2005,Kerala,primary,58,40,2
-2005,Kerala,secondary,65,37,-2
-2005,Kerala,technical,54,33,13
-2005,Madhya Pradesh,primary,67,35,-2
-2005,Madhya Pradesh,secondary,62,34,4
-2005,Madhya Pradesh,technical,63,39,-2
-2005,Maharashtra,primary,55,36,9
-2005,Maharashtra,secondary,50,38,12
-2005,Maharashtra,technical,67,34,-1
-2005,Manipur,primary,58,33,9
-2005,Manipur,secondary,62,39,-1
-2005,Manipur,technical,63,35,2
-2005,Meghalaya,primary,69,40,-9
-2005,Meghalaya,secondary,51,37,12
-2005,Meghalaya,technical,58,37,5
-2005,Mizoram,primary,57,31,12
-2005,Mizoram,secondary,69,33,-2
-2005,Mizoram,technical,68,31,1
-2005,Nagaland,primary,51,35,14
-2005,Nagaland,secondary,51,40,9
-2005,Nagaland,technical,65,38,-3
-2005,Odisha,primary,59,35,6
-2005,Odisha,secondary,51,39,10
-2005,Odisha,technical,70,38,-8
-2005,Punjab,primary,52,35,13
-2005,Punjab,secondary,51,31,18
-2005,Punjab,technical,53,34,13
-2005,Rajasthan,primary,59,33,8
-2005,Rajasthan,secondary,61,40,-1
-2005,Rajasthan,technical,60,37,3
-2005,Sikkim,primary,55,34,11
-2005,Sikkim,secondary,52,31,17
-2005,Sikkim,technical,50,38,12
-2005,Tamil Nadu,primary,61,37,2
-2005,Tamil Nadu,secondary,67,33,0
-2005,Tamil Nadu,technical,69,39,-8
-2005,Telangana,primary,54,37,9
-2005,Telangana,secondary,51,38,11
-2005,Telangana,technical,52,30,18
-2005,Tripura,primary,61,37,2
-2005,Tripura,secondary,58,30,12
-2005,Tripura,technical,61,39,0
-2005,Uttarakhand,primary,64,37,-1
-2005,Uttarakhand,secondary,55,38,7
-2005,Uttarakhand,technical,67,38,-5
-2005,Uttar Pradesh,primary,69,40,-9
-2005,Uttar Pradesh,secondary,64,34,2
-2005,Uttar Pradesh,technical,50,38,12
-2005,West Bengal,primary,52,38,10
-2005,West Bengal,secondary,69,32,-1
-2005,West Bengal,technical,68,40,-8
-2005,Andaman and Nicobar Islands,primary,68,33,-1
-2005,Andaman and Nicobar Islands,secondary,66,33,1
-2005,Andaman and Nicobar Islands,technical,67,31,2
-2005,Chandigarh,primary,61,37,2
-2005,Chandigarh,secondary,69,34,-3
-2005,Chandigarh,technical,61,37,2
-2005,Dadra and Nagar Haveli,primary,70,32,-2
-2005,Dadra and Nagar Haveli,secondary,53,32,15
-2005,Dadra and Nagar Haveli,technical,52,38,10
-2005,Daman and Diu,primary,58,36,6
-2005,Daman and Diu,secondary,51,30,19
-2005,Daman and Diu,technical,64,36,0
-2005,Delhi,primary,68,31,1
-2005,Delhi,secondary,67,40,-7
-2005,Delhi,technical,65,32,3
-2005,Lakshadweep,primary,70,31,-1
-2005,Lakshadweep,secondary,64,39,-3
-2005,Lakshadweep,technical,63,35,2
-2005,Puducherry,primary,63,38,-1
-2005,Puducherry,secondary,57,40,3
-2005,Puducherry,technical,55,32,13
-2006,Andhra Pradesh,primary,54,30,16
-2006,Andhra Pradesh,secondary,64,35,1
-2006,Andhra Pradesh,technical,51,33,16
-2006,Arunachal Pradesh,primary,55,30,15
-2006,Arunachal Pradesh,secondary,66,31,3
-2006,Arunachal Pradesh,technical,65,33,2
-2006,Assam,primary,62,34,4
-2006,Assam,secondary,64,40,-4
-2006,Assam,technical,65,37,-2
-2006,Bihar,primary,58,31,11
-2006,Bihar,secondary,61,40,-1
-2006,Bihar,technical,70,40,-10
-2006,Chhattisgarh,primary,60,39,1
-2006,Chhattisgarh,secondary,51,34,15
-2006,Chhattisgarh,technical,70,30,0
-2006,Goa,primary,60,36,4
-2006,Goa,secondary,57,38,5
-2006,Goa,technical,56,33,11
-2006,Gujarat,primary,58,31,11
-2006,Gujarat,secondary,62,30,8
-2006,Gujarat,technical,57,36,7
-2006,Haryana,primary,56,30,14
-2006,Haryana,secondary,64,37,-1
-2006,Haryana,technical,55,38,7
-2006,Himachal Pradesh,primary,64,38,-2
-2006,Himachal Pradesh,secondary,65,33,2
-2006,Himachal Pradesh,technical,57,38,5
-2006,Jammu and Kashmir,primary,67,35,-2
-2006,Jammu and Kashmir,secondary,61,38,1
-2006,Jammu and Kashmir,technical,50,38,12
-2006,Jharkhand,primary,61,38,1
-2006,Jharkhand,secondary,57,40,3
-2006,Jharkhand,technical,54,32,14
-2006,Karnataka,primary,55,37,8
-2006,Karnataka,secondary,50,39,11
-2006,Karnataka,technical,57,40,3
-2006,Kerala,primary,58,39,3
-2006,Kerala,secondary,60,36,4
-2006,Kerala,technical,55,36,9
-2006,Madhya Pradesh,primary,59,35,6
-2006,Madhya Pradesh,secondary,55,39,6
-2006,Madhya Pradesh,technical,51,39,10
-2006,Maharashtra,primary,61,36,3
-2006,Maharashtra,secondary,65,35,0
-2006,Maharashtra,technical,56,34,10
-2006,Manipur,primary,66,39,-5
-2006,Manipur,secondary,65,35,0
-2006,Manipur,technical,67,35,-2
-2006,Meghalaya,primary,54,32,14
-2006,Meghalaya,secondary,55,31,14
-2006,Meghalaya,technical,62,31,7
-2006,Mizoram,primary,53,39,8
-2006,Mizoram,secondary,70,37,-7
-2006,Mizoram,technical,54,34,12
-2006,Nagaland,primary,69,35,-4
-2006,Nagaland,secondary,66,37,-3
-2006,Nagaland,technical,65,38,-3
-2006,Odisha,primary,66,38,-4
-2006,Odisha,secondary,58,37,5
-2006,Odisha,technical,58,31,11
-2006,Punjab,primary,69,37,-6
-2006,Punjab,secondary,64,34,2
-2006,Punjab,technical,52,30,18
-2006,Rajasthan,primary,70,37,-7
-2006,Rajasthan,secondary,55,35,10
-2006,Rajasthan,technical,62,40,-2
-2006,Sikkim,primary,63,30,7
-2006,Sikkim,secondary,66,33,1
-2006,Sikkim,technical,55,36,9
-2006,Tamil Nadu,primary,66,33,1
-2006,Tamil Nadu,secondary,59,31,10
-2006,Tamil Nadu,technical,54,30,16
-2006,Telangana,primary,66,37,-3
-2006,Telangana,secondary,53,30,17
-2006,Telangana,technical,58,34,8
-2006,Tripura,primary,58,33,9
-2006,Tripura,secondary,63,32,5
-2006,Tripura,technical,53,36,11
-2006,Uttarakhand,primary,67,39,-6
-2006,Uttarakhand,secondary,66,30,4
-2006,Uttarakhand,technical,65,35,0
-2006,Uttar Pradesh,primary,65,40,-5
-2006,Uttar Pradesh,secondary,52,40,8
-2006,Uttar Pradesh,technical,65,38,-3
-2006,West Bengal,primary,69,39,-8
-2006,West Bengal,secondary,52,36,12
-2006,West Bengal,technical,55,36,9
-2006,Andaman and Nicobar Islands,primary,53,36,11
-2006,Andaman and Nicobar Islands,secondary,68,35,-3
-2006,Andaman and Nicobar Islands,technical,68,37,-5
-2006,Chandigarh,primary,64,34,2
-2006,Chandigarh,secondary,66,39,-5
-2006,Chandigarh,technical,62,36,2
-2006,Dadra and Nagar Haveli,primary,58,40,2
-2006,Dadra and Nagar Haveli,secondary,57,38,5
-2006,Dadra and Nagar Haveli,technical,68,35,-3
-2006,Daman and Diu,primary,68,34,-2
-2006,Daman and Diu,secondary,58,31,11
-2006,Daman and Diu,technical,60,39,1
-2006,Delhi,primary,61,40,-1
-2006,Delhi,secondary,63,32,5
-2006,Delhi,technical,60,38,2
-2006,Lakshadweep,primary,65,37,-2
-2006,Lakshadweep,secondary,65,39,-4
-2006,Lakshadweep,technical,55,32,13
-2006,Puducherry,primary,67,38,-5
-2006,Puducherry,secondary,56,34,10
-2006,Puducherry,technical,56,38,6
-2007,Andhra Pradesh,primary,54,37,9
-2007,Andhra Pradesh,secondary,52,33,15
-2007,Andhra Pradesh,technical,69,31,0
-2007,Arunachal Pradesh,primary,52,30,18
-2007,Arunachal Pradesh,secondary,62,34,4
-2007,Arunachal Pradesh,technical,55,40,5
-2007,Assam,primary,61,33,6
-2007,Assam,secondary,58,32,10
-2007,Assam,technical,60,32,8
-2007,Bihar,primary,70,40,-10
-2007,Bihar,secondary,57,35,8
-2007,Bihar,technical,70,34,-4
-2007,Chhattisgarh,primary,66,39,-5
-2007,Chhattisgarh,secondary,50,36,14
-2007,Chhattisgarh,technical,58,31,11
-2007,Goa,primary,56,35,9
-2007,Goa,secondary,64,35,1
-2007,Goa,technical,62,37,1
-2007,Gujarat,primary,69,38,-7
-2007,Gujarat,secondary,54,38,8
-2007,Gujarat,technical,52,34,14
-2007,Haryana,primary,68,38,-6
-2007,Haryana,secondary,56,38,6
-2007,Haryana,technical,59,37,4
-2007,Himachal Pradesh,primary,53,35,12
-2007,Himachal Pradesh,secondary,70,40,-10
-2007,Himachal Pradesh,technical,70,33,-3
-2007,Jammu and Kashmir,primary,50,38,12
-2007,Jammu and Kashmir,secondary,53,40,7
-2007,Jammu and Kashmir,technical,54,38,8
-2007,Jharkhand,primary,70,40,-10
-2007,Jharkhand,secondary,52,36,12
-2007,Jharkhand,technical,67,32,1
-2007,Karnataka,primary,60,38,2
-2007,Karnataka,secondary,56,36,8
-2007,Karnataka,technical,62,35,3
-2007,Kerala,primary,55,40,5
-2007,Kerala,secondary,66,36,-2
-2007,Kerala,technical,51,31,18
-2007,Madhya Pradesh,primary,55,35,10
-2007,Madhya Pradesh,secondary,65,35,0
-2007,Madhya Pradesh,technical,68,36,-4
-2007,Maharashtra,primary,65,39,-4
-2007,Maharashtra,secondary,66,39,-5
-2007,Maharashtra,technical,55,40,5
-2007,Manipur,primary,60,33,7
-2007,Manipur,secondary,52,30,18
-2007,Manipur,technical,54,33,13
-2007,Meghalaya,primary,54,35,11
-2007,Meghalaya,secondary,53,39,8
-2007,Meghalaya,technical,51,33,16
-2007,Mizoram,primary,52,31,17
-2007,Mizoram,secondary,69,38,-7
-2007,Mizoram,technical,67,37,-4
-2007,Nagaland,primary,65,35,0
-2007,Nagaland,secondary,66,40,-6
-2007,Nagaland,technical,63,38,-1
-2007,Odisha,primary,58,33,9
-2007,Odisha,secondary,67,34,-1
-2007,Odisha,technical,55,38,7
-2007,Punjab,primary,57,32,11
-2007,Punjab,secondary,61,40,-1
-2007,Punjab,technical,70,37,-7
-2007,Rajasthan,primary,59,32,9
-2007,Rajasthan,secondary,59,30,11
-2007,Rajasthan,technical,70,37,-7
-2007,Sikkim,primary,55,38,7
-2007,Sikkim,secondary,55,31,14
-2007,Sikkim,technical,69,33,-2
-2007,Tamil Nadu,primary,68,30,2
-2007,Tamil Nadu,secondary,61,37,2
-2007,Tamil Nadu,technical,63,32,5
-2007,Telangana,primary,52,39,9
-2007,Telangana,secondary,63,40,-3
-2007,Telangana,technical,53,33,14
-2007,Tripura,primary,60,38,2
-2007,Tripura,secondary,52,38,10
-2007,Tripura,technical,56,38,6
-2007,Uttarakhand,primary,55,30,15
-2007,Uttarakhand,secondary,54,30,16
-2007,Uttarakhand,technical,52,37,11
-2007,Uttar Pradesh,primary,63,33,4
-2007,Uttar Pradesh,secondary,53,35,12
-2007,Uttar Pradesh,technical,52,38,10
-2007,West Bengal,primary,63,36,1
-2007,West Bengal,secondary,50,32,18
-2007,West Bengal,technical,58,39,3
-2007,Andaman and Nicobar Islands,primary,63,40,-3
-2007,Andaman and Nicobar Islands,secondary,52,36,12
-2007,Andaman and Nicobar Islands,technical,55,36,9
-2007,Chandigarh,primary,50,31,19
-2007,Chandigarh,secondary,55,35,10
-2007,Chandigarh,technical,59,40,1
-2007,Dadra and Nagar Haveli,primary,61,31,8
-2007,Dadra and Nagar Haveli,secondary,64,40,-4
-2007,Dadra and Nagar Haveli,technical,56,33,11
-2007,Daman and Diu,primary,67,33,0
-2007,Daman and Diu,secondary,64,39,-3
-2007,Daman and Diu,technical,55,31,14
-2007,Delhi,primary,57,34,9
-2007,Delhi,secondary,70,33,-3
-2007,Delhi,technical,50,40,10
-2007,Lakshadweep,primary,54,32,14
-2007,Lakshadweep,secondary,67,36,-3
-2007,Lakshadweep,technical,61,39,0
-2007,Puducherry,primary,56,33,11
-2007,Puducherry,secondary,50,32,18
-2007,Puducherry,technical,55,35,10
-2008,Andhra Pradesh,primary,66,37,-3
-2008,Andhra Pradesh,secondary,61,32,7
-2008,Andhra Pradesh,technical,64,40,-4
-2008,Arunachal Pradesh,primary,69,37,-6
-2008,Arunachal Pradesh,secondary,50,40,10
-2008,Arunachal Pradesh,technical,56,37,7
-2008,Assam,primary,69,36,-5
-2008,Assam,secondary,53,35,12
-2008,Assam,technical,70,34,-4
-2008,Bihar,primary,61,32,7
-2008,Bihar,secondary,63,31,6
-2008,Bihar,technical,52,38,10
-2008,Chhattisgarh,primary,54,32,14
-2008,Chhattisgarh,secondary,55,38,7
-2008,Chhattisgarh,technical,63,32,5
-2008,Goa,primary,54,32,14
-2008,Goa,secondary,67,33,0
-2008,Goa,technical,64,38,-2
-2008,Gujarat,primary,70,39,-9
-2008,Gujarat,secondary,54,39,7
-2008,Gujarat,technical,50,31,19
-2008,Haryana,primary,57,40,3
-2008,Haryana,secondary,61,30,9
-2008,Haryana,technical,54,37,9
-2008,Himachal Pradesh,primary,65,35,0
-2008,Himachal Pradesh,secondary,59,38,3
-2008,Himachal Pradesh,technical,59,37,4
-2008,Jammu and Kashmir,primary,57,30,13
-2008,Jammu and Kashmir,secondary,60,39,1
-2008,Jammu and Kashmir,technical,65,32,3
-2008,Jharkhand,primary,54,35,11
-2008,Jharkhand,secondary,53,39,8
-2008,Jharkhand,technical,50,39,11
-2008,Karnataka,primary,65,37,-2
-2008,Karnataka,secondary,54,35,11
-2008,Karnataka,technical,67,34,-1
-2008,Kerala,primary,61,30,9
-2008,Kerala,secondary,52,36,12
-2008,Kerala,technical,64,40,-4
-2008,Madhya Pradesh,primary,65,38,-3
-2008,Madhya Pradesh,secondary,54,31,15
-2008,Madhya Pradesh,technical,52,39,9
-2008,Maharashtra,primary,57,34,9
-2008,Maharashtra,secondary,64,31,5
-2008,Maharashtra,technical,64,37,-1
-2008,Manipur,primary,61,39,0
-2008,Manipur,secondary,60,36,4
-2008,Manipur,technical,56,34,10
-2008,Meghalaya,primary,68,36,-4
-2008,Meghalaya,secondary,67,30,3
-2008,Meghalaya,technical,53,35,12
-2008,Mizoram,primary,64,32,4
-2008,Mizoram,secondary,63,31,6
-2008,Mizoram,technical,68,40,-8
-2008,Nagaland,primary,59,32,9
-2008,Nagaland,secondary,60,37,3
-2008,Nagaland,technical,53,37,10
-2008,Odisha,primary,57,37,6
-2008,Odisha,secondary,70,32,-2
-2008,Odisha,technical,58,39,3
-2008,Punjab,primary,68,38,-6
-2008,Punjab,secondary,52,36,12
-2008,Punjab,technical,50,38,12
-2008,Rajasthan,primary,66,31,3
-2008,Rajasthan,secondary,56,32,12
-2008,Rajasthan,technical,57,38,5
-2008,Sikkim,primary,54,40,6
-2008,Sikkim,secondary,58,33,9
-2008,Sikkim,technical,66,33,1
-2008,Tamil Nadu,primary,65,32,3
-2008,Tamil Nadu,secondary,70,32,-2
-2008,Tamil Nadu,technical,70,31,-1
-2008,Telangana,primary,67,40,-7
-2008,Telangana,secondary,57,34,9
-2008,Telangana,technical,59,38,3
-2008,Tripura,primary,57,30,13
-2008,Tripura,secondary,54,30,16
-2008,Tripura,technical,65,31,4
-2008,Uttarakhand,primary,50,34,16
-2008,Uttarakhand,secondary,50,34,16
-2008,Uttarakhand,technical,53,38,9
-2008,Uttar Pradesh,primary,69,38,-7
-2008,Uttar Pradesh,secondary,61,37,2
-2008,Uttar Pradesh,technical,63,33,4
-2008,West Bengal,primary,51,33,16
-2008,West Bengal,secondary,56,40,4
-2008,West Bengal,technical,58,37,5
-2008,Andaman and Nicobar Islands,primary,55,35,10
-2008,Andaman and Nicobar Islands,secondary,61,37,2
-2008,Andaman and Nicobar Islands,technical,55,37,8
-2008,Chandigarh,primary,69,35,-4
-2008,Chandigarh,secondary,67,36,-3
-2008,Chandigarh,technical,61,32,7
-2008,Dadra and Nagar Haveli,primary,50,33,17
-2008,Dadra and Nagar Haveli,secondary,58,31,11
-2008,Dadra and Nagar Haveli,technical,60,33,7
-2008,Daman and Diu,primary,67,37,-4
-2008,Daman and Diu,secondary,53,34,13
-2008,Daman and Diu,technical,58,33,9
-2008,Delhi,primary,51,39,10
-2008,Delhi,secondary,52,40,8
-2008,Delhi,technical,58,38,4
-2008,Lakshadweep,primary,62,39,-1
-2008,Lakshadweep,secondary,58,37,5
-2008,Lakshadweep,technical,66,38,-4
-2008,Puducherry,primary,60,33,7
-2008,Puducherry,secondary,68,32,0
-2008,Puducherry,technical,65,34,1
-2009,Andhra Pradesh,primary,66,34,0
-2009,Andhra Pradesh,secondary,64,38,-2
-2009,Andhra Pradesh,technical,70,37,-7
-2009,Arunachal Pradesh,primary,66,33,1
-2009,Arunachal Pradesh,secondary,60,30,10
-2009,Arunachal Pradesh,technical,53,31,16
-2009,Assam,primary,69,34,-3
-2009,Assam,secondary,67,40,-7
-2009,Assam,technical,65,40,-5
-2009,Bihar,primary,69,38,-7
-2009,Bihar,secondary,69,36,-5
-2009,Bihar,technical,54,35,11
-2009,Chhattisgarh,primary,69,31,0
-2009,Chhattisgarh,secondary,61,40,-1
-2009,Chhattisgarh,technical,59,38,3
-2009,Goa,primary,61,39,0
-2009,Goa,secondary,64,36,0
-2009,Goa,technical,68,40,-8
-2009,Gujarat,primary,70,35,-5
-2009,Gujarat,secondary,62,40,-2
-2009,Gujarat,technical,69,38,-7
-2009,Haryana,primary,59,39,2
-2009,Haryana,secondary,58,33,9
-2009,Haryana,technical,61,31,8
-2009,Himachal Pradesh,primary,67,33,0
-2009,Himachal Pradesh,secondary,55,35,10
-2009,Himachal Pradesh,technical,63,36,1
-2009,Jammu and Kashmir,primary,54,38,8
-2009,Jammu and Kashmir,secondary,68,38,-6
-2009,Jammu and Kashmir,technical,67,31,2
-2009,Jharkhand,primary,56,35,9
-2009,Jharkhand,secondary,66,33,1
-2009,Jharkhand,technical,52,36,12
-2009,Karnataka,primary,52,34,14
-2009,Karnataka,secondary,64,35,1
-2009,Karnataka,technical,59,31,10
-2009,Kerala,primary,63,34,3
-2009,Kerala,secondary,66,30,4
-2009,Kerala,technical,70,35,-5
-2009,Madhya Pradesh,primary,65,33,2
-2009,Madhya Pradesh,secondary,68,33,-1
-2009,Madhya Pradesh,technical,52,37,11
-2009,Maharashtra,primary,54,32,14
-2009,Maharashtra,secondary,53,35,12
-2009,Maharashtra,technical,50,30,20
-2009,Manipur,primary,70,38,-8
-2009,Manipur,secondary,66,37,-3
-2009,Manipur,technical,67,38,-5
-2009,Meghalaya,primary,62,39,-1
-2009,Meghalaya,secondary,50,33,17
-2009,Meghalaya,technical,64,40,-4
-2009,Mizoram,primary,68,32,0
-2009,Mizoram,secondary,66,31,3
-2009,Mizoram,technical,58,40,2
-2009,Nagaland,primary,53,33,14
-2009,Nagaland,secondary,68,38,-6
-2009,Nagaland,technical,70,37,-7
-2009,Odisha,primary,51,36,13
-2009,Odisha,secondary,60,31,9
-2009,Odisha,technical,54,33,13
-2009,Punjab,primary,63,38,-1
-2009,Punjab,secondary,62,33,5
-2009,Punjab,technical,58,35,7
-2009,Rajasthan,primary,58,38,4
-2009,Rajasthan,secondary,68,34,-2
-2009,Rajasthan,technical,62,32,6
-2009,Sikkim,primary,57,34,9
-2009,Sikkim,secondary,52,40,8
-2009,Sikkim,technical,70,37,-7
-2009,Tamil Nadu,primary,66,32,2
-2009,Tamil Nadu,secondary,63,36,1
-2009,Tamil Nadu,technical,59,33,8
-2009,Telangana,primary,52,33,15
-2009,Telangana,secondary,55,38,7
-2009,Telangana,technical,60,36,4
-2009,Tripura,primary,68,39,-7
-2009,Tripura,secondary,51,39,10
-2009,Tripura,technical,51,37,12
-2009,Uttarakhand,primary,57,34,9
-2009,Uttarakhand,secondary,54,32,14
-2009,Uttarakhand,technical,67,33,0
-2009,Uttar Pradesh,primary,70,33,-3
-2009,Uttar Pradesh,secondary,66,40,-6
-2009,Uttar Pradesh,technical,65,40,-5
-2009,West Bengal,primary,67,39,-6
-2009,West Bengal,secondary,61,39,0
-2009,West Bengal,technical,51,40,9
-2009,Andaman and Nicobar Islands,primary,59,38,3
-2009,Andaman and Nicobar Islands,secondary,63,39,-2
-2009,Andaman and Nicobar Islands,technical,53,30,17
-2009,Chandigarh,primary,63,40,-3
-2009,Chandigarh,secondary,59,30,11
-2009,Chandigarh,technical,60,33,7
-2009,Dadra and Nagar Haveli,primary,68,30,2
-2009,Dadra and Nagar Haveli,secondary,66,38,-4
-2009,Dadra and Nagar Haveli,technical,60,40,0
-2009,Daman and Diu,primary,62,33,5
-2009,Daman and Diu,secondary,66,33,1
-2009,Daman and Diu,technical,69,37,-6
-2009,Delhi,primary,60,37,3
-2009,Delhi,secondary,60,31,9
-2009,Delhi,technical,61,35,4
-2009,Lakshadweep,primary,64,37,-1
-2009,Lakshadweep,secondary,63,34,3
-2009,Lakshadweep,technical,55,30,15
-2009,Puducherry,primary,54,33,13
-2009,Puducherry,secondary,65,32,3
-2009,Puducherry,technical,64,37,-1
-2010,Andhra Pradesh,primary,51,35,14
-2010,Andhra Pradesh,secondary,51,30,19
-2010,Andhra Pradesh,technical,56,36,8
-2010,Arunachal Pradesh,primary,69,35,-4
-2010,Arunachal Pradesh,secondary,56,40,4
-2010,Arunachal Pradesh,technical,66,40,-6
-2010,Assam,primary,53,34,13
-2010,Assam,secondary,53,36,11
-2010,Assam,technical,52,38,10
-2010,Bihar,primary,55,32,13
-2010,Bihar,secondary,50,36,14
-2010,Bihar,technical,70,33,-3
-2010,Chhattisgarh,primary,69,39,-8
-2010,Chhattisgarh,secondary,56,31,13
-2010,Chhattisgarh,technical,66,35,-1
-2010,Goa,primary,57,37,6
-2010,Goa,secondary,56,38,6
-2010,Goa,technical,66,35,-1
-2010,Gujarat,primary,66,31,3
-2010,Gujarat,secondary,70,36,-6
-2010,Gujarat,technical,68,36,-4
-2010,Haryana,primary,65,39,-4
-2010,Haryana,secondary,52,33,15
-2010,Haryana,technical,53,31,16
-2010,Himachal Pradesh,primary,57,37,6
-2010,Himachal Pradesh,secondary,50,39,11
-2010,Himachal Pradesh,technical,63,30,7
-2010,Jammu and Kashmir,primary,58,34,8
-2010,Jammu and Kashmir,secondary,53,35,12
-2010,Jammu and Kashmir,technical,65,31,4
-2010,Jharkhand,primary,69,32,-1
-2010,Jharkhand,secondary,50,31,19
-2010,Jharkhand,technical,65,33,2
-2010,Karnataka,primary,65,39,-4
-2010,Karnataka,secondary,50,30,20
-2010,Karnataka,technical,58,40,2
-2010,Kerala,primary,64,39,-3
-2010,Kerala,secondary,58,34,8
-2010,Kerala,technical,62,35,3
-2010,Madhya Pradesh,primary,56,40,4
-2010,Madhya Pradesh,secondary,67,39,-6
-2010,Madhya Pradesh,technical,65,33,2
-2010,Maharashtra,primary,60,30,10
-2010,Maharashtra,secondary,63,32,5
-2010,Maharashtra,technical,50,30,20
-2010,Manipur,primary,52,37,11
-2010,Manipur,secondary,65,36,-1
-2010,Manipur,technical,51,31,18
-2010,Meghalaya,primary,66,33,1
-2010,Meghalaya,secondary,63,32,5
-2010,Meghalaya,technical,61,34,5
-2010,Mizoram,primary,66,33,1
-2010,Mizoram,secondary,68,31,1
-2010,Mizoram,technical,68,32,0
-2010,Nagaland,primary,57,35,8
-2010,Nagaland,secondary,62,39,-1
-2010,Nagaland,technical,68,35,-3
-2010,Odisha,primary,54,37,9
-2010,Odisha,secondary,67,31,2
-2010,Odisha,technical,62,36,2
-2010,Punjab,primary,66,35,-1
-2010,Punjab,secondary,53,40,7
-2010,Punjab,technical,62,38,0
-2010,Rajasthan,primary,53,38,9
-2010,Rajasthan,secondary,70,36,-6
-2010,Rajasthan,technical,50,32,18
-2010,Sikkim,primary,56,33,11
-2010,Sikkim,secondary,52,37,11
-2010,Sikkim,technical,56,38,6
-2010,Tamil Nadu,primary,54,37,9
-2010,Tamil Nadu,secondary,60,36,4
-2010,Tamil Nadu,technical,63,32,5
-2010,Telangana,primary,64,30,6
-2010,Telangana,secondary,69,39,-8
-2010,Telangana,technical,56,33,11
-2010,Tripura,primary,66,34,0
-2010,Tripura,secondary,61,38,1
-2010,Tripura,technical,69,33,-2
-2010,Uttarakhand,primary,52,36,12
-2010,Uttarakhand,secondary,59,36,5
-2010,Uttarakhand,technical,57,38,5
-2010,Uttar Pradesh,primary,65,38,-3
-2010,Uttar Pradesh,secondary,57,34,9
-2010,Uttar Pradesh,technical,53,38,9
-2010,West Bengal,primary,65,33,2
-2010,West Bengal,secondary,57,33,10
-2010,West Bengal,technical,68,33,-1
-2010,Andaman and Nicobar Islands,primary,56,34,10
-2010,Andaman and Nicobar Islands,secondary,53,31,16
-2010,Andaman and Nicobar Islands,technical,54,33,13
-2010,Chandigarh,primary,69,36,-5
-2010,Chandigarh,secondary,54,35,11
-2010,Chandigarh,technical,56,39,5
-2010,Dadra and Nagar Haveli,primary,60,34,6
-2010,Dadra and Nagar Haveli,secondary,53,40,7
-2010,Dadra and Nagar Haveli,technical,64,32,4
-2010,Daman and Diu,primary,55,35,10
-2010,Daman and Diu,secondary,61,37,2
-2010,Daman and Diu,technical,51,31,18
-2010,Delhi,primary,67,32,1
-2010,Delhi,secondary,61,31,8
-2010,Delhi,technical,66,31,3
-2010,Lakshadweep,primary,66,32,2
-2010,Lakshadweep,secondary,53,40,7
-2010,Lakshadweep,technical,61,33,6
-2010,Puducherry,primary,61,38,1
-2010,Puducherry,secondary,59,37,4
-2010,Puducherry,technical,67,32,1
-2011,Andhra Pradesh,primary,67,30,3
-2011,Andhra Pradesh,secondary,70,38,-8
-2011,Andhra Pradesh,technical,59,40,1
-2011,Arunachal Pradesh,primary,60,31,9
-2011,Arunachal Pradesh,secondary,57,30,13
-2011,Arunachal Pradesh,technical,61,31,8
-2011,Assam,primary,62,39,-1
-2011,Assam,secondary,67,30,3
-2011,Assam,technical,70,34,-4
-2011,Bihar,primary,53,40,7
-2011,Bihar,secondary,55,38,7
-2011,Bihar,technical,57,31,12
-2011,Chhattisgarh,primary,53,39,8
-2011,Chhattisgarh,secondary,59,31,10
-2011,Chhattisgarh,technical,50,35,15
-2011,Goa,primary,67,34,-1
-2011,Goa,secondary,59,31,10
-2011,Goa,technical,50,36,14
-2011,Gujarat,primary,65,36,-1
-2011,Gujarat,secondary,55,32,13
-2011,Gujarat,technical,57,33,10
-2011,Haryana,primary,61,34,5
-2011,Haryana,secondary,52,38,10
-2011,Haryana,technical,57,35,8
-2011,Himachal Pradesh,primary,65,38,-3
-2011,Himachal Pradesh,secondary,63,36,1
-2011,Himachal Pradesh,technical,55,37,8
-2011,Jammu and Kashmir,primary,69,30,1
-2011,Jammu and Kashmir,secondary,63,33,4
-2011,Jammu and Kashmir,technical,65,40,-5
-2011,Jharkhand,primary,52,36,12
-2011,Jharkhand,secondary,53,40,7
-2011,Jharkhand,technical,68,38,-6
-2011,Karnataka,primary,65,30,5
-2011,Karnataka,secondary,54,36,10
-2011,Karnataka,technical,66,34,0
-2011,Kerala,primary,68,38,-6
-2011,Kerala,secondary,58,39,3
-2011,Kerala,technical,66,31,3
-2011,Madhya Pradesh,primary,55,40,5
-2011,Madhya Pradesh,secondary,56,38,6
-2011,Madhya Pradesh,technical,60,40,0
-2011,Maharashtra,primary,56,31,13
-2011,Maharashtra,secondary,67,39,-6
-2011,Maharashtra,technical,67,40,-7
-2011,Manipur,primary,61,36,3
-2011,Manipur,secondary,69,31,0
-2011,Manipur,technical,54,34,12
-2011,Meghalaya,primary,51,40,9
-2011,Meghalaya,secondary,59,39,2
-2011,Meghalaya,technical,53,32,15
-2011,Mizoram,primary,51,33,16
-2011,Mizoram,secondary,69,33,-2
-2011,Mizoram,technical,65,31,4
-2011,Nagaland,primary,56,32,12
-2011,Nagaland,secondary,54,31,15
-2011,Nagaland,technical,53,33,14
-2011,Odisha,primary,67,32,1
-2011,Odisha,secondary,51,32,17
-2011,Odisha,technical,52,38,10
-2011,Punjab,primary,55,38,7
-2011,Punjab,secondary,62,34,4
-2011,Punjab,technical,66,34,0
-2011,Rajasthan,primary,63,31,6
-2011,Rajasthan,secondary,51,33,16
-2011,Rajasthan,technical,68,38,-6
-2011,Sikkim,primary,68,33,-1
-2011,Sikkim,secondary,66,40,-6
-2011,Sikkim,technical,63,33,4
-2011,Tamil Nadu,primary,70,38,-8
-2011,Tamil Nadu,secondary,58,35,7
-2011,Tamil Nadu,technical,67,39,-6
-2011,Telangana,primary,55,31,14
-2011,Telangana,secondary,63,34,3
-2011,Telangana,technical,67,39,-6
-2011,Tripura,primary,57,40,3
-2011,Tripura,secondary,61,30,9
-2011,Tripura,technical,57,38,5
-2011,Uttarakhand,primary,68,37,-5
-2011,Uttarakhand,secondary,69,38,-7
-2011,Uttarakhand,technical,59,36,5
-2011,Uttar Pradesh,primary,62,33,5
-2011,Uttar Pradesh,secondary,60,33,7
-2011,Uttar Pradesh,technical,54,34,12
-2011,West Bengal,primary,55,31,14
-2011,West Bengal,secondary,69,37,-6
-2011,West Bengal,technical,60,32,8
-2011,Andaman and Nicobar Islands,primary,53,33,14
-2011,Andaman and Nicobar Islands,secondary,60,34,6
-2011,Andaman and Nicobar Islands,technical,63,30,7
-2011,Chandigarh,primary,61,36,3
-2011,Chandigarh,secondary,68,33,-1
-2011,Chandigarh,technical,63,39,-2
-2011,Dadra and Nagar Haveli,primary,56,31,13
-2011,Dadra and Nagar Haveli,secondary,60,37,3
-2011,Dadra and Nagar Haveli,technical,62,30,8
-2011,Daman and Diu,primary,51,33,16
-2011,Daman and Diu,secondary,56,39,5
-2011,Daman and Diu,technical,68,40,-8
-2011,Delhi,primary,65,35,0
-2011,Delhi,secondary,60,37,3
-2011,Delhi,technical,62,35,3
-2011,Lakshadweep,primary,69,37,-6
-2011,Lakshadweep,secondary,57,37,6
-2011,Lakshadweep,technical,51,36,13
-2011,Puducherry,primary,62,31,7
-2011,Puducherry,secondary,57,32,11
-2011,Puducherry,technical,62,38,0
-2012,Andhra Pradesh,primary,62,32,6
-2012,Andhra Pradesh,secondary,54,30,16
-2012,Andhra Pradesh,technical,60,33,7
-2012,Arunachal Pradesh,primary,61,37,2
-2012,Arunachal Pradesh,secondary,65,33,2
-2012,Arunachal Pradesh,technical,63,30,7
-2012,Assam,primary,64,40,-4
-2012,Assam,secondary,53,35,12
-2012,Assam,technical,62,38,0
-2012,Bihar,primary,69,39,-8
-2012,Bihar,secondary,67,37,-4
-2012,Bihar,technical,60,40,0
-2012,Chhattisgarh,primary,52,36,12
-2012,Chhattisgarh,secondary,66,34,0
-2012,Chhattisgarh,technical,50,40,10
-2012,Goa,primary,55,37,8
-2012,Goa,secondary,68,35,-3
-2012,Goa,technical,63,31,6
-2012,Gujarat,primary,62,30,8
-2012,Gujarat,secondary,60,34,6
-2012,Gujarat,technical,65,38,-3
-2012,Haryana,primary,66,40,-6
-2012,Haryana,secondary,65,34,1
-2012,Haryana,technical,55,34,11
-2012,Himachal Pradesh,primary,61,31,8
-2012,Himachal Pradesh,secondary,63,31,6
-2012,Himachal Pradesh,technical,61,34,5
-2012,Jammu and Kashmir,primary,57,32,11
-2012,Jammu and Kashmir,secondary,54,39,7
-2012,Jammu and Kashmir,technical,57,30,13
-2012,Jharkhand,primary,57,34,9
-2012,Jharkhand,secondary,65,30,5
-2012,Jharkhand,technical,55,31,14
-2012,Karnataka,primary,59,35,6
-2012,Karnataka,secondary,69,33,-2
-2012,Karnataka,technical,62,39,-1
-2012,Kerala,primary,69,34,-3
+2005,Assam,technical,65,39,-4
+2005,Bihar,primary,52,39,9
+2005,Bihar,secondary,64,40,-4
+2005,Bihar,technical,66,30,4
+2005,Chhattisgarh,primary,62,38,0
+2005,Chhattisgarh,secondary,56,38,6
+2005,Chhattisgarh,technical,67,30,3
+2005,Goa,primary,50,34,16
+2005,Goa,secondary,52,31,17
+2005,Goa,technical,52,30,18
+2005,Gujarat,primary,52,31,17
+2005,Gujarat,secondary,68,30,2
+2005,Gujarat,technical,69,30,1
+2005,Haryana,primary,57,34,9
+2005,Haryana,secondary,55,32,13
+2005,Haryana,technical,69,33,-2
+2005,Himachal Pradesh,primary,67,39,-6
+2005,Himachal Pradesh,secondary,59,36,5
+2005,Himachal Pradesh,technical,52,37,11
+2005,Jammu and Kashmir,primary,61,36,3
+2005,Jammu and Kashmir,secondary,60,38,2
+2005,Jammu and Kashmir,technical,60,34,6
+2005,Jharkhand,primary,65,40,-5
+2005,Jharkhand,secondary,69,32,-1
+2005,Jharkhand,technical,63,30,7
+2005,Karnataka,primary,50,40,10
+2005,Karnataka,secondary,68,39,-7
+2005,Karnataka,technical,56,30,14
+2005,Kerala,primary,50,35,15
+2005,Kerala,secondary,52,38,10
+2005,Kerala,technical,53,40,7
+2005,Madhya Pradesh,primary,55,38,7
+2005,Madhya Pradesh,secondary,60,32,8
+2005,Madhya Pradesh,technical,65,31,4
+2005,Maharashtra,primary,65,39,-4
+2005,Maharashtra,secondary,68,36,-4
+2005,Maharashtra,technical,59,35,6
+2005,Manipur,primary,63,30,7
+2005,Manipur,secondary,68,32,0
+2005,Manipur,technical,68,33,-1
+2005,Meghalaya,primary,56,37,7
+2005,Meghalaya,secondary,53,31,16
+2005,Meghalaya,technical,62,32,6
+2005,Mizoram,primary,65,32,3
+2005,Mizoram,secondary,66,34,0
+2005,Mizoram,technical,66,36,-2
+2005,Nagaland,primary,66,39,-5
+2005,Nagaland,secondary,66,37,-3
+2005,Nagaland,technical,61,38,1
+2005,Odisha,primary,66,30,4
+2005,Odisha,secondary,61,32,7
+2005,Odisha,technical,50,34,16
+2005,Punjab,primary,62,39,-1
+2005,Punjab,secondary,64,36,0
+2005,Punjab,technical,70,30,0
+2005,Rajasthan,primary,65,38,-3
+2005,Rajasthan,secondary,57,40,3
+2005,Rajasthan,technical,64,33,3
+2005,Sikkim,primary,66,31,3
+2005,Sikkim,secondary,57,34,9
+2005,Sikkim,technical,66,37,-3
+2005,Tamil Nadu,primary,61,40,-1
+2005,Tamil Nadu,secondary,53,32,15
+2005,Tamil Nadu,technical,54,31,15
+2005,Telangana,primary,68,36,-4
+2005,Telangana,secondary,70,39,-9
+2005,Telangana,technical,69,34,-3
+2005,Tripura,primary,62,34,4
+2005,Tripura,secondary,56,38,6
+2005,Tripura,technical,55,40,5
+2005,Uttarakhand,primary,55,40,5
+2005,Uttarakhand,secondary,61,35,4
+2005,Uttarakhand,technical,57,33,10
+2005,Uttar Pradesh,primary,59,40,1
+2005,Uttar Pradesh,secondary,54,34,12
+2005,Uttar Pradesh,technical,57,38,5
+2005,West Bengal,primary,61,36,3
+2005,West Bengal,secondary,63,39,-2
+2005,West Bengal,technical,50,31,19
+2005,Andaman and Nicobar Islands,primary,65,35,0
+2005,Andaman and Nicobar Islands,secondary,61,40,-1
+2005,Andaman and Nicobar Islands,technical,64,36,0
+2005,Chandigarh,primary,61,30,9
+2005,Chandigarh,secondary,62,32,6
+2005,Chandigarh,technical,56,40,4
+2005,Dadra and Nagar Haveli,primary,57,33,10
+2005,Dadra and Nagar Haveli,secondary,61,36,3
+2005,Dadra and Nagar Haveli,technical,66,35,-1
+2005,Daman and Diu,primary,68,31,1
+2005,Daman and Diu,secondary,53,30,17
+2005,Daman and Diu,technical,64,32,4
+2005,Delhi,primary,58,37,5
+2005,Delhi,secondary,52,31,17
+2005,Delhi,technical,62,35,3
+2005,Lakshadweep,primary,62,30,8
+2005,Lakshadweep,secondary,61,33,6
+2005,Lakshadweep,technical,63,32,5
+2005,Puducherry,primary,65,31,4
+2005,Puducherry,secondary,69,36,-5
+2005,Puducherry,technical,57,38,5
+2006,Andhra Pradesh,primary,66,40,-6
+2006,Andhra Pradesh,secondary,69,37,-6
+2006,Andhra Pradesh,technical,64,34,2
+2006,Arunachal Pradesh,primary,54,35,11
+2006,Arunachal Pradesh,secondary,69,30,1
+2006,Arunachal Pradesh,technical,60,31,9
+2006,Assam,primary,61,38,1
+2006,Assam,secondary,59,36,5
+2006,Assam,technical,61,31,8
+2006,Bihar,primary,52,37,11
+2006,Bihar,secondary,51,30,19
+2006,Bihar,technical,69,36,-5
+2006,Chhattisgarh,primary,60,37,3
+2006,Chhattisgarh,secondary,56,34,10
+2006,Chhattisgarh,technical,55,31,14
+2006,Goa,primary,61,39,0
+2006,Goa,secondary,61,34,5
+2006,Goa,technical,54,38,8
+2006,Gujarat,primary,69,37,-6
+2006,Gujarat,secondary,67,36,-3
+2006,Gujarat,technical,50,35,15
+2006,Haryana,primary,66,30,4
+2006,Haryana,secondary,56,31,13
+2006,Haryana,technical,52,33,15
+2006,Himachal Pradesh,primary,61,31,8
+2006,Himachal Pradesh,secondary,67,32,1
+2006,Himachal Pradesh,technical,53,39,8
+2006,Jammu and Kashmir,primary,67,31,2
+2006,Jammu and Kashmir,secondary,67,36,-3
+2006,Jammu and Kashmir,technical,60,39,1
+2006,Jharkhand,primary,60,30,10
+2006,Jharkhand,secondary,56,34,10
+2006,Jharkhand,technical,66,36,-2
+2006,Karnataka,primary,60,38,2
+2006,Karnataka,secondary,67,37,-4
+2006,Karnataka,technical,57,34,9
+2006,Kerala,primary,63,35,2
+2006,Kerala,secondary,62,40,-2
+2006,Kerala,technical,55,31,14
+2006,Madhya Pradesh,primary,64,38,-2
+2006,Madhya Pradesh,secondary,67,36,-3
+2006,Madhya Pradesh,technical,70,40,-10
+2006,Maharashtra,primary,55,39,6
+2006,Maharashtra,secondary,56,35,9
+2006,Maharashtra,technical,50,39,11
+2006,Manipur,primary,61,38,1
+2006,Manipur,secondary,57,32,11
+2006,Manipur,technical,70,33,-3
+2006,Meghalaya,primary,65,37,-2
+2006,Meghalaya,secondary,57,37,6
+2006,Meghalaya,technical,65,33,2
+2006,Mizoram,primary,57,39,4
+2006,Mizoram,secondary,50,38,12
+2006,Mizoram,technical,64,33,3
+2006,Nagaland,primary,63,32,5
+2006,Nagaland,secondary,65,39,-4
+2006,Nagaland,technical,54,40,6
+2006,Odisha,primary,61,39,0
+2006,Odisha,secondary,52,34,14
+2006,Odisha,technical,59,32,9
+2006,Punjab,primary,66,32,2
+2006,Punjab,secondary,50,35,15
+2006,Punjab,technical,63,35,2
+2006,Rajasthan,primary,70,36,-6
+2006,Rajasthan,secondary,56,36,8
+2006,Rajasthan,technical,62,39,-1
+2006,Sikkim,primary,69,33,-2
+2006,Sikkim,secondary,54,40,6
+2006,Sikkim,technical,69,31,0
+2006,Tamil Nadu,primary,54,30,16
+2006,Tamil Nadu,secondary,70,39,-9
+2006,Tamil Nadu,technical,63,31,6
+2006,Telangana,primary,53,33,14
+2006,Telangana,secondary,66,32,2
+2006,Telangana,technical,56,35,9
+2006,Tripura,primary,64,34,2
+2006,Tripura,secondary,69,34,-3
+2006,Tripura,technical,68,32,0
+2006,Uttarakhand,primary,68,32,0
+2006,Uttarakhand,secondary,61,33,6
+2006,Uttarakhand,technical,66,31,3
+2006,Uttar Pradesh,primary,61,30,9
+2006,Uttar Pradesh,secondary,56,30,14
+2006,Uttar Pradesh,technical,56,40,4
+2006,West Bengal,primary,67,39,-6
+2006,West Bengal,secondary,62,33,5
+2006,West Bengal,technical,55,35,10
+2006,Andaman and Nicobar Islands,primary,53,30,17
+2006,Andaman and Nicobar Islands,secondary,61,37,2
+2006,Andaman and Nicobar Islands,technical,65,33,2
+2006,Chandigarh,primary,63,37,0
+2006,Chandigarh,secondary,50,39,11
+2006,Chandigarh,technical,57,38,5
+2006,Dadra and Nagar Haveli,primary,58,31,11
+2006,Dadra and Nagar Haveli,secondary,53,37,10
+2006,Dadra and Nagar Haveli,technical,59,35,6
+2006,Daman and Diu,primary,67,37,-4
+2006,Daman and Diu,secondary,66,37,-3
+2006,Daman and Diu,technical,62,34,4
+2006,Delhi,primary,51,37,12
+2006,Delhi,secondary,50,37,13
+2006,Delhi,technical,64,33,3
+2006,Lakshadweep,primary,52,39,9
+2006,Lakshadweep,secondary,63,35,2
+2006,Lakshadweep,technical,70,36,-6
+2006,Puducherry,primary,57,38,5
+2006,Puducherry,secondary,54,39,7
+2006,Puducherry,technical,61,38,1
+2007,Andhra Pradesh,primary,56,38,6
+2007,Andhra Pradesh,secondary,65,31,4
+2007,Andhra Pradesh,technical,65,33,2
+2007,Arunachal Pradesh,primary,58,39,3
+2007,Arunachal Pradesh,secondary,58,39,3
+2007,Arunachal Pradesh,technical,68,37,-5
+2007,Assam,primary,65,30,5
+2007,Assam,secondary,62,35,3
+2007,Assam,technical,50,34,16
+2007,Bihar,primary,63,32,5
+2007,Bihar,secondary,62,35,3
+2007,Bihar,technical,55,38,7
+2007,Chhattisgarh,primary,60,31,9
+2007,Chhattisgarh,secondary,52,34,14
+2007,Chhattisgarh,technical,51,33,16
+2007,Goa,primary,65,37,-2
+2007,Goa,secondary,52,38,10
+2007,Goa,technical,61,33,6
+2007,Gujarat,primary,56,31,13
+2007,Gujarat,secondary,58,35,7
+2007,Gujarat,technical,56,37,7
+2007,Haryana,primary,59,40,1
+2007,Haryana,secondary,68,36,-4
+2007,Haryana,technical,66,39,-5
+2007,Himachal Pradesh,primary,59,34,7
+2007,Himachal Pradesh,secondary,56,32,12
+2007,Himachal Pradesh,technical,61,31,8
+2007,Jammu and Kashmir,primary,54,37,9
+2007,Jammu and Kashmir,secondary,69,35,-4
+2007,Jammu and Kashmir,technical,55,35,10
+2007,Jharkhand,primary,51,36,13
+2007,Jharkhand,secondary,70,39,-9
+2007,Jharkhand,technical,58,35,7
+2007,Karnataka,primary,67,34,-1
+2007,Karnataka,secondary,52,40,8
+2007,Karnataka,technical,60,39,1
+2007,Kerala,primary,54,38,8
+2007,Kerala,secondary,57,31,12
+2007,Kerala,technical,55,31,14
+2007,Madhya Pradesh,primary,56,34,10
+2007,Madhya Pradesh,secondary,63,31,6
+2007,Madhya Pradesh,technical,58,32,10
+2007,Maharashtra,primary,50,37,13
+2007,Maharashtra,secondary,59,36,5
+2007,Maharashtra,technical,63,32,5
+2007,Manipur,primary,68,35,-3
+2007,Manipur,secondary,63,37,0
+2007,Manipur,technical,55,31,14
+2007,Meghalaya,primary,62,38,0
+2007,Meghalaya,secondary,69,35,-4
+2007,Meghalaya,technical,55,37,8
+2007,Mizoram,primary,66,35,-1
+2007,Mizoram,secondary,59,36,5
+2007,Mizoram,technical,62,32,6
+2007,Nagaland,primary,62,32,6
+2007,Nagaland,secondary,61,30,9
+2007,Nagaland,technical,66,38,-4
+2007,Odisha,primary,51,40,9
+2007,Odisha,secondary,52,35,13
+2007,Odisha,technical,50,30,20
+2007,Punjab,primary,52,31,17
+2007,Punjab,secondary,54,36,10
+2007,Punjab,technical,68,33,-1
+2007,Rajasthan,primary,60,40,0
+2007,Rajasthan,secondary,51,38,11
+2007,Rajasthan,technical,54,35,11
+2007,Sikkim,primary,68,33,-1
+2007,Sikkim,secondary,51,35,14
+2007,Sikkim,technical,50,40,10
+2007,Tamil Nadu,primary,53,30,17
+2007,Tamil Nadu,secondary,67,36,-3
+2007,Tamil Nadu,technical,58,37,5
+2007,Telangana,primary,50,37,13
+2007,Telangana,secondary,61,39,0
+2007,Telangana,technical,64,40,-4
+2007,Tripura,primary,60,40,0
+2007,Tripura,secondary,53,31,16
+2007,Tripura,technical,51,30,19
+2007,Uttarakhand,primary,67,35,-2
+2007,Uttarakhand,secondary,50,34,16
+2007,Uttarakhand,technical,60,33,7
+2007,Uttar Pradesh,primary,61,38,1
+2007,Uttar Pradesh,secondary,52,40,8
+2007,Uttar Pradesh,technical,69,32,-1
+2007,West Bengal,primary,52,33,15
+2007,West Bengal,secondary,64,33,3
+2007,West Bengal,technical,65,34,1
+2007,Andaman and Nicobar Islands,primary,55,36,9
+2007,Andaman and Nicobar Islands,secondary,56,31,13
+2007,Andaman and Nicobar Islands,technical,67,31,2
+2007,Chandigarh,primary,60,36,4
+2007,Chandigarh,secondary,56,34,10
+2007,Chandigarh,technical,66,35,-1
+2007,Dadra and Nagar Haveli,primary,65,39,-4
+2007,Dadra and Nagar Haveli,secondary,56,33,11
+2007,Dadra and Nagar Haveli,technical,64,33,3
+2007,Daman and Diu,primary,65,40,-5
+2007,Daman and Diu,secondary,59,37,4
+2007,Daman and Diu,technical,69,40,-9
+2007,Delhi,primary,64,35,1
+2007,Delhi,secondary,62,34,4
+2007,Delhi,technical,62,31,7
+2007,Lakshadweep,primary,58,40,2
+2007,Lakshadweep,secondary,65,34,1
+2007,Lakshadweep,technical,59,39,2
+2007,Puducherry,primary,61,31,8
+2007,Puducherry,secondary,68,37,-5
+2007,Puducherry,technical,63,35,2
+2008,Andhra Pradesh,primary,62,34,4
+2008,Andhra Pradesh,secondary,70,36,-6
+2008,Andhra Pradesh,technical,59,34,7
+2008,Arunachal Pradesh,primary,66,33,1
+2008,Arunachal Pradesh,secondary,50,36,14
+2008,Arunachal Pradesh,technical,64,37,-1
+2008,Assam,primary,67,32,1
+2008,Assam,secondary,63,31,6
+2008,Assam,technical,51,36,13
+2008,Bihar,primary,59,34,7
+2008,Bihar,secondary,59,39,2
+2008,Bihar,technical,67,40,-7
+2008,Chhattisgarh,primary,67,36,-3
+2008,Chhattisgarh,secondary,54,40,6
+2008,Chhattisgarh,technical,58,36,6
+2008,Goa,primary,64,30,6
+2008,Goa,secondary,69,36,-5
+2008,Goa,technical,51,34,15
+2008,Gujarat,primary,68,36,-4
+2008,Gujarat,secondary,68,34,-2
+2008,Gujarat,technical,61,35,4
+2008,Haryana,primary,59,40,1
+2008,Haryana,secondary,50,32,18
+2008,Haryana,technical,57,38,5
+2008,Himachal Pradesh,primary,69,31,0
+2008,Himachal Pradesh,secondary,61,35,4
+2008,Himachal Pradesh,technical,51,37,12
+2008,Jammu and Kashmir,primary,51,35,14
+2008,Jammu and Kashmir,secondary,68,32,0
+2008,Jammu and Kashmir,technical,60,36,4
+2008,Jharkhand,primary,69,30,1
+2008,Jharkhand,secondary,69,40,-9
+2008,Jharkhand,technical,56,38,6
+2008,Karnataka,primary,51,32,17
+2008,Karnataka,secondary,61,40,-1
+2008,Karnataka,technical,58,32,10
+2008,Kerala,primary,64,33,3
+2008,Kerala,secondary,64,31,5
+2008,Kerala,technical,62,36,2
+2008,Madhya Pradesh,primary,60,32,8
+2008,Madhya Pradesh,secondary,58,39,3
+2008,Madhya Pradesh,technical,65,37,-2
+2008,Maharashtra,primary,56,40,4
+2008,Maharashtra,secondary,65,36,-1
+2008,Maharashtra,technical,55,33,12
+2008,Manipur,primary,60,33,7
+2008,Manipur,secondary,63,31,6
+2008,Manipur,technical,50,32,18
+2008,Meghalaya,primary,55,32,13
+2008,Meghalaya,secondary,50,36,14
+2008,Meghalaya,technical,52,30,18
+2008,Mizoram,primary,66,39,-5
+2008,Mizoram,secondary,68,36,-4
+2008,Mizoram,technical,69,39,-8
+2008,Nagaland,primary,50,30,20
+2008,Nagaland,secondary,63,40,-3
+2008,Nagaland,technical,61,34,5
+2008,Odisha,primary,54,34,12
+2008,Odisha,secondary,70,36,-6
+2008,Odisha,technical,69,31,0
+2008,Punjab,primary,60,31,9
+2008,Punjab,secondary,52,31,17
+2008,Punjab,technical,59,39,2
+2008,Rajasthan,primary,65,36,-1
+2008,Rajasthan,secondary,50,37,13
+2008,Rajasthan,technical,61,31,8
+2008,Sikkim,primary,52,37,11
+2008,Sikkim,secondary,55,40,5
+2008,Sikkim,technical,64,40,-4
+2008,Tamil Nadu,primary,69,30,1
+2008,Tamil Nadu,secondary,63,40,-3
+2008,Tamil Nadu,technical,51,38,11
+2008,Telangana,primary,59,32,9
+2008,Telangana,secondary,61,30,9
+2008,Telangana,technical,59,33,8
+2008,Tripura,primary,65,36,-1
+2008,Tripura,secondary,54,33,13
+2008,Tripura,technical,67,32,1
+2008,Uttarakhand,primary,51,35,14
+2008,Uttarakhand,secondary,52,33,15
+2008,Uttarakhand,technical,68,31,1
+2008,Uttar Pradesh,primary,62,38,0
+2008,Uttar Pradesh,secondary,68,34,-2
+2008,Uttar Pradesh,technical,70,32,-2
+2008,West Bengal,primary,57,40,3
+2008,West Bengal,secondary,61,36,3
+2008,West Bengal,technical,60,36,4
+2008,Andaman and Nicobar Islands,primary,56,35,9
+2008,Andaman and Nicobar Islands,secondary,69,35,-4
+2008,Andaman and Nicobar Islands,technical,66,39,-5
+2008,Chandigarh,primary,65,30,5
+2008,Chandigarh,secondary,63,40,-3
+2008,Chandigarh,technical,55,39,6
+2008,Dadra and Nagar Haveli,primary,70,38,-8
+2008,Dadra and Nagar Haveli,secondary,61,37,2
+2008,Dadra and Nagar Haveli,technical,67,38,-5
+2008,Daman and Diu,primary,61,38,1
+2008,Daman and Diu,secondary,70,33,-3
+2008,Daman and Diu,technical,67,31,2
+2008,Delhi,primary,55,32,13
+2008,Delhi,secondary,55,39,6
+2008,Delhi,technical,59,30,11
+2008,Lakshadweep,primary,60,37,3
+2008,Lakshadweep,secondary,59,38,3
+2008,Lakshadweep,technical,56,35,9
+2008,Puducherry,primary,65,37,-2
+2008,Puducherry,secondary,66,30,4
+2008,Puducherry,technical,55,38,7
+2009,Andhra Pradesh,primary,56,34,10
+2009,Andhra Pradesh,secondary,68,30,2
+2009,Andhra Pradesh,technical,54,34,12
+2009,Arunachal Pradesh,primary,58,30,12
+2009,Arunachal Pradesh,secondary,59,31,10
+2009,Arunachal Pradesh,technical,68,34,-2
+2009,Assam,primary,52,33,15
+2009,Assam,secondary,51,30,19
+2009,Assam,technical,59,37,4
+2009,Bihar,primary,64,32,4
+2009,Bihar,secondary,68,33,-1
+2009,Bihar,technical,65,34,1
+2009,Chhattisgarh,primary,50,31,19
+2009,Chhattisgarh,secondary,69,32,-1
+2009,Chhattisgarh,technical,50,32,18
+2009,Goa,primary,65,32,3
+2009,Goa,secondary,65,35,0
+2009,Goa,technical,62,32,6
+2009,Gujarat,primary,54,37,9
+2009,Gujarat,secondary,56,37,7
+2009,Gujarat,technical,62,31,7
+2009,Haryana,primary,62,30,8
+2009,Haryana,secondary,63,36,1
+2009,Haryana,technical,58,32,10
+2009,Himachal Pradesh,primary,68,38,-6
+2009,Himachal Pradesh,secondary,67,33,0
+2009,Himachal Pradesh,technical,61,34,5
+2009,Jammu and Kashmir,primary,56,32,12
+2009,Jammu and Kashmir,secondary,57,31,12
+2009,Jammu and Kashmir,technical,70,38,-8
+2009,Jharkhand,primary,68,38,-6
+2009,Jharkhand,secondary,59,39,2
+2009,Jharkhand,technical,53,30,17
+2009,Karnataka,primary,59,34,7
+2009,Karnataka,secondary,54,32,14
+2009,Karnataka,technical,53,39,8
+2009,Kerala,primary,50,37,13
+2009,Kerala,secondary,55,35,10
+2009,Kerala,technical,51,35,14
+2009,Madhya Pradesh,primary,64,33,3
+2009,Madhya Pradesh,secondary,62,33,5
+2009,Madhya Pradesh,technical,68,37,-5
+2009,Maharashtra,primary,55,37,8
+2009,Maharashtra,secondary,70,36,-6
+2009,Maharashtra,technical,50,38,12
+2009,Manipur,primary,67,38,-5
+2009,Manipur,secondary,52,33,15
+2009,Manipur,technical,61,38,1
+2009,Meghalaya,primary,70,32,-2
+2009,Meghalaya,secondary,52,31,17
+2009,Meghalaya,technical,61,31,8
+2009,Mizoram,primary,68,40,-8
+2009,Mizoram,secondary,60,39,1
+2009,Mizoram,technical,67,35,-2
+2009,Nagaland,primary,59,32,9
+2009,Nagaland,secondary,59,39,2
+2009,Nagaland,technical,58,39,3
+2009,Odisha,primary,51,32,17
+2009,Odisha,secondary,54,38,8
+2009,Odisha,technical,56,36,8
+2009,Punjab,primary,65,33,2
+2009,Punjab,secondary,67,30,3
+2009,Punjab,technical,53,38,9
+2009,Rajasthan,primary,60,32,8
+2009,Rajasthan,secondary,50,35,15
+2009,Rajasthan,technical,69,30,1
+2009,Sikkim,primary,57,30,13
+2009,Sikkim,secondary,51,40,9
+2009,Sikkim,technical,65,31,4
+2009,Tamil Nadu,primary,67,32,1
+2009,Tamil Nadu,secondary,59,33,8
+2009,Tamil Nadu,technical,57,32,11
+2009,Telangana,primary,52,39,9
+2009,Telangana,secondary,69,34,-3
+2009,Telangana,technical,67,31,2
+2009,Tripura,primary,63,33,4
+2009,Tripura,secondary,57,35,8
+2009,Tripura,technical,55,40,5
+2009,Uttarakhand,primary,50,32,18
+2009,Uttarakhand,secondary,68,35,-3
+2009,Uttarakhand,technical,50,40,10
+2009,Uttar Pradesh,primary,65,36,-1
+2009,Uttar Pradesh,secondary,65,31,4
+2009,Uttar Pradesh,technical,51,31,18
+2009,West Bengal,primary,69,38,-7
+2009,West Bengal,secondary,68,32,0
+2009,West Bengal,technical,69,39,-8
+2009,Andaman and Nicobar Islands,primary,54,38,8
+2009,Andaman and Nicobar Islands,secondary,67,35,-2
+2009,Andaman and Nicobar Islands,technical,57,37,6
+2009,Chandigarh,primary,61,40,-1
+2009,Chandigarh,secondary,58,34,8
+2009,Chandigarh,technical,53,37,10
+2009,Dadra and Nagar Haveli,primary,62,39,-1
+2009,Dadra and Nagar Haveli,secondary,52,31,17
+2009,Dadra and Nagar Haveli,technical,54,33,13
+2009,Daman and Diu,primary,58,36,6
+2009,Daman and Diu,secondary,62,40,-2
+2009,Daman and Diu,technical,64,39,-3
+2009,Delhi,primary,67,38,-5
+2009,Delhi,secondary,50,30,20
+2009,Delhi,technical,66,38,-4
+2009,Lakshadweep,primary,63,32,5
+2009,Lakshadweep,secondary,54,31,15
+2009,Lakshadweep,technical,55,36,9
+2009,Puducherry,primary,61,38,1
+2009,Puducherry,secondary,52,37,11
+2009,Puducherry,technical,64,38,-2
+2010,Andhra Pradesh,primary,55,34,11
+2010,Andhra Pradesh,secondary,66,31,3
+2010,Andhra Pradesh,technical,53,38,9
+2010,Arunachal Pradesh,primary,66,35,-1
+2010,Arunachal Pradesh,secondary,57,36,7
+2010,Arunachal Pradesh,technical,64,36,0
+2010,Assam,primary,62,31,7
+2010,Assam,secondary,59,35,6
+2010,Assam,technical,67,36,-3
+2010,Bihar,primary,55,30,15
+2010,Bihar,secondary,69,35,-4
+2010,Bihar,technical,66,40,-6
+2010,Chhattisgarh,primary,55,37,8
+2010,Chhattisgarh,secondary,69,37,-6
+2010,Chhattisgarh,technical,68,35,-3
+2010,Goa,primary,58,31,11
+2010,Goa,secondary,64,31,5
+2010,Goa,technical,53,37,10
+2010,Gujarat,primary,63,32,5
+2010,Gujarat,secondary,50,32,18
+2010,Gujarat,technical,50,35,15
+2010,Haryana,primary,63,40,-3
+2010,Haryana,secondary,61,35,4
+2010,Haryana,technical,60,34,6
+2010,Himachal Pradesh,primary,57,40,3
+2010,Himachal Pradesh,secondary,53,34,13
+2010,Himachal Pradesh,technical,65,35,0
+2010,Jammu and Kashmir,primary,62,37,1
+2010,Jammu and Kashmir,secondary,56,30,14
+2010,Jammu and Kashmir,technical,56,38,6
+2010,Jharkhand,primary,67,38,-5
+2010,Jharkhand,secondary,56,39,5
+2010,Jharkhand,technical,59,33,8
+2010,Karnataka,primary,56,36,8
+2010,Karnataka,secondary,50,40,10
+2010,Karnataka,technical,55,32,13
+2010,Kerala,primary,53,37,10
+2010,Kerala,secondary,64,40,-4
+2010,Kerala,technical,55,30,15
+2010,Madhya Pradesh,primary,68,37,-5
+2010,Madhya Pradesh,secondary,53,40,7
+2010,Madhya Pradesh,technical,52,39,9
+2010,Maharashtra,primary,56,31,13
+2010,Maharashtra,secondary,68,35,-3
+2010,Maharashtra,technical,63,35,2
+2010,Manipur,primary,62,38,0
+2010,Manipur,secondary,61,40,-1
+2010,Manipur,technical,70,30,0
+2010,Meghalaya,primary,65,33,2
+2010,Meghalaya,secondary,53,34,13
+2010,Meghalaya,technical,62,35,3
+2010,Mizoram,primary,65,31,4
+2010,Mizoram,secondary,53,39,8
+2010,Mizoram,technical,65,39,-4
+2010,Nagaland,primary,60,37,3
+2010,Nagaland,secondary,69,34,-3
+2010,Nagaland,technical,56,33,11
+2010,Odisha,primary,68,37,-5
+2010,Odisha,secondary,51,34,15
+2010,Odisha,technical,50,36,14
+2010,Punjab,primary,51,38,11
+2010,Punjab,secondary,53,36,11
+2010,Punjab,technical,60,39,1
+2010,Rajasthan,primary,58,37,5
+2010,Rajasthan,secondary,56,32,12
+2010,Rajasthan,technical,54,32,14
+2010,Sikkim,primary,59,35,6
+2010,Sikkim,secondary,67,35,-2
+2010,Sikkim,technical,53,38,9
+2010,Tamil Nadu,primary,50,36,14
+2010,Tamil Nadu,secondary,66,36,-2
+2010,Tamil Nadu,technical,60,31,9
+2010,Telangana,primary,59,34,7
+2010,Telangana,secondary,63,35,2
+2010,Telangana,technical,62,39,-1
+2010,Tripura,primary,69,33,-2
+2010,Tripura,secondary,70,39,-9
+2010,Tripura,technical,70,40,-10
+2010,Uttarakhand,primary,56,34,10
+2010,Uttarakhand,secondary,67,31,2
+2010,Uttarakhand,technical,63,39,-2
+2010,Uttar Pradesh,primary,67,35,-2
+2010,Uttar Pradesh,secondary,68,36,-4
+2010,Uttar Pradesh,technical,66,39,-5
+2010,West Bengal,primary,56,30,14
+2010,West Bengal,secondary,69,37,-6
+2010,West Bengal,technical,70,33,-3
+2010,Andaman and Nicobar Islands,primary,53,37,10
+2010,Andaman and Nicobar Islands,secondary,56,31,13
+2010,Andaman and Nicobar Islands,technical,61,35,4
+2010,Chandigarh,primary,52,40,8
+2010,Chandigarh,secondary,52,39,9
+2010,Chandigarh,technical,62,32,6
+2010,Dadra and Nagar Haveli,primary,59,37,4
+2010,Dadra and Nagar Haveli,secondary,68,34,-2
+2010,Dadra and Nagar Haveli,technical,55,35,10
+2010,Daman and Diu,primary,61,31,8
+2010,Daman and Diu,secondary,55,34,11
+2010,Daman and Diu,technical,50,37,13
+2010,Delhi,primary,52,30,18
+2010,Delhi,secondary,57,37,6
+2010,Delhi,technical,57,39,4
+2010,Lakshadweep,primary,50,32,18
+2010,Lakshadweep,secondary,52,35,13
+2010,Lakshadweep,technical,67,38,-5
+2010,Puducherry,primary,65,37,-2
+2010,Puducherry,secondary,56,37,7
+2010,Puducherry,technical,61,34,5
+2011,Andhra Pradesh,primary,60,37,3
+2011,Andhra Pradesh,secondary,59,38,3
+2011,Andhra Pradesh,technical,59,32,9
+2011,Arunachal Pradesh,primary,66,31,3
+2011,Arunachal Pradesh,secondary,70,40,-10
+2011,Arunachal Pradesh,technical,70,35,-5
+2011,Assam,primary,52,36,12
+2011,Assam,secondary,60,30,10
+2011,Assam,technical,65,35,0
+2011,Bihar,primary,54,30,16
+2011,Bihar,secondary,55,35,10
+2011,Bihar,technical,58,38,4
+2011,Chhattisgarh,primary,65,36,-1
+2011,Chhattisgarh,secondary,58,39,3
+2011,Chhattisgarh,technical,56,40,4
+2011,Goa,primary,69,35,-4
+2011,Goa,secondary,52,30,18
+2011,Goa,technical,57,36,7
+2011,Gujarat,primary,63,37,0
+2011,Gujarat,secondary,58,32,10
+2011,Gujarat,technical,56,30,14
+2011,Haryana,primary,63,34,3
+2011,Haryana,secondary,70,40,-10
+2011,Haryana,technical,61,39,0
+2011,Himachal Pradesh,primary,58,36,6
+2011,Himachal Pradesh,secondary,69,32,-1
+2011,Himachal Pradesh,technical,57,38,5
+2011,Jammu and Kashmir,primary,56,31,13
+2011,Jammu and Kashmir,secondary,59,39,2
+2011,Jammu and Kashmir,technical,66,33,1
+2011,Jharkhand,primary,54,39,7
+2011,Jharkhand,secondary,70,37,-7
+2011,Jharkhand,technical,64,33,3
+2011,Karnataka,primary,70,40,-10
+2011,Karnataka,secondary,55,39,6
+2011,Karnataka,technical,53,33,14
+2011,Kerala,primary,70,31,-1
+2011,Kerala,secondary,67,40,-7
+2011,Kerala,technical,50,30,20
+2011,Madhya Pradesh,primary,50,30,20
+2011,Madhya Pradesh,secondary,63,39,-2
+2011,Madhya Pradesh,technical,51,39,10
+2011,Maharashtra,primary,53,37,10
+2011,Maharashtra,secondary,62,31,7
+2011,Maharashtra,technical,60,31,9
+2011,Manipur,primary,55,31,14
+2011,Manipur,secondary,59,35,6
+2011,Manipur,technical,53,30,17
+2011,Meghalaya,primary,59,32,9
+2011,Meghalaya,secondary,63,34,3
+2011,Meghalaya,technical,61,37,2
+2011,Mizoram,primary,58,30,12
+2011,Mizoram,secondary,70,39,-9
+2011,Mizoram,technical,52,34,14
+2011,Nagaland,primary,59,32,9
+2011,Nagaland,secondary,60,33,7
+2011,Nagaland,technical,52,36,12
+2011,Odisha,primary,64,33,3
+2011,Odisha,secondary,69,31,0
+2011,Odisha,technical,62,33,5
+2011,Punjab,primary,54,34,12
+2011,Punjab,secondary,50,30,20
+2011,Punjab,technical,51,39,10
+2011,Rajasthan,primary,50,30,20
+2011,Rajasthan,secondary,65,33,2
+2011,Rajasthan,technical,61,40,-1
+2011,Sikkim,primary,59,39,2
+2011,Sikkim,secondary,70,34,-4
+2011,Sikkim,technical,50,35,15
+2011,Tamil Nadu,primary,64,33,3
+2011,Tamil Nadu,secondary,55,31,14
+2011,Tamil Nadu,technical,67,36,-3
+2011,Telangana,primary,62,30,8
+2011,Telangana,secondary,53,31,16
+2011,Telangana,technical,64,39,-3
+2011,Tripura,primary,56,35,9
+2011,Tripura,secondary,70,40,-10
+2011,Tripura,technical,62,36,2
+2011,Uttarakhand,primary,65,37,-2
+2011,Uttarakhand,secondary,67,37,-4
+2011,Uttarakhand,technical,50,32,18
+2011,Uttar Pradesh,primary,50,32,18
+2011,Uttar Pradesh,secondary,56,30,14
+2011,Uttar Pradesh,technical,64,34,2
+2011,West Bengal,primary,67,36,-3
+2011,West Bengal,secondary,68,37,-5
+2011,West Bengal,technical,66,40,-6
+2011,Andaman and Nicobar Islands,primary,50,30,20
+2011,Andaman and Nicobar Islands,secondary,55,39,6
+2011,Andaman and Nicobar Islands,technical,52,31,17
+2011,Chandigarh,primary,57,40,3
+2011,Chandigarh,secondary,60,37,3
+2011,Chandigarh,technical,70,37,-7
+2011,Dadra and Nagar Haveli,primary,66,34,0
+2011,Dadra and Nagar Haveli,secondary,58,35,7
+2011,Dadra and Nagar Haveli,technical,59,38,3
+2011,Daman and Diu,primary,59,37,4
+2011,Daman and Diu,secondary,62,40,-2
+2011,Daman and Diu,technical,53,38,9
+2011,Delhi,primary,68,37,-5
+2011,Delhi,secondary,50,39,11
+2011,Delhi,technical,69,40,-9
+2011,Lakshadweep,primary,58,31,11
+2011,Lakshadweep,secondary,53,30,17
+2011,Lakshadweep,technical,61,37,2
+2011,Puducherry,primary,54,38,8
+2011,Puducherry,secondary,59,37,4
+2011,Puducherry,technical,60,39,1
+2012,Andhra Pradesh,primary,61,34,5
+2012,Andhra Pradesh,secondary,62,30,8
+2012,Andhra Pradesh,technical,63,35,2
+2012,Arunachal Pradesh,primary,58,40,2
+2012,Arunachal Pradesh,secondary,63,36,1
+2012,Arunachal Pradesh,technical,53,36,11
+2012,Assam,primary,56,38,6
+2012,Assam,secondary,57,31,12
+2012,Assam,technical,70,40,-10
+2012,Bihar,primary,68,40,-8
+2012,Bihar,secondary,65,37,-2
+2012,Bihar,technical,59,37,4
+2012,Chhattisgarh,primary,52,38,10
+2012,Chhattisgarh,secondary,66,40,-6
+2012,Chhattisgarh,technical,69,34,-3
+2012,Goa,primary,56,35,9
+2012,Goa,secondary,50,40,10
+2012,Goa,technical,68,32,0
+2012,Gujarat,primary,70,36,-6
+2012,Gujarat,secondary,61,39,0
+2012,Gujarat,technical,68,36,-4
+2012,Haryana,primary,59,31,10
+2012,Haryana,secondary,70,35,-5
+2012,Haryana,technical,66,35,-1
+2012,Himachal Pradesh,primary,64,40,-4
+2012,Himachal Pradesh,secondary,59,30,11
+2012,Himachal Pradesh,technical,51,38,11
+2012,Jammu and Kashmir,primary,55,39,6
+2012,Jammu and Kashmir,secondary,55,35,10
+2012,Jammu and Kashmir,technical,67,31,2
+2012,Jharkhand,primary,64,33,3
+2012,Jharkhand,secondary,51,32,17
+2012,Jharkhand,technical,57,31,12
+2012,Karnataka,primary,56,32,12
+2012,Karnataka,secondary,54,39,7
+2012,Karnataka,technical,60,35,5
+2012,Kerala,primary,50,40,10
 2012,Kerala,secondary,53,40,7
-2012,Kerala,technical,56,39,5
-2012,Madhya Pradesh,primary,54,30,16
-2012,Madhya Pradesh,secondary,67,30,3
-2012,Madhya Pradesh,technical,64,39,-3
-2012,Maharashtra,primary,63,39,-2
-2012,Maharashtra,secondary,57,35,8
-2012,Maharashtra,technical,67,37,-4
-2012,Manipur,primary,51,32,17
-2012,Manipur,secondary,69,37,-6
-2012,Manipur,technical,52,36,12
-2012,Meghalaya,primary,68,36,-4
-2012,Meghalaya,secondary,54,36,10
-2012,Meghalaya,technical,70,37,-7
-2012,Mizoram,primary,60,37,3
-2012,Mizoram,secondary,56,39,5
-2012,Mizoram,technical,69,39,-8
-2012,Nagaland,primary,63,38,-1
-2012,Nagaland,secondary,63,30,7
-2012,Nagaland,technical,56,31,13
-2012,Odisha,primary,67,34,-1
-2012,Odisha,secondary,62,32,6
-2012,Odisha,technical,54,35,11
-2012,Punjab,primary,64,37,-1
-2012,Punjab,secondary,68,30,2
-2012,Punjab,technical,66,31,3
-2012,Rajasthan,primary,70,38,-8
-2012,Rajasthan,secondary,57,37,6
-2012,Rajasthan,technical,52,33,15
-2012,Sikkim,primary,57,31,12
-2012,Sikkim,secondary,69,39,-8
-2012,Sikkim,technical,53,30,17
-2012,Tamil Nadu,primary,70,40,-10
-2012,Tamil Nadu,secondary,70,37,-7
-2012,Tamil Nadu,technical,64,38,-2
-2012,Telangana,primary,53,34,13
-2012,Telangana,secondary,70,35,-5
-2012,Telangana,technical,62,30,8
-2012,Tripura,primary,64,37,-1
-2012,Tripura,secondary,61,38,1
-2012,Tripura,technical,63,37,0
-2012,Uttarakhand,primary,67,40,-7
-2012,Uttarakhand,secondary,59,34,7
-2012,Uttarakhand,technical,69,35,-4
-2012,Uttar Pradesh,primary,55,34,11
-2012,Uttar Pradesh,secondary,60,40,0
-2012,Uttar Pradesh,technical,52,37,11
-2012,West Bengal,primary,51,38,11
-2012,West Bengal,secondary,66,30,4
-2012,West Bengal,technical,50,33,17
-2012,Andaman and Nicobar Islands,primary,54,36,10
-2012,Andaman and Nicobar Islands,secondary,64,32,4
-2012,Andaman and Nicobar Islands,technical,54,37,9
-2012,Chandigarh,primary,54,35,11
-2012,Chandigarh,secondary,58,37,5
-2012,Chandigarh,technical,50,36,14
-2012,Dadra and Nagar Haveli,primary,53,39,8
-2012,Dadra and Nagar Haveli,secondary,52,31,17
-2012,Dadra and Nagar Haveli,technical,69,34,-3
-2012,Daman and Diu,primary,53,30,17
-2012,Daman and Diu,secondary,64,37,-1
-2012,Daman and Diu,technical,59,37,4
-2012,Delhi,primary,60,36,4
-2012,Delhi,secondary,66,30,4
-2012,Delhi,technical,50,35,15
-2012,Lakshadweep,primary,63,33,4
-2012,Lakshadweep,secondary,54,34,12
-2012,Lakshadweep,technical,64,31,5
-2012,Puducherry,primary,70,33,-3
-2012,Puducherry,secondary,54,31,15
-2012,Puducherry,technical,53,30,17
-2013,Andhra Pradesh,primary,65,32,3
-2013,Andhra Pradesh,secondary,65,33,2
-2013,Andhra Pradesh,technical,70,35,-5
-2013,Arunachal Pradesh,primary,57,35,8
-2013,Arunachal Pradesh,secondary,61,32,7
-2013,Arunachal Pradesh,technical,53,32,15
-2013,Assam,primary,57,34,9
-2013,Assam,secondary,53,32,15
-2013,Assam,technical,61,35,4
-2013,Bihar,primary,57,32,11
-2013,Bihar,secondary,57,32,11
-2013,Bihar,technical,70,37,-7
-2013,Chhattisgarh,primary,63,30,7
-2013,Chhattisgarh,secondary,55,33,12
-2013,Chhattisgarh,technical,53,33,14
-2013,Goa,primary,54,40,6
-2013,Goa,secondary,64,38,-2
-2013,Goa,technical,65,39,-4
-2013,Gujarat,primary,53,39,8
-2013,Gujarat,secondary,51,35,14
-2013,Gujarat,technical,56,39,5
-2013,Haryana,primary,57,34,9
-2013,Haryana,secondary,57,33,10
-2013,Haryana,technical,61,40,-1
-2013,Himachal Pradesh,primary,55,35,10
-2013,Himachal Pradesh,secondary,53,33,14
-2013,Himachal Pradesh,technical,51,34,15
-2013,Jammu and Kashmir,primary,59,39,2
-2013,Jammu and Kashmir,secondary,68,31,1
-2013,Jammu and Kashmir,technical,54,36,10
-2013,Jharkhand,primary,50,38,12
-2013,Jharkhand,secondary,69,30,1
-2013,Jharkhand,technical,53,40,7
-2013,Karnataka,primary,65,34,1
-2013,Karnataka,secondary,58,31,11
-2013,Karnataka,technical,67,33,0
-2013,Kerala,primary,60,40,0
-2013,Kerala,secondary,68,40,-8
-2013,Kerala,technical,67,38,-5
-2013,Madhya Pradesh,primary,53,38,9
-2013,Madhya Pradesh,secondary,59,39,2
-2013,Madhya Pradesh,technical,70,40,-10
-2013,Maharashtra,primary,68,37,-5
-2013,Maharashtra,secondary,68,40,-8
-2013,Maharashtra,technical,52,33,15
-2013,Manipur,primary,54,39,7
-2013,Manipur,secondary,70,33,-3
-2013,Manipur,technical,70,37,-7
-2013,Meghalaya,primary,52,31,17
-2013,Meghalaya,secondary,58,32,10
-2013,Meghalaya,technical,67,33,0
-2013,Mizoram,primary,61,31,8
-2013,Mizoram,secondary,57,37,6
-2013,Mizoram,technical,53,33,14
-2013,Nagaland,primary,67,40,-7
-2013,Nagaland,secondary,60,39,1
-2013,Nagaland,technical,65,36,-1
-2013,Odisha,primary,54,34,12
-2013,Odisha,secondary,68,32,0
-2013,Odisha,technical,59,31,10
-2013,Punjab,primary,52,39,9
-2013,Punjab,secondary,59,30,11
-2013,Punjab,technical,54,39,7
-2013,Rajasthan,primary,64,32,4
-2013,Rajasthan,secondary,65,31,4
-2013,Rajasthan,technical,53,35,12
-2013,Sikkim,primary,64,36,0
-2013,Sikkim,secondary,50,36,14
-2013,Sikkim,technical,68,32,0
-2013,Tamil Nadu,primary,56,39,5
-2013,Tamil Nadu,secondary,62,33,5
-2013,Tamil Nadu,technical,67,33,0
-2013,Telangana,primary,64,36,0
-2013,Telangana,secondary,63,37,0
-2013,Telangana,technical,69,39,-8
-2013,Tripura,primary,56,32,12
-2013,Tripura,secondary,63,31,6
-2013,Tripura,technical,55,39,6
-2013,Uttarakhand,primary,62,32,6
-2013,Uttarakhand,secondary,69,36,-5
-2013,Uttarakhand,technical,60,38,2
-2013,Uttar Pradesh,primary,69,30,1
-2013,Uttar Pradesh,secondary,51,36,13
-2013,Uttar Pradesh,technical,54,37,9
-2013,West Bengal,primary,62,39,-1
-2013,West Bengal,secondary,65,39,-4
-2013,West Bengal,technical,69,40,-9
-2013,Andaman and Nicobar Islands,primary,58,39,3
-2013,Andaman and Nicobar Islands,secondary,54,31,15
-2013,Andaman and Nicobar Islands,technical,69,38,-7
-2013,Chandigarh,primary,61,40,-1
-2013,Chandigarh,secondary,52,32,16
-2013,Chandigarh,technical,57,31,12
-2013,Dadra and Nagar Haveli,primary,52,35,13
-2013,Dadra and Nagar Haveli,secondary,64,37,-1
-2013,Dadra and Nagar Haveli,technical,51,36,13
-2013,Daman and Diu,primary,51,38,11
-2013,Daman and Diu,secondary,56,32,12
-2013,Daman and Diu,technical,52,35,13
-2013,Delhi,primary,55,40,5
-2013,Delhi,secondary,56,35,9
-2013,Delhi,technical,61,34,5
-2013,Lakshadweep,primary,54,37,9
-2013,Lakshadweep,secondary,60,32,8
-2013,Lakshadweep,technical,55,30,15
-2013,Puducherry,primary,70,38,-8
-2013,Puducherry,secondary,57,35,8
-2013,Puducherry,technical,52,39,9
-2014,Andhra Pradesh,primary,60,35,5
-2014,Andhra Pradesh,secondary,69,34,-3
-2014,Andhra Pradesh,technical,50,37,13
-2014,Arunachal Pradesh,primary,50,39,11
-2014,Arunachal Pradesh,secondary,62,39,-1
-2014,Arunachal Pradesh,technical,55,30,15
-2014,Assam,primary,51,32,17
-2014,Assam,secondary,50,31,19
-2014,Assam,technical,67,37,-4
-2014,Bihar,primary,63,32,5
-2014,Bihar,secondary,60,39,1
-2014,Bihar,technical,63,39,-2
-2014,Chhattisgarh,primary,52,31,17
-2014,Chhattisgarh,secondary,61,40,-1
-2014,Chhattisgarh,technical,68,32,0
-2014,Goa,primary,56,36,8
-2014,Goa,secondary,53,32,15
-2014,Goa,technical,66,39,-5
-2014,Gujarat,primary,57,34,9
-2014,Gujarat,secondary,56,32,12
-2014,Gujarat,technical,58,32,10
-2014,Haryana,primary,58,37,5
-2014,Haryana,secondary,58,36,6
-2014,Haryana,technical,66,39,-5
-2014,Himachal Pradesh,primary,59,37,4
-2014,Himachal Pradesh,secondary,67,40,-7
-2014,Himachal Pradesh,technical,54,36,10
-2014,Jammu and Kashmir,primary,57,34,9
-2014,Jammu and Kashmir,secondary,64,35,1
-2014,Jammu and Kashmir,technical,57,38,5
-2014,Jharkhand,primary,68,39,-7
-2014,Jharkhand,secondary,54,36,10
-2014,Jharkhand,technical,70,36,-6
-2014,Karnataka,primary,64,32,4
-2014,Karnataka,secondary,57,34,9
-2014,Karnataka,technical,52,30,18
-2014,Kerala,primary,50,34,16
-2014,Kerala,secondary,66,39,-5
-2014,Kerala,technical,51,33,16
-2014,Madhya Pradesh,primary,57,40,3
-2014,Madhya Pradesh,secondary,56,40,4
-2014,Madhya Pradesh,technical,59,35,6
-2014,Maharashtra,primary,51,36,13
-2014,Maharashtra,secondary,57,40,3
-2014,Maharashtra,technical,62,34,4
-2014,Manipur,primary,58,35,7
-2014,Manipur,secondary,57,36,7
-2014,Manipur,technical,55,34,11
-2014,Meghalaya,primary,62,39,-1
-2014,Meghalaya,secondary,69,37,-6
-2014,Meghalaya,technical,68,36,-4
-2014,Mizoram,primary,65,36,-1
-2014,Mizoram,secondary,59,36,5
-2014,Mizoram,technical,56,35,9
-2014,Nagaland,primary,52,30,18
-2014,Nagaland,secondary,66,36,-2
-2014,Nagaland,technical,68,32,0
-2014,Odisha,primary,55,39,6
-2014,Odisha,secondary,69,32,-1
-2014,Odisha,technical,63,40,-3
-2014,Punjab,primary,60,39,1
-2014,Punjab,secondary,52,30,18
-2014,Punjab,technical,55,38,7
-2014,Rajasthan,primary,62,32,6
-2014,Rajasthan,secondary,52,34,14
-2014,Rajasthan,technical,61,34,5
-2014,Sikkim,primary,66,32,2
-2014,Sikkim,secondary,50,36,14
-2014,Sikkim,technical,65,39,-4
-2014,Tamil Nadu,primary,59,38,3
-2014,Tamil Nadu,secondary,64,39,-3
-2014,Tamil Nadu,technical,51,34,15
-2014,Telangana,primary,64,30,6
-2014,Telangana,secondary,54,35,11
-2014,Telangana,technical,66,38,-4
-2014,Tripura,primary,51,35,14
-2014,Tripura,secondary,56,39,5
-2014,Tripura,technical,53,40,7
-2014,Uttarakhand,primary,65,38,-3
-2014,Uttarakhand,secondary,68,34,-2
-2014,Uttarakhand,technical,51,36,13
-2014,Uttar Pradesh,primary,57,39,4
-2014,Uttar Pradesh,secondary,70,40,-10
-2014,Uttar Pradesh,technical,61,31,8
-2014,West Bengal,primary,69,40,-9
-2014,West Bengal,secondary,70,31,-1
-2014,West Bengal,technical,61,40,-1
-2014,Andaman and Nicobar Islands,primary,68,39,-7
-2014,Andaman and Nicobar Islands,secondary,57,32,11
-2014,Andaman and Nicobar Islands,technical,60,33,7
-2014,Chandigarh,primary,60,31,9
-2014,Chandigarh,secondary,68,37,-5
-2014,Chandigarh,technical,70,32,-2
-2014,Dadra and Nagar Haveli,primary,65,31,4
-2014,Dadra and Nagar Haveli,secondary,57,32,11
-2014,Dadra and Nagar Haveli,technical,50,36,14
-2014,Daman and Diu,primary,55,36,9
-2014,Daman and Diu,secondary,67,39,-6
-2014,Daman and Diu,technical,64,37,-1
-2014,Delhi,primary,69,37,-6
-2014,Delhi,secondary,68,33,-1
-2014,Delhi,technical,55,36,9
-2014,Lakshadweep,primary,54,35,11
-2014,Lakshadweep,secondary,63,34,3
-2014,Lakshadweep,technical,56,38,6
-2014,Puducherry,primary,62,38,0
-2014,Puducherry,secondary,64,39,-3
-2014,Puducherry,technical,65,33,2
-2015,Andhra Pradesh,primary,51,31,18
-2015,Andhra Pradesh,secondary,62,30,8
-2015,Andhra Pradesh,technical,67,40,-7
-2015,Arunachal Pradesh,primary,58,39,3
-2015,Arunachal Pradesh,secondary,67,30,3
-2015,Arunachal Pradesh,technical,64,39,-3
-2015,Assam,primary,51,32,17
-2015,Assam,secondary,66,30,4
-2015,Assam,technical,67,38,-5
-2015,Bihar,primary,64,30,6
-2015,Bihar,secondary,63,30,7
-2015,Bihar,technical,61,35,4
-2015,Chhattisgarh,primary,51,34,15
-2015,Chhattisgarh,secondary,70,36,-6
-2015,Chhattisgarh,technical,63,35,2
-2015,Goa,primary,62,34,4
-2015,Goa,secondary,58,36,6
-2015,Goa,technical,69,30,1
-2015,Gujarat,primary,68,40,-8
-2015,Gujarat,secondary,54,31,15
-2015,Gujarat,technical,56,30,14
-2015,Haryana,primary,55,36,9
-2015,Haryana,secondary,64,32,4
-2015,Haryana,technical,69,32,-1
-2015,Himachal Pradesh,primary,63,35,2
-2015,Himachal Pradesh,secondary,57,39,4
-2015,Himachal Pradesh,technical,60,32,8
-2015,Jammu and Kashmir,primary,58,33,9
-2015,Jammu and Kashmir,secondary,61,35,4
-2015,Jammu and Kashmir,technical,68,31,1
-2015,Jharkhand,primary,50,34,16
-2015,Jharkhand,secondary,58,30,12
-2015,Jharkhand,technical,51,31,18
-2015,Karnataka,primary,59,33,8
-2015,Karnataka,secondary,67,34,-1
-2015,Karnataka,technical,57,40,3
-2015,Kerala,primary,62,31,7
-2015,Kerala,secondary,53,40,7
-2015,Kerala,technical,64,35,1
-2015,Madhya Pradesh,primary,61,39,0
-2015,Madhya Pradesh,secondary,66,33,1
-2015,Madhya Pradesh,technical,53,36,11
-2015,Maharashtra,primary,63,30,7
-2015,Maharashtra,secondary,53,35,12
-2015,Maharashtra,technical,67,31,2
-2015,Manipur,primary,60,39,1
-2015,Manipur,secondary,57,35,8
-2015,Manipur,technical,51,34,15
-2015,Meghalaya,primary,63,30,7
-2015,Meghalaya,secondary,51,31,18
-2015,Meghalaya,technical,59,30,11
-2015,Mizoram,primary,55,31,14
-2015,Mizoram,secondary,63,33,4
-2015,Mizoram,technical,56,38,6
-2015,Nagaland,primary,57,32,11
-2015,Nagaland,secondary,54,34,12
-2015,Nagaland,technical,57,30,13
-2015,Odisha,primary,50,39,11
-2015,Odisha,secondary,70,38,-8
-2015,Odisha,technical,69,39,-8
-2015,Punjab,primary,52,32,16
-2015,Punjab,secondary,65,34,1
-2015,Punjab,technical,51,37,12
-2015,Rajasthan,primary,68,31,1
-2015,Rajasthan,secondary,67,40,-7
-2015,Rajasthan,technical,62,31,7
-2015,Sikkim,primary,66,39,-5
-2015,Sikkim,secondary,63,30,7
-2015,Sikkim,technical,67,30,3
-2015,Tamil Nadu,primary,52,38,10
-2015,Tamil Nadu,secondary,59,31,10
-2015,Tamil Nadu,technical,64,36,0
-2015,Telangana,primary,52,35,13
-2015,Telangana,secondary,55,39,6
-2015,Telangana,technical,53,32,15
-2015,Tripura,primary,61,33,6
-2015,Tripura,secondary,52,34,14
-2015,Tripura,technical,51,37,12
-2015,Uttarakhand,primary,53,33,14
-2015,Uttarakhand,secondary,58,30,12
-2015,Uttarakhand,technical,61,40,-1
-2015,Uttar Pradesh,primary,67,33,0
-2015,Uttar Pradesh,secondary,63,40,-3
-2015,Uttar Pradesh,technical,52,34,14
-2015,West Bengal,primary,60,37,3
-2015,West Bengal,secondary,51,37,12
-2015,West Bengal,technical,58,34,8
-2015,Andaman and Nicobar Islands,primary,55,37,8
-2015,Andaman and Nicobar Islands,secondary,61,30,9
-2015,Andaman and Nicobar Islands,technical,67,35,-2
-2015,Chandigarh,primary,56,40,4
-2015,Chandigarh,secondary,59,36,5
-2015,Chandigarh,technical,65,34,1
-2015,Dadra and Nagar Haveli,primary,59,30,11
-2015,Dadra and Nagar Haveli,secondary,50,33,17
-2015,Dadra and Nagar Haveli,technical,59,39,2
-2015,Daman and Diu,primary,60,35,5
-2015,Daman and Diu,secondary,57,34,9
-2015,Daman and Diu,technical,70,38,-8
-2015,Delhi,primary,50,35,15
-2015,Delhi,secondary,59,31,10
-2015,Delhi,technical,59,34,7
-2015,Lakshadweep,primary,53,33,14
-2015,Lakshadweep,secondary,60,37,3
-2015,Lakshadweep,technical,55,30,15
-2015,Puducherry,primary,67,35,-2
-2015,Puducherry,secondary,56,40,4
-2015,Puducherry,technical,68,31,1
-2016,Andhra Pradesh,primary,66,36,-2
-2016,Andhra Pradesh,secondary,56,31,13
-2016,Andhra Pradesh,technical,50,39,11
-2016,Arunachal Pradesh,primary,58,31,11
-2016,Arunachal Pradesh,secondary,50,33,17
-2016,Arunachal Pradesh,technical,58,37,5
-2016,Assam,primary,55,38,7
-2016,Assam,secondary,70,38,-8
-2016,Assam,technical,64,40,-4
-2016,Bihar,primary,66,35,-1
-2016,Bihar,secondary,57,36,7
-2016,Bihar,technical,53,32,15
-2016,Chhattisgarh,primary,70,40,-10
-2016,Chhattisgarh,secondary,57,38,5
-2016,Chhattisgarh,technical,56,39,5
-2016,Goa,primary,60,32,8
-2016,Goa,secondary,62,33,5
-2016,Goa,technical,67,32,1
-2016,Gujarat,primary,51,35,14
-2016,Gujarat,secondary,55,31,14
-2016,Gujarat,technical,55,37,8
-2016,Haryana,primary,56,40,4
-2016,Haryana,secondary,69,40,-9
-2016,Haryana,technical,54,39,7
-2016,Himachal Pradesh,primary,52,33,15
-2016,Himachal Pradesh,secondary,57,40,3
-2016,Himachal Pradesh,technical,57,32,11
-2016,Jammu and Kashmir,primary,53,30,17
-2016,Jammu and Kashmir,secondary,66,34,0
-2016,Jammu and Kashmir,technical,52,38,10
-2016,Jharkhand,primary,52,40,8
-2016,Jharkhand,secondary,55,35,10
-2016,Jharkhand,technical,58,36,6
-2016,Karnataka,primary,60,31,9
-2016,Karnataka,secondary,52,39,9
-2016,Karnataka,technical,68,37,-5
-2016,Kerala,primary,62,38,0
-2016,Kerala,secondary,50,36,14
-2016,Kerala,technical,59,34,7
-2016,Madhya Pradesh,primary,57,32,11
-2016,Madhya Pradesh,secondary,60,30,10
-2016,Madhya Pradesh,technical,63,33,4
-2016,Maharashtra,primary,68,32,0
-2016,Maharashtra,secondary,63,39,-2
-2016,Maharashtra,technical,61,32,7
-2016,Manipur,primary,59,33,8
-2016,Manipur,secondary,57,33,10
-2016,Manipur,technical,64,37,-1
-2016,Meghalaya,primary,57,35,8
-2016,Meghalaya,secondary,68,30,2
-2016,Meghalaya,technical,65,35,0
-2016,Mizoram,primary,60,31,9
-2016,Mizoram,secondary,59,31,10
-2016,Mizoram,technical,62,32,6
-2016,Nagaland,primary,69,31,0
-2016,Nagaland,secondary,58,39,3
-2016,Nagaland,technical,51,39,10
-2016,Odisha,primary,56,35,9
-2016,Odisha,secondary,69,40,-9
-2016,Odisha,technical,52,30,18
-2016,Punjab,primary,60,30,10
-2016,Punjab,secondary,60,36,4
-2016,Punjab,technical,60,40,0
-2016,Rajasthan,primary,70,36,-6
-2016,Rajasthan,secondary,69,39,-8
-2016,Rajasthan,technical,64,36,0
-2016,Sikkim,primary,62,31,7
-2016,Sikkim,secondary,65,35,0
-2016,Sikkim,technical,65,36,-1
-2016,Tamil Nadu,primary,53,37,10
-2016,Tamil Nadu,secondary,62,30,8
-2016,Tamil Nadu,technical,59,33,8
-2016,Telangana,primary,60,33,7
-2016,Telangana,secondary,70,34,-4
-2016,Telangana,technical,70,31,-1
-2016,Tripura,primary,57,32,11
-2016,Tripura,secondary,64,33,3
-2016,Tripura,technical,68,36,-4
-2016,Uttarakhand,primary,55,34,11
-2016,Uttarakhand,secondary,52,40,8
-2016,Uttarakhand,technical,50,35,15
-2016,Uttar Pradesh,primary,52,38,10
-2016,Uttar Pradesh,secondary,51,38,11
-2016,Uttar Pradesh,technical,70,37,-7
-2016,West Bengal,primary,67,38,-5
-2016,West Bengal,secondary,62,36,2
+2012,Kerala,technical,59,33,8
+2012,Madhya Pradesh,primary,68,32,0
+2012,Madhya Pradesh,secondary,58,33,9
+2012,Madhya Pradesh,technical,54,39,7
+2012,Maharashtra,primary,62,35,3
+2012,Maharashtra,secondary,55,35,10
+2012,Maharashtra,technical,63,35,2
+2012,Manipur,primary,56,30,14
+2012,Manipur,secondary,69,36,-5
+2012,Manipur,technical,50,32,18
+2012,Meghalaya,primary,57,34,9
+2012,Meghalaya,secondary,54,38,8
+2012,Meghalaya,technical,67,30,3
+2012,Mizoram,primary,56,33,11
+2012,Mizoram,secondary,56,35,9
+2012,Mizoram,technical,67,36,-3
+2012,Nagaland,primary,51,33,16
+2012,Nagaland,secondary,53,38,9
+2012,Nagaland,technical,65,34,1
+2012,Odisha,primary,70,31,-1
+2012,Odisha,secondary,68,36,-4
+2012,Odisha,technical,64,36,0
+2012,Punjab,primary,63,30,7
+2012,Punjab,secondary,65,40,-5
+2012,Punjab,technical,62,34,4
+2012,Rajasthan,primary,68,31,1
+2012,Rajasthan,secondary,56,40,4
+2012,Rajasthan,technical,68,36,-4
+2012,Sikkim,primary,65,38,-3
+2012,Sikkim,secondary,59,31,10
+2012,Sikkim,technical,55,39,6
+2012,Tamil Nadu,primary,60,30,10
+2012,Tamil Nadu,secondary,65,30,5
+2012,Tamil Nadu,technical,58,30,12
+2012,Telangana,primary,64,36,0
+2012,Telangana,secondary,56,33,11
+2012,Telangana,technical,61,38,1
+2012,Tripura,primary,65,35,0
+2012,Tripura,secondary,69,31,0
+2012,Tripura,technical,50,40,10
+2012,Uttarakhand,primary,50,31,19
+2012,Uttarakhand,secondary,58,32,10
+2012,Uttarakhand,technical,69,32,-1
+2012,Uttar Pradesh,primary,65,32,3
+2012,Uttar Pradesh,secondary,66,35,-1
+2012,Uttar Pradesh,technical,62,31,7
+2012,West Bengal,primary,60,35,5
+2012,West Bengal,secondary,60,32,8
+2012,West Bengal,technical,57,35,8
+2012,Andaman and Nicobar Islands,primary,54,31,15
+2012,Andaman and Nicobar Islands,secondary,54,40,6
+2012,Andaman and Nicobar Islands,technical,69,33,-2
+2012,Chandigarh,primary,62,33,5
+2012,Chandigarh,secondary,62,36,2
+2012,Chandigarh,technical,53,32,15
+2012,Dadra and Nagar Haveli,primary,69,35,-4
+2012,Dadra and Nagar Haveli,secondary,56,38,6
+2012,Dadra and Nagar Haveli,technical,67,38,-5
+2012,Daman and Diu,primary,58,32,10
+2012,Daman and Diu,secondary,62,39,-1
+2012,Daman and Diu,technical,51,38,11
+2012,Delhi,primary,53,31,16
+2012,Delhi,secondary,69,33,-2
+2012,Delhi,technical,68,31,1
+2012,Lakshadweep,primary,57,36,7
+2012,Lakshadweep,secondary,63,37,0
+2012,Lakshadweep,technical,55,39,6
+2012,Puducherry,primary,52,38,10
+2012,Puducherry,secondary,50,39,11
+2012,Puducherry,technical,58,37,5
+2013,Andhra Pradesh,primary,51,30,19
+2013,Andhra Pradesh,secondary,61,37,2
+2013,Andhra Pradesh,technical,70,36,-6
+2013,Arunachal Pradesh,primary,50,32,18
+2013,Arunachal Pradesh,secondary,62,33,5
+2013,Arunachal Pradesh,technical,58,35,7
+2013,Assam,primary,57,40,3
+2013,Assam,secondary,65,30,5
+2013,Assam,technical,52,34,14
+2013,Bihar,primary,55,30,15
+2013,Bihar,secondary,63,40,-3
+2013,Bihar,technical,60,31,9
+2013,Chhattisgarh,primary,62,34,4
+2013,Chhattisgarh,secondary,67,40,-7
+2013,Chhattisgarh,technical,70,40,-10
+2013,Goa,primary,52,36,12
+2013,Goa,secondary,50,38,12
+2013,Goa,technical,56,34,10
+2013,Gujarat,primary,68,30,2
+2013,Gujarat,secondary,51,30,19
+2013,Gujarat,technical,58,39,3
+2013,Haryana,primary,61,31,8
+2013,Haryana,secondary,51,30,19
+2013,Haryana,technical,55,38,7
+2013,Himachal Pradesh,primary,66,37,-3
+2013,Himachal Pradesh,secondary,52,35,13
+2013,Himachal Pradesh,technical,64,36,0
+2013,Jammu and Kashmir,primary,54,32,14
+2013,Jammu and Kashmir,secondary,52,32,16
+2013,Jammu and Kashmir,technical,63,33,4
+2013,Jharkhand,primary,50,35,15
+2013,Jharkhand,secondary,57,34,9
+2013,Jharkhand,technical,62,38,0
+2013,Karnataka,primary,69,36,-5
+2013,Karnataka,secondary,64,39,-3
+2013,Karnataka,technical,58,34,8
+2013,Kerala,primary,54,36,10
+2013,Kerala,secondary,55,39,6
+2013,Kerala,technical,57,36,7
+2013,Madhya Pradesh,primary,60,33,7
+2013,Madhya Pradesh,secondary,54,32,14
+2013,Madhya Pradesh,technical,67,30,3
+2013,Maharashtra,primary,51,37,12
+2013,Maharashtra,secondary,68,34,-2
+2013,Maharashtra,technical,61,30,9
+2013,Manipur,primary,56,31,13
+2013,Manipur,secondary,70,35,-5
+2013,Manipur,technical,58,37,5
+2013,Meghalaya,primary,60,34,6
+2013,Meghalaya,secondary,70,39,-9
+2013,Meghalaya,technical,58,30,12
+2013,Mizoram,primary,69,30,1
+2013,Mizoram,secondary,67,40,-7
+2013,Mizoram,technical,70,30,0
+2013,Nagaland,primary,67,32,1
+2013,Nagaland,secondary,52,36,12
+2013,Nagaland,technical,55,38,7
+2013,Odisha,primary,60,34,6
+2013,Odisha,secondary,57,38,5
+2013,Odisha,technical,57,36,7
+2013,Punjab,primary,51,36,13
+2013,Punjab,secondary,58,30,12
+2013,Punjab,technical,51,39,10
+2013,Rajasthan,primary,58,39,3
+2013,Rajasthan,secondary,53,39,8
+2013,Rajasthan,technical,62,31,7
+2013,Sikkim,primary,70,36,-6
+2013,Sikkim,secondary,59,30,11
+2013,Sikkim,technical,61,37,2
+2013,Tamil Nadu,primary,67,35,-2
+2013,Tamil Nadu,secondary,53,37,10
+2013,Tamil Nadu,technical,56,38,6
+2013,Telangana,primary,64,37,-1
+2013,Telangana,secondary,50,40,10
+2013,Telangana,technical,69,36,-5
+2013,Tripura,primary,62,30,8
+2013,Tripura,secondary,56,39,5
+2013,Tripura,technical,50,40,10
+2013,Uttarakhand,primary,53,38,9
+2013,Uttarakhand,secondary,66,36,-2
+2013,Uttarakhand,technical,50,40,10
+2013,Uttar Pradesh,primary,61,30,9
+2013,Uttar Pradesh,secondary,55,33,12
+2013,Uttar Pradesh,technical,69,30,1
+2013,West Bengal,primary,60,37,3
+2013,West Bengal,secondary,54,36,10
+2013,West Bengal,technical,65,36,-1
+2013,Andaman and Nicobar Islands,primary,70,37,-7
+2013,Andaman and Nicobar Islands,secondary,51,40,9
+2013,Andaman and Nicobar Islands,technical,57,35,8
+2013,Chandigarh,primary,61,38,1
+2013,Chandigarh,secondary,50,38,12
+2013,Chandigarh,technical,51,30,19
+2013,Dadra and Nagar Haveli,primary,69,32,-1
+2013,Dadra and Nagar Haveli,secondary,60,31,9
+2013,Dadra and Nagar Haveli,technical,56,39,5
+2013,Daman and Diu,primary,55,32,13
+2013,Daman and Diu,secondary,65,32,3
+2013,Daman and Diu,technical,51,39,10
+2013,Delhi,primary,60,39,1
+2013,Delhi,secondary,60,37,3
+2013,Delhi,technical,60,36,4
+2013,Lakshadweep,primary,53,39,8
+2013,Lakshadweep,secondary,64,35,1
+2013,Lakshadweep,technical,64,34,2
+2013,Puducherry,primary,54,37,9
+2013,Puducherry,secondary,60,34,6
+2013,Puducherry,technical,58,38,4
+2014,Andhra Pradesh,primary,56,32,12
+2014,Andhra Pradesh,secondary,67,30,3
+2014,Andhra Pradesh,technical,62,38,0
+2014,Arunachal Pradesh,primary,50,40,10
+2014,Arunachal Pradesh,secondary,62,30,8
+2014,Arunachal Pradesh,technical,62,36,2
+2014,Assam,primary,52,38,10
+2014,Assam,secondary,50,32,18
+2014,Assam,technical,69,39,-8
+2014,Bihar,primary,69,35,-4
+2014,Bihar,secondary,69,40,-9
+2014,Bihar,technical,70,35,-5
+2014,Chhattisgarh,primary,61,35,4
+2014,Chhattisgarh,secondary,61,39,0
+2014,Chhattisgarh,technical,69,36,-5
+2014,Goa,primary,60,34,6
+2014,Goa,secondary,54,39,7
+2014,Goa,technical,68,35,-3
+2014,Gujarat,primary,52,31,17
+2014,Gujarat,secondary,52,38,10
+2014,Gujarat,technical,51,31,18
+2014,Haryana,primary,67,35,-2
+2014,Haryana,secondary,54,40,6
+2014,Haryana,technical,58,37,5
+2014,Himachal Pradesh,primary,62,39,-1
+2014,Himachal Pradesh,secondary,55,30,15
+2014,Himachal Pradesh,technical,54,30,16
+2014,Jammu and Kashmir,primary,69,36,-5
+2014,Jammu and Kashmir,secondary,56,39,5
+2014,Jammu and Kashmir,technical,63,35,2
+2014,Jharkhand,primary,50,40,10
+2014,Jharkhand,secondary,58,37,5
+2014,Jharkhand,technical,56,37,7
+2014,Karnataka,primary,67,39,-6
+2014,Karnataka,secondary,51,33,16
+2014,Karnataka,technical,58,35,7
+2014,Kerala,primary,69,32,-1
+2014,Kerala,secondary,70,36,-6
+2014,Kerala,technical,69,37,-6
+2014,Madhya Pradesh,primary,51,30,19
+2014,Madhya Pradesh,secondary,68,33,-1
+2014,Madhya Pradesh,technical,51,33,16
+2014,Maharashtra,primary,70,33,-3
+2014,Maharashtra,secondary,64,37,-1
+2014,Maharashtra,technical,57,36,7
+2014,Manipur,primary,55,39,6
+2014,Manipur,secondary,63,31,6
+2014,Manipur,technical,55,36,9
+2014,Meghalaya,primary,56,34,10
+2014,Meghalaya,secondary,60,33,7
+2014,Meghalaya,technical,58,35,7
+2014,Mizoram,primary,55,36,9
+2014,Mizoram,secondary,65,38,-3
+2014,Mizoram,technical,52,36,12
+2014,Nagaland,primary,64,32,4
+2014,Nagaland,secondary,62,37,1
+2014,Nagaland,technical,66,37,-3
+2014,Odisha,primary,61,38,1
+2014,Odisha,secondary,64,35,1
+2014,Odisha,technical,58,31,11
+2014,Punjab,primary,55,36,9
+2014,Punjab,secondary,52,37,11
+2014,Punjab,technical,51,33,16
+2014,Rajasthan,primary,66,32,2
+2014,Rajasthan,secondary,67,35,-2
+2014,Rajasthan,technical,61,31,8
+2014,Sikkim,primary,56,38,6
+2014,Sikkim,secondary,59,39,2
+2014,Sikkim,technical,70,32,-2
+2014,Tamil Nadu,primary,57,39,4
+2014,Tamil Nadu,secondary,55,37,8
+2014,Tamil Nadu,technical,52,33,15
+2014,Telangana,primary,62,30,8
+2014,Telangana,secondary,62,39,-1
+2014,Telangana,technical,52,35,13
+2014,Tripura,primary,55,38,7
+2014,Tripura,secondary,60,39,1
+2014,Tripura,technical,55,32,13
+2014,Uttarakhand,primary,53,39,8
+2014,Uttarakhand,secondary,68,40,-8
+2014,Uttarakhand,technical,70,35,-5
+2014,Uttar Pradesh,primary,53,40,7
+2014,Uttar Pradesh,secondary,68,35,-3
+2014,Uttar Pradesh,technical,51,39,10
+2014,West Bengal,primary,53,32,15
+2014,West Bengal,secondary,60,35,5
+2014,West Bengal,technical,60,35,5
+2014,Andaman and Nicobar Islands,primary,55,31,14
+2014,Andaman and Nicobar Islands,secondary,70,32,-2
+2014,Andaman and Nicobar Islands,technical,59,32,9
+2014,Chandigarh,primary,65,34,1
+2014,Chandigarh,secondary,61,30,9
+2014,Chandigarh,technical,70,36,-6
+2014,Dadra and Nagar Haveli,primary,50,38,12
+2014,Dadra and Nagar Haveli,secondary,69,33,-2
+2014,Dadra and Nagar Haveli,technical,56,30,14
+2014,Daman and Diu,primary,50,37,13
+2014,Daman and Diu,secondary,62,40,-2
+2014,Daman and Diu,technical,60,37,3
+2014,Delhi,primary,66,33,1
+2014,Delhi,secondary,65,31,4
+2014,Delhi,technical,50,32,18
+2014,Lakshadweep,primary,70,36,-6
+2014,Lakshadweep,secondary,54,34,12
+2014,Lakshadweep,technical,53,34,13
+2014,Puducherry,primary,51,30,19
+2014,Puducherry,secondary,57,36,7
+2014,Puducherry,technical,58,31,11
+2015,Andhra Pradesh,primary,70,37,-7
+2015,Andhra Pradesh,secondary,59,40,1
+2015,Andhra Pradesh,technical,70,39,-9
+2015,Arunachal Pradesh,primary,64,33,3
+2015,Arunachal Pradesh,secondary,60,30,10
+2015,Arunachal Pradesh,technical,67,30,3
+2015,Assam,primary,57,38,5
+2015,Assam,secondary,54,34,12
+2015,Assam,technical,62,35,3
+2015,Bihar,primary,53,37,10
+2015,Bihar,secondary,65,39,-4
+2015,Bihar,technical,59,30,11
+2015,Chhattisgarh,primary,56,35,9
+2015,Chhattisgarh,secondary,69,37,-6
+2015,Chhattisgarh,technical,58,30,12
+2015,Goa,primary,52,34,14
+2015,Goa,secondary,70,33,-3
+2015,Goa,technical,51,36,13
+2015,Gujarat,primary,66,38,-4
+2015,Gujarat,secondary,60,39,1
+2015,Gujarat,technical,55,34,11
+2015,Haryana,primary,56,40,4
+2015,Haryana,secondary,55,37,8
+2015,Haryana,technical,58,36,6
+2015,Himachal Pradesh,primary,52,38,10
+2015,Himachal Pradesh,secondary,61,40,-1
+2015,Himachal Pradesh,technical,57,32,11
+2015,Jammu and Kashmir,primary,70,30,0
+2015,Jammu and Kashmir,secondary,52,40,8
+2015,Jammu and Kashmir,technical,56,36,8
+2015,Jharkhand,primary,70,40,-10
+2015,Jharkhand,secondary,53,40,7
+2015,Jharkhand,technical,65,37,-2
+2015,Karnataka,primary,65,32,3
+2015,Karnataka,secondary,69,31,0
+2015,Karnataka,technical,67,40,-7
+2015,Kerala,primary,62,40,-2
+2015,Kerala,secondary,70,37,-7
+2015,Kerala,technical,59,33,8
+2015,Madhya Pradesh,primary,67,36,-3
+2015,Madhya Pradesh,secondary,68,37,-5
+2015,Madhya Pradesh,technical,70,40,-10
+2015,Maharashtra,primary,57,33,10
+2015,Maharashtra,secondary,61,33,6
+2015,Maharashtra,technical,51,38,11
+2015,Manipur,primary,62,30,8
+2015,Manipur,secondary,55,30,15
+2015,Manipur,technical,70,35,-5
+2015,Meghalaya,primary,70,39,-9
+2015,Meghalaya,secondary,52,36,12
+2015,Meghalaya,technical,55,40,5
+2015,Mizoram,primary,66,37,-3
+2015,Mizoram,secondary,50,31,19
+2015,Mizoram,technical,67,34,-1
+2015,Nagaland,primary,56,38,6
+2015,Nagaland,secondary,66,34,0
+2015,Nagaland,technical,64,30,6
+2015,Odisha,primary,69,37,-6
+2015,Odisha,secondary,51,33,16
+2015,Odisha,technical,50,38,12
+2015,Punjab,primary,69,36,-5
+2015,Punjab,secondary,63,32,5
+2015,Punjab,technical,57,31,12
+2015,Rajasthan,primary,56,33,11
+2015,Rajasthan,secondary,67,38,-5
+2015,Rajasthan,technical,62,37,1
+2015,Sikkim,primary,59,32,9
+2015,Sikkim,secondary,67,35,-2
+2015,Sikkim,technical,65,34,1
+2015,Tamil Nadu,primary,55,36,9
+2015,Tamil Nadu,secondary,62,39,-1
+2015,Tamil Nadu,technical,64,35,1
+2015,Telangana,primary,51,34,15
+2015,Telangana,secondary,53,31,16
+2015,Telangana,technical,51,34,15
+2015,Tripura,primary,51,40,9
+2015,Tripura,secondary,58,37,5
+2015,Tripura,technical,50,33,17
+2015,Uttarakhand,primary,52,32,16
+2015,Uttarakhand,secondary,50,39,11
+2015,Uttarakhand,technical,51,39,10
+2015,Uttar Pradesh,primary,58,38,4
+2015,Uttar Pradesh,secondary,60,33,7
+2015,Uttar Pradesh,technical,68,39,-7
+2015,West Bengal,primary,66,40,-6
+2015,West Bengal,secondary,54,31,15
+2015,West Bengal,technical,55,37,8
+2015,Andaman and Nicobar Islands,primary,64,35,1
+2015,Andaman and Nicobar Islands,secondary,53,33,14
+2015,Andaman and Nicobar Islands,technical,69,37,-6
+2015,Chandigarh,primary,69,37,-6
+2015,Chandigarh,secondary,62,37,1
+2015,Chandigarh,technical,56,35,9
+2015,Dadra and Nagar Haveli,primary,54,30,16
+2015,Dadra and Nagar Haveli,secondary,54,32,14
+2015,Dadra and Nagar Haveli,technical,70,34,-4
+2015,Daman and Diu,primary,57,36,7
+2015,Daman and Diu,secondary,56,40,4
+2015,Daman and Diu,technical,67,32,1
+2015,Delhi,primary,70,37,-7
+2015,Delhi,secondary,51,40,9
+2015,Delhi,technical,58,32,10
+2015,Lakshadweep,primary,56,38,6
+2015,Lakshadweep,secondary,58,40,2
+2015,Lakshadweep,technical,51,34,15
+2015,Puducherry,primary,50,34,16
+2015,Puducherry,secondary,59,37,4
+2015,Puducherry,technical,57,37,6
+2016,Andhra Pradesh,primary,60,34,6
+2016,Andhra Pradesh,secondary,63,35,2
+2016,Andhra Pradesh,technical,57,38,5
+2016,Arunachal Pradesh,primary,56,39,5
+2016,Arunachal Pradesh,secondary,60,37,3
+2016,Arunachal Pradesh,technical,62,31,7
+2016,Assam,primary,60,37,3
+2016,Assam,secondary,53,33,14
+2016,Assam,technical,52,35,13
+2016,Bihar,primary,55,36,9
+2016,Bihar,secondary,55,40,5
+2016,Bihar,technical,68,35,-3
+2016,Chhattisgarh,primary,65,35,0
+2016,Chhattisgarh,secondary,65,34,1
+2016,Chhattisgarh,technical,64,40,-4
+2016,Goa,primary,64,40,-4
+2016,Goa,secondary,51,37,12
+2016,Goa,technical,63,30,7
+2016,Gujarat,primary,63,33,4
+2016,Gujarat,secondary,57,36,7
+2016,Gujarat,technical,66,30,4
+2016,Haryana,primary,56,30,14
+2016,Haryana,secondary,58,36,6
+2016,Haryana,technical,57,33,10
+2016,Himachal Pradesh,primary,64,35,1
+2016,Himachal Pradesh,secondary,51,33,16
+2016,Himachal Pradesh,technical,54,37,9
+2016,Jammu and Kashmir,primary,65,34,1
+2016,Jammu and Kashmir,secondary,65,36,-1
+2016,Jammu and Kashmir,technical,66,34,0
+2016,Jharkhand,primary,60,38,2
+2016,Jharkhand,secondary,55,40,5
+2016,Jharkhand,technical,63,37,0
+2016,Karnataka,primary,63,38,-1
+2016,Karnataka,secondary,70,40,-10
+2016,Karnataka,technical,68,32,0
+2016,Kerala,primary,61,33,6
+2016,Kerala,secondary,54,32,14
+2016,Kerala,technical,62,35,3
+2016,Madhya Pradesh,primary,66,30,4
+2016,Madhya Pradesh,secondary,52,32,16
+2016,Madhya Pradesh,technical,62,35,3
+2016,Maharashtra,primary,60,40,0
+2016,Maharashtra,secondary,66,35,-1
+2016,Maharashtra,technical,51,38,11
+2016,Manipur,primary,54,39,7
+2016,Manipur,secondary,60,30,10
+2016,Manipur,technical,64,36,0
+2016,Meghalaya,primary,67,32,1
+2016,Meghalaya,secondary,67,35,-2
+2016,Meghalaya,technical,52,38,10
+2016,Mizoram,primary,68,34,-2
+2016,Mizoram,secondary,54,34,12
+2016,Mizoram,technical,66,33,1
+2016,Nagaland,primary,51,30,19
+2016,Nagaland,secondary,59,33,8
+2016,Nagaland,technical,50,30,20
+2016,Odisha,primary,61,32,7
+2016,Odisha,secondary,64,37,-1
+2016,Odisha,technical,68,36,-4
+2016,Punjab,primary,63,37,0
+2016,Punjab,secondary,66,36,-2
+2016,Punjab,technical,50,36,14
+2016,Rajasthan,primary,70,35,-5
+2016,Rajasthan,secondary,68,31,1
+2016,Rajasthan,technical,66,39,-5
+2016,Sikkim,primary,70,37,-7
+2016,Sikkim,secondary,57,31,12
+2016,Sikkim,technical,51,36,13
+2016,Tamil Nadu,primary,66,32,2
+2016,Tamil Nadu,secondary,69,39,-8
+2016,Tamil Nadu,technical,61,30,9
+2016,Telangana,primary,64,36,0
+2016,Telangana,secondary,60,30,10
+2016,Telangana,technical,53,32,15
+2016,Tripura,primary,69,35,-4
+2016,Tripura,secondary,56,30,14
+2016,Tripura,technical,66,36,-2
+2016,Uttarakhand,primary,50,34,16
+2016,Uttarakhand,secondary,66,31,3
+2016,Uttarakhand,technical,66,32,2
+2016,Uttar Pradesh,primary,56,40,4
+2016,Uttar Pradesh,secondary,62,31,7
+2016,Uttar Pradesh,technical,52,34,14
+2016,West Bengal,primary,69,38,-7
+2016,West Bengal,secondary,56,32,12
 2016,West Bengal,technical,67,39,-6
-2016,Andaman and Nicobar Islands,primary,55,39,6
-2016,Andaman and Nicobar Islands,secondary,66,31,3
-2016,Andaman and Nicobar Islands,technical,56,34,10
-2016,Chandigarh,primary,58,38,4
-2016,Chandigarh,secondary,58,33,9
-2016,Chandigarh,technical,65,32,3
-2016,Dadra and Nagar Haveli,primary,52,36,12
-2016,Dadra and Nagar Haveli,secondary,58,37,5
-2016,Dadra and Nagar Haveli,technical,51,38,11
-2016,Daman and Diu,primary,59,35,6
-2016,Daman and Diu,secondary,57,34,9
-2016,Daman and Diu,technical,62,36,2
-2016,Delhi,primary,55,35,10
-2016,Delhi,secondary,54,38,8
-2016,Delhi,technical,54,37,9
-2016,Lakshadweep,primary,70,31,-1
-2016,Lakshadweep,secondary,51,37,12
-2016,Lakshadweep,technical,63,32,5
-2016,Puducherry,primary,58,31,11
-2016,Puducherry,secondary,66,36,-2
-2016,Puducherry,technical,65,38,-3
-2017,Andhra Pradesh,primary,68,36,-4
-2017,Andhra Pradesh,secondary,61,32,7
-2017,Andhra Pradesh,technical,70,37,-7
-2017,Arunachal Pradesh,primary,51,34,15
-2017,Arunachal Pradesh,secondary,58,37,5
-2017,Arunachal Pradesh,technical,53,35,12
-2017,Assam,primary,55,37,8
-2017,Assam,secondary,63,33,4
-2017,Assam,technical,53,34,13
-2017,Bihar,primary,65,32,3
-2017,Bihar,secondary,51,34,15
-2017,Bihar,technical,56,40,4
-2017,Chhattisgarh,primary,52,30,18
-2017,Chhattisgarh,secondary,62,34,4
-2017,Chhattisgarh,technical,67,34,-1
-2017,Goa,primary,66,38,-4
-2017,Goa,secondary,66,38,-4
-2017,Goa,technical,70,35,-5
-2017,Gujarat,primary,64,35,1
-2017,Gujarat,secondary,56,32,12
-2017,Gujarat,technical,50,37,13
-2017,Haryana,primary,55,31,14
-2017,Haryana,secondary,57,39,4
-2017,Haryana,technical,70,32,-2
-2017,Himachal Pradesh,primary,66,37,-3
-2017,Himachal Pradesh,secondary,50,37,13
-2017,Himachal Pradesh,technical,56,38,6
-2017,Jammu and Kashmir,primary,50,38,12
-2017,Jammu and Kashmir,secondary,56,36,8
-2017,Jammu and Kashmir,technical,68,37,-5
-2017,Jharkhand,primary,50,32,18
-2017,Jharkhand,secondary,60,35,5
-2017,Jharkhand,technical,64,32,4
-2017,Karnataka,primary,63,38,-1
-2017,Karnataka,secondary,61,36,3
-2017,Karnataka,technical,50,34,16
-2017,Kerala,primary,50,31,19
-2017,Kerala,secondary,53,35,12
-2017,Kerala,technical,67,39,-6
-2017,Madhya Pradesh,primary,68,37,-5
-2017,Madhya Pradesh,secondary,67,39,-6
-2017,Madhya Pradesh,technical,64,40,-4
-2017,Maharashtra,primary,66,30,4
-2017,Maharashtra,secondary,52,34,14
-2017,Maharashtra,technical,58,40,2
-2017,Manipur,primary,57,32,11
-2017,Manipur,secondary,54,33,13
-2017,Manipur,technical,64,30,6
-2017,Meghalaya,primary,56,30,14
-2017,Meghalaya,secondary,66,33,1
-2017,Meghalaya,technical,56,34,10
-2017,Mizoram,primary,68,40,-8
-2017,Mizoram,secondary,57,31,12
-2017,Mizoram,technical,55,31,14
-2017,Nagaland,primary,60,35,5
-2017,Nagaland,secondary,51,35,14
-2017,Nagaland,technical,70,36,-6
-2017,Odisha,primary,59,38,3
-2017,Odisha,secondary,62,32,6
-2017,Odisha,technical,60,32,8
-2017,Punjab,primary,58,35,7
-2017,Punjab,secondary,50,37,13
-2017,Punjab,technical,69,32,-1
-2017,Rajasthan,primary,56,35,9
-2017,Rajasthan,secondary,59,36,5
-2017,Rajasthan,technical,61,39,0
-2017,Sikkim,primary,51,34,15
-2017,Sikkim,secondary,67,33,0
-2017,Sikkim,technical,69,38,-7
-2017,Tamil Nadu,primary,59,35,6
-2017,Tamil Nadu,secondary,63,36,1
-2017,Tamil Nadu,technical,51,37,12
-2017,Telangana,primary,63,30,7
-2017,Telangana,secondary,54,31,15
-2017,Telangana,technical,61,37,2
-2017,Tripura,primary,70,35,-5
-2017,Tripura,secondary,64,34,2
-2017,Tripura,technical,61,38,1
-2017,Uttarakhand,primary,60,37,3
-2017,Uttarakhand,secondary,50,37,13
-2017,Uttarakhand,technical,56,39,5
-2017,Uttar Pradesh,primary,67,36,-3
-2017,Uttar Pradesh,secondary,66,36,-2
-2017,Uttar Pradesh,technical,59,37,4
-2017,West Bengal,primary,54,39,7
-2017,West Bengal,secondary,66,35,-1
-2017,West Bengal,technical,52,31,17
-2017,Andaman and Nicobar Islands,primary,50,39,11
-2017,Andaman and Nicobar Islands,secondary,63,40,-3
-2017,Andaman and Nicobar Islands,technical,54,35,11
-2017,Chandigarh,primary,58,35,7
-2017,Chandigarh,secondary,64,32,4
-2017,Chandigarh,technical,63,36,1
-2017,Dadra and Nagar Haveli,primary,53,32,15
-2017,Dadra and Nagar Haveli,secondary,66,32,2
-2017,Dadra and Nagar Haveli,technical,51,40,9
-2017,Daman and Diu,primary,56,37,7
-2017,Daman and Diu,secondary,51,35,14
-2017,Daman and Diu,technical,70,30,0
-2017,Delhi,primary,51,30,19
-2017,Delhi,secondary,56,30,14
-2017,Delhi,technical,67,37,-4
-2017,Lakshadweep,primary,56,38,6
-2017,Lakshadweep,secondary,70,30,0
-2017,Lakshadweep,technical,59,32,9
-2017,Puducherry,primary,63,33,4
-2017,Puducherry,secondary,61,33,6
-2017,Puducherry,technical,64,31,5
-2018,Andhra Pradesh,primary,58,34,8
-2018,Andhra Pradesh,secondary,54,33,13
-2018,Andhra Pradesh,technical,65,37,-2
-2018,Arunachal Pradesh,primary,60,34,6
-2018,Arunachal Pradesh,secondary,62,39,-1
-2018,Arunachal Pradesh,technical,56,36,8
-2018,Assam,primary,62,38,0
-2018,Assam,secondary,52,30,18
-2018,Assam,technical,62,39,-1
-2018,Bihar,primary,58,31,11
-2018,Bihar,secondary,58,37,5
-2018,Bihar,technical,58,30,12
-2018,Chhattisgarh,primary,64,32,4
-2018,Chhattisgarh,secondary,65,34,1
-2018,Chhattisgarh,technical,52,32,16
-2018,Goa,primary,50,39,11
-2018,Goa,secondary,62,39,-1
-2018,Goa,technical,70,34,-4
-2018,Gujarat,primary,70,33,-3
-2018,Gujarat,secondary,68,38,-6
-2018,Gujarat,technical,57,40,3
-2018,Haryana,primary,59,34,7
-2018,Haryana,secondary,60,31,9
-2018,Haryana,technical,66,40,-6
-2018,Himachal Pradesh,primary,60,39,1
-2018,Himachal Pradesh,secondary,63,33,4
-2018,Himachal Pradesh,technical,62,39,-1
-2018,Jammu and Kashmir,primary,57,38,5
-2018,Jammu and Kashmir,secondary,60,36,4
-2018,Jammu and Kashmir,technical,56,38,6
-2018,Jharkhand,primary,62,32,6
-2018,Jharkhand,secondary,60,34,6
+2016,Andaman and Nicobar Islands,primary,60,37,3
+2016,Andaman and Nicobar Islands,secondary,60,39,1
+2016,Andaman and Nicobar Islands,technical,70,35,-5
+2016,Chandigarh,primary,52,37,11
+2016,Chandigarh,secondary,69,35,-4
+2016,Chandigarh,technical,69,34,-3
+2016,Dadra and Nagar Haveli,primary,69,40,-9
+2016,Dadra and Nagar Haveli,secondary,56,37,7
+2016,Dadra and Nagar Haveli,technical,56,40,4
+2016,Daman and Diu,primary,61,37,2
+2016,Daman and Diu,secondary,58,30,12
+2016,Daman and Diu,technical,62,34,4
+2016,Delhi,primary,51,37,12
+2016,Delhi,secondary,65,37,-2
+2016,Delhi,technical,59,36,5
+2016,Lakshadweep,primary,68,32,0
+2016,Lakshadweep,secondary,53,32,15
+2016,Lakshadweep,technical,63,36,1
+2016,Puducherry,primary,67,32,1
+2016,Puducherry,secondary,69,32,-1
+2016,Puducherry,technical,59,30,11
+2017,Andhra Pradesh,primary,53,37,10
+2017,Andhra Pradesh,secondary,56,39,5
+2017,Andhra Pradesh,technical,61,31,8
+2017,Arunachal Pradesh,primary,69,31,0
+2017,Arunachal Pradesh,secondary,51,39,10
+2017,Arunachal Pradesh,technical,67,38,-5
+2017,Assam,primary,50,39,11
+2017,Assam,secondary,69,40,-9
+2017,Assam,technical,57,35,8
+2017,Bihar,primary,70,33,-3
+2017,Bihar,secondary,50,39,11
+2017,Bihar,technical,67,36,-3
+2017,Chhattisgarh,primary,70,35,-5
+2017,Chhattisgarh,secondary,50,31,19
+2017,Chhattisgarh,technical,62,36,2
+2017,Goa,primary,70,31,-1
+2017,Goa,secondary,63,34,3
+2017,Goa,technical,60,32,8
+2017,Gujarat,primary,59,33,8
+2017,Gujarat,secondary,57,39,4
+2017,Gujarat,technical,69,37,-6
+2017,Haryana,primary,60,37,3
+2017,Haryana,secondary,68,30,2
+2017,Haryana,technical,51,30,19
+2017,Himachal Pradesh,primary,63,31,6
+2017,Himachal Pradesh,secondary,57,33,10
+2017,Himachal Pradesh,technical,63,37,0
+2017,Jammu and Kashmir,primary,63,32,5
+2017,Jammu and Kashmir,secondary,66,32,2
+2017,Jammu and Kashmir,technical,62,35,3
+2017,Jharkhand,primary,54,40,6
+2017,Jharkhand,secondary,59,33,8
+2017,Jharkhand,technical,66,35,-1
+2017,Karnataka,primary,50,36,14
+2017,Karnataka,secondary,63,30,7
+2017,Karnataka,technical,55,30,15
+2017,Kerala,primary,54,32,14
+2017,Kerala,secondary,69,34,-3
+2017,Kerala,technical,59,36,5
+2017,Madhya Pradesh,primary,53,32,15
+2017,Madhya Pradesh,secondary,65,38,-3
+2017,Madhya Pradesh,technical,59,38,3
+2017,Maharashtra,primary,61,31,8
+2017,Maharashtra,secondary,66,31,3
+2017,Maharashtra,technical,56,30,14
+2017,Manipur,primary,51,39,10
+2017,Manipur,secondary,65,39,-4
+2017,Manipur,technical,54,35,11
+2017,Meghalaya,primary,59,39,2
+2017,Meghalaya,secondary,54,40,6
+2017,Meghalaya,technical,52,32,16
+2017,Mizoram,primary,61,31,8
+2017,Mizoram,secondary,63,32,5
+2017,Mizoram,technical,65,36,-1
+2017,Nagaland,primary,65,31,4
+2017,Nagaland,secondary,68,37,-5
+2017,Nagaland,technical,68,34,-2
+2017,Odisha,primary,62,40,-2
+2017,Odisha,secondary,50,39,11
+2017,Odisha,technical,65,38,-3
+2017,Punjab,primary,55,33,12
+2017,Punjab,secondary,68,34,-2
+2017,Punjab,technical,57,33,10
+2017,Rajasthan,primary,56,30,14
+2017,Rajasthan,secondary,53,35,12
+2017,Rajasthan,technical,50,30,20
+2017,Sikkim,primary,51,40,9
+2017,Sikkim,secondary,70,35,-5
+2017,Sikkim,technical,59,35,6
+2017,Tamil Nadu,primary,62,38,0
+2017,Tamil Nadu,secondary,68,30,2
+2017,Tamil Nadu,technical,63,31,6
+2017,Telangana,primary,60,31,9
+2017,Telangana,secondary,69,35,-4
+2017,Telangana,technical,57,40,3
+2017,Tripura,primary,66,37,-3
+2017,Tripura,secondary,53,39,8
+2017,Tripura,technical,56,31,13
+2017,Uttarakhand,primary,70,33,-3
+2017,Uttarakhand,secondary,57,33,10
+2017,Uttarakhand,technical,54,34,12
+2017,Uttar Pradesh,primary,66,37,-3
+2017,Uttar Pradesh,secondary,62,32,6
+2017,Uttar Pradesh,technical,58,33,9
+2017,West Bengal,primary,67,31,2
+2017,West Bengal,secondary,62,36,2
+2017,West Bengal,technical,59,34,7
+2017,Andaman and Nicobar Islands,primary,61,37,2
+2017,Andaman and Nicobar Islands,secondary,66,39,-5
+2017,Andaman and Nicobar Islands,technical,64,36,0
+2017,Chandigarh,primary,65,35,0
+2017,Chandigarh,secondary,54,37,9
+2017,Chandigarh,technical,51,40,9
+2017,Dadra and Nagar Haveli,primary,58,40,2
+2017,Dadra and Nagar Haveli,secondary,62,32,6
+2017,Dadra and Nagar Haveli,technical,53,34,13
+2017,Daman and Diu,primary,51,31,18
+2017,Daman and Diu,secondary,52,35,13
+2017,Daman and Diu,technical,52,32,16
+2017,Delhi,primary,50,36,14
+2017,Delhi,secondary,53,38,9
+2017,Delhi,technical,65,38,-3
+2017,Lakshadweep,primary,57,38,5
+2017,Lakshadweep,secondary,51,40,9
+2017,Lakshadweep,technical,66,38,-4
+2017,Puducherry,primary,54,37,9
+2017,Puducherry,secondary,56,34,10
+2017,Puducherry,technical,60,32,8
+2018,Andhra Pradesh,primary,63,31,6
+2018,Andhra Pradesh,secondary,61,32,7
+2018,Andhra Pradesh,technical,60,35,5
+2018,Arunachal Pradesh,primary,54,37,9
+2018,Arunachal Pradesh,secondary,60,34,6
+2018,Arunachal Pradesh,technical,63,37,0
+2018,Assam,primary,60,36,4
+2018,Assam,secondary,60,37,3
+2018,Assam,technical,53,38,9
+2018,Bihar,primary,66,35,-1
+2018,Bihar,secondary,54,34,12
+2018,Bihar,technical,57,34,9
+2018,Chhattisgarh,primary,59,31,10
+2018,Chhattisgarh,secondary,57,37,6
+2018,Chhattisgarh,technical,60,38,2
+2018,Goa,primary,67,30,3
+2018,Goa,secondary,70,36,-6
+2018,Goa,technical,70,32,-2
+2018,Gujarat,primary,61,34,5
+2018,Gujarat,secondary,53,40,7
+2018,Gujarat,technical,57,35,8
+2018,Haryana,primary,55,35,10
+2018,Haryana,secondary,61,37,2
+2018,Haryana,technical,54,34,12
+2018,Himachal Pradesh,primary,65,31,4
+2018,Himachal Pradesh,secondary,53,33,14
+2018,Himachal Pradesh,technical,70,34,-4
+2018,Jammu and Kashmir,primary,69,39,-8
+2018,Jammu and Kashmir,secondary,54,38,8
+2018,Jammu and Kashmir,technical,61,38,1
+2018,Jharkhand,primary,63,30,7
+2018,Jharkhand,secondary,55,38,7
 2018,Jharkhand,technical,67,31,2
-2018,Karnataka,primary,61,37,2
-2018,Karnataka,secondary,63,37,0
-2018,Karnataka,technical,53,32,15
-2018,Kerala,primary,50,34,16
-2018,Kerala,secondary,59,38,3
-2018,Kerala,technical,51,31,18
-2018,Madhya Pradesh,primary,62,39,-1
-2018,Madhya Pradesh,secondary,70,33,-3
-2018,Madhya Pradesh,technical,60,32,8
-2018,Maharashtra,primary,51,33,16
-2018,Maharashtra,secondary,68,40,-8
-2018,Maharashtra,technical,66,36,-2
-2018,Manipur,primary,60,34,6
-2018,Manipur,secondary,51,35,14
-2018,Manipur,technical,50,39,11
-2018,Meghalaya,primary,67,32,1
-2018,Meghalaya,secondary,53,37,10
-2018,Meghalaya,technical,52,36,12
-2018,Mizoram,primary,55,30,15
-2018,Mizoram,secondary,54,36,10
-2018,Mizoram,technical,66,34,0
-2018,Nagaland,primary,69,33,-2
-2018,Nagaland,secondary,55,31,14
-2018,Nagaland,technical,70,40,-10
-2018,Odisha,primary,61,34,5
-2018,Odisha,secondary,64,32,4
-2018,Odisha,technical,66,36,-2
-2018,Punjab,primary,61,40,-1
-2018,Punjab,secondary,50,37,13
-2018,Punjab,technical,52,33,15
-2018,Rajasthan,primary,59,39,2
-2018,Rajasthan,secondary,55,31,14
-2018,Rajasthan,technical,70,32,-2
-2018,Sikkim,primary,50,31,19
-2018,Sikkim,secondary,65,33,2
-2018,Sikkim,technical,50,30,20
-2018,Tamil Nadu,primary,61,39,0
-2018,Tamil Nadu,secondary,53,30,17
-2018,Tamil Nadu,technical,51,34,15
-2018,Telangana,primary,69,38,-7
-2018,Telangana,secondary,56,30,14
-2018,Telangana,technical,58,40,2
-2018,Tripura,primary,64,37,-1
-2018,Tripura,secondary,62,30,8
-2018,Tripura,technical,52,35,13
-2018,Uttarakhand,primary,52,37,11
-2018,Uttarakhand,secondary,70,32,-2
-2018,Uttarakhand,technical,68,36,-4
-2018,Uttar Pradesh,primary,51,30,19
-2018,Uttar Pradesh,secondary,64,38,-2
-2018,Uttar Pradesh,technical,59,32,9
-2018,West Bengal,primary,55,30,15
-2018,West Bengal,secondary,51,32,17
-2018,West Bengal,technical,65,34,1
-2018,Andaman and Nicobar Islands,primary,67,31,2
-2018,Andaman and Nicobar Islands,secondary,51,35,14
-2018,Andaman and Nicobar Islands,technical,68,36,-4
-2018,Chandigarh,primary,54,36,10
-2018,Chandigarh,secondary,53,35,12
-2018,Chandigarh,technical,60,35,5
-2018,Dadra and Nagar Haveli,primary,57,32,11
-2018,Dadra and Nagar Haveli,secondary,68,34,-2
-2018,Dadra and Nagar Haveli,technical,64,37,-1
-2018,Daman and Diu,primary,67,34,-1
-2018,Daman and Diu,secondary,50,33,17
-2018,Daman and Diu,technical,69,39,-8
-2018,Delhi,primary,56,33,11
-2018,Delhi,secondary,64,33,3
-2018,Delhi,technical,60,38,2
-2018,Lakshadweep,primary,69,33,-2
-2018,Lakshadweep,secondary,54,31,15
-2018,Lakshadweep,technical,64,33,3
-2018,Puducherry,primary,57,39,4
-2018,Puducherry,secondary,70,34,-4
-2018,Puducherry,technical,51,36,13
-2019,Andhra Pradesh,primary,63,40,-3
-2019,Andhra Pradesh,secondary,69,36,-5
-2019,Andhra Pradesh,technical,66,33,1
-2019,Arunachal Pradesh,primary,64,32,4
-2019,Arunachal Pradesh,secondary,56,33,11
-2019,Arunachal Pradesh,technical,52,37,11
-2019,Assam,primary,64,34,2
-2019,Assam,secondary,56,36,8
-2019,Assam,technical,65,32,3
-2019,Bihar,primary,60,34,6
-2019,Bihar,secondary,61,37,2
-2019,Bihar,technical,52,38,10
-2019,Chhattisgarh,primary,63,38,-1
-2019,Chhattisgarh,secondary,56,34,10
-2019,Chhattisgarh,technical,70,31,-1
-2019,Goa,primary,54,32,14
-2019,Goa,secondary,53,30,17
-2019,Goa,technical,55,39,6
-2019,Gujarat,primary,68,37,-5
-2019,Gujarat,secondary,59,33,8
-2019,Gujarat,technical,54,40,6
-2019,Haryana,primary,69,37,-6
-2019,Haryana,secondary,53,32,15
-2019,Haryana,technical,57,33,10
-2019,Himachal Pradesh,primary,58,38,4
-2019,Himachal Pradesh,secondary,65,37,-2
-2019,Himachal Pradesh,technical,65,31,4
-2019,Jammu and Kashmir,primary,57,34,9
-2019,Jammu and Kashmir,secondary,55,30,15
-2019,Jammu and Kashmir,technical,66,39,-5
-2019,Jharkhand,primary,65,32,3
-2019,Jharkhand,secondary,50,34,16
-2019,Jharkhand,technical,59,33,8
-2019,Karnataka,primary,55,39,6
-2019,Karnataka,secondary,57,35,8
-2019,Karnataka,technical,59,35,6
-2019,Kerala,primary,50,36,14
-2019,Kerala,secondary,60,36,4
-2019,Kerala,technical,53,38,9
-2019,Madhya Pradesh,primary,54,30,16
-2019,Madhya Pradesh,secondary,68,33,-1
-2019,Madhya Pradesh,technical,57,35,8
-2019,Maharashtra,primary,63,31,6
-2019,Maharashtra,secondary,54,31,15
-2019,Maharashtra,technical,66,38,-4
-2019,Manipur,primary,68,37,-5
-2019,Manipur,secondary,62,40,-2
-2019,Manipur,technical,53,36,11
-2019,Meghalaya,primary,60,38,2
-2019,Meghalaya,secondary,53,30,17
-2019,Meghalaya,technical,68,35,-3
-2019,Mizoram,primary,54,36,10
-2019,Mizoram,secondary,65,36,-1
-2019,Mizoram,technical,52,39,9
-2019,Nagaland,primary,51,32,17
-2019,Nagaland,secondary,53,34,13
-2019,Nagaland,technical,56,38,6
-2019,Odisha,primary,70,33,-3
-2019,Odisha,secondary,53,33,14
-2019,Odisha,technical,64,34,2
-2019,Punjab,primary,69,40,-9
-2019,Punjab,secondary,70,35,-5
-2019,Punjab,technical,61,37,2
-2019,Rajasthan,primary,62,40,-2
-2019,Rajasthan,secondary,69,34,-3
-2019,Rajasthan,technical,65,32,3
-2019,Sikkim,primary,64,40,-4
-2019,Sikkim,secondary,51,32,17
-2019,Sikkim,technical,68,39,-7
-2019,Tamil Nadu,primary,65,37,-2
-2019,Tamil Nadu,secondary,58,37,5
-2019,Tamil Nadu,technical,57,40,3
-2019,Telangana,primary,70,35,-5
-2019,Telangana,secondary,53,40,7
-2019,Telangana,technical,50,37,13
-2019,Tripura,primary,68,31,1
-2019,Tripura,secondary,65,32,3
-2019,Tripura,technical,52,39,9
-2019,Uttarakhand,primary,70,37,-7
-2019,Uttarakhand,secondary,56,34,10
-2019,Uttarakhand,technical,63,38,-1
-2019,Uttar Pradesh,primary,61,31,8
-2019,Uttar Pradesh,secondary,69,34,-3
-2019,Uttar Pradesh,technical,60,31,9
-2019,West Bengal,primary,56,30,14
-2019,West Bengal,secondary,52,39,9
-2019,West Bengal,technical,66,35,-1
-2019,Andaman and Nicobar Islands,primary,66,38,-4
-2019,Andaman and Nicobar Islands,secondary,51,40,9
-2019,Andaman and Nicobar Islands,technical,53,30,17
-2019,Chandigarh,primary,64,32,4
-2019,Chandigarh,secondary,61,31,8
-2019,Chandigarh,technical,58,31,11
-2019,Dadra and Nagar Haveli,primary,67,33,0
-2019,Dadra and Nagar Haveli,secondary,63,39,-2
-2019,Dadra and Nagar Haveli,technical,68,34,-2
-2019,Daman and Diu,primary,66,34,0
-2019,Daman and Diu,secondary,68,40,-8
-2019,Daman and Diu,technical,58,37,5
-2019,Delhi,primary,63,35,2
-2019,Delhi,secondary,58,31,11
-2019,Delhi,technical,70,33,-3
-2019,Lakshadweep,primary,62,34,4
-2019,Lakshadweep,secondary,51,39,10
-2019,Lakshadweep,technical,62,39,-1
-2019,Puducherry,primary,67,40,-7
-2019,Puducherry,secondary,64,36,0
-2019,Puducherry,technical,52,37,11
-2020,Andhra Pradesh,primary,61,30,9
-2020,Andhra Pradesh,secondary,62,32,6
-2020,Andhra Pradesh,technical,57,37,6
-2020,Arunachal Pradesh,primary,57,30,13
-2020,Arunachal Pradesh,secondary,69,36,-5
-2020,Arunachal Pradesh,technical,67,37,-4
-2020,Assam,primary,69,30,1
-2020,Assam,secondary,64,30,6
-2020,Assam,technical,70,32,-2
-2020,Bihar,primary,69,34,-3
-2020,Bihar,secondary,65,40,-5
-2020,Bihar,technical,66,35,-1
-2020,Chhattisgarh,primary,65,32,3
-2020,Chhattisgarh,secondary,51,38,11
-2020,Chhattisgarh,technical,52,40,8
-2020,Goa,primary,56,32,12
-2020,Goa,secondary,50,36,14
-2020,Goa,technical,65,32,3
-2020,Gujarat,primary,65,40,-5
-2020,Gujarat,secondary,70,33,-3
-2020,Gujarat,technical,68,38,-6
-2020,Haryana,primary,64,34,2
-2020,Haryana,secondary,62,30,8
-2020,Haryana,technical,51,40,9
-2020,Himachal Pradesh,primary,58,30,12
-2020,Himachal Pradesh,secondary,53,34,13
-2020,Himachal Pradesh,technical,50,32,18
-2020,Jammu and Kashmir,primary,65,36,-1
-2020,Jammu and Kashmir,secondary,61,35,4
-2020,Jammu and Kashmir,technical,64,32,4
-2020,Jharkhand,primary,59,36,5
-2020,Jharkhand,secondary,68,33,-1
-2020,Jharkhand,technical,62,37,1
-2020,Karnataka,primary,61,33,6
-2020,Karnataka,secondary,58,33,9
-2020,Karnataka,technical,68,38,-6
-2020,Kerala,primary,70,30,0
-2020,Kerala,secondary,51,30,19
-2020,Kerala,technical,66,34,0
-2020,Madhya Pradesh,primary,55,30,15
-2020,Madhya Pradesh,secondary,63,30,7
-2020,Madhya Pradesh,technical,64,35,1
-2020,Maharashtra,primary,59,32,9
-2020,Maharashtra,secondary,53,38,9
-2020,Maharashtra,technical,68,39,-7
-2020,Manipur,primary,58,32,10
-2020,Manipur,secondary,63,32,5
-2020,Manipur,technical,51,30,19
-2020,Meghalaya,primary,59,36,5
-2020,Meghalaya,secondary,50,38,12
-2020,Meghalaya,technical,60,39,1
-2020,Mizoram,primary,61,39,0
-2020,Mizoram,secondary,51,40,9
-2020,Mizoram,technical,50,31,19
-2020,Nagaland,primary,67,33,0
-2020,Nagaland,secondary,65,38,-3
-2020,Nagaland,technical,70,36,-6
-2020,Odisha,primary,51,39,10
-2020,Odisha,secondary,62,40,-2
-2020,Odisha,technical,53,37,10
-2020,Punjab,primary,58,36,6
-2020,Punjab,secondary,54,34,12
-2020,Punjab,technical,51,40,9
-2020,Rajasthan,primary,66,31,3
-2020,Rajasthan,secondary,51,40,9
-2020,Rajasthan,technical,61,33,6
-2020,Sikkim,primary,55,37,8
-2020,Sikkim,secondary,70,37,-7
-2020,Sikkim,technical,64,39,-3
-2020,Tamil Nadu,primary,61,40,-1
-2020,Tamil Nadu,secondary,53,39,8
-2020,Tamil Nadu,technical,68,39,-7
-2020,Telangana,primary,59,35,6
-2020,Telangana,secondary,59,35,6
-2020,Telangana,technical,61,31,8
-2020,Tripura,primary,50,37,13
-2020,Tripura,secondary,61,30,9
-2020,Tripura,technical,70,30,0
-2020,Uttarakhand,primary,60,40,0
-2020,Uttarakhand,secondary,52,33,15
-2020,Uttarakhand,technical,69,36,-5
-2020,Uttar Pradesh,primary,65,31,4
-2020,Uttar Pradesh,secondary,53,30,17
-2020,Uttar Pradesh,technical,66,33,1
-2020,West Bengal,primary,53,30,17
-2020,West Bengal,secondary,61,37,2
-2020,West Bengal,technical,67,33,0
-2020,Andaman and Nicobar Islands,primary,55,39,6
-2020,Andaman and Nicobar Islands,secondary,56,36,8
-2020,Andaman and Nicobar Islands,technical,60,30,10
-2020,Chandigarh,primary,67,35,-2
-2020,Chandigarh,secondary,65,34,1
-2020,Chandigarh,technical,51,39,10
-2020,Dadra and Nagar Haveli,primary,67,34,-1
-2020,Dadra and Nagar Haveli,secondary,59,31,10
-2020,Dadra and Nagar Haveli,technical,51,40,9
-2020,Daman and Diu,primary,55,33,12
-2020,Daman and Diu,secondary,65,32,3
-2020,Daman and Diu,technical,66,35,-1
-2020,Delhi,primary,66,32,2
-2020,Delhi,secondary,50,32,18
-2020,Delhi,technical,56,34,10
-2020,Lakshadweep,primary,59,39,2
-2020,Lakshadweep,secondary,56,33,11
-2020,Lakshadweep,technical,68,31,1
-2020,Puducherry,primary,59,30,11
-2020,Puducherry,secondary,67,30,3
-2020,Puducherry,technical,53,40,7
-2021,Andhra Pradesh,primary,54,32,14
-2021,Andhra Pradesh,secondary,69,38,-7
-2021,Andhra Pradesh,technical,56,36,8
-2021,Arunachal Pradesh,primary,61,32,7
-2021,Arunachal Pradesh,secondary,65,30,5
-2021,Arunachal Pradesh,technical,66,30,4
-2021,Assam,primary,66,32,2
-2021,Assam,secondary,58,36,6
-2021,Assam,technical,50,34,16
-2021,Bihar,primary,50,37,13
-2021,Bihar,secondary,64,31,5
-2021,Bihar,technical,68,33,-1
-2021,Chhattisgarh,primary,56,35,9
-2021,Chhattisgarh,secondary,61,30,9
-2021,Chhattisgarh,technical,64,31,5
-2021,Goa,primary,65,33,2
-2021,Goa,secondary,57,33,10
-2021,Goa,technical,51,30,19
-2021,Gujarat,primary,56,33,11
-2021,Gujarat,secondary,52,37,11
-2021,Gujarat,technical,51,34,15
-2021,Haryana,primary,63,39,-2
-2021,Haryana,secondary,56,31,13
-2021,Haryana,technical,51,31,18
-2021,Himachal Pradesh,primary,60,40,0
-2021,Himachal Pradesh,secondary,70,31,-1
-2021,Himachal Pradesh,technical,66,38,-4
-2021,Jammu and Kashmir,primary,61,32,7
-2021,Jammu and Kashmir,secondary,50,33,17
-2021,Jammu and Kashmir,technical,60,31,9
-2021,Jharkhand,primary,50,40,10
-2021,Jharkhand,secondary,57,37,6
-2021,Jharkhand,technical,53,38,9
-2021,Karnataka,primary,70,33,-3
-2021,Karnataka,secondary,67,35,-2
-2021,Karnataka,technical,63,34,3
-2021,Kerala,primary,59,37,4
-2021,Kerala,secondary,65,40,-5
-2021,Kerala,technical,53,33,14
-2021,Madhya Pradesh,primary,70,40,-10
-2021,Madhya Pradesh,secondary,63,34,3
-2021,Madhya Pradesh,technical,65,38,-3
-2021,Maharashtra,primary,66,37,-3
-2021,Maharashtra,secondary,50,35,15
-2021,Maharashtra,technical,55,33,12
-2021,Manipur,primary,53,31,16
-2021,Manipur,secondary,66,36,-2
-2021,Manipur,technical,50,34,16
-2021,Meghalaya,primary,61,39,0
-2021,Meghalaya,secondary,66,35,-1
-2021,Meghalaya,technical,62,33,5
-2021,Mizoram,primary,65,34,1
-2021,Mizoram,secondary,50,40,10
-2021,Mizoram,technical,65,37,-2
-2021,Nagaland,primary,63,40,-3
-2021,Nagaland,secondary,58,37,5
-2021,Nagaland,technical,54,40,6
-2021,Odisha,primary,63,30,7
-2021,Odisha,secondary,66,31,3
-2021,Odisha,technical,70,36,-6
-2021,Punjab,primary,65,34,1
-2021,Punjab,secondary,68,32,0
-2021,Punjab,technical,52,34,14
-2021,Rajasthan,primary,56,39,5
-2021,Rajasthan,secondary,65,38,-3
-2021,Rajasthan,technical,70,36,-6
-2021,Sikkim,primary,58,31,11
-2021,Sikkim,secondary,53,37,10
-2021,Sikkim,technical,55,35,10
-2021,Tamil Nadu,primary,68,34,-2
-2021,Tamil Nadu,secondary,66,40,-6
-2021,Tamil Nadu,technical,52,35,13
-2021,Telangana,primary,70,35,-5
-2021,Telangana,secondary,50,35,15
-2021,Telangana,technical,51,30,19
-2021,Tripura,primary,55,32,13
-2021,Tripura,secondary,54,34,12
-2021,Tripura,technical,52,30,18
-2021,Uttarakhand,primary,61,38,1
-2021,Uttarakhand,secondary,51,30,19
-2021,Uttarakhand,technical,62,38,0
-2021,Uttar Pradesh,primary,61,32,7
-2021,Uttar Pradesh,secondary,58,40,2
-2021,Uttar Pradesh,technical,65,37,-2
-2021,West Bengal,primary,62,35,3
-2021,West Bengal,secondary,57,37,6
-2021,West Bengal,technical,59,36,5
-2021,Andaman and Nicobar Islands,primary,50,36,14
-2021,Andaman and Nicobar Islands,secondary,54,32,14
-2021,Andaman and Nicobar Islands,technical,56,36,8
-2021,Chandigarh,primary,54,32,14
-2021,Chandigarh,secondary,55,34,11
-2021,Chandigarh,technical,60,33,7
-2021,Dadra and Nagar Haveli,primary,65,38,-3
-2021,Dadra and Nagar Haveli,secondary,59,34,7
-2021,Dadra and Nagar Haveli,technical,68,30,2
-2021,Daman and Diu,primary,57,37,6
-2021,Daman and Diu,secondary,50,33,17
-2021,Daman and Diu,technical,63,38,-1
-2021,Delhi,primary,57,34,9
-2021,Delhi,secondary,56,31,13
-2021,Delhi,technical,67,30,3
-2021,Lakshadweep,primary,52,30,18
-2021,Lakshadweep,secondary,64,40,-4
-2021,Lakshadweep,technical,63,36,1
-2021,Puducherry,primary,57,35,8
-2021,Puducherry,secondary,60,37,3
-2021,Puducherry,technical,57,37,6
-2022,Andhra Pradesh,primary,55,39,6
-2022,Andhra Pradesh,secondary,66,31,3
-2022,Andhra Pradesh,technical,51,38,11
-2022,Arunachal Pradesh,primary,56,38,6
-2022,Arunachal Pradesh,secondary,51,39,10
-2022,Arunachal Pradesh,technical,51,30,19
-2022,Assam,primary,64,37,-1
-2022,Assam,secondary,56,30,14
-2022,Assam,technical,57,32,11
-2022,Bihar,primary,54,37,9
-2022,Bihar,secondary,58,32,10
-2022,Bihar,technical,67,34,-1
-2022,Chhattisgarh,primary,58,40,2
-2022,Chhattisgarh,secondary,67,32,1
-2022,Chhattisgarh,technical,68,36,-4
-2022,Goa,primary,56,33,11
-2022,Goa,secondary,52,37,11
-2022,Goa,technical,64,31,5
-2022,Gujarat,primary,61,30,9
-2022,Gujarat,secondary,66,31,3
-2022,Gujarat,technical,59,30,11
-2022,Haryana,primary,58,35,7
-2022,Haryana,secondary,50,37,13
-2022,Haryana,technical,70,33,-3
-2022,Himachal Pradesh,primary,58,38,4
-2022,Himachal Pradesh,secondary,60,36,4
-2022,Himachal Pradesh,technical,65,36,-1
-2022,Jammu and Kashmir,primary,62,33,5
-2022,Jammu and Kashmir,secondary,65,30,5
-2022,Jammu and Kashmir,technical,54,38,8
-2022,Jharkhand,primary,54,34,12
-2022,Jharkhand,secondary,56,31,13
-2022,Jharkhand,technical,64,31,5
-2022,Karnataka,primary,53,31,16
-2022,Karnataka,secondary,50,37,13
-2022,Karnataka,technical,54,40,6
-2022,Kerala,primary,50,37,13
-2022,Kerala,secondary,59,39,2
-2022,Kerala,technical,53,39,8
-2022,Madhya Pradesh,primary,66,32,2
-2022,Madhya Pradesh,secondary,50,30,20
-2022,Madhya Pradesh,technical,70,36,-6
-2022,Maharashtra,primary,53,33,14
-2022,Maharashtra,secondary,54,37,9
-2022,Maharashtra,technical,67,32,1
-2022,Manipur,primary,62,40,-2
-2022,Manipur,secondary,58,31,11
-2022,Manipur,technical,53,30,17
-2022,Meghalaya,primary,51,34,15
-2022,Meghalaya,secondary,66,36,-2
-2022,Meghalaya,technical,66,38,-4
-2022,Mizoram,primary,56,31,13
-2022,Mizoram,secondary,65,37,-2
-2022,Mizoram,technical,55,40,5
-2022,Nagaland,primary,67,33,0
-2022,Nagaland,secondary,66,30,4
-2022,Nagaland,technical,68,30,2
-2022,Odisha,primary,70,35,-5
-2022,Odisha,secondary,69,37,-6
-2022,Odisha,technical,64,37,-1
-2022,Punjab,primary,64,33,3
-2022,Punjab,secondary,59,37,4
-2022,Punjab,technical,60,30,10
-2022,Rajasthan,primary,61,38,1
-2022,Rajasthan,secondary,70,30,0
-2022,Rajasthan,technical,51,34,15
-2022,Sikkim,primary,61,35,4
-2022,Sikkim,secondary,65,39,-4
-2022,Sikkim,technical,68,40,-8
-2022,Tamil Nadu,primary,52,32,16
-2022,Tamil Nadu,secondary,60,37,3
-2022,Tamil Nadu,technical,57,30,13
-2022,Telangana,primary,56,40,4
-2022,Telangana,secondary,52,37,11
-2022,Telangana,technical,53,40,7
-2022,Tripura,primary,61,32,7
-2022,Tripura,secondary,56,36,8
-2022,Tripura,technical,67,37,-4
-2022,Uttarakhand,primary,61,36,3
-2022,Uttarakhand,secondary,55,35,10
-2022,Uttarakhand,technical,64,33,3
-2022,Uttar Pradesh,primary,55,37,8
-2022,Uttar Pradesh,secondary,55,35,10
-2022,Uttar Pradesh,technical,67,32,1
-2022,West Bengal,primary,58,34,8
-2022,West Bengal,secondary,52,33,15
-2022,West Bengal,technical,58,40,2
-2022,Andaman and Nicobar Islands,primary,53,30,17
-2022,Andaman and Nicobar Islands,secondary,50,35,15
-2022,Andaman and Nicobar Islands,technical,54,34,12
-2022,Chandigarh,primary,66,40,-6
-2022,Chandigarh,secondary,59,30,11
-2022,Chandigarh,technical,56,40,4
-2022,Dadra and Nagar Haveli,primary,67,31,2
-2022,Dadra and Nagar Haveli,secondary,65,35,0
-2022,Dadra and Nagar Haveli,technical,62,32,6
-2022,Daman and Diu,primary,63,38,-1
-2022,Daman and Diu,secondary,70,32,-2
-2022,Daman and Diu,technical,61,40,-1
-2022,Delhi,primary,50,31,19
-2022,Delhi,secondary,67,38,-5
-2022,Delhi,technical,64,30,6
-2022,Lakshadweep,primary,52,31,17
-2022,Lakshadweep,secondary,63,34,3
-2022,Lakshadweep,technical,65,35,0
-2022,Puducherry,primary,65,35,0
-2022,Puducherry,secondary,67,36,-3
-2022,Puducherry,technical,60,37,3
+2018,Karnataka,primary,55,33,12
+2018,Karnataka,secondary,54,31,15
+2018,Karnataka,technical,56,38,6
+2018,Kerala,primary,56,37,7
+2018,Kerala,secondary,55,30,15
+2018,Kerala,technical,54,40,6
+2018,Madhya Pradesh,primary,69,38,-7
+2018,Madhya Pradesh,secondary,66,39,-5
+2018,Madhya Pradesh,technical,55,40,5
+2018,Maharashtra,primary,55,38,7
+2018,Maharashtra,secondary,63,40,-3
+2018,Maharashtra,technical,56,33,11
+2018,Manipur,primary,52,39,9
+2018,Manipur,secondary,50,32,18
+2018,Manipur,technical,57,32,11
+2018,Meghalaya,primary,67,40,-7
+2018,Meghalaya,secondary,53,39,8
+2018,Meghalaya,technical,56,36,8
+2018,Mizoram,primary,59,40,1
+2018,Mizoram,secondary,61,37,2
+2018,Mizoram,technical,70,33,-3
+2018,Nagaland,primary,68,38,-6
+2018,Nagaland,secondary,69,40,-9
+2018,Nagaland,technical,57,39,4
+2018,Odisha,primary,63,39,-2
+2018,Odisha,secondary,67,30,3
+2018,Odisha,technical,54,36,10
+2018,Punjab,primary,54,33,13
+2018,Punjab,secondary,60,31,9
+2018,Punjab,technical,53,32,15
+2018,Rajasthan,primary,67,33,0
+2018,Rajasthan,secondary,64,30,6
+2018,Rajasthan,technical,61,36,3
+2018,Sikkim,primary,64,34,2
+2018,Sikkim,secondary,62,34,4
+2018,Sikkim,technical,57,40,3
+2018,Tamil Nadu,primary,69,39,-8
+2018,Tamil Nadu,secondary,50,40,10
+2018,Tamil Nadu,technical,66,36,-2
+2018,Telangana,primary,68,31,1
+2018,Telangana,secondary,62,39,-1
+2018,Telangana,technical,61,38,1
+2018,Tripura,primary,62,38,0
+2018,Tripura,secondary,70,32,-2
+2018,Tripura,technical,50,39,11
+2018,Uttarakhand,primary,60,32,8
+2018,Uttarakhand,secondary,61,38,1
+2018,Uttarakhand,technical,66,30,4
+2018,Uttar Pradesh,primary,51,40,9
+2018,Uttar Pradesh,secondary,61,34,5
+2018,Uttar Pradesh,technical,65,31,4
+2018,West Bengal,primary,66,32,2
+2018,West Bengal,secondary,67,39,-6
+2018,West Bengal,technical,69,38,-7
+2018,Andaman and Nicobar Islands,primary,58,36,6
+2018,Andaman and Nicobar Islands,secondary,70,39,-9
+2018,Andaman and Nicobar Islands,technical,67,34,-1
+2018,Chandigarh,primary,51,31,18
+2018,Chandigarh,secondary,70,36,-6
+2018,Chandigarh,technical,51,34,15
+2018,Dadra and Nagar Haveli,primary,65,30,5
+2018,Dadra and Nagar Haveli,secondary,68,39,-7
+2018,Dadra and Nagar Haveli,technical,64,33,3
+2018,Daman and Diu,primary,62,35,3
+2018,Daman and Diu,secondary,56,39,5
+2018,Daman and Diu,technical,64,40,-4
+2018,Delhi,primary,52,40,8
+2018,Delhi,secondary,62,30,8
+2018,Delhi,technical,68,36,-4
+2018,Lakshadweep,primary,60,33,7
+2018,Lakshadweep,secondary,68,37,-5
+2018,Lakshadweep,technical,58,31,11
+2018,Puducherry,primary,54,38,8
+2018,Puducherry,secondary,68,37,-5
+2018,Puducherry,technical,69,34,-3
+2019,Andhra Pradesh,primary,60,37,3
+2019,Andhra Pradesh,secondary,58,37,5
+2019,Andhra Pradesh,technical,60,40,0
+2019,Arunachal Pradesh,primary,56,32,12
+2019,Arunachal Pradesh,secondary,66,40,-6
+2019,Arunachal Pradesh,technical,67,39,-6
+2019,Assam,primary,59,34,7
+2019,Assam,secondary,50,34,16
+2019,Assam,technical,70,30,0
+2019,Bihar,primary,54,40,6
+2019,Bihar,secondary,54,33,13
+2019,Bihar,technical,62,34,4
+2019,Chhattisgarh,primary,54,31,15
+2019,Chhattisgarh,secondary,55,37,8
+2019,Chhattisgarh,technical,61,36,3
+2019,Goa,primary,59,31,10
+2019,Goa,secondary,69,40,-9
+2019,Goa,technical,62,34,4
+2019,Gujarat,primary,58,31,11
+2019,Gujarat,secondary,57,39,4
+2019,Gujarat,technical,51,39,10
+2019,Haryana,primary,67,32,1
+2019,Haryana,secondary,51,38,11
+2019,Haryana,technical,69,35,-4
+2019,Himachal Pradesh,primary,61,30,9
+2019,Himachal Pradesh,secondary,59,36,5
+2019,Himachal Pradesh,technical,53,37,10
+2019,Jammu and Kashmir,primary,55,31,14
+2019,Jammu and Kashmir,secondary,64,35,1
+2019,Jammu and Kashmir,technical,60,33,7
+2019,Jharkhand,primary,52,32,16
+2019,Jharkhand,secondary,58,30,12
+2019,Jharkhand,technical,50,36,14
+2019,Karnataka,primary,65,40,-5
+2019,Karnataka,secondary,53,38,9
+2019,Karnataka,technical,64,31,5
+2019,Kerala,primary,63,34,3
+2019,Kerala,secondary,62,30,8
+2019,Kerala,technical,57,31,12
+2019,Madhya Pradesh,primary,70,40,-10
+2019,Madhya Pradesh,secondary,66,40,-6
+2019,Madhya Pradesh,technical,62,34,4
+2019,Maharashtra,primary,66,37,-3
+2019,Maharashtra,secondary,51,36,13
+2019,Maharashtra,technical,59,39,2
+2019,Manipur,primary,68,32,0
+2019,Manipur,secondary,59,39,2
+2019,Manipur,technical,64,40,-4
+2019,Meghalaya,primary,69,39,-8
+2019,Meghalaya,secondary,64,36,0
+2019,Meghalaya,technical,62,40,-2
+2019,Mizoram,primary,60,34,6
+2019,Mizoram,secondary,53,33,14
+2019,Mizoram,technical,60,40,0
+2019,Nagaland,primary,69,36,-5
+2019,Nagaland,secondary,65,30,5
+2019,Nagaland,technical,59,35,6
+2019,Odisha,primary,52,36,12
+2019,Odisha,secondary,61,39,0
+2019,Odisha,technical,52,31,17
+2019,Punjab,primary,65,33,2
+2019,Punjab,secondary,55,30,15
+2019,Punjab,technical,57,40,3
+2019,Rajasthan,primary,58,40,2
+2019,Rajasthan,secondary,51,37,12
+2019,Rajasthan,technical,54,40,6
+2019,Sikkim,primary,67,37,-4
+2019,Sikkim,secondary,68,36,-4
+2019,Sikkim,technical,51,40,9
+2019,Tamil Nadu,primary,63,34,3
+2019,Tamil Nadu,secondary,64,32,4
+2019,Tamil Nadu,technical,68,33,-1
+2019,Telangana,primary,65,35,0
+2019,Telangana,secondary,70,30,0
+2019,Telangana,technical,62,35,3
+2019,Tripura,primary,59,39,2
+2019,Tripura,secondary,63,36,1
+2019,Tripura,technical,65,31,4
+2019,Uttarakhand,primary,64,39,-3
+2019,Uttarakhand,secondary,52,36,12
+2019,Uttarakhand,technical,50,39,11
+2019,Uttar Pradesh,primary,61,34,5
+2019,Uttar Pradesh,secondary,56,36,8
+2019,Uttar Pradesh,technical,63,31,6
+2019,West Bengal,primary,67,36,-3
+2019,West Bengal,secondary,63,33,4
+2019,West Bengal,technical,53,34,13
+2019,Andaman and Nicobar Islands,primary,52,40,8
+2019,Andaman and Nicobar Islands,secondary,59,32,9
+2019,Andaman and Nicobar Islands,technical,69,34,-3
+2019,Chandigarh,primary,57,33,10
+2019,Chandigarh,secondary,62,40,-2
+2019,Chandigarh,technical,50,32,18
+2019,Dadra and Nagar Haveli,primary,63,38,-1
+2019,Dadra and Nagar Haveli,secondary,68,30,2
+2019,Dadra and Nagar Haveli,technical,62,36,2
+2019,Daman and Diu,primary,64,37,-1
+2019,Daman and Diu,secondary,66,34,0
+2019,Daman and Diu,technical,57,35,8
+2019,Delhi,primary,64,33,3
+2019,Delhi,secondary,68,34,-2
+2019,Delhi,technical,54,37,9
+2019,Lakshadweep,primary,67,32,1
+2019,Lakshadweep,secondary,61,32,7
+2019,Lakshadweep,technical,50,33,17
+2019,Puducherry,primary,57,30,13
+2019,Puducherry,secondary,66,34,0
+2019,Puducherry,technical,52,32,16
+2020,Andhra Pradesh,primary,52,37,11
+2020,Andhra Pradesh,secondary,66,39,-5
+2020,Andhra Pradesh,technical,69,31,0
+2020,Arunachal Pradesh,primary,70,37,-7
+2020,Arunachal Pradesh,secondary,55,40,5
+2020,Arunachal Pradesh,technical,69,38,-7
+2020,Assam,primary,51,33,16
+2020,Assam,secondary,56,36,8
+2020,Assam,technical,65,38,-3
+2020,Bihar,primary,66,36,-2
+2020,Bihar,secondary,63,34,3
+2020,Bihar,technical,51,35,14
+2020,Chhattisgarh,primary,67,33,0
+2020,Chhattisgarh,secondary,52,37,11
+2020,Chhattisgarh,technical,61,35,4
+2020,Goa,primary,62,36,2
+2020,Goa,secondary,56,40,4
+2020,Goa,technical,52,40,8
+2020,Gujarat,primary,54,34,12
+2020,Gujarat,secondary,69,35,-4
+2020,Gujarat,technical,54,36,10
+2020,Haryana,primary,54,39,7
+2020,Haryana,secondary,59,34,7
+2020,Haryana,technical,53,38,9
+2020,Himachal Pradesh,primary,52,35,13
+2020,Himachal Pradesh,secondary,68,36,-4
+2020,Himachal Pradesh,technical,67,38,-5
+2020,Jammu and Kashmir,primary,66,32,2
+2020,Jammu and Kashmir,secondary,64,32,4
+2020,Jammu and Kashmir,technical,67,30,3
+2020,Jharkhand,primary,51,40,9
+2020,Jharkhand,secondary,53,40,7
+2020,Jharkhand,technical,50,35,15
+2020,Karnataka,primary,57,37,6
+2020,Karnataka,secondary,55,31,14
+2020,Karnataka,technical,50,40,10
+2020,Kerala,primary,68,33,-1
+2020,Kerala,secondary,50,31,19
+2020,Kerala,technical,62,37,1
+2020,Madhya Pradesh,primary,60,30,10
+2020,Madhya Pradesh,secondary,50,34,16
+2020,Madhya Pradesh,technical,62,36,2
+2020,Maharashtra,primary,50,32,18
+2020,Maharashtra,secondary,56,32,12
+2020,Maharashtra,technical,64,37,-1
+2020,Manipur,primary,59,33,8
+2020,Manipur,secondary,65,38,-3
+2020,Manipur,technical,54,36,10
+2020,Meghalaya,primary,52,38,10
+2020,Meghalaya,secondary,53,32,15
+2020,Meghalaya,technical,50,33,17
+2020,Mizoram,primary,55,30,15
+2020,Mizoram,secondary,57,35,8
+2020,Mizoram,technical,63,39,-2
+2020,Nagaland,primary,55,35,10
+2020,Nagaland,secondary,66,39,-5
+2020,Nagaland,technical,60,37,3
+2020,Odisha,primary,56,38,6
+2020,Odisha,secondary,59,32,9
+2020,Odisha,technical,68,37,-5
+2020,Punjab,primary,66,30,4
+2020,Punjab,secondary,57,38,5
+2020,Punjab,technical,52,33,15
+2020,Rajasthan,primary,55,32,13
+2020,Rajasthan,secondary,54,39,7
+2020,Rajasthan,technical,64,40,-4
+2020,Sikkim,primary,55,40,5
+2020,Sikkim,secondary,55,30,15
+2020,Sikkim,technical,62,32,6
+2020,Tamil Nadu,primary,63,35,2
+2020,Tamil Nadu,secondary,57,35,8
+2020,Tamil Nadu,technical,50,37,13
+2020,Telangana,primary,54,38,8
+2020,Telangana,secondary,66,39,-5
+2020,Telangana,technical,62,35,3
+2020,Tripura,primary,67,34,-1
+2020,Tripura,secondary,57,39,4
+2020,Tripura,technical,63,37,0
+2020,Uttarakhand,primary,63,38,-1
+2020,Uttarakhand,secondary,56,30,14
+2020,Uttarakhand,technical,64,31,5
+2020,Uttar Pradesh,primary,57,39,4
+2020,Uttar Pradesh,secondary,52,36,12
+2020,Uttar Pradesh,technical,70,40,-10
+2020,West Bengal,primary,52,35,13
+2020,West Bengal,secondary,51,36,13
+2020,West Bengal,technical,66,38,-4
+2020,Andaman and Nicobar Islands,primary,55,32,13
+2020,Andaman and Nicobar Islands,secondary,54,38,8
+2020,Andaman and Nicobar Islands,technical,52,32,16
+2020,Chandigarh,primary,64,35,1
+2020,Chandigarh,secondary,68,38,-6
+2020,Chandigarh,technical,64,38,-2
+2020,Dadra and Nagar Haveli,primary,51,30,19
+2020,Dadra and Nagar Haveli,secondary,56,36,8
+2020,Dadra and Nagar Haveli,technical,52,39,9
+2020,Daman and Diu,primary,54,30,16
+2020,Daman and Diu,secondary,69,34,-3
+2020,Daman and Diu,technical,59,34,7
+2020,Delhi,primary,61,39,0
+2020,Delhi,secondary,61,36,3
+2020,Delhi,technical,61,36,3
+2020,Lakshadweep,primary,50,30,20
+2020,Lakshadweep,secondary,57,39,4
+2020,Lakshadweep,technical,60,38,2
+2020,Puducherry,primary,67,36,-3
+2020,Puducherry,secondary,54,37,9
+2020,Puducherry,technical,53,35,12
+2021,Andhra Pradesh,primary,56,34,10
+2021,Andhra Pradesh,secondary,67,30,3
+2021,Andhra Pradesh,technical,67,40,-7
+2021,Arunachal Pradesh,primary,55,36,9
+2021,Arunachal Pradesh,secondary,69,36,-5
+2021,Arunachal Pradesh,technical,50,40,10
+2021,Assam,primary,67,31,2
+2021,Assam,secondary,70,32,-2
+2021,Assam,technical,70,32,-2
+2021,Bihar,primary,50,38,12
+2021,Bihar,secondary,50,30,20
+2021,Bihar,technical,56,39,5
+2021,Chhattisgarh,primary,58,30,12
+2021,Chhattisgarh,secondary,64,31,5
+2021,Chhattisgarh,technical,57,37,6
+2021,Goa,primary,65,38,-3
+2021,Goa,secondary,66,37,-3
+2021,Goa,technical,54,38,8
+2021,Gujarat,primary,66,32,2
+2021,Gujarat,secondary,65,30,5
+2021,Gujarat,technical,55,39,6
+2021,Haryana,primary,61,34,5
+2021,Haryana,secondary,69,31,0
+2021,Haryana,technical,58,38,4
+2021,Himachal Pradesh,primary,67,35,-2
+2021,Himachal Pradesh,secondary,70,33,-3
+2021,Himachal Pradesh,technical,51,36,13
+2021,Jammu and Kashmir,primary,67,34,-1
+2021,Jammu and Kashmir,secondary,60,32,8
+2021,Jammu and Kashmir,technical,69,33,-2
+2021,Jharkhand,primary,51,37,12
+2021,Jharkhand,secondary,59,39,2
+2021,Jharkhand,technical,67,36,-3
+2021,Karnataka,primary,69,34,-3
+2021,Karnataka,secondary,53,34,13
+2021,Karnataka,technical,52,39,9
+2021,Kerala,primary,53,38,9
+2021,Kerala,secondary,60,33,7
+2021,Kerala,technical,50,30,20
+2021,Madhya Pradesh,primary,62,34,4
+2021,Madhya Pradesh,secondary,66,36,-2
+2021,Madhya Pradesh,technical,60,39,1
+2021,Maharashtra,primary,65,32,3
+2021,Maharashtra,secondary,64,32,4
+2021,Maharashtra,technical,60,36,4
+2021,Manipur,primary,54,35,11
+2021,Manipur,secondary,62,40,-2
+2021,Manipur,technical,55,31,14
+2021,Meghalaya,primary,53,31,16
+2021,Meghalaya,secondary,61,33,6
+2021,Meghalaya,technical,65,31,4
+2021,Mizoram,primary,50,30,20
+2021,Mizoram,secondary,60,37,3
+2021,Mizoram,technical,50,33,17
+2021,Nagaland,primary,64,36,0
+2021,Nagaland,secondary,68,39,-7
+2021,Nagaland,technical,70,30,0
+2021,Odisha,primary,69,34,-3
+2021,Odisha,secondary,67,33,0
+2021,Odisha,technical,50,36,14
+2021,Punjab,primary,62,40,-2
+2021,Punjab,secondary,54,39,7
+2021,Punjab,technical,65,32,3
+2021,Rajasthan,primary,56,30,14
+2021,Rajasthan,secondary,53,35,12
+2021,Rajasthan,technical,54,32,14
+2021,Sikkim,primary,52,35,13
+2021,Sikkim,secondary,50,36,14
+2021,Sikkim,technical,69,37,-6
+2021,Tamil Nadu,primary,57,34,9
+2021,Tamil Nadu,secondary,52,34,14
+2021,Tamil Nadu,technical,60,38,2
+2021,Telangana,primary,59,39,2
+2021,Telangana,secondary,69,31,0
+2021,Telangana,technical,55,35,10
+2021,Tripura,primary,64,31,5
+2021,Tripura,secondary,57,39,4
+2021,Tripura,technical,50,32,18
+2021,Uttarakhand,primary,51,39,10
+2021,Uttarakhand,secondary,57,36,7
+2021,Uttarakhand,technical,63,36,1
+2021,Uttar Pradesh,primary,53,40,7
+2021,Uttar Pradesh,secondary,55,38,7
+2021,Uttar Pradesh,technical,54,40,6
+2021,West Bengal,primary,64,38,-2
+2021,West Bengal,secondary,68,33,-1
+2021,West Bengal,technical,60,35,5
+2021,Andaman and Nicobar Islands,primary,65,39,-4
+2021,Andaman and Nicobar Islands,secondary,67,40,-7
+2021,Andaman and Nicobar Islands,technical,57,31,12
+2021,Chandigarh,primary,53,37,10
+2021,Chandigarh,secondary,65,40,-5
+2021,Chandigarh,technical,59,40,1
+2021,Dadra and Nagar Haveli,primary,56,30,14
+2021,Dadra and Nagar Haveli,secondary,50,30,20
+2021,Dadra and Nagar Haveli,technical,63,37,0
+2021,Daman and Diu,primary,66,40,-6
+2021,Daman and Diu,secondary,59,37,4
+2021,Daman and Diu,technical,60,37,3
+2021,Delhi,primary,54,40,6
+2021,Delhi,secondary,61,40,-1
+2021,Delhi,technical,61,34,5
+2021,Lakshadweep,primary,50,39,11
+2021,Lakshadweep,secondary,62,32,6
+2021,Lakshadweep,technical,68,40,-8
+2021,Puducherry,primary,60,37,3
+2021,Puducherry,secondary,68,31,1
+2021,Puducherry,technical,62,40,-2
+2022,Andhra Pradesh,primary,56,34,10
+2022,Andhra Pradesh,secondary,60,31,9
+2022,Andhra Pradesh,technical,51,32,17
+2022,Arunachal Pradesh,primary,61,30,9
+2022,Arunachal Pradesh,secondary,63,35,2
+2022,Arunachal Pradesh,technical,65,33,2
+2022,Assam,primary,51,40,9
+2022,Assam,secondary,65,37,-2
+2022,Assam,technical,60,35,5
+2022,Bihar,primary,59,39,2
+2022,Bihar,secondary,50,39,11
+2022,Bihar,technical,54,30,16
+2022,Chhattisgarh,primary,51,39,10
+2022,Chhattisgarh,secondary,54,38,8
+2022,Chhattisgarh,technical,69,35,-4
+2022,Goa,primary,53,38,9
+2022,Goa,secondary,64,35,1
+2022,Goa,technical,66,33,1
+2022,Gujarat,primary,51,31,18
+2022,Gujarat,secondary,53,32,15
+2022,Gujarat,technical,61,32,7
+2022,Haryana,primary,55,40,5
+2022,Haryana,secondary,55,31,14
+2022,Haryana,technical,61,34,5
+2022,Himachal Pradesh,primary,58,37,5
+2022,Himachal Pradesh,secondary,65,31,4
+2022,Himachal Pradesh,technical,50,33,17
+2022,Jammu and Kashmir,primary,64,39,-3
+2022,Jammu and Kashmir,secondary,57,37,6
+2022,Jammu and Kashmir,technical,57,35,8
+2022,Jharkhand,primary,52,38,10
+2022,Jharkhand,secondary,59,37,4
+2022,Jharkhand,technical,51,35,14
+2022,Karnataka,primary,58,37,5
+2022,Karnataka,secondary,62,34,4
+2022,Karnataka,technical,58,40,2
+2022,Kerala,primary,61,32,7
+2022,Kerala,secondary,64,31,5
+2022,Kerala,technical,57,30,13
+2022,Madhya Pradesh,primary,59,39,2
+2022,Madhya Pradesh,secondary,60,39,1
+2022,Madhya Pradesh,technical,66,38,-4
+2022,Maharashtra,primary,54,33,13
+2022,Maharashtra,secondary,70,37,-7
+2022,Maharashtra,technical,59,30,11
+2022,Manipur,primary,53,40,7
+2022,Manipur,secondary,63,34,3
+2022,Manipur,technical,59,36,5
+2022,Meghalaya,primary,68,35,-3
+2022,Meghalaya,secondary,56,40,4
+2022,Meghalaya,technical,54,37,9
+2022,Mizoram,primary,52,34,14
+2022,Mizoram,secondary,60,30,10
+2022,Mizoram,technical,53,36,11
+2022,Nagaland,primary,57,37,6
+2022,Nagaland,secondary,56,34,10
+2022,Nagaland,technical,55,31,14
+2022,Odisha,primary,65,38,-3
+2022,Odisha,secondary,68,39,-7
+2022,Odisha,technical,56,39,5
+2022,Punjab,primary,51,32,17
+2022,Punjab,secondary,64,40,-4
+2022,Punjab,technical,52,36,12
+2022,Rajasthan,primary,70,34,-4
+2022,Rajasthan,secondary,54,34,12
+2022,Rajasthan,technical,50,40,10
+2022,Sikkim,primary,58,40,2
+2022,Sikkim,secondary,66,32,2
+2022,Sikkim,technical,67,35,-2
+2022,Tamil Nadu,primary,70,38,-8
+2022,Tamil Nadu,secondary,55,34,11
+2022,Tamil Nadu,technical,59,39,2
+2022,Telangana,primary,70,30,0
+2022,Telangana,secondary,66,40,-6
+2022,Telangana,technical,62,33,5
+2022,Tripura,primary,66,35,-1
+2022,Tripura,secondary,66,33,1
+2022,Tripura,technical,60,30,10
+2022,Uttarakhand,primary,66,38,-4
+2022,Uttarakhand,secondary,52,30,18
+2022,Uttarakhand,technical,61,31,8
+2022,Uttar Pradesh,primary,64,33,3
+2022,Uttar Pradesh,secondary,51,36,13
+2022,Uttar Pradesh,technical,66,32,2
+2022,West Bengal,primary,57,39,4
+2022,West Bengal,secondary,60,38,2
+2022,West Bengal,technical,63,30,7
+2022,Andaman and Nicobar Islands,primary,70,35,-5
+2022,Andaman and Nicobar Islands,secondary,63,38,-1
+2022,Andaman and Nicobar Islands,technical,64,32,4
+2022,Chandigarh,primary,55,38,7
+2022,Chandigarh,secondary,64,40,-4
+2022,Chandigarh,technical,65,37,-2
+2022,Dadra and Nagar Haveli,primary,55,40,5
+2022,Dadra and Nagar Haveli,secondary,58,37,5
+2022,Dadra and Nagar Haveli,technical,51,32,17
+2022,Daman and Diu,primary,61,39,0
+2022,Daman and Diu,secondary,52,30,18
+2022,Daman and Diu,technical,53,33,14
+2022,Delhi,primary,67,30,3
+2022,Delhi,secondary,68,38,-6
+2022,Delhi,technical,56,37,7
+2022,Lakshadweep,primary,57,32,11
+2022,Lakshadweep,secondary,53,35,12
+2022,Lakshadweep,technical,65,37,-2
+2022,Puducherry,primary,67,34,-1
+2022,Puducherry,secondary,52,38,10
+2022,Puducherry,technical,51,30,19
