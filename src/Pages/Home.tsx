@@ -163,7 +163,7 @@ function Home() {
             />
           </div>
           <div
-            className='p-2 bg-slate-500 rounded-lg hover:text-red-400 cursor-pointer '
+            className='p-2 bg-slate-500 rounded-xl hover:text-red-400 cursor-pointer '
             onClick={() => {
               localStorage.removeItem("auth-token");
               history("/login");
@@ -173,10 +173,9 @@ function Home() {
           </div>
         </div>
       </nav>
-
       <div className='h-screen overflow-x-hidden justify-center flex '>
         <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-20 top-0 animate-fade '>
-          <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-24 lg:pl-2 lg:w-5/6 flex items-center justify-center'>
+          <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-24 xl:pl-2 lg:w-5/6 flex items-center justify-center'>
             National Educational Database.
           </div>
           <div className='text-slate-500 max-w-xl text-lg px-5 shrink w-1/3 sm:w-1/2 '>
@@ -214,22 +213,22 @@ function Home() {
             <div className='text-4xl text-slate-500 font-bold font-mono md:pb-40 pb-20 mt-24 italic '>
               How India Is Performing ...
             </div>
-            <div className='md:flex-row  flex flex-col-reverse  w-screen justify-between pb-10 items-center '>
-              <div className=' md:ml-48 px-5 py-5 md:px-0 md:py-0 md:w-3/12 flex flex-col '>
+            <div className='xl:flex-row  flex flex-col-reverse  w-screen justify-between pb-10 items-center '>
+              <div className=' xl:ml-48 px-5 py-5 xl:px-0 md:py-0 xl:w-3/12 md:w-3/4   flex flex-col '>
                 <div>
                   <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
                   <div className='text-slate-300 font-semibold font-mono text-2xl'>
                     DROPOUT RATE IN INDIA
                   </div>
                 </div>
-                <div className='text-slate-300 font-light font-mono pt-3'>
+                <div className='text-slate-300 font-light font-mono pt-3 '>
                   &nbsp;&nbsp;There has been ups and downs regarding DropOut
                   rate in INDIAN education but in previous years it declining
                   which is a good sign indicating more people are able to
                   complete their education properly
                 </div>
               </div>
-              <div className='sm:p-3 p-0 rounded-xl border md:mr-60'>
+              <div className='sm:p-3 p-0 rounded-xl border xl:mr-60'>
                 <ComposedChart
                   width={window.innerWidth > 642 ? 600 : 450}
                   height={window.innerWidth > 642 ? 350 : 280}
@@ -276,8 +275,8 @@ function Home() {
                 </ComposedChart>
               </div>
             </div>
-            <div className='md:flex-row flex-col flex w-screen justify-between pb-10 items-center '>
-              <div className='sm:p-3 p-0 rounded-xl border md:ml-48'>
+            <div className='xl:flex-row  flex-col flex w-screen justify-between pb-10 items-center '>
+              <div className='sm:p-3 p-0 rounded-xl border xl:ml-48'>
                 <ComposedChart
                   width={window.innerWidth > 642 ? 600 : 450}
                   height={window.innerWidth > 642 ? 350 : 280}
@@ -289,7 +288,6 @@ function Home() {
                     left: 20,
                   }}
                 >
-                  {/* <CartesianGrid stroke='#f5f5f5' /> */}
                   <XAxis
                     dataKey='year'
                     label={{
@@ -323,7 +321,7 @@ function Home() {
                   <Line type='monotone' dataKey='BOYS' stroke='#ff7300' />
                 </ComposedChart>
               </div>
-              <div className='md:w-3/12 md:mr-64 px-3 py-3'>
+              <div className='xl:w-3/12 md:w-3/4 xl:mr-64 px-3 py-3'>
                 <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
                 <div className='text-slate-300 font-semibold font-mono text-2xl'>
                   PASS RATE IN INDIA
@@ -333,11 +331,10 @@ function Home() {
                   significant amount from 58% in 2000 to more than 80 indicates
                   more people are completing their education succesfully
                 </div>
-                {/* <div>Ther</div> */}
               </div>
             </div>
-            <div className='md:flex-row  flex flex-col-reverse w-screen justify-between pb-10 items-center '>
-              <div className='md:ml-48 md:w-3/12 p-3'>
+            <div className='xl:flex-row  flex flex-col-reverse w-screen justify-between pb-10 items-center '>
+              <div className='xl:ml-48 xl:w-3/12 p-3 md:w-3/4'>
                 <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
                 <div className='text-slate-300 font-semibold font-mono text-2xl'>
                   LITERACY RATE IN INDIA
@@ -350,7 +347,7 @@ function Home() {
                 </div>
                 {/* <div>Ther</div> */}
               </div>
-              <div className='p-3 rounded-xl border md:mr-60 '>
+              <div className='p-3 rounded-xl border xl:mr-60 '>
                 <ComposedChart
                   width={window.innerWidth > 642 ? 600 : 450}
                   height={window.innerWidth > 642 ? 350 : 280}
@@ -362,7 +359,6 @@ function Home() {
                     left: 20,
                   }}
                 >
-                  {/* <CartesianGrid stroke='#f5f5f5' /> */}
                   <XAxis
                     dataKey='year'
                     label={{

@@ -27,7 +27,7 @@ function Footer() {
           </div>
         </div>
         <div className='flex items-center cursor-pointer '>
-          <div>Biblography & Resources</div>
+          <div className='hidden sm:block'>Biblography & Resources</div>
           <div className='text-3xl rotate-180'>
             <MdOutlineKeyboardArrowDown />
           </div>
