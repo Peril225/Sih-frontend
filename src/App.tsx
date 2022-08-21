@@ -17,6 +17,8 @@ import GPI from "./Pages/GPI";
 import DropOut from "./Pages/DropOut";
 import LiteracyRate from "./Pages/Literacy";
 import Standard from "./Pages/Standard";
+import State from "./Pages/State" ;
+import { States } from "./constants";
 import Testin from "./Pages/testing";
 function App() {
   /*
@@ -42,6 +44,7 @@ function App() {
         {/* <Route path='/test' element={<Testin />}></Route> */}
         {/* default Route */}
         <Route path='/levels/:level' element={<Standard />}></Route>
+        <Route path='/State/:states' element={<State />}></Route>
         <Route path='*' element={<div>404</div>} />
       </Routes>
     </div>
