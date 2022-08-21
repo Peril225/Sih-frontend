@@ -9,9 +9,8 @@ function Boxes(props: {
       <div className='BOXES md:flex  space-x-3'>
         <div className='flex space-x-3'>
           <div
-            className={`w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-red-400  bg-opacity-30 items-center justify-center flex font-bold  flex-col ${
-              props.Feature == "DROP" ? "bg-red-400" : ""
-            }`}
+            className={`w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-red-400  bg-opacity-30 items-center justify-center flex font-bold  flex-col ${props.Feature == "DROP" ? "bg-red-400" : ""
+              }`}
             onClick={() => props.SelectedFeature("DROP")}
           >
             <div className='text-red-600'>DropOut Percent</div>
@@ -20,9 +19,8 @@ function Boxes(props: {
             <div className='text-red-600 text-2xl '>25,000</div>
           </div>
           <div
-            className={`w-40  h-60 rounded-lg  bg-green-400 bg-opacity-30 hover:bg-opacity-50 cursor-pointer items-center justify-center flex font-bold  flex-col ${
-              props.Feature == "LIT" ? "bg-opacity-40" : ""
-            }`}
+            className={`w-40  h-60 rounded-lg  ${props.Feature == "" ? "bg-green-400" : ""} hover:bg-green-300 bg-opacity-30 hover:bg-opacity-20 cursor-pointer items-center justify-center flex font-bold  flex-col ${props.Feature == "LIT" ? "bg-green-400 bg-opacity-40" : ""
+              }`}
             onClick={() => props.SelectedFeature("LIT")}
           >
             <div className='text-green-600'>EnrolMent Index</div>
@@ -33,9 +31,8 @@ function Boxes(props: {
         </div>
         <div className='flex  space-x-3'>
           <div
-            className={`w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-blue-400 items-center justify-center flex font-bold  flex-col ${
-              props.Feature == "PASS" ? "bg-blue-400 bg-opacity-30" : ""
-            }`}
+            className={`w-40  h-60 rounded-lg hover:bg-opacity-30 cursor-pointer hover:bg-blue-400 items-center justify-center flex font-bold  flex-col ${props.Feature == "PASS" ? "bg-blue-400 bg-opacity-30" : ""
+              }`}
             onClick={() => props.SelectedFeature("PASS")}
           >
             <div className='text-blue-600'>Pass Fail ratio</div>
@@ -44,9 +41,8 @@ function Boxes(props: {
             <div className='text-blue-600 text-2xl '>23,000</div>
           </div>
           <div
-            className={`w-40  h-60 rounded-lg hover:bg-opacity-10 cursor-pointer hover:bg-gray-400 items-center justify-center flex font-bold  flex-col ${
-              props.Feature == "GPI" ? "bg-gray-400 bg-opacity-10" : ""
-            }`}
+            className={`w-40  h-60 rounded-lg hover:bg-opacity-10 cursor-pointer hover:bg-gray-400 items-center justify-center flex font-bold  flex-col ${props.Feature == "GPI" ? "bg-gray-400 bg-opacity-10" : ""
+              }`}
             onClick={() => props.SelectedFeature("GPI")}
           >
             <div className='text-gray-600'>GP INDEX</div>
