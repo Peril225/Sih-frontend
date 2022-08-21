@@ -5,7 +5,7 @@ import Default from "./Pages/Default";
 import Home from "./Pages/Home";
 // import {Redirect} from 'react-router'
 // import  from ;
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 // App made with vite
 
 import TeacherSTU from "./Pages/TeacherSTU";
@@ -17,6 +17,9 @@ import GPI from "./Pages/GPI";
 import DropOut from "./Pages/DropOut";
 import LiteracyRate from "./Pages/Literacy";
 import Standard from "./Pages/Standard";
+
+import GUIDE from "./Pages/GUIDE";
+// import Testin from "./Pages/testing";
 
 function App() {
   /*
@@ -39,10 +42,11 @@ function App() {
         <Route path='/Signup' element={<Signup />}></Route>
         <Route path='/Login' element={<Signin />}></Route>
         <Route path='/Dashbard' element={<Default />}></Route>
+        <Route path='/GUIDE' element={<GUIDE />}></Route>
         {/* <Route path='/test' element={<Testin />}></Route> */}
         {/* default Route */}
         <Route path='/levels/:level' element={<Standard />}></Route>
-        <Route path='/State/:states' element={<State />}></Route>
+        {/* <Route path='/State/:states' element={<State />}></Route> */}
         <Route path='*' element={<div>404</div>} />
       </Routes>
     </div>
