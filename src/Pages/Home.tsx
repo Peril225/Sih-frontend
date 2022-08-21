@@ -2,11 +2,11 @@ import React, { useEffect, useRef, useState } from "react";
 import { IndiaMap, Boxes, PieDonut, SearchState } from "../Components";
 import "react-svg-map/lib/index.css";
 import { SideBar, Search, ExploreC } from "../layouts";
-import { config, LITRACY, placehol, States } from "../constants/";
+import { LITRACY, placehol, States } from "../constants/";
 import { Testing } from "../utils/Home";
 import { useSelector } from "react-redux";
 import { STATE } from "../../typings";
-import { StatesXcolor, LITracy } from "../constants/";
+import { LITracy } from "../constants/";
 import Confetti from "react-dom-confetti";
 import Logo from "../assets/Images/Logo.png";
 import { useNavigate } from "react-router";
@@ -30,6 +30,7 @@ import {
 import { DropOut } from "../constants";
 import { AiOutlinePoweroff } from "react-icons/ai";
 import Footer from "../layouts/Footer";
+import { FetchStateDropOut } from "../utils/Home/Function";
 function Home() {
   const history = useNavigate();
   // const { height, width } = useWindowDimensions();
@@ -46,32 +47,35 @@ function Home() {
   const [pievals, setpievals] = useState([44, 55, 13]);
   const [Color, setColor] = useState([23, 163, 74]);
   const LOGGED = useSelector((state: STATE) => state.auth.LOGGED);
-  const [CurrentSTAT, setCurrentSTAT] = useState("LIT");
+  const [CurrentSTAT, setCurrentSTAT] = useState("lit");
+  const [BARDROPOUT, setBARDROPOUT] = useState()
+  const [lit, setlit] = useState()
+  const [enroll, setenroll] = useState()
 
   const SelectedFeature = (Feature: string) => {
     switch (Feature.trim()) {
       case CurrentSTAT:
         break;
-      case "DROP":
-        setCurrentSTAT("DROP");
+      case "dropout":
+        setCurrentSTAT("dropout");
         {
           setColor([255, 26, 26]);
         }
         break;
-      case "LIT":
-        setCurrentSTAT("LIT");
+      case "lit":
+        setCurrentSTAT("lit");
         {
           setColor([23, 163, 74]);
         }
         break;
-      case "PASS":
-        setCurrentSTAT("PASS");
+      case "enro":
+        setCurrentSTAT("enro");
         {
           setColor([39, 199, 235]);
         }
         break;
-      case "GPI":
-        setCurrentSTAT("GPI");
+      case "gpi":
+        setCurrentSTAT("gpi");
         {
           setColor([75, 85, 99]);
         }
@@ -98,8 +102,6 @@ function Home() {
   const onLocationClick = (event: any) => {
     setStateCode(event.target.id);
     setStateName(event.target.getAttribute("name"));
-    console.log("Id", event.target.id);
-    console.log("Name", event.target.getAttribute("name"));
   };
 
   useEffect(() => {
@@ -110,7 +112,7 @@ function Home() {
       // setExplore(!Explore);
       setplaceHoldcount(placeHoldcount + 1);
       if (!placehol[placeholderIndex]) {
-        console.log(placehol[placeholderIndex], "shoot");
+        // console.log(placehol[placeholderIndex], "shoot");
         setPlaceholderIndex(0);
       }
       if (placeHoldcount >= placehol[placeholderIndex].length) {
@@ -134,16 +136,58 @@ function Home() {
   });
 
   useEffect(() => {
-    // Testing();
-    StatesXcolor.map((state) => {
-      console.log(state);
-      document.getElementById(state.State)!.style.fill = `rgba(${Color[0]} , ${Color[1]
-        } , ${Color[2]} , ${Math.random() * 0.62 + 0.33})`;
-    });
-  }, [Color]);
+    fetch(import.meta.env.VITE_BASE_URL + `/static/${CurrentSTAT}/`, {
+      method: "POST",
+      body: JSON.stringify({
+        // year: 2022,
+      }),
+    }).then((resp) =>
+      resp.json().then((res) => {
+        // console.log(res, "i mma cry");
+
+        // arr = res;
+        res.map((state: any) => {
+          document.getElementById(state.State)!.style.fill = `rgba(${Color[0]} , ${Color[1]
+            } , ${Color[2]} , ${state.val})`;
+        })
+      })
+    );
+  }, [CurrentSTAT]);
 
   useEffect(() => {
-
+    fetch(import.meta.env.VITE_BASE_URL + `/static/enroll/`, {
+      method: "POST",
+      body: JSON.stringify({
+        // year: 2022,
+      }),
+    }).then((resp) =>
+      resp.json().then((res) => {
+        // console.log(res, "wsjiencfsdfrserwkejndckwn");
+        setBARDROPOUT(res)
+      })
+    );
+    fetch(import.meta.env.VITE_BASE_URL + `/static/literacy/`, {
+      method: "POST",
+      body: JSON.stringify({
+        // year: 2022,
+      }),
+    }).then((resp) =>
+      resp.json().then((res) => {
+        // console.log(res, "wsjiencfwkejndckwn");
+        setenroll(res)
+      })
+    );
+    fetch(import.meta.env.VITE_BASE_URL + `/static/BarDropout/`, {
+      method: "POST",
+      body: JSON.stringify({
+        // year: 2022,
+      }),
+    }).then((resp) =>
+      resp.json().then((res) => {
+        // console.log(res, "wsjiencfwkejndckwn");
+        setlit(res)
+      })
+    );
   }, [])
 
 
@@ -237,7 +281,7 @@ function Home() {
                 <ComposedChart
                   width={window.innerWidth > 642 ? 600 : 450}
                   height={window.innerWidth > 642 ? 350 : 280}
-                  data={DropOut}
+                  data={lit}
                   margin={{
                     top: 20,
                     right: 80,
@@ -285,7 +329,7 @@ function Home() {
                 <ComposedChart
                   width={window.innerWidth > 642 ? 600 : 450}
                   height={window.innerWidth > 642 ? 350 : 280}
-                  data={LITracy}
+                  data={enroll}
                   margin={{
                     top: 20,
                     right: 80,
@@ -356,7 +400,7 @@ function Home() {
                 <ComposedChart
                   width={window.innerWidth > 642 ? 600 : 450}
                   height={window.innerWidth > 642 ? 350 : 280}
-                  data={LITRACY}
+                  data={BARDROPOUT}
                   margin={{
                     top: 20,
                     right: 80,

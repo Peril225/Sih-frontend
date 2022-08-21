@@ -1,8 +1,6 @@
-import React from "react";
-
+import { StatesXcolor } from "../../constants";
 export const Testing = () => {
   console.log(import.meta.env.VITE_BASE_URL);
-
   fetch(import.meta.env.VITE_BASE_URL + "/data/pass-fail", {
     method: "POST",
     body: JSON.stringify({
@@ -17,4 +15,21 @@ export const Testing = () => {
       "eheheeh"
     )
   );
+};
+
+export const FetchStateDropOut = () => {
+  let arr;
+  fetch(import.meta.env.VITE_BASE_URL + "/static/dropout/", {
+    method: "POST",
+    body: JSON.stringify({
+      // year: 2022,
+    }),
+  }).then((resp) =>
+    resp.json().then((res) => {
+      console.log(res, "i mma cry");
+
+      arr = res;
+    })
+  );
+  return arr;
 };

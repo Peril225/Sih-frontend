@@ -927,5 +927,5 @@ StateXdist = {
 # print(dic)
 data = {"year": 2012}
 resp = requests.post(
-    "https://mighty-spire-15674.herokuapp.com/state-data/dropout-rate/", data=data)
+    "https://mighty-spire-15674.herokuapp.com/static/dropout")
 print(resp.text)

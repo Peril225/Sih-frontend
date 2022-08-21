@@ -42,7 +42,7 @@ export default function Indiamap(props: IndiaMap) {
             setX(event.clientX);
             setY(event.clientY);
             sethide(false);
-            console.log(event.pageX, event.pageY);
+            // console.log(event.pageX, event.pageY);
             setCurrentState(event.target.getAttribute("name"));
             !props.hide
               ? props.ChangeState(event.target.getAttribute("name"))
@@ -60,10 +60,10 @@ export default function Indiamap(props: IndiaMap) {
             setPASS(Math.floor(Math.random() * 20 + 70));
             setGPI(Math.floor(Math.random() * 20 + 30));
           }}
-          // onLocationMouseMove={(event) => {
-          //   sethide(false);
-          // props.ChangeState(event.target.getAttribute("name"));
-          // }}
+        // onLocationMouseMove={(event) => {
+        //   sethide(false);
+        // props.ChangeState(event.target.getAttribute("name"));
+        // }}
         />
         <div
           className='DailogeBOX w-auto h-auto rounded-lg text-gray-300 font-bold font-mono flex transition transform justify-center items-center delay-150 text-xl p-14  duration-300 ease-in-out animate-fade'

@@ -29,11 +29,11 @@ function Search(props: SearchProps) {
         />
       </div>
       <div className={`absolute ${view ? "" : " hidden"} w-full rounded-md h-96 overflow-scroll HideScroll mt-3 z-20`} onMouseOver={() => {
-        console.log("yeah ", val);
+        // console.log("yeah ", val);
         setval(true)
       }} onMouseLeave={() => {
         setval(false)
-        console.log("yeah ", val);
+        // console.log("yeah ", val);
       }}>
         <Testin val={value} />
       </div>

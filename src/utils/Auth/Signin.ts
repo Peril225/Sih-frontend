@@ -18,17 +18,13 @@ export const SignIn = ({ email, password, history, dispatch }: TSignIp) => {
   })
     // Handling edge Cases
     .then((resp) => {
-      console.log(
-        resp.headers.get("auth-token"),
-        resp.headers.get("Connection")
-      );
       // for (var pair of) {
       // }
       resp
         .json()
         .then((ress) => {
           if ((resp.status as number) !== 200) {
-            console.log(ress.errMsg, "hehe");
+            // console.log(ress.errMsg, "hehe");
             toast.error(`${ress.errMsg}`);
             return;
           } else {
@@ -37,28 +33,23 @@ export const SignIn = ({ email, password, history, dispatch }: TSignIp) => {
               resp.headers.get("auth-token") as string
             );
             dispatch(LOGIN());
-            console.log(
-              "JWTT",
-              resp.headers.get("Auth-Token"),
-              resp.headers.get("auth-token")
-            );
 
             const run = () => {
-              console.log("verify 0");
+              // console.log("verify 0");
               setTimeout(() => {
-                console.log("verify 1");
+                // console.log("verify 1");
                 history("/Dashbard");
               }, 2000);
             };
             run();
             toast.success("Succes u can Login now");
-            console.log(ress, resp, "dang it");
+            // console.log(ress, resp, "dang it");
           }
         })
         .catch((Err) => {
           toast.error(`ERROR WHILE LOGIN ${Err}`);
-          console.log(Err, "hehe failed");
+          // console.log(Err, "hehe failed");
         });
-    })
-    .catch((err) => console.log(err, "messed up"));
+    });
+  // .catch((err) => console.log(err, "messed up"));
 };

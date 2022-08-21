@@ -17,9 +17,7 @@ import GPI from "./Pages/GPI";
 import DropOut from "./Pages/DropOut";
 import LiteracyRate from "./Pages/Literacy";
 import Standard from "./Pages/Standard";
-import State from "./Pages/State" ;
-import { States } from "./constants";
-import Testin from "./Pages/testing";
+
 function App() {
   /*
     React router used for routing 
