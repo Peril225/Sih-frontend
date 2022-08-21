@@ -14,7 +14,7 @@ function Signup() {
 
   // Component did mount
   useEffect(() => {
-    console.log(import.meta.env.VITE_BASE_URL, "urll");
+    // console.log(import.meta.env.VITE_BASE_URL, "urll");
   }, []);
 
   // ASYNC Signup submit function
@@ -23,11 +23,11 @@ function Signup() {
     // console.log(Firstname, username, email, password, confirm, "here");
 
     if (Firstname && username && email && password && confirm) {
-      console.log(username.length, password.length, "dayy wahhh");
+      // console.log(username.length, password.length, "dayy wahhh");
       // valid email verification using regex
       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       if (mailformat.test(email)) {
-        console.log(username.length, password.length, "dayy wahhh");
+        // console.log(username.length, password.length, "dayy wahhh");
         if (password.length < 8 || username.length < 8) {
           toast.error("Email and username must be 10+ char [no spaces]");
           return;

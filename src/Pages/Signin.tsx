@@ -13,13 +13,13 @@ function Signin() {
   const dispatch = useDispatch();
   useEffect(() => {
     // Component did Mount function
-    console.log(import.meta.env.VITE_BASE_URL, "urll");
+    // console.log(import.meta.env.VITE_BASE_URL, "urll");
   }, []);
 
   // ASYNC Signup submit function
   const Submit = () => {
     // verify FORMDATA is valid
-    console.log(email, password, "here");
+    // console.log(email, password, "here");
 
     if (email && password) {
       // valid email verification using regex

@@ -235,12 +235,12 @@ function TeacherSTU() {
       const { offsetHeight } = ref.current;
       const el = document.getElementById("#LETSGIVEITASHOT");
       const distanceFromTop = el?.getBoundingClientRect().top;
-      console.log(
-        distanceFromTop,
-        offsetHeight,
-        el?.getBoundingClientRect(),
-        "wtfff"
-      );
+      // console.log(
+      //   distanceFromTop,
+      //   offsetHeight,
+      //   el?.getBoundingClientRect(),
+      //   "wtfff"
+      // );
       if (parseInt(distanceFromTop + offsetHeight) - 200 < 0) {
         setbarHide(true);
       } else {

@@ -9,7 +9,7 @@ function Testin(props: { val: string }) {
             <ul className='w-full '>
                 {
                     States.map((elem, index) =>
-                        <li className={`w-full px-5 border-b py-3 text-slate-300 text-md font-mono ${elem.toUpperCase().indexOf(filter) > -1 ? "" : "hidden"}`}>
+                        <li key={index} className={`w-full px-5 border-b py-3 text-slate-300 text-md font-mono ${elem.toUpperCase().indexOf(filter) > -1 ? "" : "hidden"}`}>
                             <Link to={`/states/${elem.replace(" ", "")}`} onClick={() => console.log(elem)
                             }>
                                 {elem}
