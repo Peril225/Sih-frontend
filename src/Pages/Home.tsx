@@ -244,6 +244,7 @@ function Home() {
               </div>
               <Boxes Feature={CurrentSTAT} SelectedFeature={SelectedFeature} />
               <PieDonut
+                value={CurrentSTAT}
                 width={window.innerWidth > 1350 ? 500 : 400}
                 labels={["PRIMARY", "SECONDARY", "TECHNICAL"]}
                 Current={Current}
