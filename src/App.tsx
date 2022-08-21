@@ -17,6 +17,7 @@ import GPI from "./Pages/GPI";
 import DropOut from "./Pages/DropOut";
 import LiteracyRate from "./Pages/Literacy";
 import Standard from "./Pages/Standard";
+import Testin from "./Pages/testing";
 function App() {
   /*
     React router used for routing 
@@ -38,6 +39,7 @@ function App() {
         <Route path='/Signup' element={<Signup />}></Route>
         <Route path='/Login' element={<Signin />}></Route>
         <Route path='/Dashbard' element={<Default />}></Route>
+        {/* <Route path='/test' element={<Testin />}></Route> */}
         {/* default Route */}
         <Route path='/levels/:level' element={<Standard />}></Route>
         <Route path='*' element={<div>404</div>} />
