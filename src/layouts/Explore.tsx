@@ -9,9 +9,8 @@ function Explore({
 }) {
   return (
     <div
-      className={`${
-        Explore ? "w-screen" : "w-0 overflow-hidden"
-      } fixed z-10 text-slate-400 ease-in-out transform  transition-all duration-200 h-screen bg-black`}
+      className={`${Explore ? "w-screen" : "w-0 overflow-hidden"
+        } fixed z-50 text-slate-400 ease-in-out transform  transition-all duration-200 h-screen bg-black`}
     >
       <div
         className='top-0 right-0 left-auto absolute cursor-pointer p-3  text-5xl rounded-lg m-3 bg-bgr1  hover:bg-bgr hover:text-white'

@@ -13,7 +13,8 @@ module.exports = {
       },
       colors: {
         bgr: "#171729",
-        bgr1: "#242443",
+        bgr1: "#232337",
+        bgr12: "rgb(47 47 69)",
         bgr2: "#2a3652",
         bgr_dark: "#121217",
       },
