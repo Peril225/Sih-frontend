@@ -917,11 +917,15 @@ StateXdist = {
 # resp = requests.post(
 #     "https://mighty-spire-15674.herokuapp.com/auth/login", json=data, headers=head)
 # print(resp.text, resp.status_code, resp.headers)
-dic = []
-for i in range(2000, 2023):
-    boys = min(random.randint(2, 6) + (i - 2000)//3)
-    dic.append({
-        "year": i,
-        "TEACHERS": boys,
-    })
-print(dic)
+# dic = []
+# for i in range(2000, 2023):
+#     boys = min(random.randint(2, 6) + (i - 2000)//3)
+#     dic.append({
+#         "year": i,
+#         "TEACHERS": boys,
+#     })
+# print(dic)
+data = {"year": 2012}
+resp = requests.post(
+    "https://mighty-spire-15674.herokuapp.com/state-data/dropout-rate/", data=data)
+print(resp.text)

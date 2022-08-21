@@ -142,6 +142,11 @@ function Home() {
     });
   }, [Color]);
 
+  useEffect(() => {
+
+  }, [])
+
+
   // const first = useRef(second)
 
   // const Component = () => <div>yo</div>;
