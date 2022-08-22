@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { AiOutlinePoweroff } from "react-icons/ai";
+import { AiOutlinePoweroff, AiTwotoneHome } from "react-icons/ai";
 import { MdOutlineApps } from "react-icons/md";
 import { IoIosApps } from "react-icons/io";
 import { FiLogOut } from "react-icons/fi";
-import { SiReadthedocs } from "react-icons/Si";
+// import { SiReadthedocs } from "react-icons/Si";
+import { FcMindMap } from "react-icons/fc";
 import { useNavigate } from "react-router";
 import Logo from "../assets/Images/Logo.png";
 import LevelsOfEdu from "../Components/DropDownlevel";
+import { IoDocumentTextSharp } from "react-icons/io5";
 
 export default function SideBar({
   setExplore,
@@ -47,6 +49,14 @@ export default function SideBar({
               setExplore(true)
             }}
           >
+            <AiTwotoneHome size={30} />
+          </div>
+          <div
+            className='p-4 text-xl font-bold  text-slate-500 hover:text-slate-400 cursor-pointer '
+            onClick={() => {
+              setExplore(true)
+            }}
+          >
             <MdOutlineApps size={30} />
           </div>
           <div
@@ -63,7 +73,15 @@ export default function SideBar({
               // setExplore(true)
             }}
           >
-            <SiReadthedocs size={30} />
+            <IoDocumentTextSharp size={30} />
+          </div>
+          <div
+            className='p-4 text-xl font-bold  text-slate-500 hover:text-slate-400 cursor-pointer '
+            onClick={() => {
+              // setExplore(true)
+            }}
+          >
+            <FcMindMap size={30} />
           </div>
 
         </div>
@@ -78,13 +96,18 @@ export default function SideBar({
         >
           <FiLogOut size={30} className='' />
         </div>
+
       </div>
-      <div className={`h-screen z-40 ease-in-out transform items-center transition-all duration-200 bg-bgr1 flex flex-col w-full ${view ? "w-60" : "w-0 overflow-hidden"}  absolute py-32`} style={{ left: `${width}px` }}>
+
+      <div className={`h-screen z-40 ease-in-out transform items-center transition-all duration-200 bg-bgr1 flex flex-col w-full ${view ? "w-60" : "w-0 overflow-hidden"}  absolute py-32 space-x-2 flex flex-col`} style={{ left: `${width}px` }}>
+        <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
+          // setExplore(true)
+        }}>DASHBOARD</div>
         <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
           setExplore(true)
         }}>EXPLORE ALL ROUTES</div>
         <div className=" py-5 text-lg hover:bg-bgr2 px-3 font-medium cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth w-full pr-12 flex flex-col" onMouseEnter={() => setopen(true)} onMouseLeave={() => setopen(false)}>
-          <div >YOOO</div>
+          <div >LEVELS OF EDU</div>
           <div
             style={{ transition: 'all 0.75s ease-in-out', height: open ? '100px' : '0px' }}
             className=" transition  transform overflow-hidden flex flex-col space-y-2 pt-2"
@@ -100,6 +123,12 @@ export default function SideBar({
             </div>
           </div>
         </div>
+        <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
+          // setExplore(true)
+        }}>ABOUT SECTION</div>
+        <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
+          // setExplore(true)
+        }}>COMPARE STATES</div>
 
       </div>
     </div>
