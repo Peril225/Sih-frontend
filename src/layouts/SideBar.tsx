@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { AiOutlinePoweroff, AiTwotoneHome } from "react-icons/ai";
+import { useEffect, useState } from "react";
+import { AiTwotoneHome } from "react-icons/ai";
 import { MdOutlineApps } from "react-icons/md";
 import { IoIosApps } from "react-icons/io";
 import { FiLogOut } from "react-icons/fi";
-// import { SiReadthedocs } from "react-icons/Si";
 import { FcMindMap } from "react-icons/fc";
 import { useNavigate } from "react-router";
-import Logo from "../assets/Images/Logo.png";
-import LevelsOfEdu from "../Components/DropDownlevel";
 import { IoDocumentTextSharp } from "react-icons/io5";
 
 export default function SideBar({

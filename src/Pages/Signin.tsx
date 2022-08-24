@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
 import { SignIn } from "../utils/Auth";
-import { useDispatch, useSelector } from "react-redux";
-import { LOGIN } from "../Redux/Login/action";
+import { useDispatch } from "react-redux";
+
 function Signin() {
   // dotenv.config();
   // states to store FORM DATA

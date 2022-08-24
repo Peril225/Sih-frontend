@@ -1,19 +1,17 @@
-import React from "react";
+
 
 function SearchState({ ShowState }: { ShowState: boolean }) {
   return (
     <>
       <div
-        className={`text-blue-400 font-semibold text-lg pl-16 underline ${
-          ShowState ? "" : "hidden"
-        }  animate-fade`}
+        className={`text-blue-400 font-semibold text-lg pl-16 underline ${ShowState ? "" : "hidden"
+          }  animate-fade`}
       >
         States And Teritories
       </div>
       <div
-        className={`flex text-slate-300 text-lg justify-around ${
-          ShowState ? "" : "hidden"
-        }  animate-fade`}
+        className={`flex text-slate-300 text-lg justify-around ${ShowState ? "" : "hidden"
+          }  animate-fade`}
       >
         <div>
           <ol className='space-y-3 '>

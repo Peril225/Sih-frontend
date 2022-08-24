@@ -1,5 +1,3 @@
-import React from "react";
-
 function Boxes(props: {
   SelectedFeature: (val: string) => void;
   Feature: string;
@@ -19,7 +17,7 @@ function Boxes(props: {
             <div className='text-red-600 text-2xl '>25,000</div>
           </div>
           <div
-            className={`w-40  h-60 rounded-lg  ${props.Feature == "" ? "bg-green-400" : ""} hover:bg-green-300 bg-opacity-30 hover:bg-opacity-20 cursor-pointer items-center justify-center flex font-bold  flex-col ${props.Feature == "lit" ? "bg-green-400 bg-opacity-40" : ""
+            className={`w-40  h-60 rounded-lg  ${props.Feature == "" ? "bg-green-400" : ""} hover:bg-green-300 bg-opacity-30 hover:bg-opacity-20 cursor-pointer items-center justify-center flex font-bold  flex-col ${props.Feature == "lit" ? "bg-green-400 bg-opacity-20" : ""
               }`}
             onClick={() => props.SelectedFeature("lit")}
           >
