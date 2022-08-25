@@ -21,7 +21,7 @@ function Boxes(props: {
               }`}
             onClick={() => props.SelectedFeature("lit")}
           >
-            <div className='text-green-600'>EnrolMent Index</div>
+            <div className='text-green-600'>Enrollment Index</div>
             <div className=''>2022 Stats</div>
             <div className='pt-5 text-green-700 text-lg'>+5.5 %</div>
             <div className='text-green-600 text-2xl '>23,000</div>
@@ -33,7 +33,7 @@ function Boxes(props: {
               }`}
             onClick={() => props.SelectedFeature("enro")}
           >
-            <div className='text-blue-600'>Pass Fail ratio</div>
+            <div className='text-blue-600'>Pass Fail Ratio</div>
             <div className=''>2022 Stats</div>
             <div className='pt-5 text-blue-700 text-lg'>+5.5 %</div>
             <div className='text-blue-600 text-2xl '>23,000</div>
@@ -43,7 +43,7 @@ function Boxes(props: {
               }`}
             onClick={() => props.SelectedFeature("gpi")}
           >
-            <div className='text-gray-600'>GP INDEX</div>
+            <div className='text-gray-600'>Gender Parity Index</div>
             <div className=''>2022 Stats</div>
             <div className='pt-5 text-gray-700 text-lg'>+5.5 %</div>
             <div className='text-gray-600 text-2xl '>23,000</div>
