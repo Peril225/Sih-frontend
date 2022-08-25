@@ -2,22 +2,22 @@
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str1 {stroke:black;stroke-width:10;stroke-opacity:0.501961}
-    .str3 {stroke:black;stroke-width:50}
-    .str4 {stroke:#434242;stroke-width:10}
-    .str0 {stroke:black;stroke-width:10}
-    .str2 {stroke:black;stroke-width:10}
+    .str1 {stroke:white;stroke-width:50;stroke-opacity:0.501961}
+    .str3 {stroke:white;stroke-width:50}
+    .str4 {stroke:#434242;stroke-width:50}
+    .str0 {stroke:white;stroke-width:50}
+    .str2 {stroke:white;stroke-width:50}
     .str5 {stroke:#2B2A29;stroke-width:7.62}
-    .str6 {stroke:black;stroke-width:7.62}
+    .str6 {stroke:white;stroke-width:7.62}
     .fil6 {fill:none}
-    .fil1 {fill:#FEFEFE}
-    .fil0 {fill:#FEFEFE}
+    .fil1 {fill:#171729}
+    .fil0 {fill:#171729}
     .fil8 {fill:#D9DADA}
-    .fil5 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil5 {fill:#171729;fill-rule:nonzero}
     .fil4 {fill:#D9DADA;fill-rule:nonzero}
     .fil7 {fill:#434242;fill-rule:nonzero}
     .fil3 {fill:black;fill-rule:nonzero}
-    .fil2 {fill:#FEFEFE;fill-rule:nonzero;fill-opacity:0.501961}
+    .fil2 {fill:#171729;fill-rule:nonzero;fill-opacity:0.501961}
    ]]>
   </style>
  </defs>
