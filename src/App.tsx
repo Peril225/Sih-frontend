@@ -41,9 +41,9 @@ function App() {
         <Route path='/LiteracyRate' element={<LiteracyRate />}></Route>
         <Route path='/GPI' element={<GPI />}></Route>
         <Route path='/CasteBased' element={<CasteBased />}></Route>
-        <Route path='/Signup' element={<Signup />}></Route>
+        {/* <Route path='/Signup' element={<Signup />}></Route> */}
         <Route path='/Login' element={<Signin />}></Route>
-        <Route path='/Dashbard' element={<Default />}></Route>
+        <Route path='/Dashboard' element={<Default />}></Route>
         <Route path='/GUIDE' element={<GUIDE />}></Route>
         <Route path='/state/:state' element={<States />}></Route>
         {/* <Route path='/test' element={<Testin />}></Route> */}

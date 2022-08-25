@@ -36,9 +36,9 @@ function Default() {
 						<div className={`${impor ? "bg-bgr2" : ""} px-4 py-2 rounded-2xl cursor-pointer`} onClick={() => setimpor(true)}>Import Data</div>
 						<div className={`${impor ? "" : "bg-bgr2"} px-4 py-2 rounded-2xl cursor-pointer`} onClick={() => setimpor(false)}>Export Data</div>
 					</div>
-					<div className='bg-bgr2 px-14 py-4 space-y-7 rounded-md'>
+					<div className='bg-bgr2 px-14 py-4 space-y-7 rounded-md flex flex-col items-center'>
 						<div className='text-xl  font-medium font-sans border-b-2 pb-4 border-slate-600 px-32'>Upload Data to Databse</div>
-						<div className='flex justify-center space-x-4 bg-black'>
+						<div className='flex justify-center space-x-4 bg-black rounded-xl w-3/4 px-5 py-3'>
 							<div className='cursor-pointer'>Select A File</div>
 							<div className='flex cursor-pointer items-center'><div>DropOut</div> <MdOutlineKeyboardArrowDown size={25} /></div>
 						</div>
