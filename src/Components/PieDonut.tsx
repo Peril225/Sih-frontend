@@ -10,7 +10,7 @@ function PieDonut({ Current, pievals, labels, width, value }: TPieDonut) {
         return "ENROLLMENT RATE"
         break;
       case "lit":
-        return "Literacy RATE"
+        return "LITERACY RATE"
         break;
       case "dropout":
         return "DROPOUT  RATE"

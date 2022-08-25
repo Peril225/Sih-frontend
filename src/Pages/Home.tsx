@@ -250,9 +250,13 @@ function Home() {
                   <br />
                   Enrollment Rate:- 95%
                   <br /><br/>
-                  <Link className="cursor-pointer hover:underline
+                <u>
+
+                  <Link className="cursor-pointer text-red-100 hover:underline
                   "  to={"/levels/primary"}>
-                  Read More Here.</Link>
+                  Read More Here...</Link>
+                    </u>
+            
                   <br />
                 </div>
               </div>
@@ -361,8 +365,10 @@ function Home() {
                 Literacy Rate:- 69% <br/>
                 Enrollment Rate:- 78.8%
                 <br /><br/>
-                <Link className="cursor-pointer hover:underline"  to={"/levels/secondary"}>
+                  <u>
+                  <Link className="cursor-pointer hover:underline text-red-600"  to={"/levels/technical"}>
                   Read More Here.</Link>
+                  </u>
                 </div>
               </div>
             </div>
@@ -378,8 +384,10 @@ function Home() {
                   Literacy Rate:- 65.7%<br />
                   Enrollment Rate:- 74.3%
                   <br /><br/>
-                  <Link className="cursor-pointer hover:underline"  to={"/levels/technical"}>
-                  Read More Here.</Link>
+                  <u>
+                  <Link className="cursor-pointer hover:underline text-red-600"  to={"/levels/technical"}>
+                  Read More Here...</Link>
+                  </u>
                 </div>
                 {/* <div>Ther</div> */}
               </div>

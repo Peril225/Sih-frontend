@@ -53,7 +53,7 @@ export const Options = {
   //   },
   // },
   labels: ["ELEMENTERY", "HIGHSCHOOL", "TECHNICAL"],
-  colors: ["#FFFF00", "#E3242B", "#349beb"],
+  colors: ["#FFFF00"  , "#E3242B", "#349beb"],
   chart: {
     width: 320,
     type: "donut",
