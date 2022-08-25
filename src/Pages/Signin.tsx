@@ -12,8 +12,6 @@ function Signin() {
   const [password, setpassword] = useState<string>("");
   const dispatch = useDispatch();
   useEffect(() => {
-    // Component did Mount function
-    // console.log(import.meta.env.VITE_BASE_URL, "urll");
   }, []);
 
   // ASYNC Signup submit function
@@ -106,11 +104,11 @@ function Signin() {
                   <div className='flex -mx-3 pt-9'>
                     <div className='w-full px-3 mb-5'>
                       <div className='flex flex-row space-x-5'>
-                        <Link to={"/signup"}>
+                        {/* <Link to={"/signup"}>
                           <button className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'>
                             Create an Account
                           </button>
-                        </Link>
+                        </Link> */}
 
                         <button
                           className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'
