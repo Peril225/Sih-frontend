@@ -237,7 +237,7 @@ function GPI() {
         onScroll={onScroll}
       >
         <div className='text-3xl text-slate-400 font-bold font-mono cursor-pointer  px-5 py-3 rounded-2xl hover:shadow-2xl hover:shadow-slate-600'>
-          GPI Metrics of India
+          GENDER PARITY INDEX 
         </div>
         <div className='w-screen '>
           <div className='xl:flex-row flex flex-col-reverse justify-around'>

@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { useEffect, useState } from "react";
 import { AiTwotoneHome } from "react-icons/ai";
 import { MdOutlineApps } from "react-icons/md";
@@ -6,9 +7,7 @@ import { FiLogOut } from "react-icons/fi";
 import { FcMindMap } from "react-icons/fc";
 import { useNavigate } from "react-router";
 import { IoDocumentTextSharp } from "react-icons/io5";
-
 import talash from "../assets/svgFiles/talash.svg"
-
 import { Link } from "react-router-dom";
 
 
@@ -116,8 +115,13 @@ export default function SideBar({
                 SECONDARY</Link>
             </div>
             <div>
+
               <Link className="cursor-pointer" to={"/levels/secondary"}>
                 TECHNICAL</Link>
+
+              <Link className="cursor-pointer" to={"/levels/technical"}>
+                TECHNICAL</Link>
+
             </div>
           </div>
         </div>

@@ -12,8 +12,6 @@ function Signin() {
   const [password, setpassword] = useState<string>("");
   const dispatch = useDispatch();
   useEffect(() => {
-    // Component did Mount function
-    // console.log(import.meta.env.VITE_BASE_URL, "urll");
   }, []);
 
   // ASYNC Signup submit function

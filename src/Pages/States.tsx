@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { useEffect, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 import { useNavigate, useParams } from "react-router";
@@ -491,7 +492,7 @@ function States() {
                 <div className='w-full '>
                     <div className=' xl:flex-row flex-col items-center flex xl:justify-between'>
                         <div className={`lg:w-5/12 lg:h-3/5 w-11/12 h-4/5 my-10 sm:ml-20 space-y-20 animate-fade `}>
-                            <img src={`http://localhost:5173/src/assets/svgFiles/states/${state}.svg`} />
+                            <img className="rounded-2xl border-slate-500 border w-1/2 mx-auto" src={`http://localhost:5173/src/assets/svgFiles/states/${state}.svg`} />
                             <div className="hidden">
                                 <IndiaMap
                                     hide={true}

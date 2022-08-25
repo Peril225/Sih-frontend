@@ -242,14 +242,14 @@ function CasteBased() {
         onScroll={onScroll}
       >
         <div className='text-3xl text-slate-400 font-bold font-mono cursor-pointer  px-5 py-3 rounded-2xl hover:shadow-2xl hover:shadow-slate-600'>
-          Caste Based Statistics
+          CASTE BASED STATISTICS
         </div>
         <div className='w-screen '>
           <div className='xl:flex-row flex flex-col-reverse justify-around'>
             <div className='w-8/12 h-2/5 m-20 sm:ml-40 space-y-6'>
               <div className='flex text-slate-300 items-center'>
                 <div className='bg-bgr1 p-4 rounded-l-xl border-r-2 border-bgr_dark'>
-                  STATS FOR
+                  STATISTICS FOR
                 </div>
                 <div className='bg-bgr1 p-1.5 rounded-r-xl cursor-pointer flex items-center space-x-3'>
                   <DropdownCaste />
@@ -280,12 +280,12 @@ function CasteBased() {
                   </div>
                 </div>
                 <div className='flex justify-between w-full px-5'>
-                  <div className='text-slate-300'>number of Govt Schools</div>
-                  <div>2k</div>
+                  <div className='text-slate-300'>Number Of Government Schools</div>
+                  <div>5000</div>
                 </div>
                 <div className='flex justify-between w-full px-5'>
                   <div className='text-slate-300'>
-                    avg teachers for 30 students
+                  Avg No. Of Teachers (per 100 students)
                   </div>
                   <div>1.2</div>
                 </div>

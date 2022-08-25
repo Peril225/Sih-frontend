@@ -21,6 +21,7 @@ import Standard from "./Pages/Standard";
 import GUIDE from "./Pages/GUIDE";
 import State from "./Pages/State";
 import States from "./Pages/States";
+import ADMINLOGIN from "./Pages/Signup";
 // import Testin from "./Pages/testing";
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
         <Route path='/LiteracyRate' element={<LiteracyRate />}></Route>
         <Route path='/GPI' element={<GPI />}></Route>
         <Route path='/CasteBased' element={<CasteBased />}></Route>
-        {/* <Route path='/Signup' element={<Signup />}></Route> */}
+        <Route path='/Admin_Login' element={<ADMINLOGIN />}></Route>
         <Route path='/Login' element={<Signin />}></Route>
         <Route path='/Dashboard' element={<Default />}></Route>
         <Route path='/GUIDE' element={<GUIDE />}></Route>
@@ -50,7 +51,7 @@ function App() {
         {/* default Route */}
         <Route path='/levels/:level' element={<Standard />}></Route>
         {/* <Route path='/State/:states' element={<State />}></Route> */}
-        {/* <Route path='*' element={<div>404</div>} /> */}
+        <Route path='*' element={<div>404</div>} />
       </Routes>
     </div>
   );
