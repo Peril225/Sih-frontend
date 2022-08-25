@@ -9,11 +9,13 @@ function Search(props: SearchProps) {
   const [value, setvalue] = useState("")
   return (
     < div className="relative" >
-      <label className='text-slate-500 font-bold px-4'>
+      <label className='text-slate-100 font-bold p-5'>
         Select State or District
       </label>
-      <div className='w-full flex items-center bg-bgr1 '>
-        <BiSearchAlt className='text-slate-500 px-4 ' size={60} />
+      <div className='w-full flex items-center bg-bgr1 p m-3'>
+        <BiSearchAlt className='text-slate-300 px-4 ' size={60} />
+
+
         <input
           className='bg-bgr1 outline-none w-full p-5 pl-0 text-blue-400 text-lg font-mono'
           placeholder={props.placeholder}
