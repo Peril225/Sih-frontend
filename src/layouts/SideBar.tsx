@@ -6,11 +6,11 @@ import { FiLogOut } from "react-icons/fi";
 import { FcMindMap } from "react-icons/fc";
 import { useNavigate } from "react-router";
 import { IoDocumentTextSharp } from "react-icons/io5";
-<<<<<<< HEAD
+
 import talash from "../assets/svgFiles/talash.svg"
-=======
+
 import { Link } from "react-router-dom";
->>>>>>> c66bcf04853ce42666f5c653c486ae5311847fcb
+
 
 export default function SideBar({
   setExplore,
@@ -96,8 +96,8 @@ export default function SideBar({
       <div className={`h-screen z-40 ease-in-out transform items-center transition-all duration-200 bg-bgr1 flex flex-col w-full ${view ? "w-60" : "w-0 overflow-hidden"}  absolute py-32 space-x-2 flex flex-col`} style={{ left: `${width}px` }}>
         <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
           // setExplore(true)
-        }}><Link className="cursor-pointer"  to={"/levels/primary"}>
-        DASHBOARD</Link></div>
+        }}><Link className="cursor-pointer" to={"/levels/primary"}>
+            DASHBOARD</Link></div>
         <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
           setExplore(true)
         }}>EXPLORE ALL ROUTES</div>
@@ -108,16 +108,16 @@ export default function SideBar({
             className=" transition  transform overflow-hidden flex flex-col space-y-2 pt-2"
           >
             <div>
-            <Link className="cursor-pointer"  to={"/levels/primary"}>
-            PRIMARY</Link>
+              <Link className="cursor-pointer" to={"/levels/primary"}>
+                PRIMARY</Link>
             </div>
             <div>
-            <Link className="cursor-pointer"  to={"/levels/secondary"}>
-            SECONDARY</Link>
+              <Link className="cursor-pointer" to={"/levels/secondary"}>
+                SECONDARY</Link>
             </div>
             <div>
-            <Link className="cursor-pointer"  to={"/levels/secondary"}>
-            TECHNICAL</Link>
+              <Link className="cursor-pointer" to={"/levels/secondary"}>
+                TECHNICAL</Link>
             </div>
           </div>
         </div>

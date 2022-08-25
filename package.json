@@ -29,7 +29,8 @@
     "recharts": "^2.1.13",
     "redux": "^4.2.0",
     "styled-components": "^5.3.5",
-    "tailwindcss-filters": "^3.0.0"
+    "tailwindcss-filters": "^3.0.0",
+    "vite-plugin-require": "^1.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",

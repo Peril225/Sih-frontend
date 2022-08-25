@@ -7,16 +7,17 @@ import DropdownCaste from "../Components/Dropdown";
 import DropDownState from "../Components/DropDownStates";
 import { StatesXcolor } from "../constants";
 import { ExploreC, SideBar } from "../layouts";
-
 import NavBAR from "../layouts/navbar";
 function States() {
     const [view, setview] = useState(false)
     const [open, setopen] = useState<boolean>(false)
     const [Current, setCurrent] = useState("Odissa");
+    // const [img, setimg] = useState();
     const [Explore, setExplore] = useState(false);
     const [loaded, setloaded] = useState(false);
     const history = useNavigate();
     const { state } = useParams();
+    const img = `../assets/svgFiles/states/${state}`
     const [DROPOUTBAR, setDROPOUTBAR] = useState();
     const ChangeState = (State: string) => {
         if (Current == State) {
@@ -490,11 +491,14 @@ function States() {
                 <div className='w-full '>
                     <div className=' xl:flex-row flex-col items-center flex xl:justify-between'>
                         <div className={`lg:w-5/12 lg:h-3/5 w-11/12 h-4/5 my-10 sm:ml-20 space-y-20 animate-fade `}>
-                            <IndiaMap
-                                hide={true}
-                                ChangeState={ChangeState}
-                                onLocationClick={onLocationClick}
-                            />
+                            <img src={`http://localhost:5173/src/assets/svgFiles/states/${state}.svg`} />
+                            <div className="hidden">
+                                <IndiaMap
+                                    hide={true}
+                                    ChangeState={ChangeState}
+                                    onLocationClick={onLocationClick}
+                                />
+                            </div>
                             <div>
                                 <div
                                     className='text-white xl:flex hidden   my-5   flex-col h-300   backdrop-blur-xl shadow-white letsSEE items-center space-y-6'

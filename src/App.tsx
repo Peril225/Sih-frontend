@@ -50,7 +50,7 @@ function App() {
         {/* default Route */}
         <Route path='/levels/:level' element={<Standard />}></Route>
         {/* <Route path='/State/:states' element={<State />}></Route> */}
-        <Route path='*' element={<div>404</div>} />
+        {/* <Route path='*' element={<div>404</div>} /> */}
       </Routes>
     </div>
   );

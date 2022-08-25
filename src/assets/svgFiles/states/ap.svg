@@ -2,22 +2,22 @@
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str1 {stroke:black;stroke-width:10;stroke-miterlimit:3.864;stroke-opacity:0.501961}
-    .str3 {stroke:black;stroke-width:50;stroke-miterlimit:22.9256}
-    .str5 {stroke:#434242;stroke-width:10;stroke-miterlimit:22.9256}
-    .str0 {stroke:black;stroke-width:10;stroke-miterlimit:22.9256}
-    .str2 {stroke:black;stroke-width:10;stroke-miterlimit:3.864}
+    .str1 {stroke:#171729;stroke-width:50;stroke-miterlimit:3.864;stroke-opacity:0.501961}
+    .str3 {stroke:#171729;stroke-width:50;stroke-miterlimit:22.9256}
+    .str5 {stroke:#434242;stroke-width:50;stroke-miterlimit:22.9256}
+    .str0 {stroke:#171729;stroke-width:50;stroke-miterlimit:22.9256}
+    .str2 {stroke:#171729;stroke-width:50;stroke-miterlimit:3.864}
     .str6 {stroke:#2B2A29;stroke-width:7.62;stroke-miterlimit:22.9256}
-    .str4 {stroke:black;stroke-width:7.62;stroke-miterlimit:22.9256}
+    .str4 {stroke:#171729;stroke-width:7.62;stroke-miterlimit:22.9256}
     .fil6 {fill:none}
-    .fil0 {fill:#FEFEFE}
-    .fil1 {fill:#FEFEFE}
-    .fil8 {fill:#D9DADA}
-    .fil5 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil0 {fill:#171729}
+    .fil1 {fill:#171729}
+    .fil8 {fill:#D9DADA}Fst
+    .fil5 {fill:#171729;fill-rule:nonzero}
     .fil4 {fill:#D9DADA;fill-rule:nonzero}
     .fil7 {fill:#434242;fill-rule:nonzero}
-    .fil3 {fill:black;fill-rule:nonzero}
-    .fil2 {fill:#FEFEFE;fill-rule:nonzero;fill-opacity:0.501961}
+    .fil3 {fill:#171729;fill-rule:nonzero}
+    .fil2 {fill:#171729;fill-rule:nonzero;fill-opacity:0.501961}
    ]]>
   </style>
  </defs>
