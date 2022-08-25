@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
-import { SignIn } from "../utils/Auth";
+import { AdminSignin, SignIn } from "../utils/Auth";
 import { useDispatch } from "react-redux";
 
 function ADMINLOGIN() {
@@ -26,7 +26,7 @@ function ADMINLOGIN() {
       // POSTING request
       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       if (mailformat.test(email)) {
-        SignIn({ email, password, history, dispatch });
+        AdminSignin({ email, password, history, dispatch });
       } else {
         toast.error("email invalid");
       }
@@ -49,7 +49,7 @@ function ADMINLOGIN() {
               </div>
               <div className='w-full md:w-1/2 py-10 px-5 md:px-10'>
                 <div className='text-center mb-10'>
-                  <h1 className='font-bold text-3xl text-gray-900'>Login</h1>
+                  <h1 className='font-bold text-3xl text-gray-900'>Root Administrator Login</h1>
                   <p>Enter your information to Login</p>
                 </div>
                 <div className=''>
