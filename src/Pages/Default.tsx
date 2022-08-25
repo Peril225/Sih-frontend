@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from 'react'
-import Iframe from 'react-iframe'
+
 import { useNavigate } from 'react-router'
 
 function Default() {
@@ -28,8 +28,7 @@ function Default() {
 
 	return (
 		<div>
-			<button onClick={() => setrenerCom(1)}>yo</button><button onClick={() => setrenerCom(2)}>uooo</button><button onClick={() => setrenerCom(3)}>bouo</button>
-			{renderCompo(renerCom)}
+
 		</div>
 	)
 }

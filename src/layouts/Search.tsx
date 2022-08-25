@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { SearchProps } from "../../typings";
 import Testin from "../Pages/testing";
