@@ -9,7 +9,6 @@ import { StatesXcolor } from "../constants";
 import { ExploreC, SideBar } from "../layouts";
 
 import NavBAR from "../layouts/navbar";
-
 function States() {
     const [view, setview] = useState(false)
     const [open, setopen] = useState<boolean>(false)
