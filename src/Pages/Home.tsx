@@ -77,6 +77,7 @@ function Home() {
   };
   // const x = props.position.x;
   // const y = props.position.y;
+ 
 
   const ChangeState = (State: string) => {
     if (Current == State) {
@@ -193,21 +194,21 @@ function Home() {
       <NavBAR open={open} setExplore={setExplore} setopen={setopen} setview={setview} view={view} />
 
       <div className='h-screen overflow-x-hidden justify-center flex '>
-        <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-20 top-0 animate-fade '>
-          <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-2 xl:pl-2 lg:w-5/6 flex items-center justify-center'>
-            VRIDDHI.
+        <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-20 animate-fade top-0'>
+          <div className=' text-slate-100 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-2 xl:pl-2 lg:w-5/6 flex items-center justify-center mb-3 '>
+            VRIDDHI
           </div>
-          <div className='text-slate-500 max-w-xl text-lg px-5 shrink  lg:w-1/2  w-2/3 items-center'>
-            " Sa Vidhyaya Vimukthaye means, Knowledge is the ulimate liberation. 
+          <div className='text-slate-100 max-w-xl text-lg px-5 shrink  lg:w-1/2  w-2/3 items-center'>
+             "Sa Vidhyaya Vimukthaye means, Knowledge is the ulimate liberation. 
               &nbsp;Our motto is to uplift the education sector."{" "}
           </div>
-          <div className='  flex-col flex md:w-9/12 space-y-3 max-w-2xl sm:w-1/2'>
+          <div className='  flex-col flex md:w-9/12 space-y-3 max-w-2xl sm:w-1/2 padding:70px'>
             <Search placeholder={placeholder} setShowState={setShowState} />
             <SearchState ShowState={ShowState} />
           </div>
-          <div className='xl:flex-row flex text-slate-400 justify-between flex-col  items-center pt-20 sm:px-12 p-6 w-screen'>
+          <div className='xl:flex-row flex text-slate-100 justify-between flex-col  items-center pt-20 sm:px-12 p-6 w-screen'>
             <div className='sm:pl-14 font-mono space-y-3 flex flex-col items-center'>
-              <div className='text-xl flex w-full justify-center md:justify-start'>
+              <div className='text-xl flex w-full justify-center md:justify-start font-bold '>
                 <div>CRUCIAL STATISTICS OF INDIA</div>
               </div>
               <Boxes Feature={CurrentSTAT} SelectedFeature={SelectedFeature} />
@@ -228,14 +229,14 @@ function Home() {
             </div>
           </div>
           <div className='justify-between items-center flex flex-col md:space-y-14 '>
-            <div className='text-4xl text-slate-500 font-bold font-mono md:pb-40 pb-20 mt-24 italic '>
+            <div className='text-4xl text-slate-100 font-bold font-mono md:pb-40 pb-20 mt-24 italic '>
               VARIOUS LEVELS OF EDUCATION
             </div>
             <div className='xl:flex-row  flex flex-col-reverse  w-screen justify-between pb-10 items-center '>
               <div className=' xl:ml-48 px-5 py-5 xl:px-0 md:py-0 xl:w-3/12 md:w-3/4   flex flex-col '>
                 <div>
                   {/* <div className='text-violet-800 font-bold'>HISTORICAL OF</div> */}
-                  <div className='text-violet-800 font-semibold font-mono text-2xl blue'>
+                  <div className='text-violet-400 font-semibold font-mono text-2xl blue'>
                     PRIMARY LEVEL OF EDUCATION
                   </div>
                 </div>
@@ -249,7 +250,8 @@ function Home() {
                   <br />
                   Enrollment Rate:- 95%
                   <br /><br/>
-                  <Link className="cursor-pointer hover:underline"  to={"/levels/primary"}>
+                  <Link className="cursor-pointer hover:underline
+                  "  to={"/levels/primary"}>
                   Read More Here.</Link>
                   <br />
                 </div>
