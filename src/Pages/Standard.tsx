@@ -508,6 +508,18 @@ function Standard() {
                     4.Strengthening for providing quality Education in Madrassas ( SPQEM)<br/>
                     5.Sarva Shiksha Abhiyan (SSA) is implemented as India's main Programme for universalizing elementary education. <br/>
                     Its overall goals include universal access and retention, bridging of gender and social category gaps in education and enhancement of learning levels of children.
+                    The National Council for Educational Research and Training (NCERT) promotes educational development both in quantitative and qualitative terms and makes special <br/>
+                    efforts to remove disparities and equalize educational opportunities for all students. NCERT acknowledges and appreciates educational brilliance in students through the National Talent Search Scheme. <br/>
+                    The Central Government provides grants to UGC and establishes Central Universities in the country. ,<br />
+                    Meritorious students, from families with or without necessary means, need an incentive or encouragement to keep on working hard in their studies and go to the next level of education in their academic career
+                    It also seeks to applaud artistic distinction through the Chacha Nehru Scholarships - for artistic and innovative excellence. The National Bal Bhawan has instituted a system of honouring talented children in different age groups in the year 1995 through the Bal Shree scheme.<br/>
+                    6.National Merit-cum-Means Scholarship Scheme,<br />
+                    7.Scheme for construction and running of Girls’ Hostel for students of secondary and higher secondary schools,<br />
+                    8.Scholarship schemes for Minority students,<br />
+                    9.National Scholarships
+
+
+                    
                   </div>
                 </div>
               </div>
