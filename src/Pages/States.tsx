@@ -39,9 +39,9 @@ function States() {
         //         break;
         // }
         StatesXcolor.map((state) => {
-            // document.getElementById(
-            //     state.State
-            // )!.style.display = `none`;
+            document.getElementById(
+                state.State
+            )!.style.display = `none`;
         });
         setloaded(true)
         document.getElementById(state)!.style.display = `block`;

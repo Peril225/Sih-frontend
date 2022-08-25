@@ -40,6 +40,21 @@ table {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
+.letsSEE1 {
+  border-radius: 50px !important;
+  background-color: #3f3f8d;
+  background-image: radial-gradient(
+      at 47% 33%,
+      rgb(49, 102, 78) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, rgb(87, 42, 88) 0, transparent 55%);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(14, 32, 65, 0.75);
+  /* border-radius: 12px; */
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
 .svg-map__location:hover {
   /* fill: gray; */
   stroke-width: 3px;

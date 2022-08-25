@@ -6,6 +6,7 @@ import { FiLogOut } from "react-icons/fi";
 import { FcMindMap } from "react-icons/fc";
 import { useNavigate } from "react-router";
 import { IoDocumentTextSharp } from "react-icons/io5";
+import talash from "../assets/svgFiles/talash.svg"
 
 export default function SideBar({
   setExplore,
@@ -29,16 +30,8 @@ export default function SideBar({
     <div className="flex relative" onMouseEnter={() => setview(true)} onMouseLeave={() => setview(false)}>
       <div id="SIDENAV" className=' px-4 py-4 cursor-pointer hidden md:flex   bg-bgr1 h-screen justify-between items-center flex-col'>
         <div className='py-7 '>
-          <div className="flex flex-col items-center mb-7" onClick={() => history("/")}>
-            <div className="font-extrabold text-blue-500 ">
-
-              TEAM
-            </div>
-            <div className="font-extrabold text-slate-200">
-
-              VRIDDHI
-            </div>
-
+          <div className="flex flex-col  items-center mb-7" onClick={() => history("/")}>
+            <img className="rounded-full" src={talash}></img>
           </div>
           <div
             className='p-4 text-xl font-bold  text-slate-500 hover:text-slate-400 cursor-pointer '
