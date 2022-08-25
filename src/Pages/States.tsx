@@ -9,7 +9,6 @@ import { StatesXcolor } from "../constants";
 import { ExploreC, SideBar } from "../layouts";
 
 import NavBAR from "../layouts/navbar";
-
 function States() {
     const [view, setview] = useState(false)
     const [open, setopen] = useState<boolean>(false)
@@ -39,9 +38,9 @@ function States() {
         //         break;
         // }
         StatesXcolor.map((state) => {
-            // document.getElementById(
-            //     state.State
-            // )!.style.display = `none`;
+            document.getElementById(
+                state.State
+            )!.style.display = `none`;
         });
         setloaded(true)
         document.getElementById(state)!.style.display = `block`;
