@@ -19,6 +19,7 @@ import {
 
 import Footer from "../layouts/Footer";
 import NavBAR from "../layouts/navbar";
+import { Link } from "react-router-dom";
 function Home() {
   const history = useNavigate();
   // const { height, width } = useWindowDimensions();
@@ -194,13 +195,11 @@ function Home() {
       <div className='h-screen overflow-x-hidden justify-center flex '>
         <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-20 top-0 animate-fade '>
           <div className=' text-slate-400 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-2 xl:pl-2 lg:w-5/6 flex items-center justify-center'>
-            National Educational Database.
+            VRIDDHI.
           </div>
-          <div className='text-slate-500 max-w-xl text-lg px-5 shrink  lg:w-1/2  w-2/3'>
-            " Endure, Master Wayne. Take it. They’ll hate you for it, but that’s
-            the point of Batman, he can be the outcast. He can make the choice
-            that no one else can make, the right choice." - Alfred Pennyworth,
-            The Dark Knight{" "}
+          <div className='text-slate-500 max-w-xl text-lg px-5 shrink  lg:w-1/2  w-2/3 items-center'>
+            " Sa Vidhyaya Vimukthaye means, Knowledge is the ulimate liberation. 
+              &nbsp;Our motto is to uplift the education sector."{" "}
           </div>
           <div className='  flex-col flex md:w-9/12 space-y-3 max-w-2xl sm:w-1/2'>
             <Search placeholder={placeholder} setShowState={setShowState} />
@@ -209,7 +208,7 @@ function Home() {
           <div className='xl:flex-row flex text-slate-400 justify-between flex-col  items-center pt-20 sm:px-12 p-6 w-screen'>
             <div className='sm:pl-14 font-mono space-y-3 flex flex-col items-center'>
               <div className='text-xl flex w-full justify-center md:justify-start'>
-                <div>Browse through these Data . . .</div>
+                <div>CRUCIAL STATISTICS OF INDIA</div>
               </div>
               <Boxes Feature={CurrentSTAT} SelectedFeature={SelectedFeature} />
               <PieDonut
@@ -230,21 +229,29 @@ function Home() {
           </div>
           <div className='justify-between items-center flex flex-col md:space-y-14 '>
             <div className='text-4xl text-slate-500 font-bold font-mono md:pb-40 pb-20 mt-24 italic '>
-              How India Is Performing ...
+              VARIOUS LEVELS OF EDUCATION
             </div>
             <div className='xl:flex-row  flex flex-col-reverse  w-screen justify-between pb-10 items-center '>
               <div className=' xl:ml-48 px-5 py-5 xl:px-0 md:py-0 xl:w-3/12 md:w-3/4   flex flex-col '>
                 <div>
-                  <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
-                  <div className='text-slate-300 font-semibold font-mono text-2xl'>
-                    DROPOUT RATE IN INDIA
+                  {/* <div className='text-violet-800 font-bold'>HISTORICAL OF</div> */}
+                  <div className='text-violet-800 font-semibold font-mono text-2xl blue'>
+                    PRIMARY LEVEL OF EDUCATION
                   </div>
                 </div>
                 <div className='text-slate-300 font-light font-mono pt-3 '>
-                  &nbsp;&nbsp;There has been ups and downs regarding DropOut
-                  rate in INDIAN education but in previous years it declining
-                  which is a good sign indicating more people are able to
-                  complete their education properly
+                Primary Education consists of two categories namely lower primary(Class 1-4) and upper primary(Class 5-8).
+                  <br />
+                  The Indian Government lays emphasis on primary education also referred to as elementary education 
+                  Statistics related to primary education 
+                  <br />
+                  Literacy Rate:- 77.7%
+                  <br />
+                  Enrollment Rate:- 95%
+                  <br /><br/>
+                  <Link className="cursor-pointer hover:underline"  to={"/levels/primary"}>
+                  Read More Here.</Link>
+                  <br />
                 </div>
               </div>
               <div className='sm:p-3 p-0 rounded-xl border xl:mr-60'>
@@ -341,28 +348,36 @@ function Home() {
                 </ComposedChart>
               </div>
               <div className='xl:w-3/12 md:w-3/4 xl:mr-64 px-3 py-3'>
-                <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
-                <div className='text-slate-300 font-semibold font-mono text-2xl'>
-                  PASS RATE IN INDIA
+                {/* <div className='text-violet-800 font-bold'>HISTORICAL OF</div> */}
+                <div className='text-violet-800 font-semibold font-mono text-2xl blue'>
+                  SECONDARY LEVEL OF EDUCATION
                 </div>
                 <div className='text-slate-300 font-light font-mono pt-3'>
-                  &nbsp;&nbsp;Over past twenty years india has evolved
-                  significant amount from 58% in 2000 to more than 80 indicates
-                  more people are completing their education succesfully
+                Secondary education lasts 4 years. <br />
+                Lower Secondary Education : concluded with exams for a Standard X  <br />
+                Upper Secondary Education : concluded with exams for a Standard XII  <br />
+                Literacy Rate:- 69% <br/>
+                Enrollment Rate:- 78.8%
+                <br /><br/>
+                <Link className="cursor-pointer hover:underline"  to={"/levels/secondary"}>
+                  Read More Here.</Link>
                 </div>
               </div>
             </div>
             <div className='xl:flex-row  flex flex-col-reverse w-screen justify-between pb-10 items-center '>
               <div className='xl:ml-48 xl:w-3/12 p-3 md:w-3/4'>
-                <div className='text-violet-800 font-bold'>HISTORICAL OF</div>
-                <div className='text-slate-300 font-semibold font-mono text-2xl'>
-                  LITERACY RATE IN INDIA
+                {/* <div className='text-violet-800 font-bold'>HISTORICAL OF</div> */}
+                <div className='text-violet-800 font-semibold font-mono text-2xl'>
+                  TECHNICAL LEVEL OF EDUCATION
                 </div>
                 <div className='text-slate-300 font-light font-mono pt-3'>
-                  &nbsp;&nbsp;"A hero can be anyone. Even a man doing something
-                  as simple and reassuring as putting a coat around a little
-                  boy’s shoulders to let him know that the world hadn’t ended."
-                  - Bruce Wayne/Batman, The Dark Knight Rises
+                  Technical level of education is imparted at various levels such as: <br />
+                  craftsmanship, diploma, and degree, post-graduate and research in specialized fields.
+                  Literacy Rate:- 65.7%<br />
+                  Enrollment Rate:- 74.3%
+                  <br /><br/>
+                  <Link className="cursor-pointer hover:underline"  to={"/levels/technical"}>
+                  Read More Here.</Link>
                 </div>
                 {/* <div>Ther</div> */}
               </div>
