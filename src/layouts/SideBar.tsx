@@ -120,7 +120,7 @@ export default function SideBar({
             SECONDARY</Link>
             </div>
             <div>
-            <Link className="cursor-pointer"  to={"/levels/secondary"}>
+            <Link className="cursor-pointer"  to={"/levels/technical"}>
             TECHNICAL</Link>
             </div>
           </div>

@@ -237,7 +237,7 @@ function ENrollment() {
         onScroll={onScroll}
       >
         <div className='text-3xl text-slate-400 font-bold font-mono cursor-pointer  px-5 py-3 rounded-2xl hover:shadow-2xl hover:shadow-slate-600'>
-          ENrollment Metrics of India
+          ENROLLMENT RATE STATISTICS
         </div>
         <div className='w-screen '>
           <div className='xl:flex-row flex flex-col-reverse justify-around'>
@@ -267,27 +267,27 @@ function ENrollment() {
                 {/* <div className='pt-3 inline-block'>Country Stats</div> */}
                 <div className='flex justify-between w-full px-5'>
                   <div className='text-slate-300'>
-                    Percentage change over Decade
+                    Percentage change over the Decade
                   </div>
                   <div className='text-green-400'>
                     + {Math.ceil(Math.random() * 1000) / 100} %
                   </div>
                 </div>
                 <div className='flex justify-between w-full px-5'>
-                  <div className='text-slate-300'>number of Govt Schools</div>
-                  <div>2k</div>
+                  <div className='text-slate-300'>Number of Government Schools</div>
+                  <div>3125</div>
                 </div>
                 <div className='flex justify-between w-full px-5'>
                   <div className='text-slate-300'>
-                    avg teachers for 30 students
+                  Avg No. Of Teachers (per 100 students)
                   </div>
                   <div>1.2</div>
                 </div>
                 <div className='flex justify-between w-full px-5'>
                   <div className='text-slate-300'>
-                    Total count private schools
+                  Total Count of Private Schools
                   </div>
-                  <div>10k</div>
+                  <div>4568</div>
                 </div>
               </div>
               <div className='mt-12  rounded-xl px-6'>
