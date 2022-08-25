@@ -1,53 +1,39 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
-import { Link } from "react-router-dom";
-import { Signup as FSingup } from "../utils/Auth/";
+import { Link, useNavigate } from "react-router-dom";
+import { SignIn } from "../utils/Auth";
+import { useDispatch } from "react-redux";
 
-function Signup() {
+function ADMINLOGIN() {
   // dotenv.config();
   // states to store FORM DATA
-  const [Firstname, setFirstname] = useState<string>("");
-  const [username, setusername] = useState<string>("");
+  let history = useNavigate();
   const [email, setemail] = useState<string>("");
   const [password, setpassword] = useState<string>("");
-  const [confirm, setconfirm] = useState<string>("");
-
-  // Component did mount
+  const dispatch = useDispatch();
   useEffect(() => {
+    // Component did Mount function
     // console.log(import.meta.env.VITE_BASE_URL, "urll");
   }, []);
 
   // ASYNC Signup submit function
   const Submit = () => {
     // verify FORMDATA is valid
-    // console.log(Firstname, username, email, password, confirm, "here");
+    // console.log(email, password, "here");
 
-    if (Firstname && username && email && password && confirm) {
-      // console.log(username.length, password.length, "dayy wahhh");
+    if (email && password) {
       // valid email verification using regex
+      // POSTING request
       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       if (mailformat.test(email)) {
-        // console.log(username.length, password.length, "dayy wahhh");
-        if (password.length < 8 || username.length < 8) {
-          toast.error("Email and username must be 10+ char [no spaces]");
-          return;
-        }
-        // password handling
-        if (password.trim() == confirm.trim()) {
-          toast("Loading ...", { position: "top-right" });
-          // POSTING request
-          FSingup({ username, email, password });
-        } else {
-          alert("Passwords don't match");
-        }
+        SignIn({ email, password, history, dispatch });
       } else {
-        toast.error("Email Is invalid");
+        toast.error("email invalid");
       }
     } else {
       alert("DUDE U HAVENT FILLED EM");
     }
   };
-
   return (
     // TAILWIND login component
     <div>
@@ -61,33 +47,16 @@ function Signup() {
                   src='https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
                 />
               </div>
-              <div className='w-full md:w-1/2 py-10 px-9 sm:px-5 md:px-10'>
+              <div className='w-full md:w-1/2 py-10 px-5 md:px-10'>
                 <div className='text-center mb-10'>
-                  <h1 className='font-bold text-3xl text-gray-900'>REGISTER</h1>
-                  <p>Enter your information to register</p>
+                  <h1 className='font-bold text-3xl text-gray-900'>Login</h1>
+                  <p>Enter your information to Login</p>
                 </div>
-                <div>
-                  <div className='sm:flex -mx-3'>
-                    <div className='w-full sm:w-1/2 px-3 mb-5'>
+                <div className=''>
+                  <div className='flex -mx-3'>
+                    <div className='w-full px-3 mb-5'>
                       <label className='text-xs font-semibold px-1'>
-                        First name
-                      </label>
-                      <div className='flex'>
-                        <div className='w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center'>
-                          <i className='mdi mdi-account-outline text-gray-400 text-lg'></i>
-                        </div>
-                        <input
-                          type='text'
-                          className='w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500'
-                          placeholder='Neil'
-                          onChange={(e) => setFirstname(e.target.value)}
-                          value={Firstname}
-                        />
-                      </div>
-                    </div>
-                    <div className='w-full sm:w-1/2 px-3 mb-5'>
-                      <label className='text-xs font-semibold px-1'>
-                        User Name
+                        Email
                       </label>
                       <div className='flex'>
                         <div className='w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center'>
@@ -97,25 +66,6 @@ function Signup() {
                           type='text'
                           className='w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500'
                           placeholder='Smith'
-                          onChange={(e) => setusername(e.target.value)}
-                          value={username}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className='flex -mx-3'>
-                    <div className='w-full px-3 mb-5'>
-                      <label className='text-xs font-semibold px-1'>
-                        Email
-                      </label>
-                      <div className='flex'>
-                        <div className='w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center'>
-                          <i className='mdi mdi-email-outline text-gray-400 text-lg'></i>
-                        </div>
-                        <input
-                          type='email'
-                          className='w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500'
-                          placeholder='neilsmith@example.com'
                           onChange={(e) => setemail(e.target.value)}
                           value={email}
                         />
@@ -141,39 +91,34 @@ function Signup() {
                       </div>
                     </div>
                   </div>
-                  <div className='flex -mx-3'>
-                    <div className='w-full px-3 mb-5'>
-                      <label className='text-xs font-semibold px-1'>
-                        Confirm Password
-                      </label>
-                      <div className='flex'>
-                        <div className='w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center'>
-                          <i className='mdi mdi-lock-outline text-gray-400 text-lg'></i>
-                        </div>
-                        <input
-                          type='password'
-                          className='w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500'
-                          placeholder='************'
-                          onChange={(e) => setconfirm(e.target.value)}
-                          value={confirm}
-                        />
-                      </div>
-                    </div>
+                  <div className='flex items-center px-5'>
+                    <input
+                      id='remember-me'
+                      name='remember-me'
+                      type='checkbox'
+                      className='h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded'
+                    />
+                    <label className='ml-2 block text-sm text-gray-900'>
+                      {" "}
+                      Remember me{" "}
+                    </label>
                   </div>
-                  <div className='flex -mx-3'>
+                  <div className='flex -mx-3 pt-9'>
                     <div className='w-full px-3 mb-5'>
-                      <button
-                        className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'
-                        onClick={() => Submit()}
-                      >
-                        Register Now
-                      </button>
-                      <br></br>
-                      <Link to={"/login"}>
-                        <button className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'>
-                          Already a User?
+                      <div className='flex flex-row space-x-5'>
+                        {/* <Link to={"/signup"}>
+                          <button className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'>
+                            Create an Account
+                          </button>
+                        </Link> */}
+
+                        <button
+                          className='block w-full max-w-xs mx-auto bg-gray-500 hover:bg-gray-700 focus:bg-gray-700 text-white rounded-lg px-3 py-3 font-semibold'
+                          onClick={() => Submit()}
+                        >
+                          Login
                         </button>
-                      </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -195,4 +140,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default ADMINLOGIN;

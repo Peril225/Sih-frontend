@@ -1,3 +1,4 @@
+import uuid
 import csv
 import random
 import json
@@ -93,12 +94,63 @@ lis = [
     {"State": "ut", "name": "Uttarakhand"},
     {"State": "wb", "name": "West Bengal"},
 ]
-liss = []
-for i in lis:
-    liss.append(
-        {"State": i["State"], "val":  round(random.uniform(0.33, 0.66), 2)}
-    )
-print(liss)
 
-# le = [{'State': 'an', 'val': 0.34}, {'State': 'ap', 'val': 0.46}, {'State': 'ar', 'val': 0.53}, {'State': 'as', 'val': 0.49}, {'State': 'br', 'val': 0.55}, {'State': 'ch', 'val': 0.5}, {'State': 'ct', 'val': 0.54}, {'State': 'dn', 'val': 0.37}, {'State': 'dd', 'val': 0.36}, {'State': 'dl', 'val': 0.66}, {'State': 'ga', 'val': 0.36}, {'State': 'gj', 'val': 0.37}, {'State': 'hr', 'val': 0.35}, {'State': 'hp', 'val': 0.44}, {'State': 'jk', 'val': 0.58}, {'State': 'jh', 'val': 0.6}, {'State': 'ka', 'val': 0.57}, {'State': 'kl', 'val': 0.41}, {'State': 'ld', 'val': 0.42}, {'State': 'mp', 'val': 0.62}, {'State': 'mh', 'val': 0.56}, {'State': 'mn', 'val': 0.58}, {'State': 'ml', 'val': 0.56}, {'State': 'mz', 'val': 0.48}, {'State': 'nl', 'val': 0.64}, {'State': 'or', 'val': 0.54}, {'State': 'py', 'val': 0.35}, {'State': 'pb', 'val': 0.38}, {'State': 'rj', 'val': 0.36}, {'State': 'sk',
-#                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'val': 0.44}, {'State': 'tn', 'val': 0.49}, {'State': 'tg', 'val': 0.39}, {'State': 'tr', 'val': 0.4}, {'State': 'up', 'val': 0.4}, {'State': 'ut', 'val': 0.36}, {'State': 'wb', 'val': 0.51}]
+dic = {}
+scls = ["A P S W R School", "Apswrschool Sangam", "Sspvzphs Patavala",
+        "Zpphs Chebrolu", "Svvr Zph School Nakarikallu", "Zilla Parishad High School Guduru",
+        "Zilla Praja Parishad High School, Kaligiri", "Zillla Parishat High School Gajuwaka", "Zphs Challapeta",
+        "Z P High School Girls Kodumur ", "GOVERNMENT HIGHER SECONDARY SCHOOL THRIZINO", "R C E S MODEL SCHOOL",
+        "ZPHS, Kovvali", "ZPHS, Rameswaram", "ZPHS, Nadergul", "ZPHS, Ingilipakalanka", "ZPHS, Dathaipally", "ZPHS, Dharmaram",
+        "Zilla Parishad Girls High School Sircilla", "Zpss Tm Em Chennnur", "Tsms Ganmukla", "Zpss Ramanujavaram", "Zphs Boys Wanaparthy", "Zphs Dhanwada Boys"
+        "Zphs Marchala", "Zphs Pamulaparthy", "Zphs Singannaguda", "Zphs Kolanupaka", "Zphs Dharpally", "Shantiniketan Vidyalaya",
+        "Zphs Hasmathpet", "Zphs Jillelaguda", "Zpss Dharmaram", "Telangana State Model School Narmetta", "Spr School Of Excellence High School",
+        "Government High School Rajendranagar", "Zilla Parishad High School Madhapur", "Zphs Kolanupaka", "Zphs Athmakur", "Zphs Pamulaparthy",
+        "Zphs Singannaguda", "Jawahar Navodaya Vidyalaya Warangal", "Zphs Boys Wanaparthy", "Government High School Malakpet",
+        "Government High School Kulsumpura", "Zpss Echoda", "Ttwrschool Girls Asifabad", "Zphs Kondurg", "Zphs Badangpet", "Telangana State Model School Narmetta"]
+schools = []
+sch_ids = []
+i: str
+for i in scls:
+    schid = uuid.uuid4()
+    sch_ids.append(str(schid))
+    school_obj = {
+        "_id": str(schid),
+        "name": i,
+        "State": random.choice(state),
+        "Students": []
+    }
+    schools.append(school_obj)
+with open("JSON.json", "w+") as fi:
+    fi.write(json.dumps(schools))
+input("jjjvgyy")
+sch_admin = []
+for i in scls:
+    schid = uuid.uuid4()
+    school_obj = {
+        "_id": str(schid),
+        "email": i.split()[-1] + "@gmail.com",
+        "password": "$2b$10$WSjn.h5T.LCuPdiQ4b3dO.td5xDR.3vLcf54nQhqrSfjo32ybWwDe",
+        "schoolid": random.choice(sch_ids),
+
+    }
+    sch_admin.append(school_obj)
+with open("JSON.json", "w+") as fi:
+    fi.write(json.dumps(sch_admin))
+input("erg")
+students = ["Les_Tristan", "Jude_Mordecai", "Vincent_Ken", "Jeffrey_Alfred", "Zoltan_Enoch", "Humberto_Jax", "Maison_Yuri", "Rene_Shannon", "Shadrach_Stacy", "Dudley_Rylan", "Abdul_Tarquin", "Titus_Devon", "Simeon_Milan", "Russell_Bret", "Bryon_Herman", "Wilbert_Callum", "Mason_Niklaus", "Denis_Gideon", "Benedict_Camden", "Euan_Neil", "Ethan_Nicolas", "Coby_Butch", "Brenden_Kennedy", "Linus_Murray", "Emet_Alexis", "Joseph_Joshua", "Ozzie_Sawyer", "Rodrigo_Darwin", "Dane_Chris", "Daxter_Carson", "Ashwin_Miguel", "Tiberius_Raylan", "Porter_Jeffery", "Jonas_Rafferty", "Cliff_Ernest", "Petar_Lochlan", "Alvin_Emil", "Derrick_Yahir", "Zaine_Ruben", "Patrick_Leigh", "Cai_Castiel", "Han_Jaydon", "Sebestian_Dave", "Avery_Westin", "Jett_Timmy", "Josiah_Hayes", "Elon_Kasper", "Eden_Dylan", "Link_Javid", "Collin_Seb", "Brady_Augustus", "Johnathan_Peter", "Josiah_Caleb", "Dwight_Jose", "Art_Francesco", "Raiden_Kingsley", "Chevy_Karson", "Rian_Rahul", "Kade_Paddy", "Zeke_Remington", "Lane_Nasir", "Kristian_Jerome", "Mason_Crosby", "Alberto_Samson", "Kellen_Brenden", "Jai_Louie", "Joey_Winston", "Ciaran_Bruno", "Braxton_Kelly", "Milton_Muhammad", "Albie_Marlon", "Devlin_Lamar", "Kyler_Elon", "Clark_Jesus", "Colton_Tyler", "Tate_Barney", "Vijay_Jermaine", "Dallas_Giovanni", "Kirby_Alton", "Murray_Kendrick", "Xavier_Sawyer", "Cody_Kayden", "Reece_Earl", "Bentley_Nash", "Malcolm_Barrett", "Adonis_Boyd", "Grayson_Micah", "Eugene_Jaydon", "Nestor_Sherwin", "Colm_Daire", "Marshall_Nihal", "Robby_Zachery", "Colin_Petar", "Carsten_Kyran", "Drake_Bodie", "Cayson_Tex", "Pascal_Fox", "Princeton_Anson", "Henley_Sid", "Avery_Ade",
+            "Eoghan_Marlon", "Ace_Jordan", "Brod_Ryker", "Klay_Fred", "Roscoe_Ahmed", "Raul_Giorgio", "Nate_Remington", "Terrance_Johnathan", "Yusuf_Kendall", "Kris_Lowell", "Lonnie_Marc", "Percy_Russell", "Cecil_Dallas", "Marcel_Jagger", "Gareth_Caesar", "Alec_Julio", "Kendrick_Edmund", "Ernesto_Roy", "Thaddeus_Danny", "Guillermo_Ronan", "Trace_Tracey", "Alexis_Francisco", "Maverick_Maximilian", "Bradwin_Valentino", "Shannon_Galen", "Jackson_Joshua", "Yahir_Neal", "Darius_Bray", "Kyran_Atticus", "Francisco_Rian", "Freddy_Bennie", "Perry_Baxter", "Tate_Jakob", "Patrick_Tiberius", "Darragh_Charles", "Garrett_Nik", "Marcus_Leonardo", "Teague_Jeremiah", "Jace_Jaylen", "Jan_Lebron", "Aspen_Kasper", "Cayson_Killian", "Gannon_Nigel", "Connor_Roberto", "Gerry_Martyn", "Robert_Damian", "Leighton_Maddox", "Brady_Clark", "Dick_Klay", "Marco_Jak", "Adam_Stanley", "Campbell_Neal", "Bram_Aldric", "Judah_Quincy", "Elijah_Luca", "Holden_Tommie", "Granger_Lukas", "Garth_Jett", "Keith_Francesco", "Kai_Grady", "Maurice_Dacey", "Niklaus_Oscar", "Griffin_Trace", "Benji_Dominick", "Camron_Jaret", "Jeffery_Zachariah", "Logan_Kayle", "Kyrin_Glenn", "Maverick_Fergal", "Nikolas_Klaus", "Kayson_Clinton", "Imran_Henley", "Matt_Hywel", "Archer_Jeffery", "Bjorn_Kayden", "Chip_Sufyan", "Gustavo_Tristan", "Ren_Larry", "Jevan_Sullivan", "Hendrix_Kit", "Cristobal_Ajay", "Herman_Calum", "Tyson_Clint", "Ayden_Bradwin", "Aron_Roman", "Cai_Morgan", "Flynn_Kayden", "Zackary_Steven", "Al_Blake", "Devin_Bray", "Jake_Jago", "Raylan_Edsel", "Benson_Zuriel", "Lars_York", "Knox_Rufus", "Emanuel_Xerxes", "Conrad_Miguel", "Jackie_Bray", "Isiah_Osvaldo", "Kirk_Geoffrey"]
+stds = []
+for i in range(0, 201):
+    name = random.choice(students)
+    stu_obj = {
+        "_id": str(uuid.uuid4()),
+        "name": name,
+        "email": name.split()[0] + "@gmail.com",
+        "school": random.choice(sch_ids),
+        "standard": random.randint(1, 16),
+        "past_PASS":  random.randint(60, 100),
+        "Approval": False
+    }
+    stds.append(stu_obj)
+with open("JSON.json", "w+") as fi:
+    fi.write(json.dumps(stds))
