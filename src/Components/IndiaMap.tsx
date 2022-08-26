@@ -2,20 +2,18 @@ import React, { useEffect, useRef, useState } from "react";
 import { SVGMap } from "react-svg-map";
 import India from "@svg-maps/india";
 import { IndiaMap } from "../../typings";
+import { DATABOX } from "../constants";
+
 
 export default function Indiamap(props: IndiaMap) {
   const [hide, sethide] = useState(true);
   const [X, setX] = useState(0);
   const [Y, setY] = useState(0);
-  const [CurrentState, setCurrentState] = useState();
+
+  const [CurrentState, setCurrentState] = useState<any>();
   const [height, setHeight] = useState(0);
   const [Width, setWidth] = useState(0);
   const ref = useRef(null);
-
-  const [DROP, setDROP] = useState(0);
-  const [LIT, setLIT] = useState(0);
-  const [PASS, setPASS] = useState(0);
-  const [GPI, setGPI] = useState(0);
 
   useEffect(() => {
     if (ref.current) {
@@ -35,10 +33,7 @@ export default function Indiamap(props: IndiaMap) {
               ? props.ChangeState(event.target.getAttribute("name"))
               : null
           }
-          // role
           onLocationMouseMove={(event) => {
-            // setW(100);
-            // setH(100);
             setX(event.clientX);
             setY(event.clientY);
             sethide(false);
@@ -55,10 +50,6 @@ export default function Indiamap(props: IndiaMap) {
             // setH(0);
           }}
           onLocationMouseOver={() => {
-            setDROP(Math.floor(Math.random() * 20));
-            setLIT(Math.floor(Math.random() * 20 + 80));
-            setPASS(Math.floor(Math.random() * 20 + 70));
-            setGPI(Math.floor(Math.random() * 20 + 30));
           }}
         // onLocationMouseMove={(event) => {
         //   sethide(false);
@@ -78,10 +69,10 @@ export default function Indiamap(props: IndiaMap) {
         >
           <div>
             <div className='pr-5 pb-4 text-3xl'>Stats of {CurrentState}</div>{" "}
-            <div>DropOut Rate : {DROP}%</div>
-            <div>Literacy Rate : {LIT}%</div>
-            <div>PASS Rate : {PASS}%</div>
-            <div>GP INDEX : {GPI}</div>
+            <div>DropOut Rate : {CurrentState && hide ? DATABOX[CurrentState][0] : ""}%</div>
+            <div>Literacy Rate : {CurrentState && hide ? DATABOX[CurrentState][1] : ""}%</div>
+            <div>PASS Rate : {CurrentState && hide ? DATABOX[CurrentState][2] : ""}%</div>
+            <div>GP INDEX : {CurrentState && hide ? DATABOX[CurrentState][3] : ""}</div>
           </div>
         </div>
       </div>
