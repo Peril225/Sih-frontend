@@ -47,6 +47,7 @@ function App() {
         <Route path='/Dashboard' element={<Default />}></Route>
         <Route path='/GUIDE' element={<GUIDE />}></Route>
         <Route path='/state/:state' element={<States />}></Route>
+        <Route path='/public/:public' element={<States />}></Route>
         {/* <Route path='/test' element={<Testin />}></Route> */}
         {/* default Route */}
         <Route path='/levels/:level' element={<Standard />}></Route>

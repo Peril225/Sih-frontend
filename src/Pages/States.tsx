@@ -91,7 +91,9 @@ function States() {
         ],
         options: {
             title: {
-                text: `DropOut Rate `,
+
+                text: `DropOut Rate`,
+
                 style: {
                     fontSize: "14px",
                     fontWeight: "bold",
@@ -294,7 +296,9 @@ function States() {
                 },
             },
             title: {
-                text: `Enrollment Rate in `,
+
+                text: `Enrollment Rate`,
+
                 style: {
                     fontSize: "14px",
                     fontWeight: "bold",
@@ -414,7 +418,9 @@ function States() {
                 curve: "smooth",
             },
             title: {
-                text: `PassFail Stats `,
+
+                text: `PassFail Stats`,
+
                 align: "left",
             },
             grid: {
@@ -506,7 +512,7 @@ function States() {
                                     style={{ backdropFilter: "20px" }}
                                 >
                                     <div className='py-3  text-3xl w-full flex justify-start px-4 border-b border-slate-400'>
-                                        Initiatives By Govt of India
+                                        Initiatives By Various State Governments
                                     </div>
                                     {/* <div className='pt-3 inline-block'>Country Stats</div> */}
                                     <div className='px-7 '>
@@ -548,6 +554,8 @@ function States() {
                                         functions like review the safeguards for rights provided
                                         under this Act and recommend measures for their effective
                                         implementation.
+
+
 
                                     </div>
                                 </div>
