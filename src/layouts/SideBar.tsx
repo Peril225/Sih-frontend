@@ -7,7 +7,8 @@ import { FiLogOut } from "react-icons/fi";
 import { FcMindMap } from "react-icons/fc";
 import { useNavigate } from "react-router";
 import { IoDocumentTextSharp } from "react-icons/io5";
-import talash from "../assets/svgFiles/talash.svg"
+// import talash from "../assets/svgFiles/talash.svg"
+import vriddhi from "../assets/Images/vriddhi.png";
 import { Link } from "react-router-dom";
 
 
@@ -31,10 +32,10 @@ export default function SideBar({
   const [view, setview] = useState(false)
   return (
     <div className="flex relative" onMouseEnter={() => setview(true)} onMouseLeave={() => setview(false)}>
-      <div id="SIDENAV" className=' px-4 py-4 cursor-pointer hidden md:flex   bg-bgr1 h-screen justify-between items-center flex-col'>
+      <div id="SIDENAV" className=' px-5 py-0 cursor-pointer hidden md:flex   bg-bgr1 h-screen justify-between items-center flex-col'>
         <div className='py-7 '>
           <div className="flex flex-col  items-center mb-7" onClick={() => history("/")}>
-            <img className="rounded-full" src={talash}></img>
+            <img className="rounded-full h-15 w-20" src={vriddhi}></img>
           </div>
           <div
             className='p-4 text-xl font-bold  text-slate-500 hover:text-slate-400 cursor-pointer '
@@ -95,9 +96,9 @@ export default function SideBar({
       <div className={`h-screen z-40 ease-in-out transform items-center transition-all duration-200 bg-bgr1 flex flex-col w-full ${view ? "w-60" : "w-0 overflow-hidden"}  absolute py-32 space-x-2 flex flex-col`} style={{ left: `${width}px` }}>
         <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
           // setExplore(true)
-        }}><Link className="cursor-pointer" to={"/levels/primary"}>
+        }}><Link className="cursor-pointer" to={"/Dashboard"}>
             DASHBOARD</Link></div>
-        <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
+        <div className=" py-5 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
           setExplore(true)
         }}>EXPLORE ALL ROUTES</div>
         <div className=" py-5 text-lg hover:bg-bgr2 px-3 font-medium cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth w-full pr-12 flex flex-col" onMouseEnter={() => setopen(true)} onMouseLeave={() => setopen(false)}>
@@ -115,9 +116,6 @@ export default function SideBar({
                 SECONDARY</Link>
             </div>
             <div>
-
-              <Link className="cursor-pointer" to={"/levels/secondary"}>
-                TECHNICAL</Link>
 
               <Link className="cursor-pointer" to={"/levels/technical"}>
                 TECHNICAL</Link>

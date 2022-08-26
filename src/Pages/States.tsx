@@ -91,7 +91,9 @@ function States() {
         ],
         options: {
             title: {
-                text: `DropOut Rate ${Current}`,
+
+                text: `DropOut Rate`,
+
                 style: {
                     fontSize: "14px",
                     fontWeight: "bold",
@@ -294,7 +296,9 @@ function States() {
                 },
             },
             title: {
-                text: `Enrollment Rate in ${Current}`,
+
+                text: `Enrollment Rate`,
+
                 style: {
                     fontSize: "14px",
                     fontWeight: "bold",
@@ -414,7 +418,9 @@ function States() {
                 curve: "smooth",
             },
             title: {
-                text: `PassFail Stats ${Current}`,
+
+                text: `PassFail Stats`,
+
                 align: "left",
             },
             grid: {
@@ -506,45 +512,51 @@ function States() {
                                     style={{ backdropFilter: "20px" }}
                                 >
                                     <div className='py-3  text-3xl w-full flex justify-start px-4 border-b border-slate-400'>
-                                        Initiatives By Govt of India
+                                        Initiatives By Various State Governments
                                     </div>
                                     {/* <div className='pt-3 inline-block'>Country Stats</div> */}
                                     <div className='px-7 '>
-                                        &nbsp;Batman was first named "Bat-Man" by Kane.[3] Batman
-                                        made its first appearance in 1939 in Detective Comics No.
-                                        27.[3] He was the second DC superhero to be created. The
-                                        first was Superman.[1] Batman's origin story is that as a
-                                        young child, Bruce Wayne saw a robber named Joe Chill murder
-                                        his mother and father after the family left a theatre. Bruce
-                                        decided that he did not want that kind of violence to happen
-                                        to anyone else and wanted to avenge his parents' death. He
-                                        then dedicated his life to protect his city, Gotham City.
-                                        Wayne learned many different ways to fight as he grew up. As
-                                        an adult, Wayne used a costume to scare criminals so that
-                                        there would be less crime in Gotham City. He called himself
-                                        Batman. Batman is often helped from other people in Gotham.
-                                        Batman and his some of his various allies are often referred
-                                        to as the Bat Family. Some of these people also put on
-                                        costumes and become superheroes when they help him. Some of
-                                        the notable people who help him are his sidekick, Robin
-                                        (Dick Grayson, Jason Todd, Tim Drake, and Damian Wayne), his
-                                        butler Alfred Pennyworth, police commissioner James Gordon,
-                                        Wayne Enterprises CEO and president Lucius Fox, and Gordon's
-                                        daughter Barbara Gordon. Barbara Gordon became a superhero
-                                        named Batgirl (and later used the name Oracle). Commissioner
-                                        Gordon uses a Bat-Signal which shines a light into the sky
-                                        with a shadow in the shape of a bat on when he needs
-                                        Batman's assistance. Batman is often, but not always, shown
-                                        being friends with Superman. He is often shown as a friend
-                                        of wonder woman. Batman, superman, and wonder woman are
-                                        often referred to as the "Trinity". Batman is a part of many
-                                        superhero teams that fight against evil, most notably the
-                                        Justice League or JL for short, and Justice League Dark or
-                                        JLD. Some of the villains that Batman fights, called his
-                                        Rogues Gallery are the Joker, Penguin, Ra's al Ghul,
-                                        Scarecrow, Talia al Ghul, Poison Ivy, Catwoman, Mr. Freeze,
-                                        Bane, Riddler, Two-Face, and Clayface. Because of the way
-                                        Batman deals with criminals
+                                        &nbsp;The Right to Children to Free and Compulsory
+                                        Education (RCFCE Act) was introduced in 2009. It
+                                        guarantees free and compulsory education to all
+                                        children in the age group of 6-14 years.
+                                         It also guarantees education of a specified standard
+                                        subscribing to non-school infrastructure, hours of
+                                        school time and days of school functioning, pupil
+                                        teacher ratio and teacher quality as per the Act.
+                                        Under this Act there is provision of waiver of
+                                        fees, distribution of free text book, reading
+                                        writing materials, uniform, transportation,
+                                        educational and support materials for children
+                                        with special needs e.g. Hearing aids, spectacles,
+                                        Braille books, crutches, etc.
+                                         The Act envisages that if there is no school
+                                        within a limit of 1km. of the neighbourhood a
+                                        school shall be established within three years of
+                                        the commencement of this Act.
+                                         There is school managing committee consisting
+                                        of the elected representatives of local authority,
+                                        parents or guardians of the children admitted in
+                                        such schools and teachers.
+                                        A school development plan is provided which
+                                        forms the basis of a three year plan and three
+                                        annual sub-plan which access the enrolment,
+                                        requirement of the number of teachers or
+                                        additional teachers, physical requirement of
+                                        infrastructure and training facility to the
+                                        teachers.
+                                         Also the development plan highlights on the
+                                        minimum qualification of a teacher as laid
+                                        down under the provision of the Act.
+                                        The National Commission for protection of child rights are
+                                        also carried out in the primary and secondary schools. As
+                                        per the Act all the schools are to examine and perform the
+                                        functions like review the safeguards for rights provided
+                                        under this Act and recommend measures for their effective
+                                        implementation.
+
+
+
                                     </div>
                                 </div>
                             </div>
