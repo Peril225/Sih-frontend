@@ -20,6 +20,7 @@ import {
 import Footer from "../layouts/Footer";
 import NavBAR from "../layouts/navbar";
 import { Link } from "react-router-dom";
+import { DataFORPIRHOME } from "../constants/";
 function Home() {
   const history = useNavigate();
   // const { height, width } = useWindowDimensions();
@@ -77,17 +78,13 @@ function Home() {
   };
   // const x = props.position.x;
   // const y = props.position.y;
- 
+
 
   const ChangeState = (State: string) => {
     if (Current == State) {
       return;
     }
-    setpievals([
-      Math.floor(Math.random() * 100),
-      Math.floor(Math.random() * 100),
-      Math.floor(Math.random() * 100),
-    ]);
+    setpievals(DataFORPIRHOME[State]);
     setCurrent(State);
   };
 
@@ -137,10 +134,15 @@ function Home() {
       resp.json().then((res) => {
         // console.log(res, "i mma cry");
 
-        // arr = res;
+        // let arr: Array<string> = [];
         res.map((state: any) => {
           document.getElementById(state.State)!.style.fill = `rgba(${Color[0]} , ${Color[1]
             } , ${Color[2]} , ${state.val})`;
+          // console.log(, "hehe");
+          // arr.push(document.getElementById(state.State)?.getAttribute("name"))
+          // console.log(JSON.stringify(arr));
+
+
         })
       })
     );
@@ -198,9 +200,11 @@ function Home() {
           <div className=' text-slate-100 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-2 xl:pl-2 lg:w-5/6 flex items-center justify-center mb-3 '>
             VRIDDHI
           </div>
+
           <div className='text-slate-100 max-w-xl text-lg px-5 shrink  lg:w-1/2  w-2/3 items-center'>
-             "Sa Vidhyaya Vimukthaye means, Knowledge is the ulimate liberation. 
-              &nbsp;Our motto is to uplift the education sector."{" "}
+            "Sa Vidhyaya Vimukthaye means, Knowledge is the ulimate liberation.
+            &nbsp;Our motto is to uplift the education sector."{" "}
+
           </div>
           <div className='  flex-col flex md:w-9/12 space-y-3 max-w-2xl sm:w-1/2 padding:70px'>
             <Search placeholder={placeholder} setShowState={setShowState} />
@@ -241,22 +245,19 @@ function Home() {
                   </div>
                 </div>
                 <div className='text-slate-300 font-light font-mono pt-3 '>
-                Primary Education consists of two categories namely lower primary(Class 1-4) and upper primary(Class 5-8).
+                  Primary Education consists of two categories namely lower primary(Class 1-4) and upper primary(Class 5-8).
                   <br />
-                  The Indian Government lays emphasis on primary education also referred to as elementary education 
-                  Statistics related to primary education 
+                  The Indian Government lays emphasis on primary education also referred to as elementary education
+                  Statistics related to primary education
                   <br />
                   Literacy Rate:- 77.7%
                   <br />
                   Enrollment Rate:- 95%
-                  <br /><br/>
-                <u>
 
-                  <Link className="cursor-pointer text-red-600 hover:underline
-                  "  to={"/levels/primary"}>
-                  Read More Here...</Link>
-                    </u>
-            
+                  <br /><br />
+                  <Link className="cursor-pointer hover:underline" to={"/levels/primary"}>
+                    Read More Here.</Link>
+
                   <br />
                 </div>
               </div>
@@ -359,16 +360,16 @@ function Home() {
                   SECONDARY LEVEL OF EDUCATION
                 </div>
                 <div className='text-slate-300 font-light font-mono pt-3'>
-                Secondary education lasts 4 years. <br />
-                Lower Secondary Education : concluded with exams for a Standard X  <br />
-                Upper Secondary Education : concluded with exams for a Standard XII  <br />
-                Literacy Rate:- 69% <br/>
-                Enrollment Rate:- 78.8%
-                <br /><br/>
-                  <u>
-                  <Link className="cursor-pointer hover:underline text-red-600"  to={"/levels/technical"}>
-                  Read More Here...</Link>
-                  </u>
+
+                  Secondary education lasts 4 years. <br />
+                  Lower Secondary Education : concluded with exams for a Standard X  <br />
+                  Upper Secondary Education : concluded with exams for a Standard XII  <br />
+                  Literacy Rate:- 69% <br />
+                  Enrollment Rate:- 78.8%
+                  <br /><br />
+                  <Link className="cursor-pointer hover:underline" to={"/levels/secondary"}>
+                    Read More Here.</Link>
+
                 </div>
               </div>
             </div>
@@ -383,11 +384,11 @@ function Home() {
                   craftsmanship, diploma, and degree, post-graduate and research in specialized fields.
                   Literacy Rate:- 65.7%<br />
                   Enrollment Rate:- 74.3%
-                  <br /><br/>
-                  <u>
-                  <Link className="cursor-pointer hover:underline text-red-600"  to={"/levels/technical"}>
-                  Read More Here...</Link>
-                  </u>
+
+                  <br /><br />
+                  <Link className="cursor-pointer hover:underline" to={"/levels/technical"}>
+                    Read More Here.</Link>
+
                 </div>
                 {/* <div>Ther</div> */}
               </div>
