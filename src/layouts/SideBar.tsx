@@ -32,7 +32,7 @@ export default function SideBar({
   const [view, setview] = useState(false)
   return (
     <div className="flex relative" onMouseEnter={() => setview(true)} onMouseLeave={() => setview(false)}>
-      <div id="SIDENAV" className=' px-4 py-4 cursor-pointer hidden md:flex   bg-bgr1 h-screen justify-between items-center flex-col'>
+      <div id="SIDENAV" className=' px-5 py-0 cursor-pointer hidden md:flex   bg-bgr1 h-screen justify-between items-center flex-col'>
         <div className='py-7 '>
           <div className="flex flex-col  items-center mb-7" onClick={() => history("/")}>
             <img className="rounded-full h-15 w-20" src={vriddhi}></img>
@@ -98,7 +98,7 @@ export default function SideBar({
           // setExplore(true)
         }}><Link className="cursor-pointer" to={"/Dashboard"}>
             DASHBOARD</Link></div>
-        <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
+        <div className=" py-5 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
           setExplore(true)
         }}>EXPLORE ALL ROUTES</div>
         <div className=" py-5 text-lg hover:bg-bgr2 px-3 font-medium cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth w-full pr-12 flex flex-col" onMouseEnter={() => setopen(true)} onMouseLeave={() => setopen(false)}>
