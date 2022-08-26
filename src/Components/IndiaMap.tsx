@@ -2,10 +2,12 @@ import React, { useEffect, useRef, useState } from "react";
 import { SVGMap } from "react-svg-map";
 import India from "@svg-maps/india";
 import { IndiaMap } from "../../typings";
+import { useNavigate } from "react-router";
 
 export default function Indiamap(props: IndiaMap) {
   const [hide, sethide] = useState(true);
   const [X, setX] = useState(0);
+  const history = useNavigate()
   const [Y, setY] = useState(0);
   const [CurrentState, setCurrentState] = useState();
   const [height, setHeight] = useState(0);
@@ -48,7 +50,10 @@ export default function Indiamap(props: IndiaMap) {
               ? props.ChangeState(event.target.getAttribute("name"))
               : null;
           }}
-          onLocationClick={(e) => props.onLocationClick(e)}
+          onLocationClick={(e) => {
+            props.onLocationClick(e) 
+            history(`/state/${e.target.getAttribute("id")}`)
+          }}
           onLocationMouseOut={() => {
             // setW(0);
             sethide(true);
@@ -65,6 +70,15 @@ export default function Indiamap(props: IndiaMap) {
         // props.ChangeState(event.target.getAttribute("name"));
         // }}
         />
+        {/* <div style={{
+            position: "absolute",
+            // left : Width,
+            left: X - Width - 20,
+            top: Y - height - 20,
+            background: "white",
+          }}>
+          hisajebhdcijsa
+        </div> */}
         <div
           className='DailogeBOX w-auto h-auto rounded-lg text-gray-300 font-bold font-mono flex transition transform justify-center items-center delay-150 text-xl p-14  duration-300 ease-in-out animate-fade'
           style={{

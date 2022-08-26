@@ -194,7 +194,7 @@ function Home() {
       <NavBAR open={open} setExplore={setExplore} setopen={setopen} setview={setview} view={view} />
 
       <div className='h-screen overflow-x-hidden justify-center flex '>
-        <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-20 animate-fade top-0'>
+        <div className='items-center  flex flex-col space-y-5  sm:mt-72 mt-5 animate-fade top-0'>
           <div className=' text-slate-100 font-bold font-serif text-5xl px-3 sm:px-0  w-1/2 md:w-3/4 pl-2 xl:pl-2 lg:w-5/6 flex items-center justify-center mb-3 '>
             VRIDDHI
           </div>
@@ -252,7 +252,7 @@ function Home() {
                   <br /><br/>
                 <u>
 
-                  <Link className="cursor-pointer text-red-100 hover:underline
+                  <Link className="cursor-pointer text-red-600 hover:underline
                   "  to={"/levels/primary"}>
                   Read More Here...</Link>
                     </u>
@@ -367,7 +367,7 @@ function Home() {
                 <br /><br/>
                   <u>
                   <Link className="cursor-pointer hover:underline text-red-600"  to={"/levels/technical"}>
-                  Read More Here.</Link>
+                  Read More Here...</Link>
                   </u>
                 </div>
               </div>
