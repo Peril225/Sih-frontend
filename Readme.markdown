@@ -163,13 +163,6 @@ Enrollment Page is for visitors to get key enrollment metrics in India.
 
 </details>
 
-#### Gender Parity Index Page
-
-<details><summary>
-
-</summary>
-</details>
-
 <br>
 
 ## Technologies used
