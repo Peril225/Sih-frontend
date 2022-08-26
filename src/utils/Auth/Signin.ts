@@ -37,7 +37,7 @@ export const SignIn = ({ email, password, history, dispatch }: TSignIp) => {
               // console.log("verify 0");
               setTimeout(() => {
                 // console.log("verify 1");
-                history("/Dashbard");
+                history("/Dashboard");
               }, 2000);
             };
             run();

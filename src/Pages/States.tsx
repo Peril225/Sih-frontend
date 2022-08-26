@@ -91,7 +91,9 @@ function States() {
         ],
         options: {
             title: {
+
                 text: `DropOut Rate`,
+
                 style: {
                     fontSize: "14px",
                     fontWeight: "bold",
@@ -294,7 +296,9 @@ function States() {
                 },
             },
             title: {
+
                 text: `Enrollment Rate`,
+
                 style: {
                     fontSize: "14px",
                     fontWeight: "bold",
@@ -414,7 +418,9 @@ function States() {
                 curve: "smooth",
             },
             title: {
+
                 text: `PassFail Stats`,
+
                 align: "left",
             },
             grid: {
@@ -510,9 +516,47 @@ function States() {
                                     </div>
                                     {/* <div className='pt-3 inline-block'>Country Stats</div> */}
                                     <div className='px-7 '>
-                                        &nbsp;State Merit-cum-Means Scholarship Scheme,<br />
-                    Scheme for construction and running of Girls’ Hostel for students of secondary and higher secondary schools,<br />
-                    Scholarship schemes for Minority students<br />
+                                        &nbsp;The Right to Children to Free and Compulsory
+                                        Education (RCFCE Act) was introduced in 2009. It
+                                        guarantees free and compulsory education to all
+                                        children in the age group of 6-14 years.
+                                         It also guarantees education of a specified standard
+                                        subscribing to non-school infrastructure, hours of
+                                        school time and days of school functioning, pupil
+                                        teacher ratio and teacher quality as per the Act.
+                                        Under this Act there is provision of waiver of
+                                        fees, distribution of free text book, reading
+                                        writing materials, uniform, transportation,
+                                        educational and support materials for children
+                                        with special needs e.g. Hearing aids, spectacles,
+                                        Braille books, crutches, etc.
+                                         The Act envisages that if there is no school
+                                        within a limit of 1km. of the neighbourhood a
+                                        school shall be established within three years of
+                                        the commencement of this Act.
+                                         There is school managing committee consisting
+                                        of the elected representatives of local authority,
+                                        parents or guardians of the children admitted in
+                                        such schools and teachers.
+                                        A school development plan is provided which
+                                        forms the basis of a three year plan and three
+                                        annual sub-plan which access the enrolment,
+                                        requirement of the number of teachers or
+                                        additional teachers, physical requirement of
+                                        infrastructure and training facility to the
+                                        teachers.
+                                         Also the development plan highlights on the
+                                        minimum qualification of a teacher as laid
+                                        down under the provision of the Act.
+                                        The National Commission for protection of child rights are
+                                        also carried out in the primary and secondary schools. As
+                                        per the Act all the schools are to examine and perform the
+                                        functions like review the safeguards for rights provided
+                                        under this Act and recommend measures for their effective
+                                        implementation.
+
+
+
                                     </div>
                                 </div>
                             </div>
