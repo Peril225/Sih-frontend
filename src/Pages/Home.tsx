@@ -252,7 +252,7 @@ function Home() {
                   <br /><br/>
                 <u>
 
-                  <Link className="cursor-pointer text-red-100 hover:underline
+                  <Link className="cursor-pointer text-red-600 hover:underline
                   "  to={"/levels/primary"}>
                   Read More Here...</Link>
                     </u>
@@ -367,7 +367,7 @@ function Home() {
                 <br /><br/>
                   <u>
                   <Link className="cursor-pointer hover:underline text-red-600"  to={"/levels/technical"}>
-                  Read More Here.</Link>
+                  Read More Here...</Link>
                   </u>
                 </div>
               </div>
