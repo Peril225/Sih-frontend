@@ -510,41 +510,7 @@ function States() {
                                     </div>
                                     {/* <div className='pt-3 inline-block'>Country Stats</div> */}
                                     <div className='px-7 '>
-                                        &nbsp;Batman was first named "Bat-Man" by Kane.[3] Batman
-                                        made its first appearance in 1939 in Detective Comics No.
-                                        27.[3] He was the second DC superhero to be created. The
-                                        first was Superman.[1] Batman's origin story is that as a
-                                        young child, Bruce Wayne saw a robber named Joe Chill murder
-                                        his mother and father after the family left a theatre. Bruce
-                                        decided that he did not want that kind of violence to happen
-                                        to anyone else and wanted to avenge his parents' death. He
-                                        then dedicated his life to protect his city, Gotham City.
-                                        Wayne learned many different ways to fight as he grew up. As
-                                        an adult, Wayne used a costume to scare criminals so that
-                                        there would be less crime in Gotham City. He called himself
-                                        Batman. Batman is often helped from other people in Gotham.
-                                        Batman and his some of his various allies are often referred
-                                        to as the Bat Family. Some of these people also put on
-                                        costumes and become superheroes when they help him. Some of
-                                        the notable people who help him are his sidekick, Robin
-                                        (Dick Grayson, Jason Todd, Tim Drake, and Damian Wayne), his
-                                        butler Alfred Pennyworth, police commissioner James Gordon,
-                                        Wayne Enterprises CEO and president Lucius Fox, and Gordon's
-                                        daughter Barbara Gordon. Barbara Gordon became a superhero
-                                        named Batgirl (and later used the name Oracle). Commissioner
-                                        Gordon uses a Bat-Signal which shines a light into the sky
-                                        with a shadow in the shape of a bat on when he needs
-                                        Batman's assistance. Batman is often, but not always, shown
-                                        being friends with Superman. He is often shown as a friend
-                                        of wonder woman. Batman, superman, and wonder woman are
-                                        often referred to as the "Trinity". Batman is a part of many
-                                        superhero teams that fight against evil, most notably the
-                                        Justice League or JL for short, and Justice League Dark or
-                                        JLD. Some of the villains that Batman fights, called his
-                                        Rogues Gallery are the Joker, Penguin, Ra's al Ghul,
-                                        Scarecrow, Talia al Ghul, Poison Ivy, Catwoman, Mr. Freeze,
-                                        Bane, Riddler, Two-Face, and Clayface. Because of the way
-                                        Batman deals with criminals
+                                        &nbsp;Batman was first named "
                                     </div>
                                 </div>
                             </div>

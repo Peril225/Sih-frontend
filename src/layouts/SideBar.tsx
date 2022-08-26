@@ -96,7 +96,7 @@ export default function SideBar({
       <div className={`h-screen z-40 ease-in-out transform items-center transition-all duration-200 bg-bgr1 flex flex-col w-full ${view ? "w-60" : "w-0 overflow-hidden"}  absolute py-32 space-x-2 flex flex-col`} style={{ left: `${width}px` }}>
         <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
           // setExplore(true)
-        }}><Link className="cursor-pointer" to={"/levels/primary"}>
+        }}><Link className="cursor-pointer" to={"/Dashboard"}>
             DASHBOARD</Link></div>
         <div className=" py-3 text-lg hover:bg-bgr2 px-3 font-medium w-full cursor-pointer font-mono text-slate-500 truncate animate-fade scroll-smooth" onClick={() => {
           setExplore(true)
@@ -117,7 +117,7 @@ export default function SideBar({
             </div>
             <div>
 
-              <Link className="cursor-pointer" to={"/levels/secondary"}>
+              <Link className="cursor-pointer" to={"/levels/technical"}>
                 TECHNICAL</Link>
 
             </div>
