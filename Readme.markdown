@@ -1,6 +1,6 @@
-# <p align ="center"> _VRIDDHI_ </p>
+# <p align ="center"> _Peril_ </p>
 
-**<p align = "center">Welcome to Vriddhi**<br><br>_**Vriddhi**_ in Sanskrit means _Progress_, and we seek for `Progress` of our `Education System` by means of a website that helps in highlighting `Key Statistics` based on various Parameters defined by us. We have interlinked 3 levels of education namely *Primary*, *Secondary* ,and *Technical Education.* </p>
+**<p align = "center">Welcome to Peril**<br><br>_**Peril**_ in Sanskrit means _Progress_, and we seek for `Progress` of our `Education System` by means of a website that helps in highlighting `Key Statistics` based on various Parameters defined by us. We have interlinked 3 levels of education namely *Primary*, *Secondary* ,and *Technical Education.* </p>
 <br>
 **Key goals of this website at a glance:-**
 - We have a `Master Database` for the three Major `Levels of Education`.
@@ -485,14 +485,8 @@ If the requested data is valid and data insertion was successful, then success r
 Uploaded file will be deleted immediately after completion of the operation and response is sent.
 
 <br><br>
-# **Contributions**
 
-- ### [**P.S.Vaishnavi**](https://github.com/psvaish) {Front End Developer}
-- ### [**Sahil Apte**](https://github.com/SahilApte) {Full Stack Developer}
-- ### [**Santosh Kiran Sulake**](https://github.com/Ssulakhe39) {Front End Developer}
-- ### [**Srikanth Macha**](https://github.com/Srikanth-Macha)  {Backend Developer}
-- ### [**Jayendra Madaram**](https://github.com/jayendramadaram) {Full Stack Developer}
-- ### [**D Srikhar Shashi**](https://github.com/srikharshashi) {Backend Developer}
-- ### [**Vijayakash Allenki**](https://github.com/vijayakashallenki)  {Full Stack Developer}
+
+
 
 
